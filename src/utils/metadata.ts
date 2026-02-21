@@ -30,12 +30,11 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Official Legal Database (adala.justice.gov.ma) — Government (State Chancellery of Moroccan)',
-    jurisdiction: 'EE',
+    data_source: 'Official Moroccan government legal publications (DGSSI / SGG / OMPIC)',
+    jurisdiction: 'MA',
     disclaimer:
-      'This data is sourced from the Official Legal Database under public domain. ' +
-      'The authoritative versions are maintained by Government (State Chancellery of Moroccan). ' +
-      'Always verify with the official Official Legal Database portal (adala.justice.gov.ma).',
+      'This dataset is derived from official Moroccan government publications. ' +
+      'Always verify current legal effect against the official source portals listed by list_sources.',
     freshness,
   };
 }

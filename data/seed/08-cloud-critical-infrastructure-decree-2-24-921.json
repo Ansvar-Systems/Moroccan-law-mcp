@@ -1,0 +1,103 @@
+{
+  "id": "ma-decret-2-24-921",
+  "type": "statute",
+  "title": "Décret n° 2-24-921 relatif au recours aux prestataires de services Cloud par les entités et les infrastructures d’importance vitale",
+  "title_en": "Decree No. 2-24-921 on the Use of Cloud Service Providers by Entities and Vital Infrastructure",
+  "short_name": "Décret 2-24-921",
+  "status": "in_force",
+  "issued_date": "2025-02-20",
+  "url": "https://www.dgssi.gov.ma/fr/reglementations/decret-ndeg-2-24-921-relatif-au-recours-aux-prestataires-de-services-cloud-par-les",
+  "description": "Règles de qualification Cloud applicables aux SI sensibles et IIV.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapitre premier",
+      "section": "1",
+      "title": "Article 1",
+      "content": "– Pour l’application des dispositions\ndu premier alinéa de l’article 25 de la loi susvisée n° 05-20, les\nresponsables des entités et des infrastructures d’importance\nvitale doivent, lorsqu’ils recourent à des services Cloud en\nce qui concerne les systèmes d’information sensibles et les\ndonnées sensibles, notamment pour renforcer leurs fonctions de\nsécurité, faire appel à un prestataire de services Cloud qualifié,\nconformément aux dispositions du présent décret."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapitre premier",
+      "section": "2",
+      "title": "Article 2",
+      "content": "– Les entités et les infrastructures d’importance\nvitale prévues à l’article premier ci-dessus recourent à un\nprestataire de services Cloud qualifié :\n– de niveau 1 prévu à l’article 4 ci-dessous, afin d’héberger,\ngérer ou exploiter, en partie ou en totalité, les systèmes\nd’information sensibles ;\n– de niveau 2 prévu à l’article 5 du présent décret, afin de\ntraiter, exploiter ou stocker, en partie ou en totalité, les\ndonnées sensibles.\nChapitre II\nDes prestataires de services Cloud qualifiés\nSection première. – Exigences de qualification"
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Section première. – Exigences de qualification",
+      "section": "3",
+      "title": "Article 3",
+      "content": "– Les prestataires de services Cloud sont qualifiés\nà fournir un ou plusieurs services relevant notamment des types\nde services ci-après :\nDécret n° 2-24-921 du 18 rabii II 1446 (22 octobre 2024) relatif au\nrecours aux prestataires de services Cloud par les entités et\nles infrastructures d’importance vitale disposant de systèmes\nd’information ou de données sensibles.\n\nLE CHEF DU GOUVERNEMENT,\nVu le dahir n°1-21-112 du 4 rabii I 1443 (11 octobre 2021)\nportant délégation de pouvoir en matière d’administration de\nla défense nationale ;\nVu la loi n°05-20 relative à la cybersécurité promulguée\npar le dahir n°1-20-69 du 4 hija 1441 (25 juillet 2020) ;\nVu le décret n°2-82-673 du 28 rabii I 1403 (13 janvier 1983)\nrelatif à l’organisation de l’administration de la défense\nnationale, tel qu’il a été modifié et complété notamment par\nle décret n°2-11-509 du 22 chaoual 1432 (21 septembre 2011) ;\n\n– IaaS (Infrastructure as a Service) : ce type fournit\nl’infrastructure informatique de base, tel que des\nserveurs virtuels, des réseaux, du stockage, et des\nsystèmes d’exploitation sur demande ;\n– PaaS (Platform-as-a-service) : ce type permet l’accès à une\nplateforme d’hébergement d’applications, comprenant\ndes outils de développement, des environnements\nd’exécution et des services de déploiement ;\n– SaaS (Software as a Service): ce type permet l’utilisation\nd’applications hébergées sur une plateforme Cloud."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Section première. – Exigences de qualification",
+      "section": "4",
+      "title": "Article 4",
+      "content": "– La qualification du prestataire de services Cloud\nde niveau 1 est soumise aux exigences suivantes :\n– être constitué sous forme d’une société anonyme ou\nd’une société à responsabilité limitée de droit marocain ;\n– disposer de l’expertise suffisante, des ressources et des\nmoyens nécessaires à la fourniture des prestations de\nservices Cloud ;\n– disposer d’une plateforme technique permettant la\ngestion automatisée des services objet de la qualification\nprévues à l’article 3 ci-dessus ;\n– mettre en place sur le territoire national l’ensemble\ndes infrastructures d’hébergement et les systèmes\nd’information utilisés dans l’exploitation et la gestion\ndes services ;\n– les documents faisant apparaître la répartition du\ncapital de la société ;\n– des copies de documents justifiant l’identité des\ndirigeants de la société et des membres de ses organes\nd’administration ;\n– une note indiquant les moyens humains et techniques\ndont dispose la société ;\n\n– remplir les conditions figurant dans le référentiel des\nexigences de qualification des prestataires des services\nCloud, fixé par arrêté de l’autorité gouvernementale\nchargée de l’Administration de la défense nationale.\n\n– une copie des casiers judiciaires des personnels chargés\nde l’exploitation et de la gestion du service, ainsi que\nleurs Curriculums vitae et une copie des contrats de\ntravail conclus avec eux ;"
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5",
+      "content": "– Outre les exigences prévues à l’article 4 ci-dessus,\nla qualification du prestataire des services Cloud de niveau 2\nest soumise aux exigences suivantes :\n\n– des copies des attestations de référence délivrées par les\nmaîtres d’ouvrages au profit desquels ont été exécutées\ndes prestations de services Cloud, et devant préciser\nnotamment la nature de la prestation fournie et la date\nde sa réalisation ;\n\n1. la majorité des associés doivent être marocains et\ndétenir la majorité du capital en ce qui concerne la société à\nresponsabilité limitée, et la majorité du capital doit être détenue\npar des marocains en ce qui concerne la société anonyme ;\n2. .les statuts de la société ou tout autre contrat entre les\nassociés ou les actionnaires, ne doivent comporter aucune clause\noctroyant des attributions ou des pouvoirs aux autres associés et\nactionnaires non cités au paragraphe 1 ci-dessus, pour prendre\ndes décisions contraires aux exigences et engagements prévus\ndans le présent décret, notamment ses articles 4, 5 et 13 ;\n3.. le traitement, l’exploitation et le stockage de données\ndoivent être réalisés exclusivement sur le territoire national ;\n4.. la gestion et la supervision des services objet de la\nqualification doivent être réalisés exclusivement depuis et sur\nle territoire national ;\n5. .ne pas permettre aux sociétés prévues au paragraphe 8\nde l’article 6 du présent décret, d’avoir accès aux données de\nl’entité ou de l’infrastructure d’importance vitale ni de les\nconsulter ;\n6..le personnel chargé de l’exploitation et de la gestion\ndu service doit être de nationalité marocaine et jouissent des\nvaleurs de moralité et d’intégrité.\nCompte tenu de la nécessité de développer le secteur\ndes services Cloud et vu l’intérêt national, un prestataire de\nservices Cloud peut être qualifié, à titre exceptionnel, sans être\nsoumis aux exigences des paragraphes 1 et 2 du premier alinéa\nci-dessus, sous réserve de l’obtention par l’autorité nationale,\nprévue par la loi précitée n°05-20, de l’accord préalable du Chef\ndu gouvernement.\n\n– la liste des sociétés avec lesquelles des contrats\nont été conclus pour l’hébergement, l’exploitation,\nl’administration, la maintenance ou le support technique\ndu service Cloud en précisant leurs dénominations,\nsiège social et la nature des activités objet du contrat,\nle cas échéant ;\n– un dossier technique relatif aux services Cloud qui\ncomporte notamment la description des f lux des\ndonnées, des fonctions de sécurité, des performances,\ndes caractéristiques, ainsi que de l’architecture\nmatérielle et logicielle ;\n– l’architecture de la plateforme technique utilisée dans\nl’exploitation et l’administration du service Cloud ;\n– un document par lequel s’engage le demandeur à\nrespecter l’obligation prévue au deuxième alinéa de\nl’article 13 du présent décret, le cas échéant ;\n– toute autre certification ou document technique pouvant\nappuyer le dossier de demande."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7",
+      "content": "– Après s’être assuré que le dossier de la demande\ncomporte les documents et les informations requis, l’autorité\nnationale procède à l’évaluation du service objet de la demande\nou charge, aux frais du demandeur, un organisme qu’elle désigne\nà cet effet de réaliser cette évaluation.\nLadite évaluation peut inclure, le cas échéant, les\nprestations fournies par les sociétés citées au paragraphe 8 de\nl’article 6 ci-dessus, au profit du prestataire de services Cloud.\n\nSection 2. – Procédure de qualification\n\nA RT. 8. – L’évaluation prévue à l’article 7 ci-dessus\ns’effectue conformément aux conditions du référentiel des\nexigences de qualification des prestataires de services Cloud\nprévu à l’article 4 du présent décret."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Section 2. – Procédure de qualification",
+      "section": "6",
+      "title": "Article 6",
+      "content": "– La demande de qualification est déposée par le\nprestataire de services Cloud auprès de l’autorité nationale ou\nlui est adressé par voie électronique, accompagnée d’un dossier\nqui comporte les documents suivants :\n\nA RT. 9. – Au vu des résultats de l’évaluation prévue à\nl’article 7 ci-dessus, l’autorité nationale peut prendre la décision\nde qualification du prestataire de services Cloud qui indique\nnotamment :\n\n– une copie des statuts de la société ;\n– une attestation d’immatriculation au registre de\ncommerce ;\n\n– la dénomination et l’adresse du siège social du\nprestataire de services Cloud ;\n– le niveau de qualification ;\nBULLETIN OFFICIEL\n\n– le ou les services objet de la qualification et leur type ;\n– La durée de validité de la qualification, à condition\nqu’elle ne dépasse pas cinq (5) ans ;\nEn cas de refus de la demande de qualification, l’autorité\nnationale en informe le demandeur par écrit.\nA RT. 10. – Le renouvellement de la qualification du\nprestataire de services Cloud a lieu selon les mêmes exigences\net conformément à la procédure suivie pour son obtention,\nsous réserve du dépôt de la demande de renouvellement six (6)\nmois, au moins, avant la date d’expiration de la validité de la\nqualification."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Section 2. – Procédure de qualification",
+      "section": "11",
+      "title": "Article 11",
+      "content": "– Le prestataire de services Cloud informe, sans\ndélai, l’autorité nationale de toute modification intervenue\ndans l’un des éléments sur la base desquels la qualification a\nété délivrée.\nA RT. 12. – La liste des prestataires de services Cloud\nqualifiés est publiée au « Bulletin Officiel » et sur le site Internet\nde l’autorité nationale.\nSection 3. – Engagements du prestataire de services Cloud\net son audit\n\nA RT. 13. – Le prestataire de services Cloud qualifié\ns’engage à respecter les règles, règlements et référentiels\ntechniques relatifs à la sécurité des systèmes d’information\nprévus à l’article 10 de la loi n°05-20 précitée.\nEn outre, le prestataire de services Cloud qualifié de niveau 2\ns’engage à ne permettre à aucune partie, de quelque nature que\nce soit, de disposer les données de l’entité ou de l’infrastructure\nd’importance vitale ni de les consulter, sans l’accord préalable\ndu responsable de l’entité ou de l’infrastructure précités."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Section 3. – Engagements du prestataire de services Cloud",
+      "section": "14",
+      "title": "Article 14",
+      "content": "– En application des dispositions de l’article 38\nde la loi précitée n°05-20, l’autorité nationale procède à l’audit\ndes prestataires de services Cloud qualifiés.\nSection 4. – Cessation de fournir des prestations de services Cloud\net retrait de la qualification\n\nA RT. 15. – Si le prestataire de services Cloud qualifié\nne répond plus à l’une des exigences sur la base desquelles la\nqualification lui a été délivrée, l’autorité nationale le met en\ndemeure de se conformer aux prescriptions y afférentes, émise\npar l’autorité, dans un délai qu’elle fixe selon l’importance\ndesdites prescriptions.\nSi le prestataire de services Cloud ne défère pas à la\nmise en demeure, l’autorité nationale suspend sa qualification,\njusqu’à ce qu’il se conforme auxdites prescriptions, à défaut, la\nqualification est retirée."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Section 4. – Cessation de fournir des prestations de services Cloud",
+      "section": "16",
+      "title": "Article 16",
+      "content": "– En cas de cessation de ses prestations aux entités\net infrastructures d’importance vitale, pour quelque raison que\nce soit, le prestataire de services Cloud qualifié est tenu de\nmettre à la disposition desdites entités et infrastructures les\nmoyens techniques nécessaires leur permettant la récupération\ndes composantes des systèmes d’information ou des données\nqui lui sont confiées.\nUne fois la restitution des composantes des systèmes\nd’information ou des données précitées est effectuée, le\nprestataire de services doit procéder à la suppression effective\nde ces composantes de ses systèmes, et fournir aux responsables\ndesdites entités ou infrastructures un document certifiant ladite\nsuppression.\nLe référentiel d’exigences, prévu à l’article 4 du présent\ndécret, fixe les modalités régissant la réversibilité et la\nsuppression des composantes des systèmes d’information ou\ndes données précités.\nChapitre III\nDispositions diverses et transitoires"
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapitre III",
+      "section": "17",
+      "title": "Article 17",
+      "content": "– .De manière transitoire, les responsables des\nentités et infrastructures d’importance vitale peuvent recourir\nà un service Cloud auprès d’un prestataire de services Cloud\nnon qualifié en cas d’indisponibilité de ce service ou d’un service\nsimilaire en termes de standards et de fonctionnalités auprès\ndes prestataires de services Cloud qualifiés.\nDans ce cas, ces responsables sont tenus, avant de recourir\nau service Cloud auprès d’un prestataire de services Cloud\nnon qualifié, de procéder à une étude d’analyse des risques et\névaluer l’impact du recours à ce service sur la sécurité de leurs\nsystèmes d’information, et le cas échéant, sur la confidentialité\ndes données.\nCette étude doit prendre en considération notamment :\n– les éléments justifiant le recours au service en question ;\n– les modalités d’exécution du service et les droits que\ndétient le prestataire de services sur les systèmes\nd’information et sur les données ;\n– les garanties ainsi que les fonctions de sécurité offertes\npar le prestataire de services pour la protection des\nsystèmes d’information et des données, leur localisation\net leur réversibilité ;\n– les règles de transparence adoptées en termes de\ncommunication des données et des informations à\nautrui ;\n– le régime juridique applicable au prestataire de service.\nLorsque le service concerné est disponible auprès d’un\nprestataire de services Cloud qualifié, les responsables des\nentités et des infrastructures d’importance vitale prévus au\npremier alinéa ci-dessus doivent procéder à la migration vers\nledit prestataire, sous réserve du respect des clauses du contrat\nou des contrats conclus avec le prestataire de services Cloud\nnon qualifié."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapitre III",
+      "section": "18",
+      "title": "Article 18",
+      "content": "– Les entités et les infrastructures d’importance\nvitale qui, à la date de l’entrée en vigueur du présent décret,\nrecourent aux services Cloud relatifs aux systèmes d’information\nsensibles ou aux données sensibles, doivent se conformer aux\ndispositions du présent décret dans un délai maximum de vingtquatre (24) mois à compter de la date de son entrée en vigueur."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "Article 19",
+      "content": "– Le présent décret entre en vigueur à compter\nde la date de publication de l’arrêté prévu à l’article 4 du présent\ndécret au Bulletin officiel.\nA RT. 20. – Le ministre délégué auprès du Chef du\ngouvernement, chargé de l’administration de la défense\nnationale est chargé de l’exécution du présent décret qui sera\npublié au Bulletin officiel.\nFait à Rabat, le 18 rabii II 1446 (22 octobre 2024).\nAZIZ AKHANNOUCH.\nLe texte en langue arabe a été publié dans l’édition générale du\n« Bulletin officiel » n° 7352 du 11 joumada I 1446 (14 novembre 2024)."
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

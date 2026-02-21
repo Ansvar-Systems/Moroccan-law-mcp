@@ -1,0 +1,14 @@
+{
+  "id": "ma-loi-31-08",
+  "type": "statute",
+  "title": "Loi n° 31-08 édictant des mesures de protection du consommateur",
+  "title_en": "Law No. 31-08 Enacting Consumer Protection Measures",
+  "short_name": "Loi 31-08",
+  "status": "in_force",
+  "url": "https://www.dgssi.gov.ma/fr/loi-ndeg31-08-edictant-des-mesures-de-protection-du-consommateur-y-compris-la",
+  "description": "Protection des consommateurs, y compris consommateurs en ligne.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

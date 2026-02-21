@@ -11,6 +11,7 @@ export interface SourceInfo {
   authority: string;
   url: string;
   license: string;
+  jurisdiction: string;
   coverage: string;
   languages: string[];
 }
@@ -44,15 +45,15 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Official Legal Database',
-          authority: 'Government (State Chancellery of Moroccan)',
-          url: 'https://adala.justice.gov.ma',
-          license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
+          name: 'DGSSI Textes législatifs et réglementaires',
+          authority: 'Direction Générale de la Sécurité des Systèmes d’Information (DGSSI)',
+          url: 'https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires',
+          license: 'Official government publication terms',
+          jurisdiction: 'MA',
           coverage:
-            'All Commonwealth (federal) Acts and legislative instruments, ' +
-            'including privacy, cybersecurity, critical infrastructure, ' +
-            'corporations, consumer, telecommunications, and criminal law',
-          languages: ['en'],
+            'Cybersecurity, trust services, electronic exchange, telecommunications, ' +
+            'and related implementing decrees published on official Moroccan portals',
+          languages: ['fr', 'ar'],
         },
       ],
       database: {

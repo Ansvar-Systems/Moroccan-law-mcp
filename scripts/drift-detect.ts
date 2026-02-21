@@ -2,13 +2,16 @@
 /**
  * Drift detection for Moroccan Law MCP.
  *
- * Checks if upstream www.riigiteataja.ee content has changed since last ingestion.
- * Uses the golden-hashes.json fixture to verify content integrity.
+ * Checks selected upstream Moroccan source pages/PDF text for expected snippets.
+ * Uses fixtures/golden-hashes.json.
  */
 
-import { readFileSync } from 'fs';
+import { readFileSync, writeFileSync, unlinkSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { tmpdir } from 'os';
+import { randomUUID } from 'crypto';
+import { extractPdfText } from './lib/fetcher.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const hashesPath = join(__dirname, '../fixtures/golden-hashes.json');
@@ -55,7 +58,19 @@ async function main(): Promise<void> {
         continue;
       }
 
-      const body = await response.text();
+      let body: string;
+      if (hash.upstream_url.toLowerCase().includes('.pdf')) {
+        const bytes = Buffer.from(await response.arrayBuffer());
+        const tempPdf = join(tmpdir(), `moroccan-law-mcp-${randomUUID()}.pdf`);
+        writeFileSync(tempPdf, bytes);
+        try {
+          body = await extractPdfText(tempPdf);
+        } finally {
+          unlinkSync(tempPdf);
+        }
+      } else {
+        body = await response.text();
+      }
 
       if (hash.expected_snippet && body.toLowerCase().includes(hash.expected_snippet.toLowerCase())) {
         console.log(`  OK   ${hash.id}: Snippet found`);

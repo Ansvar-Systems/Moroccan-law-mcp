@@ -44,12 +44,12 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
       eu_references: safeCount(db, 'SELECT COUNT(*) as count FROM eu_references'),
     },
     data_source: {
-      name: 'Official Legal Database',
-      authority: 'Government (State Chancellery of Moroccan)',
-      url: 'https://adala.justice.gov.ma',
-      license: 'Creative Commons Attribution 4.0 International (CC BY 4.0)',
-      jurisdiction: 'EE',
-      languages: ['en'],
+      name: 'Official Moroccan Government Legal Publications',
+      authority: 'DGSSI / Secrétariat Général du Gouvernement / OMPIC',
+      url: 'https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires',
+      license: 'Official government publication terms (see sources.yml)',
+      jurisdiction: 'MA',
+      languages: ['fr', 'ar'],
     },
   };
 }

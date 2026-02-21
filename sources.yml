@@ -1,21 +1,55 @@
-schema_version: "1.0"
+schema_version: "2.0"
 mcp_name: "Moroccan Law MCP"
 jurisdiction: "MA"
 
 sources:
-  - name: "Secrétariat Général du Gouvernement"
-    authority: "Secrétariat Général du Gouvernement"
-    official_portal: "http://www.sgg.gov.ma"
-    retrieval_method: "HTML_SCRAPE"
-    update_frequency: "weekly"
+  - name: "DGSSI Textes législatifs et réglementaires"
+    authority: "Direction Générale de la Sécurité des Systèmes d’Information"
+    official_portal: "https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires"
+    retrieval_method: "PDF_DOWNLOAD + PDFTOTEXT"
+    update_frequency: "periodic"
     last_ingested: "2026-02-21"
     license_or_terms:
-      type: "Government Open Data"
-      url: "http://www.sgg.gov.ma"
-      summary: "Official legislative texts are public domain"
+      type: "Official government publication terms"
+      url: "https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires"
+      summary: "Primary legal text copies and implementing regulations published by Moroccan government authority."
     coverage:
-      scope: "Data protection, cybersecurity, e-commerce, criminal law cyber provisions"
-      limitations: "AI-generated seed data; full official ingestion pending"
+      scope: "Cybersecurity, trust services, electronic transactions, telecommunications, and related decrees"
+      limitations: "Some official PDFs are image-only or obfuscated; those documents are skipped and documented in data/seed/_ingestion-report.json"
+    languages:
+      - "fr"
+      - "ar"
+
+  - name: "Secrétariat Général du Gouvernement (BO portal)"
+    authority: "Secrétariat Général du Gouvernement"
+    official_portal: "https://www.sgg.gov.ma/BulletinOfficiel.aspx"
+    retrieval_method: "Portal research + PDF verification"
+    update_frequency: "periodic"
+    last_ingested: "2026-02-21"
+    license_or_terms:
+      type: "Official publication"
+      url: "https://www.sgg.gov.ma/BulletinOfficiel.aspx"
+      summary: "Official Bulletin Officiel publication source used for legal provenance checks."
+    coverage:
+      scope: "Official BO publication provenance and cross-checks"
+      limitations: "Some BO PDFs use non-standard embedded fonts that hinder direct machine extraction"
+    languages:
+      - "fr"
+      - "ar"
+
+  - name: "OMPIC"
+    authority: "Office Marocain de la Propriété Industrielle et Commerciale"
+    official_portal: "https://www.ompic.ma"
+    retrieval_method: "Direct page fetch"
+    update_frequency: "periodic"
+    last_ingested: "2026-02-21"
+    license_or_terms:
+      type: "Official publication"
+      url: "https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle"
+      summary: "Official portal for industrial property legislation references."
+    coverage:
+      scope: "Industrial property law references"
+      limitations: "Portal connectivity may fail from some environments; affected records are marked skipped"
     languages:
       - "fr"
       - "ar"

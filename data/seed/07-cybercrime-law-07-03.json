@@ -1,0 +1,14 @@
+{
+  "id": "ma-loi-07-03",
+  "type": "statute",
+  "title": "Loi n° 07-03 complétant le code pénal en ce qui concerne les infractions relatives aux systèmes de traitement automatisé des données",
+  "title_en": "Law No. 07-03 Amending the Penal Code for Offences Relating to Automated Data Processing Systems",
+  "short_name": "Loi 07-03",
+  "status": "in_force",
+  "url": "https://www.dgssi.gov.ma/fr/loi-07-03-completant-le-code-penal-en-ce-qui-concerne-les-infractions-relatives-aux",
+  "description": "Infractions pénales relatives aux systèmes d’information.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

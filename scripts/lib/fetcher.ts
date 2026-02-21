@@ -1,21 +1,19 @@
 /**
- * Rate-limited HTTP client for Moroccan legislation from the Sejm ELI API.
+ * Rate-limited fetch/extraction utilities for official Moroccan legal sources.
  *
- * Data source: api.sejm.gov.pl — the official ELI (European Legislation Identifier)
- * API provided by the Chancellery of the Sejm of the Republic of Poland.
- *
- * URL patterns:
- *   Metadata: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}
- *   HTML text: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- *
- * - 500ms minimum delay between requests (respectful to government servers)
- * - User-Agent header identifying the MCP
+ * - 1200ms minimum delay between requests (government-friendly rate)
+ * - User-Agent identifying this MCP
  * - Retry on 429/5xx with exponential backoff
- * - No auth needed (public government data)
+ * - PDF text extraction via pdftotext
  */
 
-const USER_AGENT = 'Moroccan-Law-MCP/1.0 (https://github.com/Ansvar-Systems/moroccan-law-mcp; hello@ansvar.ai)';
-const MIN_DELAY_MS = 500;
+import { execFile } from 'child_process';
+import { promisify } from 'util';
+
+const execFileAsync = promisify(execFile);
+
+const USER_AGENT = 'Moroccan-Law-MCP/1.0 (+https://github.com/Ansvar-Systems/Moroccan-law-mcp)';
+const MIN_DELAY_MS = 1200;
 
 let lastRequestTime = 0;
 
@@ -28,46 +26,47 @@ async function rateLimit(): Promise<void> {
   lastRequestTime = Date.now();
 }
 
-export interface FetchResult {
+export interface DownloadResult {
   status: number;
-  body: string;
+  bytes: Buffer;
   contentType: string;
   url: string;
 }
 
-/**
- * Fetch a URL with rate limiting and proper headers.
- * Retries up to 3 times on 429/5xx errors with exponential backoff.
- */
-export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<FetchResult> {
+export async function downloadWithRateLimit(url: string, maxRetries = 3): Promise<DownloadResult> {
   await rateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     const response = await fetch(url, {
       headers: {
         'User-Agent': USER_AGENT,
-        'Accept': 'text/html, application/json, */*',
+        'Accept': 'application/pdf,text/html,application/xhtml+xml,*/*',
       },
       redirect: 'follow',
     });
 
-    if (response.status === 429 || response.status >= 500) {
-      if (attempt < maxRetries) {
-        const backoff = Math.pow(2, attempt + 1) * 1000;
-        console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
-        await new Promise(resolve => setTimeout(resolve, backoff));
-        continue;
-      }
+    if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
+      const backoff = Math.pow(2, attempt + 1) * 1000;
+      console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
+      await new Promise(resolve => setTimeout(resolve, backoff));
+      continue;
     }
 
-    const body = await response.text();
+    const arrayBuffer = await response.arrayBuffer();
     return {
       status: response.status,
-      body,
+      bytes: Buffer.from(arrayBuffer),
       contentType: response.headers.get('content-type') ?? '',
       url: response.url,
     };
   }
 
   throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);
+}
+
+export async function extractPdfText(pdfPath: string): Promise<string> {
+  const { stdout } = await execFileAsync('pdftotext', [pdfPath, '-'], {
+    maxBuffer: 64 * 1024 * 1024,
+  });
+  return stdout;
 }

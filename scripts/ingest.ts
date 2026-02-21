@@ -1,39 +1,36 @@
 #!/usr/bin/env tsx
 /**
- * Moroccan Law MCP -- Ingestion Pipeline
+ * Moroccan Law MCP -- Real-data ingestion pipeline.
  *
- * Fetches Moroccan legislation from the Sejm ELI API (api.sejm.gov.pl).
- * The Sejm (Moroccan Parliament) provides free public access to all legislation
- * published in Dziennik Ustaw (Journal of Laws) via the ELI API.
- *
- * Strategy:
- * 1. For each act, fetch the HTML text from the ELI API endpoint
- * 2. Parse articles (Art.) from the structured HTML
- * 3. Write seed JSON files for the database builder
- *
- * Usage:
- *   npm run ingest                    # Full ingestion
- *   npm run ingest -- --limit 5       # Test with 5 acts
- *   npm run ingest -- --skip-fetch    # Reuse cached pages
- *
- * Data source: api.sejm.gov.pl (Chancellery of the Sejm of the Republic of Poland)
- * License: Moroccan legislation is public domain under Art. 4 of the Copyright Act
+ * Fetches official documents from Moroccan government sources,
+ * parses article-level provisions, and writes seed JSON files.
  */
 
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { fetchWithRateLimit } from './lib/fetcher.js';
-import { parseMoroccanHtml, KEY_MOROCCAN_ACTS, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import { downloadWithRateLimit, extractPdfText } from './lib/fetcher.js';
+import { SOURCE_DOCUMENTS, parseOfficialDocument, type SourceDocument } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SOURCE_DIR = path.resolve(__dirname, '../data/source');
+const SOURCE_RAW_DIR = path.resolve(SOURCE_DIR, 'raw');
+const SOURCE_TEXT_DIR = path.resolve(SOURCE_DIR, 'text');
 const SEED_DIR = path.resolve(__dirname, '../data/seed');
+const REPORT_PATH = path.join(SEED_DIR, '_ingestion-report.json');
 
-/** ELI API base URL for the Sejm */
-const ELI_API_BASE = 'https://api.sejm.gov.pl/eli/acts/DU';
+interface IngestionReportItem {
+  id: string;
+  title: string;
+  source_url: string;
+  source_authority: string;
+  status: 'ingested' | 'skipped' | 'failed';
+  provisions: number;
+  definitions: number;
+  notes?: string;
+}
 
 function parseArgs(): { limit: number | null; skipFetch: boolean } {
   const args = process.argv.slice(2);
@@ -42,7 +39,7 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit' && args[i + 1]) {
-      limit = parseInt(args[i + 1], 10);
+      limit = Number.parseInt(args[i + 1], 10);
       i++;
     } else if (args[i] === '--skip-fetch') {
       skipFetch = true;
@@ -52,132 +49,199 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
   return { limit, skipFetch };
 }
 
-/**
- * Build the ELI API URL for fetching an act's HTML text.
- * Pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- */
-function buildTextUrl(act: ActIndexEntry): string {
-  return `${ELI_API_BASE}/${act.year}/${act.poz}/text.html`;
+function ensureDirs(): void {
+  fs.mkdirSync(SOURCE_RAW_DIR, { recursive: true });
+  fs.mkdirSync(SOURCE_TEXT_DIR, { recursive: true });
+  fs.mkdirSync(SEED_DIR, { recursive: true });
 }
 
-async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean): Promise<void> {
-  console.log(`\nProcessing ${acts.length} Moroccan Acts from api.sejm.gov.pl...\n`);
+function cleanSeedDirectory(): void {
+  const entries = fs.readdirSync(SEED_DIR)
+    .filter(f => f.endsWith('.json') && !f.startsWith('_'));
 
-  fs.mkdirSync(SOURCE_DIR, { recursive: true });
-  fs.mkdirSync(SEED_DIR, { recursive: true });
+  for (const entry of entries) {
+    fs.unlinkSync(path.join(SEED_DIR, entry));
+  }
+}
 
-  let processed = 0;
-  let skipped = 0;
-  let failed = 0;
+function sourceExtension(url: string): '.pdf' | '.html' | '.bin' {
+  if (/\.pdf(?:$|\?)/i.test(url)) return '.pdf';
+  if (/\.html?(?:$|\?)/i.test(url)) return '.html';
+  return '.bin';
+}
+
+async function fetchSource(document: SourceDocument, skipFetch: boolean): Promise<{ rawPath: string; rawText: string }> {
+  const ext = sourceExtension(document.source_url);
+  const rawPath = path.join(SOURCE_RAW_DIR, `${document.id}${ext}`);
+
+  if (skipFetch && fs.existsSync(rawPath)) {
+    if (ext === '.pdf') {
+      const rawText = await extractPdfText(rawPath);
+      return { rawPath, rawText };
+    }
+    return { rawPath, rawText: fs.readFileSync(rawPath, 'utf8') };
+  }
+
+  const response = await downloadWithRateLimit(document.source_url);
+  if (response.status !== 200) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  fs.writeFileSync(rawPath, response.bytes);
+
+  if (ext === '.pdf') {
+    const rawText = await extractPdfText(rawPath);
+    return { rawPath, rawText };
+  }
+
+  const rawText = response.bytes.toString('utf8');
+  return { rawPath, rawText };
+}
+
+function writeSeed(document: SourceDocument, parsed: ReturnType<typeof parseOfficialDocument>['parsed']): string {
+  const outputPath = path.join(SEED_DIR, document.seed_file);
+  fs.writeFileSync(outputPath, JSON.stringify(parsed, null, 2));
+  return outputPath;
+}
+
+async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean): Promise<void> {
+  ensureDirs();
+  cleanSeedDirectory();
+
+  const report: IngestionReportItem[] = [];
+
+  let ingestedCount = 0;
+  let skippedCount = 0;
+  let failedCount = 0;
   let totalProvisions = 0;
   let totalDefinitions = 0;
-  const results: { act: string; provisions: number; definitions: number; status: string }[] = [];
 
-  for (const act of acts) {
-    const sourceFile = path.join(SOURCE_DIR, `${act.id}.html`);
-    const seedFile = path.join(SEED_DIR, `${act.id}.json`);
-
-    // Skip if seed already exists and we're in skip-fetch mode
-    if (skipFetch && fs.existsSync(seedFile)) {
-      const existing = JSON.parse(fs.readFileSync(seedFile, 'utf-8')) as ParsedAct;
-      const provCount = existing.provisions?.length ?? 0;
-      const defCount = existing.definitions?.length ?? 0;
-      totalProvisions += provCount;
-      totalDefinitions += defCount;
-      results.push({ act: act.shortName, provisions: provCount, definitions: defCount, status: 'cached' });
-      skipped++;
-      processed++;
-      continue;
-    }
+  for (const document of documents) {
+    process.stdout.write(`  ${document.id}: fetching source...`);
 
     try {
-      let html: string;
+      const { rawText } = await fetchSource(document, skipFetch);
+      console.log(' OK');
 
-      if (fs.existsSync(sourceFile) && skipFetch) {
-        html = fs.readFileSync(sourceFile, 'utf-8');
-        console.log(`  Using cached ${act.shortName} (${act.dziennikRef}) (${(html.length / 1024).toFixed(0)} KB)`);
-      } else {
-        const textUrl = buildTextUrl(act);
-        process.stdout.write(`  Fetching ${act.shortName} (${act.dziennikRef})...`);
-        const result = await fetchWithRateLimit(textUrl);
+      const parse = parseOfficialDocument(document, rawText);
 
-        if (result.status !== 200) {
-          console.log(` HTTP ${result.status}`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `HTTP ${result.status}` });
-          failed++;
-          processed++;
-          continue;
-        }
+      const sourceTextPath = path.join(SOURCE_TEXT_DIR, `${document.id}.txt`);
+      fs.writeFileSync(sourceTextPath, parse.normalized_source_text, 'utf8');
 
-        html = result.body;
+      if (parse.skip_reason) {
+        parse.parsed.ingestion_notes = parse.skip_reason;
+        writeSeed(document, parse.parsed);
+        console.log(`    -> skipped: ${parse.skip_reason}`);
 
-        // Validate that we got real legislation content, not a bot challenge
-        if (html.includes('window["bobcmn"]') || !html.includes('unit_arti')) {
-          console.log(` BLOCKED (bot challenge or no article content)`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: 'BLOCKED' });
-          failed++;
-          processed++;
-          continue;
-        }
+        report.push({
+          id: document.id,
+          title: document.title,
+          source_url: document.source_url,
+          source_authority: document.source_authority,
+          status: 'skipped',
+          provisions: 0,
+          definitions: 0,
+          notes: parse.skip_reason,
+        });
 
-        fs.writeFileSync(sourceFile, html);
-        console.log(` OK (${(html.length / 1024).toFixed(0)} KB)`);
+        skippedCount++;
+        continue;
       }
 
-      const parsed = parseMoroccanHtml(html, act);
-      fs.writeFileSync(seedFile, JSON.stringify(parsed, null, 2));
-      totalProvisions += parsed.provisions.length;
-      totalDefinitions += parsed.definitions.length;
-      console.log(`    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions extracted`);
-      results.push({
-        act: act.shortName,
-        provisions: parsed.provisions.length,
-        definitions: parsed.definitions.length,
-        status: 'OK',
+      writeSeed(document, parse.parsed);
+
+      const provisions = parse.parsed.provisions.length;
+      const definitions = parse.parsed.definitions.length;
+
+      totalProvisions += provisions;
+      totalDefinitions += definitions;
+      ingestedCount++;
+
+      console.log(`    -> ${provisions} provisions, ${definitions} definitions`);
+
+      report.push({
+        id: document.id,
+        title: document.title,
+        source_url: document.source_url,
+        source_authority: document.source_authority,
+        status: 'ingested',
+        provisions,
+        definitions,
       });
     } catch (error) {
-      const msg = error instanceof Error ? error.message : String(error);
-      console.log(`  ERROR ${act.shortName}: ${msg}`);
-      results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `ERROR: ${msg.substring(0, 80)}` });
-      failed++;
+      const note = error instanceof Error ? error.message : String(error);
+      console.log(` FAILED (${note})`);
+
+      const fallback = {
+        id: document.id,
+        type: document.type,
+        title: document.title,
+        title_en: document.title_en,
+        short_name: document.short_name,
+        status: document.status,
+        issued_date: document.issued_date,
+        in_force_date: document.in_force_date,
+        url: document.url,
+        description: document.description,
+        provisions: [],
+        definitions: [],
+        ingestion_status: 'skipped' as const,
+        ingestion_notes: `Source fetch failed: ${note}`,
+      };
+
+      writeSeed(document, fallback);
+
+      report.push({
+        id: document.id,
+        title: document.title,
+        source_url: document.source_url,
+        source_authority: document.source_authority,
+        status: 'failed',
+        provisions: 0,
+        definitions: 0,
+        notes: note,
+      });
+
+      failedCount++;
     }
-
-    processed++;
   }
 
-  console.log(`\n${'='.repeat(72)}`);
-  console.log('Ingestion Report');
-  console.log('='.repeat(72));
-  console.log(`\n  Source:       api.sejm.gov.pl (Sejm ELI API)`);
-  console.log(`  License:     Public domain (Art. 4 Moroccan Copyright Act)`);
-  console.log(`  Processed:   ${processed}`);
-  console.log(`  Cached:      ${skipped}`);
-  console.log(`  Failed:      ${failed}`);
-  console.log(`  Total provisions:  ${totalProvisions}`);
-  console.log(`  Total definitions: ${totalDefinitions}`);
-  console.log(`\n  Per-Act breakdown:`);
-  console.log(`  ${'Act'.padEnd(20)} ${'Provisions'.padStart(12)} ${'Definitions'.padStart(13)} ${'Status'.padStart(10)}`);
-  console.log(`  ${'-'.repeat(20)} ${'-'.repeat(12)} ${'-'.repeat(13)} ${'-'.repeat(10)}`);
-  for (const r of results) {
-    console.log(`  ${r.act.padEnd(20)} ${String(r.provisions).padStart(12)} ${String(r.definitions).padStart(13)} ${r.status.padStart(10)}`);
-  }
-  console.log('');
+  const reportBody = {
+    generated_at: new Date().toISOString(),
+    summary: {
+      processed: documents.length,
+      ingested: ingestedCount,
+      skipped: skippedCount,
+      failed: failedCount,
+      total_provisions: totalProvisions,
+      total_definitions: totalDefinitions,
+    },
+    documents: report,
+  };
+
+  fs.writeFileSync(REPORT_PATH, JSON.stringify(reportBody, null, 2), 'utf8');
+
+  console.log('\nIngestion report');
+  console.log('================');
+  console.log(`  Processed: ${documents.length}`);
+  console.log(`  Ingested:  ${ingestedCount}`);
+  console.log(`  Skipped:   ${skippedCount}`);
+  console.log(`  Failed:    ${failedCount}`);
+  console.log(`  Provisions:${totalProvisions}`);
+  console.log(`  Definitions:${totalDefinitions}`);
+  console.log(`\n  Report file: ${REPORT_PATH}`);
 }
 
 async function main(): Promise<void> {
   const { limit, skipFetch } = parseArgs();
 
-  console.log('Moroccan Law MCP -- Ingestion Pipeline');
-  console.log('====================================\n');
-  console.log(`  Source: api.sejm.gov.pl (Chancellery of the Sejm)`);
-  console.log(`  Format: ELI HTML (structured legislation text)`);
-  console.log(`  License: Public domain (Art. 4 Moroccan Copyright Act)`);
+  console.log('Moroccan Law MCP -- Real Data Ingestion');
+  console.log('========================================');
+  console.log('Sources: DGSSI / OMPIC (official Moroccan portals)');
+  console.log('Rate limiting: 1200ms between requests\n');
 
-  if (limit) console.log(`  --limit ${limit}`);
-  if (skipFetch) console.log(`  --skip-fetch`);
-
-  const acts = limit ? KEY_MOROCCAN_ACTS.slice(0, limit) : KEY_MOROCCAN_ACTS;
-  await fetchAndParseActs(acts, skipFetch);
+  const documents = limit ? SOURCE_DOCUMENTS.slice(0, limit) : SOURCE_DOCUMENTS;
+  await ingestDocuments(documents, skipFetch);
 }
 
 main().catch(error => {

@@ -24,11 +24,11 @@ export interface ValidateCitationResult {
 /**
  * Parse an Moroccan legal citation.
  * Supports:
- * - "Section 13 Privacy Act 1988" / "Section 13, Privacy Act 1988"
- * - "Privacy Act 1988 s 13" / "Privacy Act 1988, s 13"
- * - "[Act Title Year] s N"
+ * - "Section 13 Loi n° 05-20" / "Section 13, Loi n° 05-20"
+ * - "Loi n° 05-20 s 13" / "Loi n° 05-20, s 13"
+ * - "[Document title] s N"
  * - "s 13" (section only, no document)
- * - Plain document reference (e.g., "Privacy Act 1988")
+ * - Plain document reference (e.g., "Loi n° 43-20")
  */
 function parseCitation(citation: string): { documentRef: string; sectionRef?: string } | null {
   const trimmed = citation.trim();

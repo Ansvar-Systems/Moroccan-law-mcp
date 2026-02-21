@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-02-21T20:19:48.422Z",
+  "summary": {
+    "processed": 10,
+    "ingested": 7,
+    "skipped": 2,
+    "failed": 1,
+    "total_provisions": 362,
+    "total_definitions": 16
+  },
+  "documents": [
+    {
+      "id": "ma-loi-09-08",
+      "title": "Loi n° 09-08 relative à la protection des personnes physiques à l’égard du traitement des données à caractère personnel",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2009-08.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 65,
+      "definitions": 0
+    },
+    {
+      "id": "ma-loi-05-20",
+      "title": "Loi n° 05-20 relative à la cybersécurité",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2005-20.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 48,
+      "definitions": 16
+    },
+    {
+      "id": "ma-loi-24-96",
+      "title": "Loi n° 24-96 relative à la poste et aux télécommunications (version consolidée)",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2024-96.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 87,
+      "definitions": 0
+    },
+    {
+      "id": "ma-loi-31-08",
+      "title": "Loi n° 31-08 édictant des mesures de protection du consommateur",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2031-08.pdf",
+      "source_authority": "DGSSI",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+    },
+    {
+      "id": "ma-loi-53-05",
+      "title": "Loi n° 53-05 relative à l’échange électronique de données juridiques",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2053-05.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 41,
+      "definitions": 0
+    },
+    {
+      "id": "ma-loi-43-20",
+      "title": "Loi n° 43-20 relative aux services de confiance pour les transactions électroniques",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2043-20.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 81,
+      "definitions": 0
+    },
+    {
+      "id": "ma-loi-07-03",
+      "title": "Loi n° 07-03 complétant le code pénal en ce qui concerne les infractions relatives aux systèmes de traitement automatisé des données",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2007-03.pdf",
+      "source_authority": "DGSSI",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+    },
+    {
+      "id": "ma-decret-2-24-921",
+      "title": "Décret n° 2-24-921 relatif au recours aux prestataires de services Cloud par les entités et les infrastructures d’importance vitale",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2025-04/D%C3%A9cret%202.24.921%20Fr%20.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 13,
+      "definitions": 0
+    },
+    {
+      "id": "ma-decret-2-22-687",
+      "title": "Décret n° 2-22-687 pris pour l’application de la loi n° 43-20 relative aux services de confiance pour les transactions électroniques",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%202-22-687%20.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 27,
+      "definitions": 0
+    },
+    {
+      "id": "ma-loi-17-97",
+      "title": "Loi n° 17-97 relative à la protection de la propriété industrielle",
+      "source_url": "https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle",
+      "source_authority": "OMPIC",
+      "status": "failed",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "fetch failed"
+    }
+  ]
+}

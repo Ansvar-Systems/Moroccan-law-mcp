@@ -1,37 +1,30 @@
 /**
- * HTML parser for Moroccan legislation from the Sejm ELI API (api.sejm.gov.pl).
+ * Parsers and source catalog for official Moroccan legal ingestion.
  *
- * Parses the structured HTML served by the ELI text endpoint into seed JSON.
- * The HTML structure uses:
- *
- * - <div class="unit unit_chpt" id="chpt_N"> for chapters (Rozdział)
- * - <div class="unit unit_arti" id="chpt_N-arti_M"> for articles (Art.)
- * - <h3> inside articles for article number (Art. N.)
- * - <div class="unit unit_pass"> for numbered paragraphs (ustępy)
- * - <div class="unit unit_pint"> for numbered points (punkty)
- * - <div data-template="xText" class="pro-text"> for text content
- *
- * Moroccan legislation references: Dz.U. YYYY poz. NNNN
- * API endpoint: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
+ * The catalog intentionally includes records that may be skipped when
+ * their official source is inaccessible or image-only.
  */
 
-export interface ActIndexEntry {
+export type DocumentStatus = 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
+export type SourceEncoding = 'plain' | 'obfuscated';
+
+export interface SourceDocument {
+  seed_file: string;
   id: string;
+  type: 'statute';
   title: string;
-  titleEn: string;
-  shortName: string;
-  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issuedDate: string;
-  inForceDate: string;
-  /** ISAP display address, e.g. "Dz.U. 2018 poz. 1000" */
-  dziennikRef: string;
-  /** Year of publication in Dziennik Ustaw */
-  year: number;
-  /** Position number (poz.) in Dziennik Ustaw */
-  poz: number;
-  /** Human-readable URL on ISAP */
+  title_en?: string;
+  short_name?: string;
+  status: DocumentStatus;
+  issued_date?: string;
+  in_force_date?: string;
   url: string;
+  source_url: string;
+  source_authority: string;
+  source_encoding: SourceEncoding;
   description?: string;
+  law_number?: string;
+  start_hint?: string;
 }
 
 export interface ParsedProvision {
@@ -48,401 +41,453 @@ export interface ParsedDefinition {
   source_provision?: string;
 }
 
-export interface ParsedAct {
+export interface ParsedDocument {
   id: string;
   type: 'statute';
   title: string;
-  title_en: string;
-  short_name: string;
-  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issued_date: string;
-  in_force_date: string;
+  title_en?: string;
+  short_name?: string;
+  status: DocumentStatus;
+  issued_date?: string;
+  in_force_date?: string;
   url: string;
   description?: string;
   provisions: ParsedProvision[];
   definitions: ParsedDefinition[];
+  ingestion_status?: 'ingested' | 'skipped';
+  ingestion_notes?: string;
 }
 
-/**
- * Strip HTML tags and decode common entities, normalising whitespace.
- */
-function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&shy;/g, '')
+export interface ParseResult {
+  parsed: ParsedDocument;
+  normalized_source_text: string;
+  skip_reason?: string;
+}
+
+const ARTICLE_HEADING = /(?:^|\n)\s*(?:ARTICLE|Article|ART\.?)(?:\s+)(premier|PREMIER|1er|[0-9]+(?:\s*[-–]\s*[0-9]+)?(?:\s+(?:bis|ter|quater))?)(?:\s*[:.\-–])?/g;
+const CHAPTER_HEADING = /(?:^|\n)\s*(CHAPITRE\s+[A-Z0-9IVX\-]+[^\n]*|Chapitre\s+[A-Za-z0-9IVX\-]+[^\n]*|TITRE\s+[A-Z0-9IVX\-]+[^\n]*|Titre\s+[A-Za-z0-9IVX\-]+[^\n]*|SECTION\s+[A-Z0-9IVX\-]+[^\n]*|Section\s+[A-Za-z0-9IVX\-]+[^\n]*)/g;
+
+export const SOURCE_DOCUMENTS: SourceDocument[] = [
+  {
+    seed_file: '01-data-protection-law-09-08.json',
+    id: 'ma-loi-09-08',
+    type: 'statute',
+    title: 'Loi n° 09-08 relative à la protection des personnes physiques à l’égard du traitement des données à caractère personnel',
+    title_en: 'Law No. 09-08 on the Protection of Individuals with Regard to Personal Data Processing',
+    short_name: 'Loi 09-08',
+    status: 'in_force',
+    issued_date: '2009-02-18',
+    url: 'https://www.dgssi.gov.ma/fr/loi-09-08-relative-la-protection-des-personnes-physiques-legard-du-traitement-des',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2009-08.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'obfuscated',
+    law_number: '09-08',
+    start_hint: 'CHAPITRE PREMIER',
+    description: 'Texte fondateur marocain de protection des données personnelles.',
+  },
+  {
+    seed_file: '02-cybersecurity-law-05-20.json',
+    id: 'ma-loi-05-20',
+    type: 'statute',
+    title: 'Loi n° 05-20 relative à la cybersécurité',
+    title_en: 'Law No. 05-20 on Cybersecurity',
+    short_name: 'Loi 05-20',
+    status: 'in_force',
+    issued_date: '2020-07-25',
+    url: 'https://www.dgssi.gov.ma/fr/loi-ndeg-0520-relative-la-cybersecurite',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2005-20.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    law_number: '05-20',
+    start_hint: 'Chapitre premier',
+    description: 'Cadre juridique marocain de cybersécurité pour les entités publiques, IIV et opérateurs.',
+  },
+  {
+    seed_file: '03-telecommunications-law-24-96.json',
+    id: 'ma-loi-24-96',
+    type: 'statute',
+    title: 'Loi n° 24-96 relative à la poste et aux télécommunications (version consolidée)',
+    title_en: 'Law No. 24-96 on Postal Services and Telecommunications (consolidated)',
+    short_name: 'Loi 24-96',
+    status: 'in_force',
+    url: 'https://www.dgssi.gov.ma/fr/loi-ndeg24-96-consolidee-relative-la-poste-et-aux-telecommunications-telle-quelle',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2024-96.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    law_number: '24-96',
+    start_hint: 'TITRE 1',
+    description: 'Texte cadre régissant le secteur des télécommunications.',
+  },
+  {
+    seed_file: '04-consumer-protection-law-31-08.json',
+    id: 'ma-loi-31-08',
+    type: 'statute',
+    title: 'Loi n° 31-08 édictant des mesures de protection du consommateur',
+    title_en: 'Law No. 31-08 Enacting Consumer Protection Measures',
+    short_name: 'Loi 31-08',
+    status: 'in_force',
+    url: 'https://www.dgssi.gov.ma/fr/loi-ndeg31-08-edictant-des-mesures-de-protection-du-consommateur-y-compris-la',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2031-08.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    law_number: '31-08',
+    description: 'Protection des consommateurs, y compris consommateurs en ligne.',
+  },
+  {
+    seed_file: '05-electronic-exchange-law-53-05.json',
+    id: 'ma-loi-53-05',
+    type: 'statute',
+    title: 'Loi n° 53-05 relative à l’échange électronique de données juridiques',
+    title_en: 'Law No. 53-05 on Electronic Exchange of Legal Data',
+    short_name: 'Loi 53-05',
+    status: 'in_force',
+    issued_date: '2007-11-30',
+    url: 'https://www.dgssi.gov.ma/fr/loi-53-05-relative-lechange-electronique-de-donnees-juridiques',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2053-05.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'obfuscated',
+    law_number: '53-05',
+    start_hint: 'CHAPITRE PRELIMINAIRE',
+    description: 'Cadre juridique marocain des actes et signatures électroniques.',
+  },
+  {
+    seed_file: '06-trust-services-law-43-20.json',
+    id: 'ma-loi-43-20',
+    type: 'statute',
+    title: 'Loi n° 43-20 relative aux services de confiance pour les transactions électroniques',
+    title_en: 'Law No. 43-20 on Trust Services for Electronic Transactions',
+    short_name: 'Loi 43-20',
+    status: 'in_force',
+    issued_date: '2020-12-31',
+    url: 'https://www.dgssi.gov.ma/fr/loi-ndeg43-20-relative-aux-services-de-confiance-pour-les-transactions',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2043-20.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    law_number: '43-20',
+    start_hint: 'TITRE PRELIMINAIRE',
+    description: 'Services de confiance, signature électronique et cryptologie.',
+  },
+  {
+    seed_file: '07-cybercrime-law-07-03.json',
+    id: 'ma-loi-07-03',
+    type: 'statute',
+    title: 'Loi n° 07-03 complétant le code pénal en ce qui concerne les infractions relatives aux systèmes de traitement automatisé des données',
+    title_en: 'Law No. 07-03 Amending the Penal Code for Offences Relating to Automated Data Processing Systems',
+    short_name: 'Loi 07-03',
+    status: 'in_force',
+    url: 'https://www.dgssi.gov.ma/fr/loi-07-03-completant-le-code-penal-en-ce-qui-concerne-les-infractions-relatives-aux',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2007-03.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    law_number: '07-03',
+    description: 'Infractions pénales relatives aux systèmes d’information.',
+  },
+  {
+    seed_file: '08-cloud-critical-infrastructure-decree-2-24-921.json',
+    id: 'ma-decret-2-24-921',
+    type: 'statute',
+    title: 'Décret n° 2-24-921 relatif au recours aux prestataires de services Cloud par les entités et les infrastructures d’importance vitale',
+    title_en: 'Decree No. 2-24-921 on the Use of Cloud Service Providers by Entities and Vital Infrastructure',
+    short_name: 'Décret 2-24-921',
+    status: 'in_force',
+    issued_date: '2025-02-20',
+    url: 'https://www.dgssi.gov.ma/fr/reglementations/decret-ndeg-2-24-921-relatif-au-recours-aux-prestataires-de-services-cloud-par-les',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2025-04/D%C3%A9cret%202.24.921%20Fr%20.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    start_hint: 'Chapitre premier',
+    description: 'Règles de qualification Cloud applicables aux SI sensibles et IIV.',
+  },
+  {
+    seed_file: '09-implementation-decree-2-22-687.json',
+    id: 'ma-decret-2-22-687',
+    type: 'statute',
+    title: 'Décret n° 2-22-687 pris pour l’application de la loi n° 43-20 relative aux services de confiance pour les transactions électroniques',
+    title_en: 'Decree No. 2-22-687 Implementing Law No. 43-20 on Trust Services for Electronic Transactions',
+    short_name: 'Décret 2-22-687',
+    status: 'in_force',
+    issued_date: '2023-01-19',
+    url: 'https://www.dgssi.gov.ma/fr/reglementations/decret-ndeg-2-22-687-du-21-rabii-ii-1444-16-novembre-2022-pris-pour-lapplication-de',
+    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%202-22-687%20.pdf',
+    source_authority: 'DGSSI',
+    source_encoding: 'plain',
+    start_hint: 'ARTICLE PREMIER',
+    description: 'Texte d’application de la loi n° 43-20.',
+  },
+  {
+    seed_file: '10-industrial-property-law-17-97.json',
+    id: 'ma-loi-17-97',
+    type: 'statute',
+    title: 'Loi n° 17-97 relative à la protection de la propriété industrielle',
+    title_en: 'Law No. 17-97 on Industrial Property Protection',
+    short_name: 'Loi 17-97',
+    status: 'in_force',
+    url: 'https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle',
+    source_url: 'https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle',
+    source_authority: 'OMPIC',
+    source_encoding: 'plain',
+    law_number: '17-97',
+    description: 'Régime de propriété industrielle (source inaccessible depuis cet environnement au moment de l’ingestion).',
+  },
+];
+
+function decodeObfuscatedText(input: string): string {
+  const decoded: string[] = [];
+
+  for (const ch of input) {
+    const code = ch.charCodeAt(0);
+
+    if (code === 3) {
+      decoded.push(' ');
+      continue;
+    }
+
+    if (code === 12) {
+      decoded.push('\n');
+      continue;
+    }
+
+    // Common punctuation represented by low control codes in these PDFs.
+    if (code === 15) {
+      decoded.push(',');
+      continue;
+    }
+    if (code === 16) {
+      decoded.push('-');
+      continue;
+    }
+    if (code === 17) {
+      decoded.push('.');
+      continue;
+    }
+    if (code === 18) {
+      decoded.push('/');
+      continue;
+    }
+
+    // Encoded digits 0-9.
+    if (code >= 19 && code <= 28) {
+      decoded.push(String(code - 19));
+      continue;
+    }
+
+    // Alternate uppercase glyph map (ASCII punctuation + 29 => A-Z).
+    if (code >= 36 && code <= 61) {
+      const mapped = String.fromCharCode(code + 29);
+      if (/[A-Z]/.test(mapped)) {
+        decoded.push(mapped);
+        continue;
+      }
+    }
+
+    // Caesar-style +3 shift used in many sections.
+    if (/[A-Z]/.test(ch)) {
+      decoded.push(String.fromCharCode(((code - 65 - 3 + 26) % 26) + 65));
+      continue;
+    }
+
+    if (/[a-z]/.test(ch)) {
+      decoded.push(String.fromCharCode(((code - 97 - 3 + 26) % 26) + 97));
+      continue;
+    }
+
+    decoded.push(ch);
+  }
+
+  return decoded
+    .join('')
+    .replace(/Â/g, '')
+    .replace(/\u0004/g, ' ')
+    .replace(/[\u0007\u0008\u000e\u001d\u001e\u007f]/g, ' ')
+    .replace(/\u00a0/g, ' ');
+}
+
+function normalizeSourceText(text: string): string {
+  return text
+    .replace(/\r/g, '')
+    .replace(/\f/g, '\n')
     .replace(/\u00a0/g, ' ')
-    .replace(/\s+/g, ' ')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
 
-/**
- * Find the chapter heading (Rozdział) for a given article position.
- * Searches backwards from the article position for the nearest chapter div.
- */
-function findChapterHeading(html: string, articlePos: number): string | undefined {
-  const beforeArticle = html.substring(Math.max(0, articlePos - 10000), articlePos);
-
-  // Look for the last chapter heading: Rozdział N ... Title
-  // Pattern in ISAP HTML: <div class="unit unit_chpt"...> <h3> Rozdział N ... Title </h3>
-  const chapterMatches = [
-    ...beforeArticle.matchAll(/Rozdzia[łl]\s*&nbsp;\s*(\d+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
-
-  if (chapterMatches.length > 0) {
-    const last = chapterMatches[chapterMatches.length - 1];
-    const chapterNum = last[1].trim();
-    // Try to find the title in subsequent <P> or <SPAN> tags
-    const afterChapter = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterChapter.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
-
-    return title
-      ? `Rozdział ${chapterNum} - ${title}`
-      : `Rozdział ${chapterNum}`;
-  }
-
-  // Also check for Dział (Division) used in larger codes
-  const dzialMatches = [
-    ...beforeArticle.matchAll(/Dzia[łl]\s*&nbsp;\s*([IVXLCDM]+[a-z]?)\s*(.*?)(?=<\/h3>|<\/P>)/gi),
-  ];
-
-  if (dzialMatches.length > 0) {
-    const last = dzialMatches[dzialMatches.length - 1];
-    const dzialNum = last[1].trim();
-    const afterDzial = beforeArticle.substring(last.index! + last[0].length);
-    const titleMatch = afterDzial.match(/<SPAN[^>]*class="pro-title-unit"[^>]*>(.*?)<\/SPAN>/i);
-    const title = titleMatch ? stripHtml(titleMatch[1]) : '';
-
-    return title
-      ? `Dział ${dzialNum} - ${title}`
-      : `Dział ${dzialNum}`;
-  }
-
-  return undefined;
+function normalizeSection(sectionRaw: string): string {
+  const cleaned = sectionRaw.replace(/\s+/g, ' ').trim();
+  if (/^(premier|1er)$/i.test(cleaned)) return '1';
+  return cleaned.replace(/\s+/g, '').replace(/[–]/g, '-');
 }
 
-/**
- * Parse HTML from the Sejm ELI API (api.sejm.gov.pl/eli/acts/DU/YYYY/POZ/text.html)
- * to extract provisions from a Moroccan statute.
- *
- * The HTML uses div-based structure:
- *   <div class="unit unit_arti" id="chpt_N-arti_M" data-id="arti_M">
- *     <h3><B>Art. M.</B></h3>
- *     <div class="unit-inner">
- *       <div class="unit unit_pass">
- *         <h3>1.</h3>
- *         <div class="unit-inner">
- *           <div data-template="xText">...content...</div>
- *         </div>
- *       </div>
- *     </div>
- *   </div>
- */
-export function parseMoroccanHtml(html: string, act: ActIndexEntry): ParsedAct {
+function findStartIndex(text: string, doc: SourceDocument): number {
+  if (doc.law_number) {
+    const escaped = doc.law_number.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const lawPattern = new RegExp(`LOI\\s+N[^\\n]{0,20}${escaped}`, 'gi');
+    const matches = [...text.matchAll(lawPattern)];
+    if (matches.length > 0) {
+      // Last match avoids early references in promulgation headers.
+      return matches[matches.length - 1].index ?? 0;
+    }
+  }
+
+  if (doc.start_hint) {
+    const hintPattern = new RegExp(doc.start_hint.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+    const match = hintPattern.exec(text);
+    if (match && typeof match.index === 'number') {
+      return match.index;
+    }
+  }
+
+  return 0;
+}
+
+function findChapter(text: string, articleStart: number): string | undefined {
+  const windowStart = Math.max(0, articleStart - 2000);
+  const before = text.slice(windowStart, articleStart);
+  const headings = [...before.matchAll(CHAPTER_HEADING)];
+  if (headings.length === 0) return undefined;
+  return headings[headings.length - 1][1].trim();
+}
+
+function cleanupArticleContent(content: string): string {
+  return content
+    .replace(/\n\s*(BULLETIN OFFICIEL|Nº\s*\d+[^\n]*|N°\s*\d+[^\n]*)\s*/gi, '\n')
+    .replace(/\n\s*\d+\s*\n/g, '\n')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+function extractDefinitionsFromArticleTwo(content: string, provisionRef: string): ParsedDefinition[] {
+  const defs: ParsedDefinition[] = [];
+
+  const quotePatterns = [
+    /[«"]\s*([^»":\n]{2,120})\s*[»"]\s*[:\-–]\s*([^\n]{4,400})/g,
+    /[-–]\s*[«"]\s*([^»":\n]{2,120})\s*[»"]\s*[:\-–]\s*([^\n]{4,400})/g,
+  ];
+
+  for (const pattern of quotePatterns) {
+    let match: RegExpExecArray | null;
+    while ((match = pattern.exec(content)) !== null) {
+      const term = match[1].trim();
+      const definition = match[2].trim().replace(/[.;]$/, '');
+      if (term.length < 2 || definition.length < 4) continue;
+      defs.push({ term, definition, source_provision: provisionRef });
+    }
+  }
+
+  const unique = new Map<string, ParsedDefinition>();
+  for (const d of defs) {
+    const key = `${d.term.toLowerCase()}::${d.definition.toLowerCase()}`;
+    if (!unique.has(key)) unique.set(key, d);
+  }
+
+  return [...unique.values()];
+}
+
+export function parseOfficialDocument(doc: SourceDocument, rawText: string): ParseResult {
+  const decoded = doc.source_encoding === 'obfuscated'
+    ? decodeObfuscatedText(rawText)
+    : rawText;
+
+  const normalized = normalizeSourceText(decoded);
+  const startIndex = findStartIndex(normalized, doc);
+  const sliced = normalized.slice(startIndex);
+
+  const articleMatches = [...sliced.matchAll(ARTICLE_HEADING)];
+
+  if (articleMatches.length === 0) {
+    return {
+      parsed: {
+        id: doc.id,
+        type: doc.type,
+        title: doc.title,
+        title_en: doc.title_en,
+        short_name: doc.short_name,
+        status: doc.status,
+        issued_date: doc.issued_date,
+        in_force_date: doc.in_force_date,
+        url: doc.url,
+        description: doc.description,
+        provisions: [],
+        definitions: [],
+        ingestion_status: 'skipped',
+      },
+      normalized_source_text: sliced,
+      skip_reason: 'No extractable article headings found (likely image-only PDF or inaccessible source text).',
+    };
+  }
+
   const provisions: ParsedProvision[] = [];
   const definitions: ParsedDefinition[] = [];
 
-  // Match all article divs: <div class="unit unit_arti ..." id="...-arti_N" data-id="arti_N">
-  const articleRegex = /<div[^>]*class="unit unit_arti[^"]*"[^>]*id="([^"]*-)?arti_(\d+[a-z_]*)"[^>]*data-id="arti_(\d+[a-z_]*)"[^>]*>/gi;
-  const articleStarts: { fullId: string; artNum: string; pos: number }[] = [];
+  for (let i = 0; i < articleMatches.length; i++) {
+    const current = articleMatches[i];
+    const next = articleMatches[i + 1];
 
-  let match: RegExpExecArray | null;
-  while ((match = articleRegex.exec(html)) !== null) {
-    // Skip nested articles inside amendment provisions (chpt_12-arti_111-arti_22_2 etc.)
-    const fullId = match[0];
-    const idAttr = fullId.match(/id="([^"]+)"/)?.[1] ?? '';
-    // Count how many "arti_" segments appear in the ID
-    const artiSegments = (idAttr.match(/arti_/g) ?? []).length;
-    if (artiSegments > 1) continue;
+    const sectionRaw = current[1];
+    if (!sectionRaw) continue;
 
-    articleStarts.push({
-      fullId: idAttr,
-      artNum: match[3],
-      pos: match.index,
-    });
-  }
+    const section = normalizeSection(sectionRaw);
+    const articleStart = current.index ?? 0;
+    const bodyStart = articleStart + current[0].length;
+    const bodyEnd = next ? (next.index ?? sliced.length) : sliced.length;
+    const body = cleanupArticleContent(sliced.slice(bodyStart, bodyEnd));
 
-  for (let i = 0; i < articleStarts.length; i++) {
-    const article = articleStarts[i];
-    const startPos = article.pos;
+    if (body.length < 40) continue;
 
-    // Extract content up to next article or end
-    const endPos = i + 1 < articleStarts.length
-      ? articleStarts[i + 1].pos
-      : html.length;
-    const articleHtml = html.substring(startPos, endPos);
-
-    // Extract article number from <h3><B>Art. N.</B></h3> or <h3><B>Art. N<sup>...</B></h3>
-    const artHeadingMatch = articleHtml.match(
-      /<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*(\d+[a-z]*)\b/i
-    );
-
-    const artNum = artHeadingMatch
-      ? artHeadingMatch[1].trim()
-      : article.artNum.replace(/_/g, '');
-
-    // Normalize: remove underscores from article numbers like "22_2"
-    const normalizedNum = artNum.replace(/_/g, '');
-    const provisionRef = `art${normalizedNum}`;
-
-    // Find chapter heading
-    const chapter = findChapterHeading(html, startPos);
-
-    // Extract text content, stripping HTML
-    // Remove the article heading to avoid duplication
-    const contentHtml = articleHtml
-      .replace(/<h3[^>]*>\s*<B[^>]*>\s*Art\.?\s*&nbsp;?\s*\d+[a-z]*\.?\s*<\/B>\s*<\/h3>/i, '');
-    let content = stripHtml(contentHtml);
-
-    // Skip very short articles (likely just structural markers)
-    if (content.length < 5) continue;
-
-    // Cap content at 12K characters
-    if (content.length > 12000) {
-      content = content.substring(0, 12000);
-    }
-
-    // Build a title from the first sentence or paragraph if meaningful
-    const title = `Art. ${normalizedNum}`;
+    const provisionRef = `art${section.replace(/[^0-9A-Za-z\-]/g, '')}`;
 
     provisions.push({
       provision_ref: provisionRef,
-      chapter,
-      section: normalizedNum,
-      title,
-      content,
+      chapter: findChapter(sliced, articleStart),
+      section,
+      title: `Article ${section}`,
+      content: body,
     });
 
-    // Extract definitions from definition articles
-    // Moroccan acts use "ilekroć mowa" (whenever mentioned), "rozumie się przez to"
-    // (this is understood as), or "oznacza" (means)
-    if (
-      content.includes('ilekro') ||
-      content.includes('rozumie si') ||
-      content.includes('oznacza') ||
-      content.includes('nale') && content.includes('rozumie')
-    ) {
-      extractDefinitions(content, provisionRef, definitions);
+    if (section === '2') {
+      definitions.push(...extractDefinitionsFromArticleTwo(body, provisionRef));
     }
+  }
+
+  if (provisions.length === 0) {
+    return {
+      parsed: {
+        id: doc.id,
+        type: doc.type,
+        title: doc.title,
+        title_en: doc.title_en,
+        short_name: doc.short_name,
+        status: doc.status,
+        issued_date: doc.issued_date,
+        in_force_date: doc.in_force_date,
+        url: doc.url,
+        description: doc.description,
+        provisions: [],
+        definitions: [],
+        ingestion_status: 'skipped',
+      },
+      normalized_source_text: sliced,
+      skip_reason: 'Article headings were detected but no substantive article content could be extracted.',
+    };
   }
 
   return {
-    id: act.id,
-    type: 'statute',
-    title: act.title,
-    title_en: act.titleEn,
-    short_name: act.shortName,
-    status: act.status,
-    issued_date: act.issuedDate,
-    in_force_date: act.inForceDate,
-    url: act.url,
-    description: act.description,
-    provisions,
-    definitions,
+    parsed: {
+      id: doc.id,
+      type: doc.type,
+      title: doc.title,
+      title_en: doc.title_en,
+      short_name: doc.short_name,
+      status: doc.status,
+      issued_date: doc.issued_date,
+      in_force_date: doc.in_force_date,
+      url: doc.url,
+      description: doc.description,
+      provisions,
+      definitions,
+      ingestion_status: 'ingested',
+    },
+    normalized_source_text: sliced,
   };
 }
-
-/**
- * Extract definitions from Moroccan legal text.
- *
- * Moroccan definitions typically use patterns like:
- *   - "«term» – oznacza ..." ("term" – means ...)
- *   - "N) term – ..." (numbered list of definitions)
- *   - "ilekroć ... mowa o «term» – rozumie się przez to ..."
- */
-function extractDefinitions(
-  text: string,
-  sourceProvision: string,
-  definitions: ParsedDefinition[],
-): void {
-  // Pattern: numbered definitions like "1) term - definition;"
-  const numberedDefRegex = /\d+\)\s+([^–\-]+?)\s+[–\-]\s+(.*?)(?=;\s*\d+\)|$)/g;
-  let defMatch: RegExpExecArray | null;
-
-  while ((defMatch = numberedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/;$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-
-  // Pattern: «quoted term» – definition
-  const quotedDefRegex = /[„«\u201e]([^"»\u201d]+)["\u201d»]\s*[–\-]\s*(.*?)(?=[;.]\s*[„«\u201e]|[;.]\s*$)/g;
-  while ((defMatch = quotedDefRegex.exec(text)) !== null) {
-    const term = defMatch[1].trim();
-    const definition = defMatch[2].replace(/[;.]$/, '').trim();
-
-    if (term.length > 1 && term.length < 100 && definition.length > 5) {
-      definitions.push({
-        term,
-        definition,
-        source_provision: sourceProvision,
-      });
-    }
-  }
-}
-
-/**
- * Pre-configured list of key Moroccan Acts to ingest.
- *
- * Source: api.sejm.gov.pl (Sejm ELI API)
- * URL pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- *
- * These are the most important Moroccan statutes for cybersecurity, data protection,
- * and compliance use cases. References use the Dziennik Ustaw (Journal of Laws)
- * format: Dz.U. YYYY poz. NNNN.
- */
-export const KEY_MOROCCAN_ACTS: ActIndexEntry[] = [
-  {
-    id: 'dpa-2018',
-    title: 'Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych',
-    titleEn: 'Personal Data Protection Act 2018',
-    shortName: 'UODO 2018',
-    status: 'in_force',
-    issuedDate: '2018-05-10',
-    inForceDate: '2018-05-25',
-    dziennikRef: 'Dz.U. 2018 poz. 1000',
-    year: 2018,
-    poz: 1000,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000',
-    description: 'GDPR implementing provisions (RODO); establishes UODO (Urząd Ochrony Danych Osobowych) as the supervisory authority; covers certification, codes of conduct, and administrative penalties',
-  },
-  {
-    id: 'ksc-2018',
-    title: 'Ustawa z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa',
-    titleEn: 'National Cybersecurity System Act 2018 (KSC)',
-    shortName: 'KSC',
-    status: 'in_force',
-    issuedDate: '2018-07-05',
-    inForceDate: '2018-08-28',
-    dziennikRef: 'Dz.U. 2018 poz. 1560',
-    year: 2018,
-    poz: 1560,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001560',
-    description: 'NIS Directive implementation; establishes national cybersecurity system with CSIRT teams (CSIRT NASK, CSIRT GOV, CSIRT MON); covers essential services operators and digital service providers',
-  },
-  {
-    id: 'ksh-2000',
-    title: 'Ustawa z dnia 15 września 2000 r. - Kodeks spółek handlowych',
-    titleEn: 'Commercial Companies Code (KSH)',
-    shortName: 'KSH',
-    status: 'in_force',
-    issuedDate: '2000-09-15',
-    inForceDate: '2001-01-01',
-    dziennikRef: 'Dz.U. 2000 nr 94 poz. 1037',
-    year: 2000,
-    poz: 1037,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20000940037',
-    description: 'Comprehensive commercial companies law governing partnerships (spółka jawna, komandytowa, etc.) and capital companies (sp. z o.o. and S.A.); corporate governance requirements',
-  },
-  {
-    id: 'kodeks-karny-1997',
-    title: 'Ustawa z dnia 6 czerwca 1997 r. - Kodeks karny',
-    titleEn: 'Criminal Code (Kodeks karny)',
-    shortName: 'KK',
-    status: 'in_force',
-    issuedDate: '1997-06-06',
-    inForceDate: '1998-09-01',
-    dziennikRef: 'Dz.U. 1997 nr 88 poz. 553',
-    year: 1997,
-    poz: 553,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970880553',
-    description: 'Criminal Code; cybercrime provisions in Art. 267 (unauthorized access), Art. 268 (data destruction), Art. 268a (computer sabotage), Art. 269 (sabotage of critical systems), Art. 269a (DoS), Art. 269b (hacking tools)',
-  },
-  {
-    id: 'e-services-2002',
-    title: 'Ustawa z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną',
-    titleEn: 'Act on Provision of Electronic Services',
-    shortName: 'E-Services Act',
-    status: 'in_force',
-    issuedDate: '2002-07-18',
-    inForceDate: '2002-10-10',
-    dziennikRef: 'Dz.U. 2002 nr 144 poz. 1204',
-    year: 2002,
-    poz: 1204,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20021441204',
-    description: 'E-Commerce Directive implementation; regulates electronic services, ISP liability, spam prohibition, electronic contracts',
-  },
-  {
-    id: 'telecom-2004',
-    title: 'Ustawa z dnia 16 lipca 2004 r. - Prawo telekomunikacyjne',
-    titleEn: 'Telecommunications Law',
-    shortName: 'PT',
-    status: 'in_force',
-    issuedDate: '2004-07-16',
-    inForceDate: '2004-09-03',
-    dziennikRef: 'Dz.U. 2004 nr 171 poz. 1800',
-    year: 2004,
-    poz: 1800,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20041711800',
-    description: 'Telecommunications regulation; data retention, communications security, network integrity obligations, UKE (Office of Electronic Communications) authority',
-  },
-  {
-    id: 'constitution-1997',
-    title: 'Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r.',
-    titleEn: 'Constitution of the Republic of Poland',
-    shortName: 'Konstytucja RP',
-    status: 'in_force',
-    issuedDate: '1997-04-02',
-    inForceDate: '1997-10-17',
-    dziennikRef: 'Dz.U. 1997 nr 78 poz. 483',
-    year: 1997,
-    poz: 483,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970780483',
-    description: 'Supreme law; Art. 47 (privacy), Art. 49 (communication secrecy), Art. 51 (personal data protection), Art. 54 (freedom of expression)',
-  },
-  {
-    id: 'kodeks-cywilny-1964',
-    title: 'Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny',
-    titleEn: 'Civil Code (Kodeks cywilny)',
-    shortName: 'KC',
-    status: 'in_force',
-    issuedDate: '1964-04-23',
-    inForceDate: '1965-01-01',
-    dziennikRef: 'Dz.U. 1964 nr 16 poz. 93',
-    year: 1964,
-    poz: 93,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19640160093',
-    description: 'Core private law; personality rights protection (Art. 23-24), contract law, liability for damages, electronic declarations of intent',
-  },
-  {
-    id: 'banking-law-1997',
-    title: 'Ustawa z dnia 29 sierpnia 1997 r. - Prawo bankowe',
-    titleEn: 'Banking Law',
-    shortName: 'PB',
-    status: 'in_force',
-    issuedDate: '1997-08-29',
-    inForceDate: '1998-01-01',
-    dziennikRef: 'Dz.U. 1997 nr 140 poz. 939',
-    year: 1997,
-    poz: 939,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971400939',
-    description: 'Banking regulation; banking secrecy obligations, outsourcing of banking activities, IT security requirements for banks, cloud computing provisions',
-  },
-  {
-    id: 'kpa-1960',
-    title: 'Ustawa z dnia 14 czerwca 1960 r. - Kodeks postępowania administracyjnego',
-    titleEn: 'Code of Administrative Procedure (KPA)',
-    shortName: 'KPA',
-    status: 'in_force',
-    issuedDate: '1960-06-14',
-    inForceDate: '1961-01-01',
-    dziennikRef: 'Dz.U. 1960 nr 30 poz. 168',
-    year: 1960,
-    poz: 168,
-    url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19600300168',
-    description: 'Administrative procedure code; governs proceedings before UODO (data protection authority), UKE, and other regulators; electronic administration provisions',
-  },
-];

@@ -1,0 +1,889 @@
+ARTICLE PREMIER. – On entend par autorité nationale
+des services de confiance pour les transactions électroniques
+au sens de la loi n° 43-20 susvisée, la direction générale
+de la sécurité des systèmes d’information relevant de
+l’Administration de la défense nationale et désignée dans le
+présent décret par « autorité nationale ».
+Chapitre premier
+Des services de confiance qualifiés et des modalités de
+délivrance des certificats de conformité
+Section première. – Des services de confiance qualifiés
+
+ART. 2. – En application de l’article 9 de la loi n° 43-20
+précitée, le certificat qualifié de signature électronique délivré
+par le prestataire des services de confiance agréé, comporte
+notamment les données et informations ci-après :
+– le code unique d’identité du certificat ;
+– la dénomination ou la raison sociale du prestataire de
+services de confiance concerné et l’Etat de son siège
+social, son identifiant commun d’entreprise ou le
+numéro de son inscription au registre du commerce ;
+– l’indication du début et de la fin de la durée de validité
+du certificat ;
+– le nom du titulaire du certificat ou son pseudonyme le
+cas échéant. Si un pseudonyme est utilisé, cela doit être
+clairement indiqué ;
+– les données afférentes à la vérification de la signature
+électronique qui correspondent aux données de création
+de la signature électronique ;
+– l’emplacement des services permettant de s’informer du
+statut de validité du certificat ;
+
+– l’endroit où peut être obtenu gratuitement le certificat
+électronique sur lequel repose la signature électronique
+avancée ou le cachet électronique avancé du prestataire
+de services de confiance concerné ;
+– une mention indiquant, au moins sous une forme
+adaptée au traitement automatisé, que le certificat est
+un certificat qualifié de signature électronique ;
+– lorsque les données de création de la signature
+électronique associées aux données de validation de la
+signature électronique se trouvent dans un dispositif
+qualifié de création de signature électronique, une
+mention l’indiquant, au moins sous une forme adaptée
+au traitement automatisé ;
+– la signature électronique avancée ou le cachet
+électronique avancé du prestataire de services de
+confiance concerné.
+ART. 3. – En application de l’article 18 de la loi n° 43-20
+précitée, le certificat qualifié de cachet électronique délivré
+par le prestataire de services de confiance agréé, comporte
+notamment les données et informations ci-après :
+– le code unique d’identité du certificat ;
+– la dénomination ou la raison sociale du prestataire de
+services de confiance agréé et l’Etat de son siège social,
+ainsi que son identifiant commun d’entreprise ou son
+numéro de registre du commerce ;
+– l’indication du début et de la fin de la durée de validité
+du certificat ;
+– la dénomination du créateur du cachet électronique ;
+– les données afférentes à la vérification du cachet
+électronique qui correspondent aux données de création
+du cachet électronique ;
+– l’emplacement des services permettant de s’informer
+du statut de validité du certificat ;
+– l’endroit où peut être obtenu gratuitement le certificat
+électronique sur lequel repose la signature électronique
+avancée ou le cachet électronique avancé du prestataire
+de services de confiance concerné ;
+– une mention indiquant, au moins sous une forme
+adaptée au traitement automatisé, que le certificat est
+un certificat qualifié de cachet électronique ;
+– lorsque les données de création du cachet électronique
+associées aux données de validation du cachet
+électronique se trouvent dans un dispositif qualifié
+de création du cachet électronique, une mention
+l’indiquant, au moins sous une forme adaptée au
+traitement automatisé ;
+– la signature électronique avancée ou le cachet
+électronique avancé du prestataire de services de
+confiance concerné.
+
+146
+
+BULLETIN OFFICIEL
+
+ART. 4. – Le certificat qualifié d’authentification d’un site
+Internet comporte, selon les catégories des données prévues à
+l’article 31 de la loi n° 43-20 précitée, notamment les données
+ci-après :
+– le code unique d’identité du certificat ;
+– la dénomination ou la raison sociale du prestataire de
+services de confiance agréé et l’Etat de son siège social,
+ainsi que son identifiant commun d’entreprise ou son
+numéro d’inscription au registre de commerce ;
+– l’indication du début et la fin de la période de validité
+du certificat ;
+– pour les personnes physiques : le nom de la personne
+à qui le certificat est délivré, ou son pseudonyme. Si
+un pseudonyme est utilisé, celà doit être clairement
+indiqué ;
+– pour les personnes morales : la dénomination ou la
+raison sociale de la personne morale à laquelle le
+certificat est délivré, ainsi que son identifiant commun
+d’entreprise ou le numéro de son inscription au registre
+du commerce ;
+– l’adresse de la personne physique ou morale à laquelle
+le certificat est délivré ;
+– les noms de domaines exploités par la personne physique
+ou morale à laquelle le certificat est délivré ;
+– l’emplacement des services permettant de s’informer du
+statut de la validité du certificat ;
+– l’endroit où peut être obtenu gratuitement le certificat
+électronique sur lequel repose la signature électronique
+avancée ou le cachet électronique avancé du prestataire
+de services de confiance agréé délivrant le certificat
+qualifié ;
+– une mention indiquant, au moins sous une forme
+adaptée au traitement automatisé, que le certificat est
+un certificat qualifié d’authentification de site Internet ;
+– la signature électronique avancée ou le cachet
+électronique avancé du prestataire de services de
+confiance délivrant le certificat qualifié.
+ART. 5. – Le prestataire du service d’envoi recommandé
+électronique qualifié procède à la vérification de l’identité de
+l’expéditeur et du destinataire conformément aux référentiels
+applicables audit service.
+ART. 6. – Le prestataire qui fournit un service d’envoi
+recommandé électronique qualifié délivre, dès réception des
+données objet de l’envoi, à l’expéditeur une preuve du dépôt
+électronique desdites données. Le prestataire doit conserver
+ladite preuve pour une durée qui ne peut être inférieure à un an.
+La preuve de dépôt comporte les informations suivantes :
+– le prénom et le nom ou la dénomination de l’expéditeur,
+ainsi que son adresse électronique ;
+– le prénom et le nom ou la dénomination du destinataire
+ainsi que son adresse électronique ;
+– un numéro d’identification unique de l’envoi attribué
+par le prestataire ;
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+– la date et l’heure du dépôt électronique des données objet
+de l’envoi indiquées par un horodatage électronique
+qualifié ;
+– la signature électronique avancée ou le cachet
+électronique avancé, utilisé par le prestataire lors de
+l’envoi.
+ART. 7. – Le prestataire conserve la preuve de réception
+par le destinataire des données envoyées et la date et l’heure
+de leur envoi et de leur réception, pour une durée qui ne peut
+être inférieure à un an.
+Outre les informations mentionnées à l’article 6
+ci-dessus, cette preuve de réception comporte la date et l’heure
+de l’envoi et de la réception, indiquées par un horodatage
+électronique qualifié.
+En cas de refus de réception ou de non-réclamation
+par le destinataire, le prestataire remet à l’expéditeur, après
+l’expiration d’un délai convenu entre l’expéditeur et le
+prestataire de service, une preuve de ce refus ou de cette nonréclamation. La preuve de refus doit préciser la date et l’heure
+du refus telles qu’indiquées par un horodatage électronique
+qualifié, et fait mention des informations prévues à l’article 6
+ci-dessus.
+Le prestataire conserve la preuve de refus ou de nonréclamation du destinataire pour une durée qui ne peut être
+inférieure à un an à compter de la date de son établissement.
+L’expéditeur a accès aux informations mentionnées au présent
+article pendant un an.
+Section 2. – Des modalités de délivrance des certificats de
+conformité
+ART. 8. – La demande du certificat de conformité pour
+le dispositif qualifié de création de signature électronique ou
+le dispositif qualifié de création de cachet électronique prévus
+respectivement aux articles 8 et 17 de la loi n° 43-20 précitée
+est déposée auprès de l’autorité nationale contre récépissé, ou
+lui est adressée par envoi recommandé postal ou électronique,
+accompagnée d’un dossier comportant les documents fixés à
+l’annexe n° 1 du présent décret.
+Le demandeur est tenu d’informer l’autorité nationale,
+au cours de la phase d’examen du dossier de la demande, de
+toute modification de l’un des éléments au vu desquels la
+demande a été effectuée.
+ART. 9. – Le certificat de conformité du dispositif qualifié
+de création de signature électronique ou du dispositif qualifié
+de création de cachet électronique est délivré en fonction de la
+durée de validité des certificats d’évaluations techniques dudit
+dispositif. La durée de validité du certificat de conformité ne
+peut excéder cinq (5) ans.
+Pour l’application de l’alinéa 3 de l’article 8 et l’alinéa 3
+de l’article 17 de la loi n° 43-20 précitée, la liste des dispositifs
+qualifiés de création de signature électronique et des dispositifs
+qualifiés de création de cachet électronique est mise à jour par
+l’autorité nationale et publiée sur son site Internet, notamment
+lorsque les certificats de conformité des dispositifs précités
+sont arrivés à échéance ou s’ils ne répondent plus aux exigences
+prévues respectivement auxdits articles 8 et 17.
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+BULLETIN OFFICIEL
+
+ART. 10. – Le bénéficiaire du certificat de conformité du
+dispositif qualifié de création de signature électronique ou du
+dispositif qualifié de création de cachet électronique est tenu
+d’informer, sans délai, à l’autorité nationale toute modification,
+ou évolution ou mise à jour apportées audit dispositif. Cette
+information doit être accompagnée d’un rapport d’analyse de
+risques et d’impacts, au vu duquel l’autorité nationale décide
+la continuité de la validité du certificat de conformité ou non.
+A RT. 11. – Un certificat de conformité d’un dispositif
+qualifié de création de signature électronique ou d’un dispositif
+qualifié de cachet électronique est renouvelé, suivant les mêmes
+modalités prévues pour son obtention.
+Le dossier de demande de renouvellement doit être
+présenté trois (3) mois au moins avant la date d’expiration
+dudit certificat.
+A RT. 12. – Lorsque les conditions au vu desquelles le
+certificat de conformité d’un dispositif qualifié de création de
+signature électronique ou d’un dispositif qualifié de création
+du cachet électronique a été délivré ne sont plus remplies ou
+lorsqu’il est porté à la connaissance de l’autorité nationale tout
+autre fait remettant en cause la conformité dudit dispositif aux
+exigences prévues aux articles 8 et 17 de la loi n° 43-20 précitée,
+ladite autorité peut suspendre provisoirement, pour une durée
+n’excédant pas trois (3) mois, ce certificat de conformité jusqu’à
+ce que les corrections nécessaires soient apportées.
+L’autorité nationale indique la suspension provisoire
+du certificat de conformité en question dans la liste prévue
+auxdits articles 8 et 17.
+A l’expiration de ladite durée, et sans apport effectif des
+corrections requises, l’autorité nationale retire ce certificat.
+Chapitre II
+Des prestataires de services de confiance
+Section première. – Des prestataires de services
+de confiance agréés
+ART. 13. – La demande d’agrément prévu à l’article 33 de la loi
+n° 43-20 précitée est déposée auprès de l’autorité nationale
+contre récépissé, ou lui est adressée par envoi recommandé
+postal ou électronique, accompagnée d’un dossier comportant
+les documents fixés à l’annexe n° 2 du présent décret.
+Le demandeur informe l’autorité nationale, au cours
+de la phase d’examen du dossier de la demande d’agrément,
+de toute modification de l’un des éléments au vu desquels la
+demande d’agrément a été effectuée.
+A RT. 14. – L’autorité nationale examine le dossier de
+demande d’agrément. A cet effet, le demandeur est soumis,
+à ses frais, à une évaluation sur pièces et sur place par un
+organisme désigné à cet effet par l’autorité nationale et
+ce, en vue de s’assurer de son respect des conditions et des
+engagements prévus par les dispositions de la loi n° 43-20
+précitée et des textes pris pour son application, et les règles
+de sécurité applicables au service de confiance objet de la
+demande, fixées par l’autorité nationale dans les référentiels
+d’exigences.
+
+147
+
+Les travaux d’évaluation prévue au premier alinéa
+ci-dessus se font sous la supervision de l’autorité nationale.
+Un rapport d’évaluation est établi par l’organisme
+qui le transmet à l’autorité nationale et au demandeur pour
+compléter le dossier de sa demande.
+ART. 15. – Lorsqu’elle agrée le prestataire de services
+de confiance, l’autorité nationale lui délivre une décision
+comprenant notamment :
+– la date de délivrance de l’agrément et son numéro ;
+– la dénomination et l’adresse du prestataire ;
+– le service objet de l’agrément ;
+– la durée de validité de l’agrément ne devant pas excéder
+trois (3) ans ;
+– les exigences à respecter, le cas échéant.
+ART. 16. – Le prestataire de service de confiance informe
+l’autorité nationale de toute modification de l’un des éléments
+au vu desquels l’agrément lui a été délivré.
+A RT. 17. – L’agrément du prestataire de services de
+confiance est renouvelé, selon les mêmes modalités prévues
+pour son obtention.
+La demande de renouvellement de l’agrément doit être
+présentée quatre (4) mois au moins avant la date d’expiration
+de validité de l’agrément.
+A RT. 18. – Sans préjudice des délais prévus par la
+législation en vigueur, le prestataire de services de confiance
+agréé est tenu de conserver les données relatives à la fourniture
+des services de confiance qualifiés pendant une durée minimale
+de sept (7) ans.
+Les types des données à conserver sont définis dans les
+référentiels d’exigences.
+ART. 19. – La notification des atteintes à la sécurité ou
+les pertes d’intégrité prévues à l’article 40 de la loi n° 43-20
+précitée s’effectue conformément aux modalités fixées dans
+le référentiel de gestion des incidents de cybersécurité.
+A RT. 20. – Est entendu par moyens d’identification
+électronique au sens du b) du paragraphe 1 de l’alinéa 2 de
+l’article 33 de la loi n° 43-20 précitée :
+– la carte nationale d’identité électronique, régie par
+les dispositions de la loi n° 04-20 relative à la carte
+nationale d’identité électronique ;
+– tout autre document électronique qui permet,
+conformément au texte législatif ou réglementaire qui
+l’institue, de prouver l’identité à distance de son titulaire
+et qui répond aux spécifications techniques minimales
+fixées par l’autorité nationale.
+
+148
+
+BULLETIN OFFICIEL
+
+Section 2. – Des prestataires de services de confiance
+fournissant des services de confiance autres que qualifiés
+ART. 21. – La déclaration préalable prévue à l’article 35 de
+la loi n° 43-20 précitée est déposée auprès de l’autorité nationale
+contre récépissé, ou lui est adressée par envoi recommandé
+postal ou électronique, accompagnée d’un dossier comportant
+les documents fixés à l’annexe n° 3 du présent décret.
+Le déclarant informe l’autorité nationale de toute
+modification de l’un des éléments au vu desquels cette
+déclaration a été effectuée.
+ART. 22. – En application des articles 5 et 14 de la loi
+n° 43-20 précitée, l’autorité gouvernementale chargée de
+l’Administration de la défense nationale fixe par arrêté la liste
+des procédés jugés équivalents au certificat électronique.
+Est inséré dans l’arrêté précité tout autre procédé que le
+prestataire de services de signature électronique avancée ou
+de cachet électronique avancé utilise ou se propose d’utiliser
+et que l’autorité nationale considère sur la base d’une étude
+technique, comme équivalent au certificat électronique en
+termes de sécurité et de fiabilité.
+ART. 23. – Les dispositions des articles 18 et 19 ci-dessus
+s’appliquent aux prestataires de services de confiance
+fournissant des services de confiance autres que qualifiés.
+Chapitre III
+Des moyens et prestations de cryptologie
+ART. 24. – La déclaration préalable prévue au paragraphe a)
+de l’alinéa 1 de l’article 46 de la loi n° 43-20 précitée est
+déposée auprès de l’autorité nationale contre récépissé, ou
+lui est adressée par envoi recommandé postal ou électronique,
+accompagnée d’un dossier comportant les documents fixés à
+l’annexe n° 4 du présent décret.
+S’il s’avère, lors de l’examen du dossier de déclaration
+préalable, que le moyen ou la prestation de cryptologie
+déclaré(e) relève du régime de l’autorisation, le déclarant en
+est informé.
+A RT. 25. – La déclaration préalable de fourniture
+d’un moyen de cryptologie effectuée conformément aux
+dispositions de l’article 24 ci-dessus vaut déclaration à l’égard
+des personnes qui fournissent le même moyen.
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+ART. 27. – L’autorisation prévue à l’article 26 ci-dessus
+est renouvelée, selon les mêmes modalités que celles prévues
+pour son obtention.
+Le dossier de demande de renouvellement d’autorisation
+doit être présenté à l’autorité nationale deux (2) mois au moins
+avant la date d’expiration de sa validité.
+ART. 28. – La décision de suspension prévue à l’article 49
+de la loi n° 43-20 précitée comprend notamment les corrections
+devant être apportées pour répondre aux exigences au vu
+desquelles l’autorisation a été délivrée ainsi que le délai de
+sa mise en œuvre.
+ART. 29. – En application des dispositions de l’alinéa 3
+de l’article 46 de la loi n° 43-20 précitée, les types de moyens
+ou de prestations de cryptologie dispensés de la déclaration
+préalable ou de l’autorisation sont fixés à l’annexe n°6 du
+présent décret.
+Chapitre IV
+Dispositions diverses
+ART. 30. – En application des dispositions de l’article 78
+de la loi n° 43-20 précitée, est fixée par arrêté conjoint du
+ministre de la justice et de la ministre de l’économie et des
+finances la valeur des sûretés personnelles ou réelles objet des
+actes établis par les établissements de crédit et organismes
+assimilés, prévus à l’article 2-1 du Code des obligations et des
+contrats, auxquels s’appliquent obligatoirement la signature
+électronique avancée ou qualifiée ou le cachet électronique
+avancé ou qualifié.
+A RT. 31. – Pour l’application des dispositions de
+l’article 79 de la loi n° 43-20 précitée, sont fixées par arrêté du
+ministre de la justice les niveaux de signature électronique et
+d’horodatage électronique appliqués aux actes relatifs aux
+droits réels.
+ART. 32. – L’autorité nationale publie sur son site Internet
+les normes et référentiels applicables aux services de confiance.
+ART. 33. – Les prestataires qui fournissent des services de
+confiance autres que qualifiés, disposent d’un délai maximum
+de douze (12) mois après la publication du présent décret au
+« Bulletin officiel » pour se conformer à ses dispositions.
+
+A RT. 26. – La demande d’autorisation prévue au
+paragraphe b) de l’alinéa 1 de l’article 46 de la loi n° 43-20
+précitée est déposée auprès de l’autorité nationale contre
+récépissé, ou lui est adressée par envoi recommandé postal
+ou électronique, accompagnée d’un dossier comportant les
+documents fixés à l’annexe n° 5 du présent décret.
+
+ART. 34. – Demeurent valables jusqu’à leur expiration,
+les autorisations préalables d’importation, d’exportation,
+de fourniture, d’exploitation ou d’utilisation de moyens ou
+prestations de cryptographie délivrées conformément aux
+dispositions du décret n° 2-08-518 du 25 joumada I 1430
+(21 mai 2009) pris pour l’application de la loi n° 53-05 relative à
+l’échange électronique des données juridiques, tel que modifié
+et complété.
+
+Le demandeur informe l’autorité nationale, au cours de
+la phase d’examen du dossier de demande d’autorisation, de
+toute modification de l’un des éléments au vu desquels cette
+demande a été effectuée.
+
+A RT. 35. – Les annexes au présent décret peuvent
+être modifiées ou complétées par arrêté de l’autorité
+gouvernementale chargée de l’Administration de la défense
+nationale.
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+BULLETIN OFFICIEL
+Annexe n° 1
+
+ART. 36. – Sont abrogés :
+– le décret n° 2-08-518 du 25 joumada I 1430 (21 mai 2009)
+pris pour l’application de la loi n° 53-05 relative à
+l’échange électronique des données juridiques, tel qu’il
+a été complété ou modifié ;
+– l’arrêté du Chef du gouvernement n° 3-87-13 du
+28 rabii I 1436 (20 janvier 2015) fixant la forme de la
+déclaration préalable d’importation, d’exportation, de
+fourniture, d’exploitation ou d’utilisation de moyens ou
+de prestations de cryptographie et le contenu du dossier
+l’accompagnant ;
+– l’arrêté du Chef du gouvernement n° 3-88-13 du 28 rabii I
+1436 (20 janvier 2015) fixant la forme et le contenu de
+la demande d’autorisation préalable d’importation,
+d’exportation, de fourniture, d’exploitation ou
+d’utilisation de moyens ou de prestations de
+cryptographie et le dossier l’accompagnant ;
+– l’arrêté du Chef du gouvernement n° 3-89-13 du 28 rabii I
+1436 (20 janvier 2015) fixant le modèle du cahier des
+charges devant accompagner la demande que doivent
+déposer les personnes ne disposant pas de l’agrément de
+prestataire de services de certification électronique et
+qui entendent fournir des prestations de cryptographie
+soumises à autorisation ;
+– l’arrêté du Chef du gouvernement n° 3-90-13 du 28 rabii I
+1436 (20 janvier 2015) fixant le modèle du cahier des
+charges devant accompagner la demande d’agrément
+de prestataire de services de certification électronique.
+ART. 37. – Le présent décret est publié au Bulletin officiel
+et prend effet six (6) mois après la date de sa publication.
+A RT. 38. – Le ministre de la justice, la ministre de
+l’économie et des finances et le ministre délégué auprès du Chef
+du gouvernement chargé de l’Administration de la défense
+nationale sont chargés de l’exécution du présent décret chacun
+en ce qui le concerne.
+Fait à Rabat, le 21 rabii II 1444 (16 novembre 2022).
+AZIZ AKHANNOUCH.
+Pour contreseing :
+Le ministre de la justice,
+ABDELLATIF OUAHBI.
+
+Liste des documents accompagnant la demande du certificat
+de conformité des dispositifs de création de signature
+électronique ou de cachet électronique
+– le formulaire de demande du certificat de conformité
+conforme au modèle publié par l’autorité nationale sur
+son site Internet ;
+– la documentation technique détaillée du dispositif ;
+– la copie des rapports d’évaluation du dispositif justifiant
+du respect des normes fixées par l’autorité nationale
+ainsi que des certificats afférents à ces évaluations ;
+– la copie de la carte nationale d’identité électronique du
+demandeur ou de tout document justifiant son identité ;
+Outre les documents susmentionnés et lorsqu’il s’agit
+d’une société :
+– la copie des statuts de la société ;
+– l’attestation d’inscription au registre du commerce ;
+– une copie des cartes nationales d’identité électroniques
+des dirigeants de la société ou de tout document
+justifiant leurs identités ;
+– une copie de la carte nationale d’identité électronique
+de la personne chargée des formalités de la demande
+ou de tout document justifiant son identité ainsi que les
+documents attestant les pouvoirs qui lui sont conférés
+à cet effet.
+*
+
+*
+
+*
+
+Annexe n° 2
+Liste des documents accompagnant la demande d’agrément
+du prestataire de services de confiance
+– le formulaire de demande d’agrément conforme au
+modèle publié par l’autorité nationale sur son site
+Internet ;
+– l’attestation d’inscription au registre du commerce, copie
+des statuts de la société et de son règlement intérieur ;
+– une présentation générale du prestataire de service
+précisant : la répartition du capital, les activités et les
+types de services fournis, ses sites géographiques, son
+organisation et ses effectifs ;
+–la liste des noms et qualités des dirigeants de la société
+ou des membres de son organe d’administration ainsi
+que la liste des personnes habilitées à agir en son nom ;
+
+La ministre de l’économie
+et des finances,
+NADIA FETTAH.
+
+*
+*
+
+149
+
+*
+
+– une copie de la carte nationale d’identité électronique
+de la personne chargée des formalités de la demande de
+l’agrément ou de tout document justifiant son identité
+ainsi que les documents attestant les pouvoirs qui lui
+sont conférés à cet effet ;
+
+150
+
+BULLETIN OFFICIEL
+–une copie des polices d’assurance souscrites par le
+prestataire pour couvrir les dommages qui pourraient
+être causés à toute personne physique ou morale
+résultant de sa faute professionnelle ;
+– les états financiers des trois (3) derniers exercices et/
+ou document justifiant la capacité financière du
+prestataire ;
+– une copie des cartes nationales d’identité électroniques
+du personnel du prestataire chargé de la gestion et
+de la fourniture du service de confiance ou de tout
+document justifiant leur identité et des diplômes ainsi
+que la description de leurs qualifications en la matière,
+accompagnée des documents justificatifs ;
+– la liste indiquant les fonctions confiées au personnel
+du prestataire, chargé de la fourniture des services de
+confiance ;
+– le descriptif détaillé du service objet de la demande
+d’agrément, précisant notamment les fonctions de
+sécurité et les performances ;
+– le plan de continuité d’activités prévu à l’article 33 de
+la loi n° 43-20 précitée ;
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+• ou seulement un certificat électronique porteur de
+test ainsi que les éléments techniques nécessaires
+à la vérification de sa validité, lorsque le dispositif
+qualifié de création de signature électronique ou du
+dispositif qualifié de création du cachet électronique
+n’est pas remis aux clients ;
+– la liste des moyens et des prestations de cryptologie
+fournis ou utilisés dans le cadre de la gestion et de
+la fourniture du service de confiance, ainsi que les
+certifications de sécurité dont dispose les modules
+cryptographiques matériels (HSM) utilisés ;
+–les conditions techniques d’utilisation des conventions
+secrètes, des moyens et des prestations de cryptologie
+et un descriptif des mesures nécessaires pour assurer
+leur sécurité ;
+– la liste des sous-traitants éventuels impliqués dans
+l’exploitation, l’administration, la maintenance et
+le support technique du service de confiance, leurs
+dénominations ou raisons sociales et leurs sièges sociaux,
+en précisant la nature des activités sous-traitées.
+*
+
+*
+
+*
+
+Annexe n° 3
+
+– la description détaillée du processus d’enregistrement
+des clients ;
+
+Liste des documents accompagnant la déclaration préalable
+relative à la prestation des services de confiance
+autres que qualifiés
+
+– les conditions générales d’utilisation du service de
+confiance en vigueur ;
+
+– le formulaire de déclaration préalable conforme au
+modèle publié par l’autorité nationale sur son site
+Internet ;
+
+– le rapport d’analyse des risques du système d’information
+utilisé pour la fourniture du service de confiance objet
+de la demande ;
+–le schéma d’architecture du système d’information utilisé
+dans l’exploitation et l’administration du service objet
+de la demande d’agrément ;
+– la liste et les caractéristiques techniques des produits,
+logiciels, équipements et appareils utilisés par le
+prestataire de service pour la gestion et la fourniture
+du service de confiance ;
+– les politiques, les mesures et les moyens pris par le
+prestataire du service de confiance en matière de
+sécurité de l’information ;
+– les politiques de certification relatives au service de
+confiance objet de la demande et les déclarations des
+pratiques de certification correspondantes, ainsi que
+tous les documents auxquels font référence ;
+Outre les documents susmentionnés et pour le prestataire
+de services qui entend délivrer les certificats qualifiés de
+signature électronique ou de cachet électronique :
+• un exemplaire du dispositif qualifié de création de
+signature électronique ou du dispositif qualifié
+de création du cachet électronique sur lequel un
+certificat électronique porteur de test est stocké,
+ainsi que les éléments techniques nécessaires à la
+vérification de sa validité et ce, lorsque ce dispositif
+est remis aux clients ;
+
+– une copie des statuts de la société ;
+–l’attestation d’inscription au registre du commerce ;
+– une présentation générale du prestataire de services
+précisant : la répartition du capital, les activités et les
+types de services fournis, ses sites géographiques, son
+organisation et ses effectifs ;
+– une copie de la carte nationale d’identité électronique de
+la personne chargée des formalités de la déclaration ou
+de tout document justifiant son identité, ainsi que les
+documents justifiant les pouvoirs qui lui sont conférés
+à cet effet ;
+– un descriptif détaillé du service objet de la déclaration
+précisant principalement les fonctions de sécurité, les
+fonctions cryptographiques et les performances ;
+– un descriptif détaillé du processus d’enregistrement des
+clients ;
+– les politiques de certification relatives au service de
+confiance objet de la demande et les déclarations des
+pratiques de certification correspondantes, ainsi que
+tous les documents auxquels font référence ;
+– pour le prestataire de service qui entend délivrer les
+certificats électroniques, un certificat électronique
+porteur de test ainsi que les éléments techniques
+nécessaires à la vérification de leur validité ;
+– un descriptif des matériels et des logiciels informatiques
+et le cas échéant des moyens de cryptologie utilisés.
+*
+
+*
+
+*
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+BULLETIN OFFICIEL
+
+Annexe n° 4
+Liste des documents accompagnant la déclaration préalable
+d’importation, d’exportation ou de fourniture de moyens
+de cryptologie ou de fourniture de prestations
+de cryptologie
+– le formulaire de déclaration préalable conforme au
+modèle publié par l’autorité nationale sur son site
+Internet ;
+–une copie des statuts de la société ;
+–l’attestation d’inscription au registre du commerce ;
+–une copie des cartes nationales d’identité électroniques
+des dirigeants de la société ou de tout autre document
+justifiant leur identité ;
+– une copie de la carte nationale d’identité électronique
+de la personne chargée des formalités de la déclaration
+préalable ou de tout autre document justifiant son
+identité et les documents justifiant les pouvoirs qui lui
+sont conférés à cet effet.
+Outre les documents susmentionnés :
+• lorsqu’il s’agit d’un moyen de cryptologie :
+– la brochure commerciale du moyen objet de la
+déclaration ;
+– la documentation technique du moyen ;
+– un descriptif des fonctions cryptographiques du
+moyen.
+• lorsqu’il s’agit d’une prestation de cryptologie :
+– la brochure commerciale de la prestation objet de
+la déclaration ;
+– un descriptif général de la prestation ;
+– un descriptif des fonctions cryptographiques mises
+en œuvre par le fournisseur de la prestation de
+cryptologie ;
+– un descriptif des matériels et des logiciels
+informatiques dont notamment les moyens de
+cryptologie utilisés.
+*
+
+*
+
+*
+
+Annexe n° 5
+Liste des documents accompagnant la demande
+d’autorisation d’importation, d’exportation ou de fourniture
+de moyens de cryptologie ou de fourniture de prestations
+de cryptologie
+– le formulaire de demande d’autorisation conforme
+au modèle publié par l’autorité nationale sur son site
+Internet ;
+
+151
+
+– une copie des statuts de la société ;
+– l’attestation d’inscription au registre du commerce ;
+– une copie des cartes nationales d’identité électroniques
+des dirigeants de la société ou de tout autre document
+justifiant leur identité ;
+– une copie de la carte nationale d’identité électronique
+de la personne chargée des formalités de la demande
+d’autorisation ou de tout autre document justifiant son
+identité et les documents justifiant les pouvoirs qui lui
+sont conférés à cet effet.
+Outre les documents susmentionnés :
+• lorsqu’il s’agit d’un moyen de cryptologie :
+– une brochure commerciale du moyen objet de la
+demande ;
+– un descriptif du moyen, objet de la demande, ses
+références commerciales, ainsi que le nom du
+fabricant et son pays d’origine ;
+– un descriptif détaillé des fonctions cryptologiques
+assurées par le moyen, et des opérations relatives
+à la gestion des clés, notamment les opérations de
+génération, de distribution et de conservation ainsi
+que le format de transmission ;
+– les références des composants intégrant les fonctions
+cryptologiques du moyen et les dénominations des
+fabricants de chacun de ces composants, ainsi que
+leurs documentations techniques ;
+– un descriptif des mesures et mécanismes employés
+dans le moyen pour la protection contre l’altération
+des procédés de chiffrement et/ou de gestion des
+clés y associées ;
+– un descriptif du traitement des données avant et
+après chiffrement.
+• lorsqu’il s’agit d’une prestation de cryptologie :
+– la brochure commerciale de la prestation objet de
+la demande ;
+– une description générale de la prestation ;
+– un descriptif des fonctions cryptologiques mis en
+œuvre par le fournisseur de la prestation ;
+– un descriptif des matériels et des logiciels
+informatiques et notamment des moyens de
+cryptologie utilisés.
+*
+
+*
+
+*
+
+152
+
+BULLETIN OFFICIEL
+
+Annexe n° 6
+Types des moyens ou prestations de cryptologie dispensés
+de la déclaration préalable et de l’autorisation
+Opérations
+concernées
+
+Moyens ou prestations de cryptologie
+
+1) C a r t e s à m i c r o p r o c e s s e u r
+p e r s on n a l i s é e s d e st i né e s à d e s
+applications pour le grand public :
+a) lorsque la capacité cryptographique
+est conçue et limitée pour servir
+uniquement avec les équipements
+relevant des types 2, 3, 4 et 6 du I de la
+présente annexe, ou
+b) lorsque la capacité cryptographique
+n'est pas accessible à l'utilisateur et qu'elle
+est spécialement conçue et limitée pour
+permettre la protection des données qui
+y sont stockées ;
+2) Equipements de réc eption de
+radiodiffusion ou de télévision, à
+destination du grand public, dont la
+capacité de chiffrement est limitée
+à la facturation, la gestion ou la
+programmation, et où le déchiffrement
+est limité aux fonctions vidéo, audio ou
+de gestion technique.
+
+I. Importation,
+exportation
+ou fourniture
+de moyens de
+cryptologie
+
+3) Installations de radioélectriques
+mobiles, destinées au grand public, dont
+les seules capacités de chiffrement sont
+celles mises en œuvre par l'opérateur
+du réseau pour la protection du canal
+radio, et qui ne sont pas en mesure de
+procéder au chiffrement direct entre
+radio équipements.
+4) terminaux de téléphonie sans fil,
+destinés au grand public, qui ne sont
+pas capables de procéder au chiffrement
+direct de téléphone à téléphone.
+5) Equipements autonomes spécialement
+conçus et limités pour assurer la lecture
+de données audio-vidéo, sans capacité de
+chiffrement, et où le déchiffrement est
+limité aux informations audio, vidéo et
+de gestion technique.
+6) Equipements spécialement conçus et
+limités pour servir dans des opérations
+bancaires ou financières, à destination
+du grand public, et dont la capacité
+cryptographique n'est pas accessible à
+l'utilisateur.
+7) Moyens spécialement conçus et
+limités pour assurer la protection de
+logiciels ou de données informatiques
+contre la copie ou l’utilisation illicite et
+dont la capacité cryptographique n’est
+pas accessible à l’utilisateur.
+
+II. Importation
+ou exportation
+de type de
+moyens de
+cryptologie
+
+Nº 7162 – 26 joumada II 1444 (19-1-2023)
+
+Equipements dotés de moyens de
+cryptologie transportés par une personne
+physique et lorsque l'équipement est
+destiné exclusivement à l'usage de cette
+personne.
+
+1) Stations de base de radiocommunications
+c el lu la i re s c om merc ia le s c iv i le s ,
+conçues pour assurer le raccordement
+d'équipements mobiles destinés au
+grand public, et qui ne permettent pas
+d'appliquer des capacités de chiffrement
+direct au trafic de données entre ces
+III. Fourniture ou équipements mobiles.
+importation de
+types de moyens
+2) Equipements, destinés au grand
+de cryptologie
+public, permettant d'échanger entre eux
+des données par radiocommunications,
+et lor s qu e le s s eu le s c ap a c it é s
+cryptographiques de l'équipement sont
+conçues conformément aux normes de
+l'Institute of Electrical and Electronics
+Engineers suivantes : IEEE 802.15 et
+IEEE 802.11.
+Moyens mettant en œuvre un algorithme
+cryptographique qui sont destinés
+exclusivement :
+
+IV. Importation
+de moyens de
+Cryptologie
+
+a) à l'usage de la personne physique
+qui procède à son importation ou
+à son transfert, y compris par voie
+électronique ;
+b) ou à des fins de développement, de
+validation ou de démonstration par la
+personne qui procède à son importation
+ou à son transfert, y compris par voie
+électronique.
+
+- Prestations de cryptologie visant à la
+mise en œuvre des moyens de cryptologie
+correspondant aux types 1, 2, 3, 4, 5 et 6
+V. Fourniture de du I de la présente annexe.
+p r e s t at io n s d e
+cryptologie
+- Prestations de services de confiance
+objet de la loi n° 43-20 relative
+aux services de confiance pour les
+transactions électroniques.
+
+Le texte en langue arabe a été publié dans l’édition générale du
+« Bulletin officiel » n° 7160 du 19 joumada II 1444 (12 janvier 2023).

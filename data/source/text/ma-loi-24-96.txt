@@ -1,0 +1,894 @@
+loi n° 24-96 relative à
+la poste et aux télécommunications promulguée par le Dahir n°1-07-43 du 28 rabaï I 1428 (17 avril
+2007)
+L'ANRT prépare les études et les actes réglementaires relatifs au secteur des télécommunications. Elle assure
+le contrôle de l'application de la réglementation et veille également au respect des conditions générales
+d'exploitation visées à ; l'article 10 de la présente loi.
+A cet effet, l'ANRT est chargée en particulier :
+1) d'élaborer, à la demande de l'autorité gouvernementale compétente ou à l'initiative de l'agence, les
+propositions visant à adapter le cadre juridique, économique et sécuritaire dans lequel s'exercent les activités
+de télécommunications. A ce titre, elle prépare les projets de lois, de décrets et d'arrêtés ministériels relatifs au
+régime des activités des différents opérateurs intervenant dans le secteur des télécommunications ;
+
+15
+
+2) de préparer et de tenir à jour, en liaison avec les autres départements ministériels concernés et les
+organismes de sécurité publique, le texte du cahier des charges fixant les droits et obligations des exploitants
+des réseaux publics de télécommunications ;
+3) d'instruire les demandes de licences, de préparer et mettre en oeuvre les procédures d'attribution de licences
+par appel à la concurrence, de recevoir les déclarations préalables pour les activités de télécommunications
+relevant du régime des licences. L'ANRT délivre les autorisations et prépare les licences et les cahiers des
+charges correspondants et assure également le suivi du respect des termes des licences accordées aux divers
+exploitants ou tout autre intervenant du domaine ;
+4) de proposer les spécifications et les procédures techniques d'agrément des laboratoires d'essais et de
+mesures ;
+5) de fixer les spécifications techniques et administratives d'agrément des équipements terminaux et
+installations radioélectriques et les règles techniques ou méthodologiques applicables aux réseaux de toutes
+natures pouvant être raccordés aux réseaux publics de télécommunications et à tout réseau de
+télécommunications ouvert au public. Ces spécifications et règles ne sont opposables aux tiers qu'après leur
+publication au Bulletin officiel ;
+6) de proposer au gouvernement la réglementation applicable à la cryptographie et son contrôle ; abrogé par la
+loi n°93-12 promulguée par le dahir n°1-13-57 du 17 juin 2013.
+7) de proposer les tarifs maximum pour les prestations relatives au service universel ;
+8) de participer avec l'autorité gouvernementale chargée des télécommunications au comité permanent des
+radiocommunications créé par le décret royal n° 675-66 du 6 ramadan 1386 (19 décembre 1966), et aux
+réunions internationales traitant de la gestion du spectre des fréquences radioélectriques et de la
+réglementation des télécommunications. Elle participe également aux travaux des organismes nationaux ou
+étrangers ayant pour objet l'étude et l'amélioration de la réglementation et de la gestion des
+télécommunications ;
+9) d'assurer, pour le compte de l'Etat, la gestion et la surveillance du spectre des fréquences radioélectriques et
+le respect des contraintes concernant le chiffrement éventuel des informations échangées. A ce titre, elle
+attribue les fréquences radioélectriques liées à la licence et à l'autorisation prévues aux articles 2 et 3 de la
+présente loi, sous réserve du paiement par le bénéficiaire de la redevance citée à l'article 9 de la présente loi ;
+10) de suivre, pour le compte de l'Etat, le respect de la réglementation en vigueur et des termes des licences,
+autorisations et agréments accordés dans le secteur des télécommunications. A cet effet, l'ANRT reçoit et
+analyse toutes les informations et documentations requises des exploitants de réseaux et services de
+télécommunications dans le cadre de leur licence et de leur cahier des charges et, le cas échéant, demande
+toutes les précisions et informations complémentaires nécessaires ;
+11) de suivre, pour le compte de l'Etat, le développement des technologies de l'information.
+12) de proposer au gouvernement les normes du système d'agrément des prestataires de services de
+certification électronique et de prendre les mesures nécessaires à sa mise en œuvre ; abrogé par la loi n°93-12
+promulguée par le dahir n°1-13-57 du 17 juin 2013.
+13) d'agréer, pour le compte de l'Etat, les prestataires de services de certification électronique et de contrôler
+leur activité ; abrogé par la loi n°93-12 promulguée par le dahir n°1-13-57 du 17 juin 2013.
+
+16
+
+14) de proposer au gouvernement la législation et la réglementation relatives à l'utilisation des noms de
+domaine Internet "point ma" désignés sous l'extension ".ma", permettant d'identifier les adresses Internet
+correspondant au territoire national ;
+15) d'attribuer les noms de domaine ".ma", de définir les modalités de leur gestion administrative, technique et
+commerciale dans des conditions transparentes et non discriminatoires et de représenter les titulaires de ces
+adresses auprès des instances internationales gouvernementales ou non gouvernementales en charge de la
+gestion internationale des noms de domaine Internet.
+Article 29 bis :
+
+Ajouté par l’article 3 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21 ramadan 1425 (4
+Novembre 2004).
+1- Sont passibles de sanctions pécuniaires d'un maximum de cent mille dirhams les exploitants de réseaux de
+télécommunications qui ne respectent pas:
+-
+
+les obligations de fournitures à l'ANRT des informations exigées par la réglementation en vigueur ou
+par cette dernière en ce qui concerne l'interconnexion des réseaux publics de télécommunications;
+les obligations relatives à la fourniture à l'ANRT des informations concernant la comptabilité
+analytique et l'audit des comptes exigées par la réglementation en vigueur ou par cette dernière ;
+les obligations relatives à la publication des offres tarifaires ;
+les obligations de fourniture à l’ANRT des informations exigées par la réglementation en vigueur ou
+par cette dernière en matière de service universel;
+les obligations relatives à la fourniture à l'ANRT des informations concernant:
+o la recherche et la formation;
+o l’annuaire général des abonnés.
+
+2 -Sont passibles de sanctions pécuniaires d'un maximum de cinquante mille dirhams, les exploitants de
+réseaux de télécommunications et les fournisseurs de services de télécommunications qui ne respectent pas:
+-
+
+-
+
+les obligations de fourniture à l'ANRT des informations exigées par la réglementation en vigueur ou
+par cette dernière en ce qui concerne l'utilisation des fréquences radioélectriques et des équipements
+de télécommunications;
+les délais de fourniture à l'ANRT des informations exigées par la réglementation en vigueur ou par
+cette dernière.
+
+3 - Sont passibles de sanctions pécuniaires d'un maximum de vingt mille dirhams, les exploitants de réseaux de
+télécommunications et les fournisseurs de services de télécommunications qui ne respectent pas les obligations
+relatives à la fourniture à l'ANRT des informations exigées autres que celles prévues aux paragraphes 1 et 2 cidessus.
+Ces sanctions sont prononcées par le directeur de l'ANRT selon une procédure fixée par voie réglementaire.
+Les amendes prévues ci-dessus font l’objet d'ordres de recettes émis par le directeur de l’ANRT et recouvrées
+conformément aux dispositions de l'article 38 bis de la présente loi.
+Article 30
+
+Abrogé et remplacé par l’article 2 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21
+ramadan 1425 (4 Novembre 2004).
+
+17
+
+Sous réserve des dispositions de l’article 29 bis ci-dessus, lorsque le titulaire d'une licence d'établissement et
+d'exploitation de réseaux publics de télécommunications ne respecte pas les conditions qui lui sont imposées
+par les textes législatifs et réglementaires ou son cahier des charges, le directeur de l'ANRT le met en demeure
+de cesser l'infraction dans un délai de trente jours.
+Si le titulaire ne se conforme pas à la mise en demeure qui lui a été adressée, il sera passible :
+a) d'un avertissement qui lui est adressé par le directeur de l'ANRT, après en avoir informé le président du
+conseil d'administration de l'agence ; l'avertissement, après notification à l'intéressé, peut faire l'objet de
+publication au Bulletin officiel,
+b) - de la suspension totale ou partielle de la licence pour une durée de trente jours au plus,
+- de la suspension temporaire de la licence ou la réduction de sa durée dans la limite d'une année,
+- ou du retrait définitif de la licence,
+La suspension de la licence est prononcée par l'autorité gouvernementale compétente, sur proposition du
+directeur de l'ANRT et le retrait de la licence est prononcé par décret sur proposition du directeur de
+l'ANRT ;
+c) et/ou d'une amende égale au maximum à 1 % du chiffre d'affaires hors taxe, net des frais d'interconnexion,
+tel que déclaré l’année précédente, réalisé au titre des activités de télécommunications objet de la licence.
+Dans ce dernier cas, le directeur de l'ANRT, après en avoir informé le président du conseil d'administration de
+l'agence, saisit le procureur du Roi du tribunal de première instance de Rabat aux fins d'engager les poursuites
+à l'encontre du contrevenant.
+Le directeur de l'ANRT peut se constituer partie civile et exercer les droits reconnus à cette partie. Le tribunal
+doit, avant jugement au fond, enjoindre au contrevenant le dépôt d'une caution d'un montant égal à celui
+demandé par l'ANRT et qui ne peut être supérieur au montant de l’amende demandée par cette dernière.
+Les sanctions visées aux a) et b) ci-dessus ne sont prononcées que lorsque les griefs retenus contre l'intéressé
+lui ont été notifiés et qu'il a été à même de consulter le dossier et de présenter ses justifications écrites, dans le
+délai fixé par le directeur de l’ANRT, qui ne saurait être inférieur à un mois.
+Les sanctions prononcées en vertu du b) ci-dessus n'ouvrent droit à aucun dédommagement au profit du
+contrevenant et l'ANRT prend ou propose à l'administration les mesures nécessaires pour faire assurer la
+continuité du service et protéger les intérêts des usagers.
+L'amende visée au c) ci-dessus est portée au double si le contrevenant est en état de récidive comme ayant été
+condamné dans les cinq années précédentes par décision irrévocable prononcée pour des faits identiques.
+En cas d'atteinte aux prescriptions exigées par la défense nationale et la sécurité publique, le directeur de
+l'ANRT est habilité, par décision motivée, après en avoir informé l'autorité gouvernementale compétente, à
+suspendre sans délai la licence, l'autorisation ou l'exploitation de services à valeur ajoutée, mentionnées aux
+articles 2 à 5 de la présente loi.
+En outre, les équipements, objets de la licence, de l'autorisation ou de l'exploitation précitées sont
+immédiatement saisis.
+Article 31
+
+18
+
+Modifié par l’article 1 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21 ramadan 1425 (4
+Novembre 2004).
+Lorsque le titulaire d'une licence d'attribution de fréquences radioélectriques, d'une autorisation ou d’une
+déclaration de service à valeur ajoutée ne respecte pas les obligations qui lui sont imposées par les textes
+législatifs et réglementaires, ainsi que par les conditions fixées à l'occasion d'attribution de fréquences
+radioélectriques ou par l'autorisation ou la déclaration, le directeur de l'ANRT le met en demeure de s'y
+conformer dans un délai de trente jours.
+Si le titulaire de l'autorisation ou licence ou déclaration citées à l'alinéa précédent, ne se conforme pas à la mise
+en demeure qui lui a été adressée, le directeur de l'ANRT peut prononcer à son encontre les sanctions édictées
+aux articles 29 bis ou 30 ci-dessus.
+Ces sanctions ne sont prononcées que lorsque les griefs retenus contre le titulaire lui ont été notifiés et qu'il a
+été à même de consulter le dossier et de présenter ses observations écrites ou verbales.
+
+Article 32
+Les organes d'administration et de gestion de l'ANRT comprennent le conseil d'administration, le comité de
+gestion et le directeur.
+Article 33
+Le conseil d'administration de l'ANRT se compose, outre son président, des représentants de l'Etat et de
+personnalités nommées par décret pour une période de cinq ans et choisies dans le secteur public et privé
+pour leur compétence technique, juridique et économique dans le domaine des technologies des
+télécommunications et de l'information.
+En ce qui concerne les représentants des secteurs public et privé, la qualité de membre du conseil
+d'administration est incompatible avec tout intérêt personnel lié au domaine des technologies des
+télécommunications et de l'information.
+Article 34
+Le conseil d'administration dispose de tous les pouvoirs et attributions nécessaires à la réalisation des missions
+imparties à l'ANRT par les dispositions de la présente loi.
+Il délibère valablement lorsque les deux tiers au moins de ses membres sont présents et prend ses décisions à
+la majorité des voix des membres présents ou représentés.
+Ne peuvent être représentés, les membres désignés intuitu personae.
+Le conseil d'administration délibère sur les orientations générales de l'ANRT et fixe son programme annuel
+d'activité.
+Il peut décider la création de tout comité dont il fixe la composition et les modalités de fonctionnement et
+auquel il peut déléguer partie de ses pouvoirs.
+
+19
+
+Il exerce les compétences visées au 2e alinéa de l'article 8 ci-dessus et peut les déléguer au comité de gestion
+prévu à l'article 35 ci-après.
+Il examine le rapport d'activité de l'ANRT que lui présente le directeur.
+Il se réunit aussi souvent que les circonstances l'exigent et au moins deux fois par an :
+- pour arrêter les états de synthèse de l'exercice clos
+- pour arrêter le budget de l'exercice suivant.
+Article 35
+Le conseil d'administration est assisté d'un comité de gestion qui règle, par ses délibérations les questions pour
+lesquelles il a reçu délégation du conseil d'administration et notamment celles relatives au règlement des litiges
+liés à l'interconnexion, visés à l'article 8 ci-dessus.
+Les membres du comité de gestion sont nommés par le conseil d'administration pour une période de cinq ans
+renouvelable.
+Article 36
+L'ANRT est gérée par un directeur nommé conformément à la législation en vigueur.
+Le directeur détient tous les pouvoirs et attributions nécessaires à la gestion de l'ANRT.
+En outre, il peut recevoir délégation du conseil d'administration pour le règlement de certaines affaires dont la
+technicité ou l'urgence impliquent une réponse rapide et techniquement appropriée.
+Il assiste, avec voix consultative, aux réunions du conseil d'administration et du comité de gestion et y tient le
+rôle de rapporteur.
+Il représente l'ANRT vis-à-vis de l'Etat, des administrations publiques et des tiers. Il exerce les actions
+judiciaires en demande et en défense.
+Il peut déléguer, pour des questions déterminées, une partie de s'es pouvoirs et attributions aux cadres
+occupant des postes de direction dans l'ANRT.
+Article 36 bis :
+
+Ajouté par l’article 3 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21 ramadan 1425 (4
+Novembre 2004).
+Les recours pour excès de pouvoir contre les décisions de l'ANRT sont portés devant le tribunal administratif
+de Rabat.
+Article 37
+Le directeur de l'ANRT établit, en fin d'exercice, un rapport annuel sur les activités de l'agence au cours de
+l'année écoulée. Ce rapport expose également la situation d'ensemble des technologies de l'information au
+Maroc du point de vue de l'application de la législation et de la réglementation en vigueur.
+
+20
+
+Ce rapport est transmis au Premier ministre. Il est rendu public et publié au " Bulletin officiel ".
+Article 37 bis :
+
+Ajouté par l’article 3 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21 ramadan 1425 (4
+Novembre 2004).
+Les décisions de l'ANRT prises pour l'application de la présente loi n'entrent en vigueur qu'à compter de leur
+publication au bulletin officiel.
+Article 38
+
+Modifié par l’article 1 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21 ramadan 1425 (4
+Novembre 2004).
+Le budget de l'ANRT est arrêté par le conseil d'administration.
+Il comprend
+En recettes :
+-
+
+-
+
+le produit des redevances perçues à l'occasion de l'étude des dossiers et de l'octroi ou du
+renouvellement des licences relatives à l'assignation des fréquences radioélectriques, d'agrément des
+équipements terminaux, et plus généralement, le produit de toute redevance en relation avec les
+missions de l'ANRT ;
+un pourcentage sur le produit de la contrepartie financière due au titre de la licence visée à l'article 10
+dont le montant est fixé par la loi de finances selon les besoins réels de l'ANRT ;
+les produits et les revenus provenant de biens mobiliers et immobiliers ;
+le montant des contributions des exploitants de réseaux publics de télécommunications au titre de la
+formation et de la normalisation ;
+le produit des amendes prévues a l'article 29 bis ci-dessus ;
+les avances remboursables du Trésor, d'organismes publics ou privés ainsi que les emprunts autorisés
+conformément à la législation en vigueur ;
+les subventions, dons, legs et toutes autres recettes en rapport avec son activité.
+
+En dépenses :
+- les dépenses de fonctionnement et d'équipement ;
+- le remboursement des avances et des prêts ;
+- toutes autres dépenses en rapport avec l'objet de l'ANRT.
+Article 38 bis
+Le recouvrement des créances de l'ANRT s'effectue conformément à la législation relative au recouvrement
+des créances de l'Etat.
+TITRE 3
+De La Société Itissalat Al-Maghrib
+Chapitre PREMIER
+
+21
+
+Dénomination Et Missions
+Article 39
+Une société anonyme, dénommée " Itissalat AI-Maghrib " est chargée notamment des missions prévues à
+l'article 40 ci-dessous.
+Article 40
+
+Modifié par l’article 1 de la loi n° 55-01 promulguée par le dahir n° 1-04-154 du 21 ramadan 1425 (4
+Novembre 2004).
+Itissalat AI-Maghrib a pour mission, concurremment avec les opérateurs auxquels aura été délivrée la licence
+visée à l'article 10 ci-dessus :
+-
+
+d'assurer le service universel ou de participer à son financement conformément aux dispositions des
+articles 13 bis et 13 ter ci-dessus,
+d'établir et/ou d'exploiter, un ou plusieurs réseaux publics de télécommunications.
+
+Article 41
+Les réseaux et services de télécommunications exploités par l'Office national des postes et
+télécommunications à la date d'entrée en vigueur de la présente loi sont transférés en pleine propriété à
+Itissalat AI-Maghrib.
+Itissalat AI-Maghrib bénéficie de plein droit de l'exploitation des réseaux et services cités à l'alinéa précédent.
+Un cahier des charges, approuvé par décret, fixera les conditions dans lesquelles les services de
+télécommunications correspondants seront rendus.
+Article 42
+Itissalat AI-Maghrib bénéficie des droits d'utilisation des fréquences radioélectriques relatives à l'exploitation
+des réseaux et services cités à l'article 41 ci-dessus. En contrepartie, Itissalat AI-Maghrib est soumise au
+paiement des redevances visées aux articles 9 et 10 ci-dessus.
+Pour tous les réseaux ou services autres que ceux visés à l'article 41 ci-dessus, Itissalat AI-Maghrib doit
+soumettre à l'autorité gouvernementale compétente ou à l'ANRT, selon le cas, les demandes de licences
+d'établissement et d'exploitation des réseaux et de fourniture de service ou les demandes d'attribution des
+fréquences radioélectriques qui lui sont nécessaires.
+Article 43
+La propriété des participations de l'Etat dans le capital d'Itissalat AI-Maghrib peut être transférée au secteur
+privé dans les conditions prévues par la loi n° 39-89 autorisant le transfert d'entreprises publiques au secteur
+privé promulguée par le dahir n° 1-90-01 du 15 ramadan 1410 (Il avril 1990) telle qu'elle a été modifiée et
+complétée.
+Article 44
+
+22
+
+Itissalat AI-Maghrib n'est pas soumise aux dispositions du dahir n° 1-59-271 du 17 chaoual 1379 (14 avril
+1960) organisant le contrôle financier de l'Etat sur les établissements publics et sociétés concessionnaires ainsi
+que sur les sociétés et organismes bénéficiant du concours financier de l'Etat ou de collectivités publiques.
+Chapitre II.
+Constitution Du Patrimoine
+Article 45
+Pour la constitution du patrimoine initial d'Itissalat AI-Maghrib, la propriété des biens meubles et immeubles
+de l'Office national des postes et télécommunications affectés aux activités de télécommunications relevant
+des missions d'Itissalat AI-Maghrib, est transférée à cette dernière.
+Les modalités de transfert seront déterminées par les autorités gouvernementales compétentes.
+Sont également transférés à Itissalat AI-Maghrib à la date d'entrée en vigueur de la présente loi :
+- les participations que détient l'Office national des postes et télécommunications
+- le droit d'usage de bandes de fréquences radioélectriques ou de fréquences radioélectriques attribuées ou
+assignées aux services relevant de l'Office national des postes et télécommunications.
+
+TITRE 4
+De l'établissement public dénommé " barid al-maghrib "
+Chapitre PREMIER
+Dénomination Et Missions
+Article 46
+Il est créé, sous la dénomination " Barid AI-Maghrib ", un établissement public doté de la personnalité morale
+et de l'autonomie financière.
+Article 47
+Barid AI-Maghrib est soumis à la tutelle de l'Etat, laquelle a pour objet de faire respecter, par les organes
+compétents dudit établissement, les dispositions de la présente loi, notamment celles relatives aux missions qui
+lui sont dévolues et de manière générale de veiller, en ce qui le concerne, à l'application de la législation et de la
+réglementation relatives aux établissements publics.
+Article 48
+Barid AI-Maghrib a pour mission d'exercer pour le compte de l'Etat :
+-
+
+l'émission de timbres-poste ainsi que toutes autres marques d'affranchissement ;
+les activités relevant du monopole de l'Etat en matière du service du courrier sous toutes ses formes,
+dans les relations intérieures et internationales ;
+la collecte de l'épargne à travers la Caisse d'épargne nationale définie au chapitre IV du présent titre.
+
+23
+
+A cet effet, Barid AI-Maghrib est habilité à ouvrir des comptes de dépôt à vue ou à terme pour toute personne
+physique ou morale, au nom de laquelle ou par laquelle des fonds sont versés à la caisse à titre d'épargne.
+Article 49
+Barid AI-Maghrib assure le service des mandats-poste des régimes interne et externe, il est chargé également
+de la gestion du service de comptes courants de chèques postaux conformément à la législation en vigueur.
+Les opérations d'émission et de paiement ainsi que celles de retrait et de dépôt effectuées par Barid AIMaghrib, au titre des services précités, sont imputés au compte courant du trésorier général ouvert à Bank AIMaghrib.
+Barid AI-Maghrib assure également tous autres services dont l'Etat fixe la liste en considération des besoins du
+trésor public pour l'accomplissement de ses missions. Une convention conclue entre l'Etat et Barid AIMaghrib fixe les conditions d'exécution et de juste rémunération desdits services.
+Article 50
+Par dérogation à la législation en vigueur relative au monopole de l'Etat et selon les conditions fixées par
+l'autorité gouvernementale compétente, sont ouverts à la concurrence et soumis à autorisation de l'autorité
+gouvernementale compétente les services de collecte, de transport et de distribution d'objets et de
+marchandises entrant, par leurs formes, leur poids, leurs dimensions dans les catégories des objets et
+marchandises régies par les dispositions de conventions de l'Union postale universelle lorsqu'ils sont réalisés
+selon les formes du courrier accéléré international.
+Cette autorisation donne lieu à la perception de redevances.
+Barid AI-Maghrib est autorisé de plein droit à fournir les services cités à l'alinéa ci-dessus.
+L'autorisation mentionnée au présent article est délivrée lorsque le service, d'une part, répond à un besoin
+d'intérêt général, et d'autre part, est compatible avec le bon accomplissement par Barid AIMaghrib des
+missions de service public qui lui sont confiées avec les contraintes tarifaires et de desserte géographique qui
+en résultent.
+Les postulants à l'autorisation doivent s'engager à respecter les obligations arrêtées par l'autorité
+gouvernementale compétente et qui concernent :
+-
+
+les conditions de confidentialité et de neutralité du service au regard des messages transmis ;
+la nature, les caractéristiques et la zone de couverture du service ;
+les conditions de continuité et de qualité du service ;
+les qualifications professionnelles et techniques ainsi que les garanties financières exigées du
+demandeur de l'autorisation ;
+les normes et spécifications du service ;
+les conditions d'exploitation du service notamment le principe du respect de l'égalité de traitement des
+usagers ainsi que les règles de respect d'une concurrence loyale entre tous les opérateurs ;
+la contribution de l'exploitant à la recherche, à la formation et à la normalisation en matière de poste ;
+les redevances exigées ;
+la durée, les conditions de cessation et de renouvellement de l'autorisation.
+
+Les modalités d'application de ces obligations seront fixées dans l'autorisation délivrée par l'autorité
+gouvernementale compétente. L'autorisation précitée est personnelle à son titulaire et ne peut être cédée à un
+tiers.
+
+24
+
+Toute décision de refus d'autorisation doit être motivée.
+Article 51
+Barid AI-Maghrib est autorisé à conclure avec l'Etat ou tous autres organismes de droit public ou privé des
+conventions permettant l'utilisation par l'Etat ou lesdits organismes de l'infrastructure dont il dispose.
+Article 52
+Barid AI-Maghrib assure l'application des conventions, règlements et arrangements de l'Union postale
+universelle et des organisations régionales des postes auxquelles adhère le Maroc, sous réserve que
+l'application desdits conventions, règlements et arrangements n'implique pas l'édiction de textes législatifs ou
+réglementaires.
+Article 53
+Barid AI-Maghrib peut créer des filiales et prendre des participations financières dans toutes entreprises
+entrant par leur objet dans le cadre de ses missions, conformément aux dispositions de la loi n° 39-89 citée à
+l'article 43 ci-dessus.
+Article 54
+Barid AI-Maghrib peut créer des établissements de formation des cadres et de formation professionnelle dans
+le domaine de la poste et des services financiers postaux.
+Chapitre II
+Section Première - Organisation, Gestion Et Administration
+Article 55
+Barid AI-Maghrib est administré par un conseil d'administration qui comprend, outre les représentants de
+l'Etat, un représentant de Bank AI-Maghrib, un représentant de la Caisse de dépôt et de gestion et un
+représentant des personnes morales de droit public et des sociétés dont le capital est souscrit en totalité ou en
+partie par l'Etat.
+Article 56
+Le conseil d'administration est investi de tous les pouvoirs et attributions nécessaires à l'administration de
+Barid AI-Maghrib. Il définit et conduit la politique générale de l'établissement dans le cadre des orientations
+fixées par le gouvernement et à cet effet, il est notamment chargé :
+-
+
+d'arrêter le programme des opérations techniques et financières, le budget, le régime des
+amortissements, les comptes d'exploitation et l'affectation des résultats ;
+d'arrêter la prise, l'extension ou la réduction de participations financières ;
+d'élaborer le statut du personnel qui est approuvé dans les conditions prévues par la réglementation
+en vigueur pour le personnel des établissements publics;
+d'arrêter les modalités de passation des marchés ;
+de fixer les tarifs des prestations rendues ;
+de choisir les auditeurs prévus à l'article 64 ci-dessous et de fixer leurs honoraires.
+
+Article 57
+
+25
+
+Le conseil d'administration délibère valablement lorsque les deux tiers au moins de ses membres sont
+présents. Les décisions sont prises à la majorité des voix. En cas de partage égal des voix, celle du président est
+prépondérante.
+Article 58
+Le conseil d'administration peut décider la création de tout comité notamment un comité de gestion dont il
+fixe la composition et les modalités de fonctionnement et auquel il peut déléguer partie de ses pouvoirs.
+Article 59
+Barid AI-Maghrib est géré par un directeur nommé conformément à la législation en vigueur qui détient tous
+les pouvoirs et attributions nécessaires à la gestion de l'établissement.
+Le directeur exécute les décisions du conseil d'administration et, le cas échéant, du comité précité, et exécute
+également les missions pour lesquelles il reçoit délégation du conseil d'administration.
+Il peut déléguer, sous sa responsabilité, une partie de ses pouvoirs et attributions au personnel placé sous son
+autorité.
+Article 60
+Les décisions du directeur de Barid AI-Maghrib concernant l'ouverture ou la fermeture totale d'une relation
+internationale de poste ou la fermeture d'un établissement postal sur le territoire national ainsi que celles
+relatives à l'émission de timbres-poste ne sont exécutoires qu'après accord de l'autorité gouvernementale
+compétente.
+Article 61
+Le budget de Barid AI-Maghrib comprend en :
+1) Ressources :
+-
+
+les produits et bénéfices d'exploitation, ainsi que ceux provenant de ses opérations et de son
+patrimoine ;
+le produit des redevances perçues en contrepartie des autorisations visées à l'article 50 ci-dessus ;
+les dons, legs et produits divers ;
+les avances et prêts remboursables provenant de l'Etat, d'organismes publics ou privés ainsi que les
+emprunts autorisés conformément à la législation en vigueur toutes autres recettes en rapport avec ses
+activités les apports éventuels de l'Etat.
+
+2) Charges :
+-
+
+les charges d'exploitation et d'investissement ;
+le remboursement des avances, prêts et emprunts ;
+le versement éventuel à l'Etat des bénéfices réalisés ;
+toutes autres dépenses en rapport avec les activités de l'établissement.
+
+Article 61 bis
+Le recouvrement des créances de Barid AI-Maghrib s'effectue conformément à la législation relative au
+recouvrement des créances de l'Etat.
+
+26
+
+Article 62
+Sont transférés au directeur de Barid AI-Maghrib, les pouvoirs reconnus à la puissance publique par la
+législation et la réglementation en vigueur, qui sont nécessaires au respect du monopole en matière de poste et
+à l'exercice de son contrôle par les agents de l'établissement.
+Article 63
+Barid AI-Maghrib est soumis aux dispositions du dahir n' 1-63-012 du 12 ramadan 1382 (6 février 1963)
+concernant les conditions de dépôt des fonds disponibles des établissements publics et des sociétés
+concessionnaires.
+Section II- Contrôle financier
+Article 64
+Barid AI-Maghrib est soumis au contrôle financier de l'Etat conformément à la législation en vigueur.
+En outre, Barid AI-Maghrib doit soumettre ses états financiers annuels à un audit externe. Les auditeurs ont
+pour mission de formuler une opinion sur la qualité du contrôle interne de l'établissement. Ils s'assurent
+également que les états financiers donnent une image fidèle du patrimoine, de la situation financière et des
+résultats de l'établissement.
+Les rapports établis par les auditeurs sont communiqués aux membres du conseil d'administration.
+Chapitre III
+Constitution Du Patrimoine
+Article 65
+Pour la constitution du patrimoine initial de Barid AI-Maghrib, la propriété des biens meubles et immeubles
+de l'Office national des postes et télécommunications, affectés aux activités de la poste et services financiers
+postaux et de la Caisse d'épargne nationale relevant des missions de Barid AIMaghrib, est transférée à ce
+dernier.
+Sont également transférés à Barid AI-Maghrib à la date d'entrée en vigueur de la présente loi les éléments de
+l'actif de la Caisse d'épargne nationale.
+Chapitre IV
+Dispositions Particulières Relatives A La Caisse D'épargne Nationale
+Article 66
+Il est créé au sein de Barid AI-Maghrib un service " Caisse d'épargne nationale " placée sous l'autorité du
+directeur de Barid AI-Maghrib.
+Section Première - Dispositions financières et fiscales
+Article 67
+
+27
+
+l'Etat garantit le remboursement des fonds versés en dépôt à la Caisse d'épargne nationale ainsi que le
+paiement des intérêts y afférents.
+Article 68
+La Caisse d'épargne nationale est tenue de déposer auprès d'organismes de droit public habilités à recevoir les
+dépôts de la Caisse d'épargne nationale, toutes les sommes qu'elle reçoit des déposants, sous réserve de ce qui
+est nécessaire pour assurer le service de remboursement ainsi que les services prévus par l'article 71 ci-dessous.
+Article 69
+Barid AI-Maghrib peut passer des conventions avec les organismes visés à l'article 68 ci-dessus afin de faire
+bénéficier ses déposants de prêts-logements.
+Article 70
+Les conditions et modalités d'ouverture et de rémunération des comptes de dépôt ainsi que le régime des
+avances prévus respectivement par les articles 48 et 71 de la présente loi sont fixés par l'administration.
+Article 71
+La Caisse d'épargne nationale est habilitée, en outre, à consentir sur les pensions civiles et militaires, dont la
+liste est arrêtée par l'administration et selon les modalités fixées par celle-ci, des avances représentant les
+arrérages courus de deux mois au maximum au profit des résidents au Maroc bénéficiaires desdites pensions.
+
+Article 72
+Par dérogation aux dispositions du dahir portant loi n'l-76-292 du 25 chaoual 1397 (9 octobre 1977) relatif à la
+présentation des opérations d'assurances et de réassurances et/ou de capitalisation et à l'exercice de la
+profession d'intermédiaire d'assurance, notamment son article premier, Barid AIMaghrib est habilité à
+proposer aux déposants de la Caisse d'épargne nationale des contrats d'assurances de personnes, émis par les
+entreprises ou organismes d'assurances de droit public ou de droit privé.
+Ces propositions font l'objet de conventions, soumises à l'approbation de l'administration, que Barid AIMaghrib pourra souscrire avec les entreprises ou organismes d'assurances intéressés en vue de déterminer les
+conditions et modalités de son intervention.
+En aucun cas cette intervention n'habilite la caisse à se prévaloir du titre d'intermédiaire tel que défini dans le
+dahir portant loi n" 1-76-292 du 25 chaoual 1397 (9 octobre 1977) précité.
+Article 73
+Les intérêts produits par les dépôts effectués par les personnes physiques auprès de la Caisse d'épargne
+nationale sont exonérés de tous impôts et taxes.
+Les personnes morales demeurent, pour ces intérêts, soumises à la législation fiscale en vigueur.
+Article 74
+
+28
+
+La Caisse d'épargne nationale est exonérée de tous impôts et taxes. Les opérations de la caisse et les pièces
+qu'elle utilise à cet effet sont exonérées de tout droit d'enregistrement et de timbre.
+Section II - Dispositions diverses
+Article 75
+Les mineurs sont admis à se faire ouvrir des comptes d'épargne, sans l'intervention de leur représentant légal.
+Ils peuvent retirer sans cette intervention, mais seulement après l'âge de 16 ans révolus, les sommes figurant
+sur les comptes ainsi ouverts, sauf opposition de leur représentant légal.
+Cette opposition est signifiée à la Caisse d'épargne nationale dans la forme des actes extrajudiciaires.
+Elle produit à l'égard de la Caisse les mêmes effets que les oppositions prévues au code de procédure civile.
+Article 76
+Lorsqu'il s'est écoulé une période de quinze ans à partir, tant du versement ou remboursement que de toute
+opération effectuée à la demande des déposants, les sommes que détient la Caisse d'épargne nationale aux
+comptes de ceux-ci sont prescrites à leur égard.
+La Caisse d'épargne nationale est tenue d'adresser, dans un délai de six mois avant l'expiration de la période
+précitée, un avis recommandé au titulaire de tout compte susceptible d'être atteint par la prescription et dont
+l'avoir en capital et intérêts est supérieur ou égal à deux cents dirhams (200 DH).
+Si l'ayant droit ne peut être connu ou si, pour une raison' quelconque, le remboursement ne peut être opéré, la
+somme inscrite à son crédit est prescrite.
+Les sommes ainsi prescrites sont versées à parts égales au Trésor et aux oeuvres sociales de bienfaisance
+désignées par l'administration.
+A l'égard des versements faits sous la condition stipulée par le donateur ou le testateur que le titulaire n'en
+pourra disposer qu'après une date déterminée, la période de 15 ans ne court qu'à partir de cette date.
+Article 77
+Les saisies-arrêts et oppositions de toute nature formées auprès de la Caisse d'épargne nationale n'ont d'effet
+que pendant cinq années à compter de la date de leur notification à ladite Caisse.
+Si elles n'ont pas été renouvelées dans l'intervalle, elles sont rayées d'office à l'expiration de ce délai.
+Aucune saisie-arrêt ou opposition, aucun transfert ou cession, aucune signification, ayant pour objet d'arrêter
+le paiement, ne peuvent avoir d'effet s'ils sont notifiés après que le service détenteur du compte a autorisé le
+bureau de poste ou l'agence chargée du paiement de donner suite au retrait qui leur est demandé.
+Article 78
+Il est interdit de donner comme désignation principale, comme sous-titre ou avec une qualification
+quelconque le nom de " Caisse d'épargne " à tout établissement ou organisme privé prétendant avoir ou ayant
+un caractère similaire.
+Est interdit l'emploi de procédés tels que : contrefaçon de livrets, prospectus, affiches ou autres, susceptibles
+de créer une confusion avec la Caisse d'épargne nationale.
+
+29
+
+Les fondateurs, directeurs ou administrateurs des établissements qui contreviennent aux dispositions du
+présent article sont poursuivis et punis conformément aux lois et règlements en vigueur.
+Article 79
+La Caisse d'épargne nationale est autorisée à détruire les quittances de remboursements, dossiers de
+remboursement après décès, dossiers des comptes courants visés à l'article 76 ci-dessus, registres matricules,
+demandes de livrets et registres spéciaux de versement et de remboursement ayant plus de quinze ans de date.
+Ce délai est réduit à dix ans pour les autres registres et à cinq ans pour les livrets soldés ou remplacés.
+Article 80
+Les dispositions du dahir portant loi n'l-93-147 du 15 moharrem 1414 (6 juillet 1993) relatif à l'exercice des
+activités des établissements de crédit et de leur contrôle ne sont pas applicables à Barid AIMaghrib pour ses
+opérations relatives à la Caisse d'épargne nationale.
+
+TITRE 5
+Des Infractions Et Sanctions Pénales
+Chapitre PREMIER
+Des Infractions Et Sanctions Pénales Relatives Au Secteur Des Télécommunications
+Article 81
+1 - Sera puni d'une amende de 1.500 à 5.000 dirhams quiconque aura, par imprudence ou involontairement :
+- commis un fait matériel pouvant compromettre le service des télécommunications ;
+- aura dégradé ou détérioré, de quelque manière que ce soit, les lignes aériennes ou souterraines ou les
+appareils de télécommunications et de tout ouvrage s'y rapportant.
+2- Sera puni d'une amende de 3.000 à I0.000 dirhams par équipement terminal quiconque aura fabriqué pour
+le marché intérieur, importé ou détenu en vue de la vente, la distribution à titre onéreux ou gratuit ou met en
+vente ou a vendu des équipements terminaux visés aux articles 15 et 16 ci-dessus ainsi que leur connexion à
+fin réseau public de télécommunications en violation de l'agrément ou en absence d'agrément préalable.
+Sera puni de la même amende quiconque aura fait la publicité en faveur de la vente des équipements n'ayant
+pas reçu l'agrément préalable.
+3 - Sera puni d'une amende de 10.000 à 200.000 dirhams quiconque aura fourni ou fait fournir un service à
+valeur ajoutée en violation des dispositions ou de la déclaration prévues à l'article 5 ci-dessus.
+
+30
+
+Article 82
+Sera puni d'un emprisonnement de un mois à un an et d'une amende de 10.000 à 100.000 dirhams ou de l'une
+de ces deux peines seulement :
+1 - toute personne qui aura effectué des transmissions radioélectriques en utilisant sciemment un indicatif
+d'appel de la série internationale attribué à une station de l'Etat, à une station du réseau public de
+télécommunications ou à toute autre station privée autorisée par l'ANRT ;
+2 - toute personne qui aura effectué ou fait effectuer des détournements de lignes de télécommunications ou
+exploite des lignes de télécommunications détournées ;
+3 - tout agent d'un exploitant de réseau de télécommunications ou d'un fournisseur de service de
+télécommunications qui aura refusé de fournir les informations ou documents ou fait obstacle au déroulement
+des enquêtes mentionnées à l'article 24 ci-dessus.
+Article 83
+Sera puni d'un emprisonnement d'un mois à deux ans et d'une amende de 10.000 à 200.000 dirhams
+quiconque :
+1 - aura établi ou fait établir un réseau de télécommunications sans la licence prévue à l'article 2 ci-dessus ou
+l'aura maintenu en violation d'une décision de suspension ou de retrait de cette licence ;
+2 - aura fourni ou fait fournir un service de télécommunications sans la licence prévue à l'article 2 ci-dessus ou
+en violation d'une décision de suspension ou de retrait de cette licence ;
+3 - aura mis en oeuvre des réseaux ou installations radioélectriques visés à l'article 19 de la présente loi en
+contravention aux conditions définies par l'ANRT ;
+4 - aura utilisé une fréquence radioélectrique qui ne lui a pas été préalablement assignée par l'ANRT ;
+5 - aura établi ou exploité ou fait établir ou exploiter un réseau indépendant, sans l'autorisation prévue à
+l'article 14 ci-dessus ou l'aura maintenu en violation d'une décision de suspension ou de retrait de cette
+autorisation, ou aura établi ou exploité ou fait établir ou exploiter un réseau indépendant perturbant le
+fonctionnement des réseaux existants ou aura établi ou fait établir une liaison empruntant le domaine public
+sans la licence préalable visée à l'article 2 ;
+6 - quiconque aura, par la rupture des fils ou des câbles, par la destruction ou la dégradation des appareils ou
+par tout autre moyen, volontairement causé l'interruption des télécommunications ;
+7 - aura, dans les eaux territoriales ou sur le plateau continental contigu au territoire du Royaume du Maroc,
+rompu volontairement un câble sous-marin ou lui aura causé ou tenté de lui causer des détériorations de
+nature à interrompre en tout ou en partie les télécommunications.
+Article 84
+Les détériorations des câbles sous-marins commises dans les eaux territoriales ou sur le plateau continental
+contigu au territoire du Royaume du Maroc par un membre de l'équipage d'un navire marocain ou étranger
+seront jugées par le tribunal dont la compétence territoriale s'étend sur le prolongement maritime du lieu
+d'infraction.
+Les infractions prévues au présent titre pourront être constatées par des procès-verbaux dressés par des
+officiers de police judiciaire et les agents de la force publique ainsi que par les employés assermentés et
+commissionnés à cette fin par l'ANRT.
+L'ANRT pourra prendre immédiatement et auprès du contrevenant toutes les mesures provisoires et urgentes
+qui seraient indispensables pour faire cesser les dommages résultant des infractions au présent article.
+
+31
+
+Lorsque sur une ligne de télécommunications déjà établie, la transmission des signaux est empêchée ou gênée
+soit par des arbres soit par l'interposition d'un objet quelconque placé à demeure, le président du conseil
+communal prescrira par arrêté les mesures nécessaires pour faire disparaître l'obstacle qui gêne ou empêche la
+transmission des signaux de télécommunications lorsqu'il est susceptible d'être déplacé.
+Le déplacement de l'obstacle sera à la charge de son auteur si la ligne de télécommunications était déjà établie
+avant qu'il soit placé à demeure ; il est à la charge du propriétaire de la ligne de télécommunications dans le cas
+contraire.
+Article 85
+Outre les officiers et agents de police judiciaire, les employés assermentés et commissionnés à cette fin par
+l'ANRT peuvent rechercher et constater, par procès-verbal, les infractions aux dispositions des articles 81 à 83
+ci-dessus. Leurs procès-verbaux sont transmis dans les cinq jours au procureur du Roi.
+Les procès-verbaux établis par les employés visés au premier alinéa du présent article font foi jusqu'à preuve
+du contraire.
+Ces employés peuvent accéder aux locaux, terrains ou moyens de transport à usage professionnel, demander la
+communication de tout document professionnel et en prendre copie, recueillir, sur convocation ou sur place,
+les renseignements et justifications.
+Ils peuvent également, sur autorisation du procureur du Roi, procéder à la saisie des matériels objet de la
+contravention.
+La demande de l'autorisation précitée doit comporter tous les éléments d'information de nature à justifier la
+saisie. Celle-ci s'effectue sous l'autorité et le contrôle du procureur du Roi qui l'a autorisée.
+Les matériels saisis, sont immédiatement inventoriés. L'inventaire est annexé au procès-verbal dressé sur les
+lieux. Les originaux du procès-verbal et de l'inventaire sont transmis au procureur du Roi qui a ordonné la
+saisie.
+Article 86
+En cas de condamnation pour l'une des infractions prévues aux articles 81, 82 et 83 ci-dessus, le tribunal peut,
+en outre, prononcer au profit de l'ANRT, la confiscation des matériels et installations constituant le réseau de
+télécommunications ou permettant la fourniture du service de télécommunications ou en ordonner la
+destruction sur demande de l'ANRT aux frais du condamné.
+Le tribunal peut prononcer à l'encontre du contrevenant, pour l'une des infractions prévues aux articles 81, 82
+et 83 l'interdiction d'exercer, pendant une durée de un à cinq ans, toute activité en relation avec le secteur des
+télécommunications.
+L'amende sera appliquée autant de fois qu'il y aura d'infractions distinctes constatées soit dans un seul procèsverbal, soit dans plusieurs procès-verbaux successifs, à l'encontre du même contrevenant.
+Les complices des infractions visées ci-dessus seront passibles des mêmes peines que les auteurs principaux.
+En cas de récidive, les peines prévues aux articles 81, 82 et 83 ci-dessus, sont portées au double.
+Il y a récidive lorsque le contrevenant a subi, dans les cinq années qui précèdent, une première condamnation
+irrévocable pour l'une des infractions punies par lesdits articles.
+
+32
+
+Chapitre II
+Des infractions et sanctions pénales relatives
+Au secteur de la poste
+Article 87
+Toute infraction au monopole de l'Etat tel qu'il est défini à l'article 48 de la présente loi est punie d'une
+amende de 5.000 à 10.000 dirhams.
+En cas de récidive, le contrevenant est puni d'une peine d'emprisonnement de 6 mois à un an et d'une amende
+de 10.000 à 100.000 dirhams.
+Il y a récidive lorsque le contrevenant a subi, dans les cinq années qui précèdent, une première condamnation
+irrévocable pour infraction au monopole de l'Etat en matière de service du courrier.
+Article 88
+Outre les officiers et agents de la police judiciaire, les employés de l'administration ou Barid AIMaghrib,
+assermentés et commissionnés par l'administration, peuvent rechercher et constater par procès-verbaux, les
+infractions aux dispositions de la présente loi et des textes pris pour son application. Les procès-verbaux
+doivent contenir l'énumération des lettres et paquets saisis ainsi que les adresses de leurs destinataires. Ils en
+avisent le receveur du bureau de poste le plus proche auquel sont remis le courrier saisi et une copie du
+procès-verbal.
+
+Article 89
+La gendarmerie royale et les agents de police judiciaire ayant qualité pour constater les contraventions en
+matière de transport de personnes et de marchandises peuvent, en cas d'infraction aux dispositions de l'article
+48 de la présente loi, opérer des saisies et perquisitions sur toutes personnes qui, en raison de leur profession
+ou de leur commerce, font habituellement du transport terrestre d'un lieu à un autre.
+Article 90
+Les agents des douanes aux frontières et les agents de police judiciaire ayant qualité pour constater les
+infractions au transport par voie maritime ou aérienne s'assurent, à l'occasion de visites de navires ou d'avions,
+si le capitaine et les membres de l'équipage ne sont pas porteurs de lettres ou paquets entrant dans le
+monopole de l'Etat en matière de service du courrier.
+En cas de contravention, lesdits agents dressent un procès-verbal et avisent le receveur du bureau de poste le
+plus proche auquel sont remis le courrier saisi et une copie du procès-verbal.
+Article 91
+Les transporteurs sont personnellement responsables du paiement des amendes et dommages -intérêts
+prononcés à l'encontre de leurs employés. Ils peuvent se retourner contre leurs employés ou toute autre
+personne ayant commis l'infraction pour le remboursement des sommes payées.
+Chapitre III
+
+33
+
+Des Infractions Et Sanctions Pénales Communes
+Article 92
+Sera puni d'une peine d'emprisonnement de 3 mois à 5 ans et d'une amende de 5.000 à 100.000 dirhams toute
+personne autorisée à fournir un service de poste rapide internationale ou tout agent employé par elle, qui dans
+le cadre de l'exercice de ses fonctions ouvre, détourne ou détruit le courrier, viole le secret de correspondance
+ou qui aide à accomplir ces actes.
+Sera passible des mêmes peines, toute personne autorisée à fournir un service de télécommunications et tout
+employé par des exploitants de réseaux des télécommunications ou fournisseurs de services des
+télécommunications, qui dans le cadre de l'exercice de ses fonctions et en dehors des cas prévus par la loi,
+viole de quelque manière que ce soit, le secret des correspondances émises, transmises ou reçues par voie de
+télécommunications ou qui en a donné l'ordre ou qui a aidé à l'accomplissement de ces actes.
+Sera puni d'une peine d'emprisonnement d'un mois à un an et d'une amende de 5.000 à 100.000 dirhams ou
+par l'une de ces deux peines seulement, toute personne autre que celles mentionnées dans les deux alinéas
+précédents qui a commis un des faits punis par lesdits alinéas.
+Outre les sanctions prévues aux alinéas 1, 2 et 3 ci-dessus, le contrevenant est interdit d'exercer toute activité
+ou profession dans le secteur des télécommunications ou celui de la poste ou en relation avec lesdits secteurs
+pour une durée de un à cinq ans.
+
+Article 93
+Sans préjudice des peines appliquées en matière de rébellion, tout refus d'obtempérer à une demande de
+perquisition, toute attaque ou résistance avec violence ou menace envers les agents ayant qualité pour
+constater les infractions à la présente loi et aux textes pris pour son application sont punis d'une peine
+d'emprisonnement de 6 mois à 1 an et d'une amende de 10.000 à 100.000 dirhams.
+Article 94
+Nonobstant les dispositions de l'article 55 du code pénal, l'amende ne peut faire l'objet de sursis.
+TITRE 6
+Dispositions Communes
+Chapitre PREMIER
+Patrimoine
+Article 95
+Les éléments de l'actif de l'Office national des postes et télécommunications autres que ceux cités aux articles
+45 et 65 ainsi que ses avoirs en comptes bancaires, au CCP et à la trésorerie générale sont transférés à
+L'ANRT, Itissalat AI-Maghrib et à Barid AL-Maghrib.
+Article 96
+
+34
+
+Une commission, dont la composition et les modalités de désignation des membres sont déterminées par
+l'administration, sera chargée de la répartition des ressources citées à l'article 95 ci-dessus entre l'ANRT,
+Itissalat AI-Maghrib et Barid AI-Maghrib.
+Article 97
+Les biens meubles et immeubles du domaine privé de l'Etat nécessaires au fonctionnement de l'ANRT,
+d'Itissalat AI-Maghrib et de Barid AI-Maghrib leur sont transférés en pleine propriété.
+Les biens du domaine public nécessaires au fonctionnement de l'ANRT, d'Itissalat AL-Maghrib et de Barid
+AL-Maghrib sont mis à leur disposition.
+Les modalités des transferts et de mise à disposition visées ci-dessus sont déterminées par voie réglementaire.
+Article 98
+Les transferts visés ci-dessus ne donnent lieu à la perception d'aucun droit ou taxe.
+Les transferts au profit d'Itissalat AL-Maghrib, diminués des obligations et charges de l'ONPT à la date
+d'entrée en vigueur de la présente loi, constituent l'apport de l'Etat au capital d'Itissalat AI-Maghrib.
+
+Chapitre II
+Personnel
+Article 99
+Les personnels en fonction à l'Office national des postes et télécommunications à la date d'entrée en vigueur
+de la présente loi sont transférés à l'ANRT, à Itissalat AL-Maghrib et à Barid AL-Maghrib et ce en fonction de
+l'activité à laquelle ils sont affectés sous réserve des dispositions de l'article 103 alinéa 3 ci-dessous.
+Article 100
+La situation conférée par les statuts particuliers de l'ANRT, d'Itissalat AL-Maghrib et de Barid AL-Maghrib
+aux personnels transférés en vertu de l'article 99 ci-dessus ne saurait, en aucun cas, être moins favorable que
+celle détenue par les intéressés à la date de leur transfert.
+Article 101
+Les services effectués par lesdits personnels à l'Office national des postes et télécommunications sont
+considérés comme ayant été effectués au sein de l'ANRT, d'Itissalat AL-Maghrib et de Barid AL-Maghrib.
+Article 102
+Nonobstant toutes dispositions contraires, les personnels transférés à l'ANRT, à Itissalat AL-Maghrib et à
+Barid AL-Maghrib continuent à être affiliés, pour le régime des pensions, aux caisses auxquelles ils cotisaient à
+la date d'entrée en vigueur de la présente loi.
+
+35
+
+Article 103
+Les personnels titulaires ou stagiaires affectés à la date d'entrée en vigueur de la présente loi au sein du
+ministère chargé des postes et des télécommunications dans les services dont les attributions sont prises en
+charge par l'ANRT, à l'exception des personnels dont le maintien est jugé nécessaire au sein du ministère, sont
+détachés à l'ANRT.
+Le personnel temporaire permanent du ministère chargé des postes et des télécommunications affecté à la
+date d'entrée en vigueur de la présente loi dans les services dont les attributions sont prises en charge par
+l'ANRT est transféré à cette dernière, à l'exception du personnel dont le maintien est jugé nécessaire pour le
+fonctionnement de ce ministère.
+Le personnel de l'Office national des postes et télécommunications affecté exclusivement aux activités
+d'agrément des équipements des télécommunications et au contrôle des stations radioélectriques est également
+transféré à l'ANRT.
+Le personnel titulaire, stagiaire et temporaire détaché ou transféré sera intégré dans les cadres de l'ANRT dans
+les conditions qui seront fixées par le statut particulier du personnel de l'agence.
+Article 104
+La situation statutaire conférée par le statut particulier de l'ANRT au personnel intégré visé par le premier et le
+troisième alinéa de l'article 103 ci-dessus ne saurait, en aucun cas, être moins favorable que celle détenue par
+les intéressés à la date de leur intégration.
+Les services effectués par le personnel visé au quatrième alinéa de l'article 103 ci-dessus dans l'administration
+ou à l'ONPT avant leur transfert au sein de l'ANRT, sont considérés comme ayant été effectués au sein de
+l'ANRT.
+Section III- Dispositions diverses
+Article 105
+Pour l'acquisition des biens immeubles nécessaires à l'accomplissement de leurs activités présentant un
+caractère d'utilité publique l'ANRT, Itissalat AL-Maghrib, Barid AL-Maghrib et les exploitants de réseaux
+publics de télécommunications exercent, par délégation, les droits de la puissance publique en matière
+d'expropriation pour cause d'utilité publique et d'occupation temporaire dans le respect des dispositions de la
+législation en vigueur.
+Article 106
+L'ANRT, Itissalat AI-Maghrib et Barid AI-Maghrib sont subrogés dans les droits et obligations de l'ONPT
+pour tous les marchés d'étude, de travaux, de fournitures et e transport ainsi que tous autres contrats et
+conventions notamment financières conclus avant la date d'entrée en vigueur de la présente loi et relatifs aux
+activités de télécommunications pour l'ANRT et Itissalat AI-Maghrib et aux services de la poste et services
+financiers postaux ainsi que ceux de la Caisse d'épargne nationale pour Barid AIMaghrib.
+Article 107
+
+36
+
+L'Institut national des postes et télécommunications est rattaché à l'ANRT. L'Agence peut passer des
+conventions avec Itissalat AI-Maghrib et d'autres exploitants pour l'utilisation des installations et équipements
+de l'institut.
+Article 108
+Les biens meubles et immeubles relevant du domaine privé de l'Etat ainsi que ceux appartenant à l'Office
+national des postes et télécommunications, qui sont à la date d'entrée en vigueur de la présente loi, affectés aux
+oeuvres sociales du personnel de l'ONPT, sont transférés en vue d'une affectation aux mêmes fins au
+ministère chargé des postes et télécommunications, à l'ANRT, à Itissalat AL-Maghrib et à Barid AL-Maghrib
+au prorata du nombre du personnel transféré à ces organismes, détaché ou affecté auprès d'eux en application
+des dispositions des articles 99 et 103 de la présente loi.
+Les transferts visés à l'alinéa ci-dessus ne donnent lieu à la perception d'aucun impôt, taxe ou droit de quelque
+nature que ce soit.
+Ils sont effectués par la commission prévue à l'article 96 ci-dessus après consultation des présidents des
+associations visées à l'alinéa 2 de l'article 109 ci-après.
+Article 109
+Il sera procédé simultanément à la dissolution des associations des oeuvres sociales de l'ONPT, existantes à la
+date d'entrée en vigueur de la présente loi, et à la constitution des associations des oeuvres sociales des
+personnels du ministère chargé des postes et télécommunications, de l'ANRT, d'Itissalat AI-Maghrib et Barid
+AI-Maghrib.
+Les biens meubles et immeubles appartenant aux associations dissoutes seront répartis par dérogation aux
+dispositions du dahir n' 1-58-376 du 3 joumada 1 1378 (15 novembre 1958) réglementant le droit
+d'association, par une commission paritaire composée des représentants de l'administration et des organismes
+visés à l'alinéa premier ci-dessus d'une part, et d'autre part des associations des œuvres sociales créées au sein
+de l'administration et desdits organismes.
+Les transferts visés à l'alinéa ci-dessus ne donnent lieu à la perception d'aucun impôt, taxe ou droit de quelque
+nature que ce soit.
+Article 110
+L'Etat, représenté par le ministre chargé des postes et télécommunications, l'ANRT, Itissalat AL-Maghrib et
+Barid AI-Maghrib concluront entre eux et avec les associations créées en application de l'article 109 ci-dessus
+des conventions pour une utilisation équitable des oeuvres sociales des personnels adhérents à ces associations
+afin de permettre auxdits personnels de continuer à bénéficier des prestations de toute nature qui leur étaient
+servies à la date d'entrée en vigueur de la présente loi.
+Article 111
+
+Modifié par l’article premier du décret-loi n° 2-06-663 du 2 rejeb 1423 (10 septembre 2002) portant
+suppression du monopole de l’Etat en matière de radiodiffusion et de télévision.
+Sont abrogées les dispositions relatives aux matières régies par la présente loi et notamment les textes suivants
+tels qu'ils ont été modifiés ou complétés :
+
+37
+
+-
+
+les dispositions du dahir du 2 chaabane 1356 (8 octobre 1937) sur la conservation et la police des
+lignes et des stations de télécommunications ;
+les dispositions du dahir, portant loi n' 1-84-8 du 6 rabii Il 1404 (10 janvier 1984) instituant l'Office
+national des postes et télécommunications ;
+les dispositions de la loi n' 05-83 portant réorganisation de la Caisse d'épargne nationale promulguée
+par le dahir n° 1-87-118 du 28 ramadan 1412 (2 avril 1992).
+
+38

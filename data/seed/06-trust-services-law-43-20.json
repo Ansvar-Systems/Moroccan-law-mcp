@@ -1,0 +1,536 @@
+{
+  "id": "ma-loi-43-20",
+  "type": "statute",
+  "title": "Loi n° 43-20 relative aux services de confiance pour les transactions électroniques",
+  "title_en": "Law No. 43-20 on Trust Services for Electronic Transactions",
+  "short_name": "Loi 43-20",
+  "status": "in_force",
+  "issued_date": "2020-12-31",
+  "url": "https://www.dgssi.gov.ma/fr/loi-ndeg43-20-relative-aux-services-de-confiance-pour-les-transactions",
+  "description": "Services de confiance, signature électronique et cryptologie.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "TITRE PRELIMINAIRE",
+      "section": "1",
+      "title": "Article 1",
+      "content": "La présente loi a pour objet de fixer le régime\napplicable aux services de confiance pour les transactions\nélectroniques, aux moyens et prestations de cryptologie ainsi\nqu’aux opérations effectuées par les prestataires de services\nde confiance et les règles à respecter par ces derniers et les\ntitulaires des certificats électroniques.\nElle fixe également les prérogatives de l’Autorité\nnationale des services de confiance pour les transactions\nélectroniques, désignée par voie réglementaire et appelée dans\nla présente loi par « Autorité nationale »."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "TITRE PRELIMINAIRE",
+      "section": "2",
+      "title": "Article 2",
+      "content": "Au sens de la présente loi, on entend par :\n– Transactions électroniques : tout échange, correspondance,\ncontrat, acte ou toute autre transaction conclue ou\nexécutée, en tout ou en partie, par voie électronique ;\n– Voie électronique : tout moyen lié à une technologie avec\ndes capacités électriques, numériques, magnétiques,\nsans fil, optiques, électromagnétiques ou toutes autres\ncapacités similaires ;\n\n– Certificat de signature électronique : l’attestation\nélectronique qui associe les données de validation\nd’une signature électronique à une personne physique\net qui confirme au moins le nom ou le cas échéant le\npseudonyme de cette personne ;\n– Dispositif de création de signature électronique : tout\nmatériel et/ ou logiciel comportant les éléments\ndistinctifs caractérisant le signataire, destiné à mettre\nen application les données de création de signature\nélectronique et servant à la création de cette dernière ;\n– Cachet électronique simple : les données sous forme\nélectronique, créées par une personne morale, qui sont\njointes ou associées logiquement à d’autres données\nsous forme électronique pour garantir l’origine et\nl’intégrité de ces dernières ;\n– Données de création de cachet électronique : les données\nuniques qui sont utilisées par le créateur du cachet\nélectronique pour créer un cachet électronique ;\n– Certificat de cachet électronique : l’attestation\nélectronique qui associe les données de validation d’un\ncachet électronique à une personne morale et confirme\nsa dénomination ;\n– Dispositif de création de cachet électronique : tout\nmatériel et/ou logiciel comportant les éléments\ndistinctifs caractérisant le créateur du cachet, destiné à\nmettre en application les données de création du cachet\nélectronique et servant à la création de ce dernier ;\n– Prestataire de services de confiance : toute personne\nmorale qui fournit un ou plusieurs services de confiance.\nIl peut être agréé ou non agréé ;\n– Validation : le processus de vérification et de confirmation\nde la validité d’une signature électronique ou d’un cachet\nélectronique."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3",
+      "content": "Les services de confiance consistent en :\n– la création de signatures électroniques, de cachets\nélectroniques, d’horodatage électronique ou des services\nd’envoi recommandé électronique ;\n– la création des certificats relatifs aux signatures\nélectroniques, aux cachets électroniques, à l’horodatage\nélectronique ou à l’authentification des sites internet ;\n– la validation de signatures électroniques ou de cachets\nélectroniques ;\n– la conservation de signatures électroniques, de cachets\nélectroniques ou de certificats relatifs à ces services.\nTITRE PREMIER\nDU REGIME APPLICAPLE AUX SERVICES DE CONFIANCE\n\nPOUR LES TRANSACTIONS ELECTRONIQUES ET AUX MOYENS\nET PRESTATIONS DE CRYPTOLOGIE\n\nChapitre premier\nDes services de confiance pour les transactions électroniques,\ndes prestataires de services de confiance et des obligations\ndu titulaire du certifcat électronique\nSection première. – Des services de confiance\nSous-section première. – De la signature électronique"
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Section première. – Des services de confiance",
+      "section": "4",
+      "title": "Article 4",
+      "content": "Une signature électronique est une signature soit simple,\nsoit avancée ou qualifiée."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Section première. – Des services de confiance",
+      "section": "5",
+      "title": "Article 5",
+      "content": "Une signature électronique avancée est une signature\nélectronique simple telle que définie à l’article 2 ci-dessus, qui\nsatisfait aux conditions suivantes :\n– être propre au signataire ;\n– permettre d’identifier le signataire ;\n– avoir été créée à l’aide de données de création de\nsignature électronique que le signataire peut utiliser sous\nson contrôle exclusif, avec un niveau de confiance élevé\ndéfini par l’autorité nationale ;\n– reposer sur un certificat électronique ou tout procédé\njugé équivalent fixé par voie réglementaire ;\n– et être liée aux données associées à cette signature de\ntelle sorte que toute modification ultérieure des données\nsoit détectable."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Section première. – Des services de confiance",
+      "section": "6",
+      "title": "Article 6",
+      "content": "Une signature électronique qualifiée est une signature\nélectronique avancée qui doit être produite par un dispositif\nqualifié de création de signature électronique prévu à l’article 8\nci-après et qui repose sur un certificat qualifié de signature\nélectronique tel que prévu à l’article 9 ci-dessous."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Section première. – Des services de confiance",
+      "section": "7",
+      "title": "Article 7",
+      "content": "L’effet juridique et la recevabilité d’une signature\nélectronique simple ou avancée comme preuve en justice\nne peuvent être refusés au seul motif que cette signature se\nprésente sous une forme électronique ou qu’elle ne satisfait pas\naux exigences de la signature électronique qualifiée prévue à\nl’article 6 ci-dessus."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Section première. – Des services de confiance",
+      "section": "8",
+      "title": "Article 8",
+      "content": "Un dispositif qualifié de création de signature électronique\nest un dispositif de création de signature électronique attesté\npar un certificat de conformité délivré par l’autorité nationale.\nCe dispositif doit satisfaire aux exigences ci-après :\n– garantir par des moyens techniques et des procédures\nappropriés que les données de création de signature\nélectronique ne peuvent être trouvés par déduction et que\nla signature électronique est protégée de manière fiable\ncontre toute falsification par des moyens techniques\ndisponibles ;\n– garantir par des moyens techniques et des procédures\nappropriés que les données de création de signature\nélectronique ne peuvent être établies plus d’une fois\net que leur confidentialité est assurée et peuvent être\nprotégées de manière satisfaisante par le signataire\ncontre toute utilisation par des tiers ;\n– n’entraîner aucune altération ou modification du contenu\ndu document électronique à signer et ne pas faire\nobstacle à ce que le signataire en ait une connaissance\nexacte avant de le signer.\nEn outre, la génération ou la gestion de données de\ncréation de signature électronique qualifiée pour le compte du\nsignataire ne peut être confiée qu’à un prestataire de services de\nconfiance agréé conformément aux dispositions de l’article 33\nde la présente loi.\nLa liste des dispositifs qualifiés de création de signature\nélectronique est publiée sur le site internet de l’autorité nationale."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9",
+      "content": "Le certificat qualifié de signature électronique est délivré\npar un prestataire de services de confiance agréé et comporte\ndes données et informations fixées par voie réglementaire.\nBULLETIN OFFICIEL"
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10",
+      "content": "Le processus de validation d’une signature électronique\nqualifiée confirme la validité de ladite signature à condition\nque :\n– le certificat sur lequel repose la signature ait été, au\nmoment de la signature, un certificat qualifié de\nsignature électronique conformément aux dispositions\nde l’article 9 ci-dessus ;\n– le certificat qualifié ait été délivré par un prestataire de\nservices de confiance agréé et était valide au moment\nde la signature ;\n– les données de validation de la signature correspondent\naux données communiquées à la partie utilisatrice ;\n– l’ensemble unique de données représentant le signataire\ndans le certificat soit correctement fourni à la partie\nutilisatrice ;\n– l’utilisation d’un pseudonyme soit clairement indiquée\nà la partie utilisatrice, si un pseudonyme a été utilisé\nau moment de la signature ;\n– la signature électronique ait été créée par un dispositif\nqualifié de création de signature électronique et les\nconditions prévues à l’article 5 de la présente loi aient\nété satisfaites au moment de la signature ;\n– l’intégrité des données signées n’ait pas été compromise.\nEn outre, le système utilisé pour valider la signature\nélectronique qualifiée doit fournir à la partie utilisatrice le\nrésultat correct du processus de validation et permet à la partie\nutilisatrice de détecter tout problème pertinent relatif à la\nsécurité de ce processus."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11",
+      "content": "Un service de validation qualifié des signatures\nélectroniques qualifiées ne peut être fourni que par un\nprestataire de services de confiance agréé qui :\n– fournit une validation conformément aux dispositions\nde l’article 10 ci-dessus ;\n– et permet à la partie utilisatrice de recevoir le résultat\ndu processus de validation d’une manière automatisée,\nfiable, efficace et portant la signature électronique\navancée ou le cachet électronique avancé dudit\nprestataire."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12",
+      "content": "Un service de conservation qualifié des signatures\nélectroniques qualifiées ne peut être fourni que par un\nprestataire de services de confiance agréé qui utilise des\nprocédures et des technologies permettant d’étendre la fiabilité\ndes signatures électroniques qualifiées au-delà de la validité\ntechnologique.\nSous-section 2. – Du cachet électronique"
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13",
+      "content": "Un cachet électronique est un cachet soit simple, avancé\nou qualifié."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14",
+      "content": "Un cachet électronique avancé est un cachet électronique\nsimple tel que défini à l’article 2 de la présente loi, qui satisfait\naux conditions suivantes :\n– être propre au créateur du cachet de manière univoque ;\n– permettre d’identifier le créateur du cachet ;\n– avoir été créé à l’aide de données de création de cachet\nélectronique que le créateur du cachet peut utiliser sous\nson contrôle, avec un niveau de confiance élevé défini\npar l’autorité nationale ;\n– reposer sur un certificat électronique ou tout procédé\njugé équivalent fixé par voie réglementaire ;\n– et être lié aux données auxquelles il est associé de telle\nsorte que toute modification ultérieure des données soit\ndétectable."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15",
+      "content": "Un cachet électronique qualifié est un cachet électronique\navancé qui doit être produit par un dispositif qualifié de\ncréation de cachet électronique prévu à l’article 17 ci-après,\net qui repose sur un certificat qualifié de cachet électronique\ntel que prévu à l’article 18 ci-dessous.\nUn cachet électronique qualifié bénéficie d’une\nprésomption de l’intégrité des données et de l’exactitude de\nl’origine des données auxquelles le cachet électronique qualifié\nest lié."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Article 16",
+      "content": "L’effet juridique et la recevabilité d’un cachet électronique\nsimple ou avancé comme preuve en justice ne peuvent être\nrefusés au seul motif que ce cachet se présente sous une forme\nélectronique ou qu’il ne satisfait pas aux exigences du cachet\nélectronique qualifié visé à l’article 15 ci-dessus."
+    },
+    {
+      "provision_ref": "art17",
+      "section": "17",
+      "title": "Article 17",
+      "content": "Un dispositif qualifié de création de cachet électronique\nest un dispositif de création de cachet électronique attesté par\nun certificat de conformité délivré par l’autorité nationale. Ce\ndispositif doit satisfaire aux exigences ci-après :\n– garantir par des moyens techniques et des procédures\nappropriés que les données de création du cachet\nélectronique ne peuvent être trouvés par déduction et\nque le cachet électronique est protégé de manière fiable\ncontre toute falsification par des moyens techniques\ndisponibles ;\n– garantir par des moyens techniques et des procédures\nappropriés que les données de création du cachet\nélectronique ne peuvent être établies plus d’une fois\net que leur confidentialité est assurée et être protégées\nde manière satisfaisante par le créateur du cachet\nélectronique contre toute utilisation par des tiers ;\n– n’entraîner aucune altération ou modification du\ncontenu du document électronique à cacheter et ne pas\nfaire obstacle à ce que le créateur du cachet en ait une\nconnaissance exacte avant de le cacheter.\nEn outre, la génération ou la gestion de données de\ncréation de cachet électronique qualifié pour le compte du\ncréateur de cachet ne peut être confiée qu’à un prestataire de\nservices de confiance agréé conformément à l’article 33 de la\nprésente loi.\nLa liste des dispositifs qualifiés de création de cachet\nélectronique est publiée sur le site internet de l’autorité\nnationale.\nNº 6970 – 4 chaabane 1442 (18-3-2021)"
+    },
+    {
+      "provision_ref": "art23",
+      "section": "23",
+      "title": "Article 23",
+      "content": "Le certificat qualifié de cachet électronique est délivré\npar un prestataire de services de confiance agréé et comporte\ndes données et informations fixées par voie réglementaire.\n\nL’horodatage électronique simple consiste en des\ndonnées sous forme électronique qui associent d’autres\ndonnées sous forme électronique à un instant particulier et\nétablissent la preuve que ces dernières données existaient audit\ninstant."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "Article 19",
+      "content": "Le processus de validation d’un cachet électronique\nqualifié confirme la validité dudit cachet à condition que :\n– le certificat sur lequel repose le cachet ait été, au moment\nde la création du cachet, un certificat qualifié de cachet\nélectronique conformément à l’article 18 ci-dessus ;\n– le certificat qualifié ait été délivré par un prestataire de\nservices de confiance agréé et était valide au moment\nde la création du cachet ;"
+    },
+    {
+      "provision_ref": "art24",
+      "section": "24",
+      "title": "Article 24",
+      "content": "L’horodatage électronique qualifié est un horodatage\nélectronique simple qui satisfait aux conditions suivantes :\n– lier la date et l’heure aux données de manière à exclure\nla possibilité de modification indétectable des données ;\n– être fondé sur une horloge exacte liée au temps universel\ncoordonné et ;\n\n– les données de validation du cachet électronique\ncorrespondent aux données communiquées à la partie\nutilisatrice ;\n\n– être signé au moyen d’une signature électronique\navancée ou cacheté au moyen d’un cachet électronique\navancé du prestataire de services de confiance agréé.\n\n– l’ensemble unique de données représentant le créateur du\ncachet électronique dans le certificat soit correctement\nfourni à la partie utilisatrice ;\n\nUn horodatage électronique qualifié bénéficie d’une\nprésomption de l’exactitude de la date et de l’heure qu’il\nindique et de l’intégrité des données auxquelles se rapportent\ncette date et cette heure.\n\n– le cachet électronique ait été créé par un dispositif\nqualifié de création de cachet électronique et les\nconditions prévues à l’article 14 de la présente loi aient\nété satisfaites au moment de la création du cachet ;\n– l’intégrité des données cachetées n’ait pas été\ncompromise."
+    },
+    {
+      "provision_ref": "art25",
+      "section": "25",
+      "title": "Article 25",
+      "content": "L’effet juridique et la recevabilité d’un horodatage\nélectronique simple comme preuve en justice ne peuvent être\nrefusés au seul motif que cet horodatage se présente sous une\nforme électronique ou qu’il ne satisfait pas aux exigences de\nl’horodatage électronique qualifié visé à l’article 24 ci-dessus.\n\nEn outre, le système utilisé pour valider le cachet\nélectronique qualifié doit fournir à la partie utilisatrice le\nrésultat correct du processus de validation et permet à celleci de détecter tout problème pertinent relatif à la sécurité de\nce processus.\n\nUn service d’envoi recommandé électronique est un\nservice d’envoi recommandé électronique simple ou qualifié."
+    },
+    {
+      "provision_ref": "art27",
+      "section": "27",
+      "title": "Article 27",
+      "content": "Un service de validation qualifié de cachets électroniques\nqualifiés ne peut être fourni que par un prestataire de services\nde confiance agréé qui :\n\nLe service d’envoi recommandé électronique simple\npermet de transmettre des données par voie électronique,\nfournit des preuves concernant le traitement des données\ntransmises, y compris la preuve de leur envoi et de leur\nréception, et protège les données transmises contre les risques\nde perte, de vol, d’altération ou de toute modification non\nautorisée.\n\n– fournit une validation conformément à l’article 19\nci-dessus ;\n– permet à la partie utilisatrice de recevoir le résultat\ndu processus de validation d’une manière automatisée,\nfiable, efficace et portant sa signature électronique\navancée ou son cachet électronique avancé."
+    },
+    {
+      "provision_ref": "art21",
+      "section": "21",
+      "title": "Article 21",
+      "content": "Un service de conservation qualifié des cachets\nélectroniques qualifiés ne peut être fourni que par un\nprestataire de services de confiance agréé qui utilise des\nprocédures et des technologies permettant d’étendre la fiabilité\ndes cachets électroniques qualifiés au-delà de la période de\nvalidité technologique.\nSous-section 3. – De l’horodatage électronique"
+    },
+    {
+      "provision_ref": "art22",
+      "section": "22",
+      "title": "Article 22",
+      "content": "Un horodatage électronique est un horodatage simple\nou qualifié.\n\nSous-section 4. – Du service d’envoi recommandé électronique"
+    },
+    {
+      "provision_ref": "art28",
+      "section": "28",
+      "title": "Article 28",
+      "content": "Le service d’envoi recommandé électronique qualifié\nest un service d’envoi recommandé électronique simple qui\nsatisfait aux conditions suivantes :\n– être fourni par un ou plusieurs prestataires de services\nde confiance agréés ;\n– garantir l’identification de l’expéditeur avec un degré de\nconfiance élevé, défini par l’autorité nationale ;\n– garantir l’identification du destinataire avant la\nfourniture des données ;\n– sécuriser l’envoi et la réception de données par une\nsignature électronique avancée ou par un cachet\nélectronique avancé, de manière à exclure toute\npossibilité de modification indétectable des données ;\nBULLETIN OFFICIEL\n– signaler clairement à l’expéditeur et au destinataire\ntoute modification des données nécessaire pour l’envoi\nou la réception de celles-ci ;\n\nb).utiliser des systèmes, matériels et logiciels fiables\net assurer leur sécurité technique et la fiabilité des\nprocessus pris en charge ;\n\n– indiquer par un horodatage électronique qualifié, la\ndate et l’heure d’envoi et de réception ainsi que toute\nmodification des données.\n\nc).employer du personnel, et le cas échéant recourir aux\nsous-traitants, ayant l’expérience et les qualifications\nnécessaires dans le domaine de la fourniture des\nservices de confiance ;\n\nLes données envoyées et reçues au moyen d’un service\nd’envoi recommandé électronique qualifié bénéficient d’une\nprésomption quant à l’intégrité desdites données, à l’envoi de\nces données par l’expéditeur identifié et à leur réception par le\ndestinataire identifié, et à l’exactitude de la date et de l’heure\nde l’envoi et de la réception indiquées par ledit service."
+    },
+    {
+      "provision_ref": "art29",
+      "section": "29",
+      "title": "Article 29",
+      "content": "L’effet juridique et la recevabilité des données\nenvoyées et reçues à l’aide d’un service d’envoi recommandé\nélectronique simple comme preuve en justice ne peuvent être\nrefusés au seul motif que ce service se présente sous une forme\nélectronique ou qu’il ne satisfait pas aux exigences du service\nd’envoi recommandé électronique qualifié prévue à l’article 28\nci-dessus.\nSous-section 5. – De l’authentification d’un site internet"
+    },
+    {
+      "provision_ref": "art30",
+      "section": "30",
+      "title": "Article 30",
+      "content": "L’authentification d’un site internet est assurée à travers\nun certificat qualifié d’authentification dudit site.\nCe certificat électronique permet de s’assurer de la\nvéracité du site internet et de l’associer à la personne physique\nou morale à laquelle le certificat est délivré. Il ne peut être\ndélivré que par un prestataire de services de confiance agréé."
+    },
+    {
+      "provision_ref": "art31",
+      "section": "31",
+      "title": "Article 31",
+      "content": "Le certificat qualifié d’authentification du site internet\ncontient les catégories de données relatives :\n– au prestataire de services de confiance agréé délivrant\nle certificat qualifié ;\n– à la personne physique ou morale à qui le certificat a\nété délivré et le ou les noms de domaine exploités par\ncette personne ;\n– au code d’identité et à la validité du certificat qualifié.\nLa liste desdites données est fixée par voie réglementaire.\nSection II. – Des prestataires de services de confiance"
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "Section II. – Des prestataires de services de confiance",
+      "section": "32",
+      "title": "Article 32",
+      "content": "S\n. euls les prestataires de services de confiance agréés\ndans les conditions fixées par la présente loi et les textes pris\npour son application peuvent fournir un service de confiance\nqualifié, émettre et délivrer les certificats électroniques\nqualifiés et gérer les opérations y afférentes."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Section II. – Des prestataires de services de confiance",
+      "section": "33",
+      "title": "Article 33",
+      "content": "Pour pouvoir être agréé, le prestataire de services de\nconfiance doit :\n1 - remplir les conditions suivantes :\na) être constitué sous forme de société de droit marocain ;\n\nd).souscrire une assurance afin de couvrir les dommages\nqui pourraient être causés à toute personne physique\nou morale résultant de sa faute professionnelle ;\ne).disposer d’un plan de continuité d’activités intégrant\nl’ensemble des solutions de secours pour neutraliser\nles interruptions des activités, protéger les processus\nmétier des effets causés par les principales défaillances\ndes systèmes ou par des sinistres et garantir une reprise\nde ces processus dans les meilleurs délais ;\n2 - s’engager à :\na) informer de manière claire et exhaustive, avant d’établir\nune relation contractuelle, toute personne désireuse\nd’utiliser un service de confiance qualifié des conditions\nrelatives à l’utilisation de ce service, y compris toute\nlimite quant à son utilisation ;\nb) ê. tre en mesure de conserver, éventuellement sous\nforme électronique, certaines données échangées avec\nles clients pour la fourniture des services de confiance,\nde manière que :\n– l’introduction et la modification des données soient\nréservées aux seules personnes autorisées à cet effet\npar le prestataire ;\n– l’accès du public aux données ne puisse avoir lieu sans\nle consentement préalable du client concerné ;\n– toute modification de nature à compromettre la sécurité\ndes données soit détectée ;\nOutre les conditions et engagements prévues ci-dessus,\nle prestataire de services de confiance qui entend délivrer des\ncertificats électroniques qualifiés doit :\n1) s’engager à vérifier, par des moyens appropriés,\nl’identité et, le cas échéant, toutes les informations\npropres à la personne physique ou morale à laquelle\nil délivre le certificat électronique. Ces informations\nsont vérifiées:\na) p\n. ar la présence en personne de la personne physique\nou du représentant autorisé par la personne morale ;\nb) à distance, à l’aide de moyens d’identification\nélectronique dont la délivrance a nécessité la présence\nphysique de la personne physique ou du représentant\nautorisé de la personne morale devant l’entité ayant\ndélivré ce moyen. Ces moyens sont fixés par voie\nréglementaire ;\nc) au moyen d’un certificat électronique qualifié de\nsignature électronique ou de cachet électronique\nprécédemment délivré à une personne dont l’identité a\nété vérifiée conformément au a) ou b) du présent alinéa ; ou\nd) à l’aide d’autres méthodes d’identification qui\nfournissent une garantie jugée équivalente par l’autorité\nnationale aux moyens précités en terme de fiabilité\nquant à la présence en personne.\nPar dérogation aux dispositions de l’article 32 ci-dessus,\nces informations peuvent être vérifiées par un tiers dans le\ncadre d’un contrat de sous-traitance liant ce dernier avec le\nprestataire concerné et approuvé par l’autorité nationale.\n2) .permettre à la personne à qui le certificat électronique\na été délivré de révoquer sans délai et avec certitude son\ncertificat, veiller à ce que la date et l’heure de délivrance\net de révocation du certificat électronique puissent\nêtre déterminées avec précision et publier le statut du\ncertificat dès sa révocation ;\n3).fournir à toute partie utilisatrice des informations sur\nla validité des certificats qualifiés qu’il a délivrés ou le\nstatut de leur révocation et maintenir ces informations\ndisponibles à tout moment et au-delà de la période de\nvalidité des certificats.\nLes modalités d’application du présent article sont fixées\npar voie réglementaire."
+    },
+    {
+      "provision_ref": "art34",
+      "section": "34",
+      "title": "Article 34",
+      "content": "Par dérogation aux dispositions du a) du 1) du premier\nalinéa de l’article 33 ci-dessus, l’autorité nationale peut, et\nsous réserve de l’intérêt du service public, agréer les personnes\nmorales de droit public pour fournir les services de confiance\ndans les conditions fixées par la présente loi et les textes pris\npour son application."
+    },
+    {
+      "provision_ref": "art35",
+      "section": "35",
+      "title": "Article 35",
+      "content": "Toute personne qui se propose de fournir des services\nde confiance autres que qualifiés doit se déclarer au préalable\nauprès de l’autorité nationale.\nLes modalités de la déclaration préalable sont fixées par\nvoie réglementaire."
+    },
+    {
+      "provision_ref": "art36",
+      "section": "36",
+      "title": "Article 36",
+      "content": "Les services de confiance qualifiés fournis par un\nprestataire de services de confiance, établi dans un pays\nétranger ont la même valeur juridique que ceux fournis par\nun prestataire de services de confiance établi sur le territoire\nnational, si le service de confiance ou le prestataire de services\nde confiance est reconnu dans le cadre d’un accord multilatéral\nauquel le Royaume du Maroc est partie ou d’un accord\nbilatéral de reconnaissance réciproque entre le Royaume du\nMaroc et le pays d’établissement du prestataire."
+    },
+    {
+      "provision_ref": "art37",
+      "section": "37",
+      "title": "Article 37",
+      "content": "Le prestataire de services de confiance informe\npréalablement l’autorité nationale, dans un délai minimum\nde deux mois, avant de mettre fin à ses activités.\nDans ce cas, il doit s’assurer de la reprise de celles-ci\npar un prestataire de services de confiance garantissant un\nmême niveau de qualité et de sécurité ou, à défaut, révoque\nles certificats dans un délai maximum de deux mois après en\navoir averti les titulaires.\nIl informe également l’autorité nationale, sans délai, de\nl’arrêt de ses activités en cas de liquidation judiciaire."
+    },
+    {
+      "provision_ref": "art38",
+      "section": "38",
+      "title": "Article 38",
+      "content": "Les prestataires de services de confiance et leurs\nemployés sont astreints au respect du secret professionnel,\nsous peine des sanctions prévues par la législation en vigueur.\nL’obligation de secret professionnel ne peut être invoquée :\n– à l’égard des autorités administratives, dûment habilitées\nconformément à la législation en vigueur ;\n– à l’égard des agents de l’autorité nationale et experts\nmandatés par elle, ainsi que les officiers visés à l’article\n59 ci-dessous dans l’exercice des missions prévues aux\narticles 56, 59 et 60 de la présente loi ;\n– si le client du prestataire de services de confiance a\nconsenti à la publication ou à la communication des\nrenseignements fournis auparavant au prestataire de\nservices de confiance."
+    },
+    {
+      "provision_ref": "art39",
+      "section": "39",
+      "title": "Article 39",
+      "content": "Les prestataires de services de confiance doivent\nconserver les données relatives à la fourniture du service de\nconfiance et sont tenus de les communiquer aux autorités\njudiciaires et ce, dans les conditions prévues par la législation\nen vigueur. Dans ce cas, et nonobstant toute disposition\nlégislative contraire, les prestataires de services de confiance\nen informent, sans délai, la partie utilisatrice concernée."
+    },
+    {
+      "provision_ref": "art40",
+      "section": "40",
+      "title": "Article 40",
+      "content": "Les prestataires de services de confiance agréés et\nnon agréés notifient, immédiatement après en avoir eu\nconnaissance, à l’autorité nationale toute atteinte à la sécurité\nou toute perte d’intégrité ayant une incidence sur le service\nde confiance fourni ou sur les données à caractère personnel\nqui y sont conservées.\nLorsque l’atteinte à la sécurité ou la perte d’intégrité\nest susceptible de porter préjudice à une personne physique\nou morale à laquelle le service de confiance a été fourni, le\nprestataire de services de confiance en informe, sans délai,\nladite personne.\nSection III. – Des obligations du titulaire de certificat électronique"
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Section III. – Des obligations du titulaire de certificat électronique",
+      "section": "41",
+      "title": "Article 41",
+      "content": "Dès le moment de la création des données afférentes à\nla création de la signature électronique qualifiée ou du cachet\nélectronique qualifié, le titulaire du certificat électronique\nqualifié est seul responsable de la confidentialité et de\nl’intégrité desdites données, lorsque celles-ci se trouvent dans\nson dispositif qualifié de création de la signature ou du cachet\nprécités. Toute utilisation de celles-ci est réputée, sauf preuve\ncontraire, être son fait."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Section III. – Des obligations du titulaire de certificat électronique",
+      "section": "42",
+      "title": "Article 42",
+      "content": "Le titulaire du certificat électronique est tenu de\nnotifier, dans les meilleurs délais, au prestataire de services\nde confiance toute modification des informations contenues\ndans ce certificat."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Section III. – Des obligations du titulaire de certificat électronique",
+      "section": "43",
+      "title": "Article 43",
+      "content": "En cas de doute quant au maintien de la confidentialité\ndes données afférentes à la création de la signature électronique\nou du cachet électronique ou de perte de conformité à la réalité\ndes informations contenues dans le certificat, son titulaire est\ntenu de le faire révoquer immédiatement."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Section III. – Des obligations du titulaire de certificat électronique",
+      "section": "44",
+      "title": "Article 44",
+      "content": "Lorsqu’un certificat électronique est arrivé à échéance\nou a été révoqué, son titulaire ne peut plus utiliser ledit\ncertificat ni les données afférentes à la création de la signature\nélectronique ou du cachet électronique correspondantes audit\ncertificat pour créer une signature électronique ou un cachet\nBULLETIN OFFICIEL\n\nélectronique ou pour obtenir un nouveau certificat par un\nautre prestataire de services de confiance sur la base de ces\ndonnées.\nChapitre II\nDes moyens et prestations de cryptologie"
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Chapitre II",
+      "section": "45",
+      "title": "Article 45",
+      "content": "Un moyen de cryptologie consiste en tout matériel\nou logiciel conçu ou modifié pour transformer des données\nélectroniques, qu’il s’agisse d’informations, de signaux ou de\nsymboles, à l’aide de conventions secrètes ou pour réaliser\nl’opération inverse, avec ou sans convention secrète.\nIl a notamment pour objet de garantir la sécurité de\nl’échange ou du stockage de données par voie électronique,\nde manière qui permet d’assurer leur confidentialité, leur\nauthentification et le contrôle de leur intégrité.\nLa prestation de cryptologie est toute opération visant\nla mise en œuvre, pour le compte d’autrui, des moyens de\ncryptologie."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Chapitre II",
+      "section": "46",
+      "title": "Article 46",
+      "content": "Toute modification de l’un des éléments sur la base\ndesquels l’autorisation a été délivrée doit être communiquée\nà l’autorité nationale dans un délai ne dépassant pas huit (8)\njours de sa survenance."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "Chapitre II",
+      "section": "49",
+      "title": "Article 49",
+      "content": "L’autorisation peut être suspendue pour une durée\nqui ne peut excéder trois (3) mois en cas de modification des\nprescriptions sur la base desquelles l’autorisation a été délivrée."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Chapitre II",
+      "section": "50",
+      "title": "Article 50",
+      "content": "L’autorisation est retirée dans les cas suivants :\n– en cas de fausses informations données pour l’obtention\nde l’autorisation ;\n– lorsque le titulaire de l’autorisation n’a pas respecté les\ndispositions de la présente loi et des textes pris pour\nson application ;\n– lorsque, suite à une décision de suspension, le titulaire\nde l’autorisation ne s’est pas conformé aux prescriptions\nindiquées dans ladite décision ;\n\nAfin de préserver les intérêts de la défense nationale\net de la sécurité de l’Etat, l’importation, l’exportation et la\nfourniture de moyens de cryptologie, ainsi que la fourniture\nde prestations de cryptologie sont soumises :\n\n– lorsque le titulaire de l’autorisation cesse l’exercice de\nl’activité pour laquelle lui a été délivrée l’autorisation.\n\na).à déclaration préalable auprès de l’autorité nationale,\nlorsque ce moyen ou cette prestation a pour unique objet\nd’authentifier une transmission ou d’assurer l’intégrité\ndes données transmises par voie électronique ;\n\nSauf à démontrer qu’ils n’ont commis aucune faute\nintentionnelle ou négligence, les fournisseurs de prestations\nde cryptologie à des fins de confidentialité sont responsables,\nau titre de ces prestations, du préjudice causé aux personnes\nleur confiant la gestion de leurs conventions secrètes en cas\nd’atteintes à l’intégrité, à la confidentialité ou à la disponibilité\ndes données transformées à l’aide de ces conventions.\n\nb).à autorisation de l’autorité nationale lorsqu’il s’agit\nd’un autre objet que celui visé au paragraphe a) cidessus.\nSont fixées par voie réglementaire les modalités selon\nlesquelles est souscrite la déclaration et délivrée l’autorisation.\nSont dispensés de la déclaration ou de l’autorisation\nprécités certains types de moyens ou de prestations de\ncryptologie, dont la liste est fixée par voie réglementaire.\nLes organes chargés de la défense nationale et de la\nsécurité de l’Etat ne sont pas soumis aux régimes de déclaration\net d’autorisation prévus au présent article."
+    },
+    {
+      "provision_ref": "art47",
+      "section": "47",
+      "title": "Article 47",
+      "content": "La déclaration préalable prévue à l’article 46 ci-dessus\nest déposée, contre accusé de réception, au moins trente (30)\njours avant la date prévue pour la réalisation de l’opération\nconcernée par cette déclaration.\nToute modification de l’un des éléments sur la base\ndesquels la déclaration a été effectuée doit être communiquée\nà l’autorité nationale dans un délai ne dépassant pas huit (8)\njours de sa survenance."
+    },
+    {
+      "provision_ref": "art48",
+      "section": "48",
+      "title": "Article 48",
+      "content": "L’autorisation prévue à l’article 46 ci-dessus, porte\nles mentions propres à identifier son titulaire et indique son\nnuméro, la date de sa délivrance et la durée de sa validité ainsi\nque les moyens ou les prestations pour lesquels elle est délivrée.\nLa durée de l’autorisation ne peut dépasser cinq (5) ans."
+    },
+    {
+      "provision_ref": "art51",
+      "section": "51",
+      "title": "Article 51",
+      "content": "Chapitre III\nDe l’autorité nationale des services de confiance\npour les transactions électroniques"
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "Chapitre III",
+      "section": "52",
+      "title": "Article 52",
+      "content": "L’autorité nationale des services de confiance pour\nles transactions électroniques a pour mission, outre les\nattributions qui lui sont dévolues en vertu d’autres articles de\nla présente loi de :\n– fixer les normes et référentiels applicables auxdits\nservices de confiance et de prendre les mesures\nnécessaires à leur mise en œuvre ;\n– agréer les prestataires de services de confiance qualifiés\net de contrôler leurs activités ;\n– contrôler a posteriori les prestataires de services de\nconfiance non agréés ;\n– proposer les projets de textes législatifs et réglementaires\nrelatifs aux services de confiance pour les transactions\nélectroniques."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Chapitre III",
+      "section": "53",
+      "title": "Article 53",
+      "content": "L’autorité nationale publie un extrait de la décision\nd’agrément au « Bulletin officiel » et tient un registre des\nprestataires de services de confiance agréés, qui fait l’objet, à\nla fin de chaque année, d’une publication au « Bulletin officiel ».\nL’autorité nationale publie sur son site internet la liste\ndes prestataires de services de confiance agréés et la liste de\nceux non agréés ayant effectué leurs déclarations préalables\nprévues à l’article 35 de la présente loi."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "Chapitre III",
+      "section": "54",
+      "title": "Article 54",
+      "content": "L’autorité nationale s’assure du respect, par les\nprestataires de services de confiance, des engagements prévus\npar les dispositions de la présente loi et des textes pris pour\nson application."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "Chapitre III",
+      "section": "55",
+      "title": "Article 55",
+      "content": "L’autorité nationale peut, soit d’office, soit à la demande\nde toute personne intéressée, contrôler ou faire contrôler\nla conformité des activités d’un prestataire de services de\nconfiance aux dispositions de la présente loi et des textes pris\npour son application. Elle peut avoir recours à des experts\npour la réalisation de ses missions de contrôle.\nLes frais inhérents aux opérations de contrôle sont à la\ncharge du prestataire de services de confiance."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "Chapitre III",
+      "section": "56",
+      "title": "Article 56",
+      "content": "Dans l’accomplissement de leur mission de contrôle,\nprévue à l’article 55 ci-dessus, les agents de l’autorité nationale,\nainsi que les experts mandatés par elle ont, sur justification\nde leurs qualités, le droit d’accéder à tout établissement et\nde prendre connaissance de tous mécanismes et moyens\ntechniques relatifs aux services de confiance qu’ils estiment\nutiles ou nécessaires à l’accomplissement de leur mission.\nA l’issue de cette mission de contrôle, les agents\nétablissent un rapport au vu duquel l’autorité nationale prend,\nle cas échéant, les mesures prévues à l’article 61 ci-dessous."
+    },
+    {
+      "provision_ref": "art57",
+      "section": "57",
+      "title": "Article 57",
+      "content": "Sous peine des sanctions prévues par le code pénal, les\nagents de l’autorité nationale et les experts prévus à l’article\n56 ci-dessus sont astreints au secret professionnel pour toute\ninformation dont ils ont eu connaissance à l’occasion de\nl’exercice de la mission de contrôle."
+    },
+    {
+      "provision_ref": "art58",
+      "section": "58",
+      "title": "Article 58",
+      "content": "Lorsque les activités d’un prestataire de services de\nconfiance sont de nature à porter atteinte aux exigences de\nla défense nationale ou de la sécurité de l’Etat, l’autorité\nnationale est habilitée à prendre toutes mesures conservatoires\nnécessaires pour faire cesser lesdites activités, sans préjudice\ndes poursuites pénales qu’elles appellent.\nChapitre IV\nDe la recherche, de la constatation des infractions et des\nsanctions qui leur sont applicables"
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "Chapitre IV",
+      "section": "59",
+      "title": "Article 59",
+      "content": "Outre les officiers de la police judiciaire et les agents\nde l’administration des douanes et impôts indirects agissant\nconformément à leurs attributions, sont habilités à rechercher\net à constater, par procès-verbaux, les infractions aux\ndispositions de la présente loi et des textes pris pour son\napplication, les agents de l’autorité nationale commissionnés\nà cet effet et assermentés conformément à la législation en\nvigueur.\nLes procès-verbaux de constatation des infractions\nsont adressés au ministère public compétent, dans un délai\nne dépassant pas huit (8) jours à compter de la date de leur\nétablissement."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "Chapitre IV",
+      "section": "60",
+      "title": "Article 60",
+      "content": "Outre les prérogatives dévolues aux agents de l’autorité\nnationale au titre des missions de contrôle prévues à l’article 55\nci-dessus, ils peuvent également accéder aux locaux, terrains\nou moyens de transport à usage professionnel, demander\nla communication de tous documents professionnels et en\nprendre copie, recueillir, sur convocation ou sur place, les\nrenseignements et justifications.\nIls peuvent procéder à la saisie de tout produit, objet,\ndocument ou moyen de transport se rapportant à l’infraction\nconstatée. Les produits, objets, documents ou moyens de\ntransport saisis font l’objet d’un inventaire annexé au procèsverbal de constatation de l’infraction."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "Chapitre IV",
+      "section": "61",
+      "title": "Article 61",
+      "content": "Lorsque, sur le rapport de ses agents, l’autorité nationale\nconstate que le prestataire de services de confiance agréé ne\nrépond plus à l’une des conditions prévues à l’article 33 de la\nprésente loi ou que ses activités ne sont pas conformes aux\ndispositions de ladite loi ou des textes pris pour son application,\nelle le met en demeure de se conformer auxdites conditions\nou dispositions, dans le délai qu’elle fixe.\nPassé ce délai, si le prestataire ne s’est pas conformé à\nladite mise en demeure, l’autorité nationale retire l’agrément\net procède à la radiation du prestataire du registre des\nprestataires agréés et à la publication au «Bulletin officiel »\nd’un extrait de la décision de retrait de l’agrément."
+    },
+    {
+      "provision_ref": "art62",
+      "section": "62",
+      "title": "Article 62",
+      "content": "Est puni d’un emprisonnement de trois (3) mois à un (1)\nan et d’une amende de 100.000 à 500.000 dirhams, quiconque\na fourni des services de confiance qualifiés sans être agréé\nconformément aux dispositions de l’article 33 de la présente\nloi ou a continué son activité malgré le retrait de son agrément\nou a émis, délivré ou géré des certificats électroniques qualifiés\nen violation des dispositions de l’article 32 de la même loi."
+    },
+    {
+      "provision_ref": "art63",
+      "section": "63",
+      "title": "Article 63",
+      "content": "Est puni d’une amende de 50.000 à 100.000 dirhams,\nquiconque a fourni un service de confiance autre que qualifié\nsans faire la déclaration prévue à l’article 35 de la présente loi."
+    },
+    {
+      "provision_ref": "art64",
+      "section": "64",
+      "title": "Article 64",
+      "content": "Sans préjudice des sanctions pénales plus graves prévues\npar la législation en vigueur, est puni d’un emprisonnement\nd’un (1) mois à six (6) mois et d’une amende de 20.000 à\n50.000 dirhams tout prestataire de service de confiance ou ses\nemployés qui divulguent, incitent ou participent à divulguer\nles informations qui leur sont confiées dans le cadre de\nl’exercice de leurs activités ou fonctions, et ce en violation\ndes dispositions de l’article 38 de la présente loi."
+    },
+    {
+      "provision_ref": "art65",
+      "section": "65",
+      "title": "Article 65",
+      "content": "Sans préjudice des sanctions pénales plus graves prévues\npar la législation en vigueur, est puni d’un emprisonnement\nd’un (1) an à cinq (5) ans et d’une amende de 100.000 à 500.000\ndirhams, quiconque a fait sciemment de fausses déclarations\nou a remis de faux documents au prestataire de services de\nconfiance pour l’obtention d’un service de confiance.\nBULLETIN OFFICIEL"
+    },
+    {
+      "provision_ref": "art66",
+      "section": "66",
+      "title": "Article 66",
+      "content": "Sans préjudice des sanctions pénales plus graves prévues\npar la législation en vigueur, est puni de trois (3) mois à un (1)\nan d’emprisonnement et d’une amende de 50.000 à 100.000\ndirhams, quiconque a importé, exporté, fourni l’un des moyens\nou une prestation de cryptologie sans procéder à la déclaration\nou obtenir l’autorisation prévues à l’article 46 de la présente loi.\nLe tribunal peut, en outre, prononcer la confiscation des\nmoyens de cryptologie concernés.\n– ne respecte pas l’obligation de notification à l’autorité\nnationale prévue à l’article 40 de la présente loi ;\n– ne conserve pas les données relatives à la fourniture du\nservice de confiance, ne communique pas aux autorités\njudiciaires lesdites données ou n’en informe pas la\npartie utilisatrice, conformément aux dispositions de\nl’article 39 de la présente loi, et ce sans préjudice des\nsanctions pénales plus graves."
+    },
+    {
+      "provision_ref": "art71",
+      "section": "71",
+      "title": "Article 71",
+      "content": "Est puni d’un emprisonnement de un (1) mois à six (6)\nmois et d’une amende de 50.000 à 100.000 dirhams, le déclarant\nou le titulaire de l’autorisation qui manque à l’obligation de\ncommunication à l’autorité nationale de toute modification\nde l’un des éléments sur la base desquels la déclaration a été\neffectuée ou l’autorisation a été délivrée, prévues à l’article 46\nde la présente loi.\n\nEst puni d’un emprisonnement de six (6) mois à deux\n(2) ans et d’une amende de 10.000 à 100.000 dirhams, tout\ntitulaire d’un certificat électronique arrivé à échéance ou\nrévoqué qui continue à utiliser ledit certificat ou les données\nafférentes à la création de la signature électronique ou du\ncachet électronique correspondantes audit certificat, et ce en\nviolation des dispositions de l’article 44 de la présente loi."
+    },
+    {
+      "provision_ref": "art72",
+      "section": "72",
+      "title": "Article 72",
+      "content": "Lorsqu’un moyen de cryptologie a été utilisé pour\npréparer ou commettre un crime ou un délit ou pour en\nfaciliter la préparation ou la commission, le maximum de la\npeine privative de liberté encourue est relevé ainsi qu’il suit :\n\nSans préjudice des sanctions pénales plus graves\nprévues par la législation en vigueur, est puni d’une amende\nde 50.000 à 500.000 dirhams quiconque utilise indûment, une\nraison sociale, une publicité et, de manière générale, toute\nexpression faisant croire qu’il est agréé pour fournir un service\nde confiance conformément aux dispositions de l’article 33 de\nla présente loi.\n\n– il est porté à la réclusion à perpétuité, lorsque l’infraction\nest punie de trente ans de réclusion ;\n– il est porté à trente ans de réclusion, lorsque l’infraction\nest punie de vingt ans de réclusion ;\n– il est porté à vingt ans de réclusion, lorsque l’infraction\nest punie de quinze ans de réclusion ;\n– il est porté à quinze ans de réclusion, lorsque l’infraction\nest punie de dix ans de réclusion ;\n– il est porté à dix ans de réclusion, lorsque l’infraction\nest punie de cinq ans de réclusion ;\n– il est porté au double, lorsque l’infraction est punie de\ntrois ans d’emprisonnement au plus.\nToutefois, les dispositions du présent article ne sont\npas applicables à l’auteur, au coauteur ou au complice de\nl’infraction qui, à la demande des autorités judiciaires ou\nadministratives, leur a remis la version en clair des messages\nchiffrés, ainsi que les conventions secrètes nécessaires au\ndéchiffrement."
+    },
+    {
+      "provision_ref": "art68",
+      "section": "68",
+      "title": "Article 68",
+      "content": "Est puni d’un emprisonnement d’un (1) an à cinq (5)\nans et d’une amende de 10.000 à 100.000 dirhams, quiconque\nutilise, de manière illégale, les données de création de signature\nélectronique ou de cachet électronique d’autrui."
+    },
+    {
+      "provision_ref": "art69",
+      "section": "69",
+      "title": "Article 69",
+      "content": "Est puni d’un emprisonnement de trois (3) mois à six\n(6) mois et d’une amende de 10.000 à 100.000 dirhams, tout\nprestataire de services de confiance qui ne respecte pas\nl’obligation d’information de l’autorité nationale prévue à\nl’article 37 de la présente loi."
+    },
+    {
+      "provision_ref": "art70",
+      "section": "70",
+      "title": "Article 70",
+      "content": "Est puni d’une amende de 50.000 à 100.000 dirhams, tout\nprestataire de services de confiance qui :"
+    },
+    {
+      "provision_ref": "art73",
+      "section": "73",
+      "title": "Article 73",
+      "content": "Lorsque l’auteur de l’infraction est une personne morale,\net sans préjudice des peines qui peuvent être appliquées à ses\ndirigeants responsables de l’une des infractions prévues par\nla présente loi, les amendes prévues dans la même loi sont\nportées au double."
+    },
+    {
+      "provision_ref": "art74",
+      "section": "74",
+      "title": "Article 74",
+      "content": "En cas de récidive, les sanctions prévues par la présente\nloi sont portées au double.\nEst en état de récidive, quiconque ayant été condamné,\npar décision de justice ayant acquis la force de la chose jugée,\nà une peine pour une infraction aux dispositions de la présente\nloi, a commis la même infraction moins de quatre (4) ans après\nl’expiration de cette peine ou sa prescription.\nPour la détermination de la récidive, sont considérées\ncomme la même infraction toutes les infractions prévues par\nla présente loi."
+    },
+    {
+      "provision_ref": "art75",
+      "section": "75",
+      "title": "Article 75",
+      "content": "Les personnes déclarées responsables de l’une des\ninfractions à la présente loi peuvent en outre, être sanctionnées\ndes peines accessoires et des mesures de sûreté prévues par\nle code pénal.\nTITRE II\nDISPOSITIONS MODIFIANT LE CODE DES OBLIGATIONS\nET DES CONTRATS"
+    },
+    {
+      "provision_ref": "art76",
+      "chapter": "TITRE II",
+      "section": "76",
+      "title": "Article 76",
+      "content": "Sont modifiées les dispositions des articles 2-1 (troisième\nalinéa) et 417-3 (troisième alinéa) du dahir formant Code des\nobligations et des contrats du 9 ramadan 1331 (12 août 1913)\nainsi qu’il suit :\n« Article 2-1.– (troisième alinéa) : Toutefois, les actes\n« relatifs ………………………………. pour les besoins de sa\n« profession et les actes établis par les établissements de crédit\n« et organismes assimilés. »\n« Article 417-3. – (troisième alinéa) : Tout acte sur lequel\n« est apposée une signature électronique qualifiée et dont\n« l’horodatage électronique est qualifié, a la même force\n« ……………….. date certaine. »"
+    },
+    {
+      "provision_ref": "art77",
+      "chapter": "TITRE II",
+      "section": "77",
+      "title": "Article 77",
+      "content": "Le terme «sécurisée» employé dans les articles 417-3\n(premier et deuxième alinéa), 425 et 426 du dahir formant\nCode des obligations et des contrats est remplacé par le terme\n«qualifiée ».\nTITRE III\nDISPOSITIONS DIVERSES, TRANSITOIRES ET FINALES"
+    },
+    {
+      "provision_ref": "art78",
+      "chapter": "TITRE III",
+      "section": "78",
+      "title": "Article 78",
+      "content": "Est fixée par voie réglementaire la valeur des sûretés\npersonnelles ou réelles objet des actes sous-seing privé établis\npar les établissements de crédit et organismes assimilés, prévus\nà l’article 2.1 du Code des obligations et des contrats, auxquels\ns’appliquent obligatoirement la signature électronique avancée\nou qualifiée ou le cachet électronique avancé ou qualifié."
+    },
+    {
+      "provision_ref": "art79",
+      "chapter": "TITRE III",
+      "section": "79",
+      "title": "Article 79",
+      "content": "Les modalités d’application des dispositions de la\nprésente loi aux droits réels sont fixées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art80",
+      "chapter": "TITRE III",
+      "section": "80",
+      "title": "Article 80",
+      "content": "Un prestataire de services de certification électronique\nagréé, qui, à la date de l’entrée en vigueur de la présente loi,\ndélivre des certificats électroniques sécurisés conformément\naux dispositions de la loi n°53-05 relative à l’échange\nélectronique de données juridiques, doit se conformer aux\ndispositions de la présente loi dans un délai d’un an à compter\nde la date de son entrée en vigueur."
+    },
+    {
+      "provision_ref": "art81",
+      "chapter": "TITRE III",
+      "section": "81",
+      "title": "Article 81",
+      "content": "Le certificat de conformité d’un dispositif de création de\nsignature électronique délivré conformément aux dispositions\nde la loi n°53-05 relative à l’échange électronique de données\njuridiques demeure valable tant que ledit dispositif répond\naux exigences de la présente loi."
+    },
+    {
+      "provision_ref": "art82",
+      "chapter": "TITRE III",
+      "section": "82",
+      "title": "Article 82",
+      "content": "Les certif icats électroniques sécurisés délivrés\nconformément aux dispositions de la loi n°53-05 relative à\nl’échange électronique de données juridiques sont considérés\ncomme des certificats électroniques qualifiés au titre de la\nprésente loi jusqu’à leur expiration."
+    },
+    {
+      "provision_ref": "art83",
+      "chapter": "TITRE III",
+      "section": "83",
+      "title": "Article 83",
+      "content": "Le chapitre préliminaire et le titre II de la loi n°53-05\nrelative à l’échange électronique de données juridiques\npromulguée par le dahir n°1-07-129 du 19 kaada 1428\n(30 novembre 2007) sont abrogés."
+    },
+    {
+      "provision_ref": "art84",
+      "chapter": "TITRE III",
+      "section": "84",
+      "title": "Article 84",
+      "content": "La présente loi entre en vigueur à compter de la date\nde publication au Bulletin officiel des textes pris pour son\napplication.\nLe texte en langue arabe a été publié dans l’édition générale du\n« Bulletin officiel » n° 6951 du 27 joumada I 1442 (11 janvier 2021).\nArrêté conjoint du ministre de l’agriculture, de la pêche\nmaritime, du développement rural et des eaux et forêts et\ndu ministre de l’économie, des finances et de la réforme de\nl’administration n°2415-20 du 11 safar 1442 (29 septembre\n2020) octroyant une subvention à la commercialisation des\nsemences céréalières certifiées et des semences céréalières\nde génération ultérieure à la deuxième reproduction GUR2\nainsi que la prime de stockage au titre de la campagne\nagricole 2020-2021.\n\nL E MINISTRE DE L’AGRICULTURE, DE LA PÊCHE\nMARITIME, DU DÉVELOPPEMENT RURAL ET DES\nEAUX ET FORÊTS,\n\nLE MINISTRE DE L’ÉCONOMIE, DES FINANCES ET DE LA\nRÉFORME DE L’ADMINISTRATION,\n\nVu le dahir n° l-69-169 du 10 joumada I 1389 (25 juillet 1969)\nréglementant la production et la commercialisation de\nsemences et de plants, tel qu’il a été modifié par le dahir\nportant loi n° l-76-472 du 5 chaoual 1397 (19 septembre 1977),\nnotamment son article 7 ;\nVu l’arrêté du ministre de l’agriculture et de la pêche\nmaritime n° 2197-13 du 2 ramadan 1434 (11 juillet 2013) portant\nhomologation du règlement technique relatif à la production,\nau contrôle, au conditionnement et à la certification des\nsemences des céréales à paille (blé, orge, avoine, triticale,\nseigle et riz),\nARRÊTENT :\n\nChapitre premier\nSUBVENTION À LA COMMERCIALISATION\nDES SEMENCES CÉRÉALIÈRES"
+    },
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapitre premier",
+      "section": "1",
+      "title": "Article 1",
+      "content": "- Subventions aux semences d’origine\nnationale\nLes semences certifiées (catégories G3, G4, R1 et R2) de\nblé tendre, de blé dur et d’orge de production nationale issues\ndu stock de reports 2017, 2018 et 2019 ou des achats de la récolte\n2020, commercialisées par les sociétés semencières agréées\nau titre de la campagne agricole 2020-2021, bénéficieront de\nsubventions calculées en tenant compte des prix de vente\nsubventionnés maxima prévus à l’article 6 ci-dessous.\nLes semences «GUR2» de blé tendre, de blé dur et\nd’orge, commercialisées par les sociétés semencières agréées,\nau titre de la campagne agricole 2020-2021, bénéficieront des\nsubventions équivalentes à celles octroyées aux semences\ncertifiées, d’origine nationale des mêmes espèces calculées,\nen tenant compte des prix de vente subventionnés maxima\nprévus à l’article 8 ci-dessous.\nAu titre de la campagne agricole 2020/2021, la subvention\naccordée au quintal de semences céréalières certifiées de\nproduction nationale est déterminée sur la base du différentiel,\ndéduit par les sociétés agréées, entre les prix de reviens\nà l’hectare et des prix de vente subventionnés maxima des\nsemences céréalières de catégorie R2 prévus à l’article 6 cidessous, comme suit :"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

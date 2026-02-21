@@ -86,10 +86,10 @@ export const TOOLS: Tool[] = [
     name: 'get_provision',
     description:
       'Retrieve the full text of a specific provision (section) from a Moroccan statute. ' +
-      'Specify a document_id (Act title, abbreviation, or internal ID) and optionally a section or provision_ref. ' +
+      'Specify a document_id (law/decree title, abbreviation, or internal ID) and optionally a section or provision_ref. ' +
       'Omit section/provision_ref to get ALL provisions in the statute (use sparingly — can be large). ' +
       'Returns provision text, chapter, section number, and metadata. ' +
-      'Supports Act title references (e.g., "Privacy Act 1988"), abbreviations, and full titles. ' +
+      'Supports title references (e.g., "Loi n° 05-20"), abbreviations, and full titles. ' +
       'Use this when you know WHICH provision you want. For discovery, use search_legislation instead.',
     inputSchema: {
       type: 'object',
@@ -97,8 +97,8 @@ export const TOOLS: Tool[] = [
         document_id: {
           type: 'string',
           description:
-            'Statute identifier: Act title (e.g., "Privacy Act 1988"), abbreviation, ' +
-            'or internal document ID (e.g., "privacy-act-1988").',
+            'Statute identifier: law/decree title (e.g., "Loi n° 05-20"), abbreviation, ' +
+            'or internal document ID (e.g., "ma-loi-05-20").',
         },
         section: {
           type: 'string',
@@ -118,13 +118,13 @@ export const TOOLS: Tool[] = [
       'Validate a Moroccan legal citation against the database — zero-hallucination check. ' +
       'Parses the citation, checks that the document and provision exist, and returns warnings about status ' +
       '(repealed, amended). Use this to verify any citation BEFORE including it in a legal analysis. ' +
-      'Supports formats: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13", "s 13".',
+      'Supports formats: "Section 13 Loi n° 05-20", "Loi n° 05-20 s 13", "s 13".',
     inputSchema: {
       type: 'object',
       properties: {
         citation: {
           type: 'string',
-          description: 'Citation string to validate. Examples: "Section 13 Privacy Act 1988", "Privacy Act 1988 s 13".',
+          description: 'Citation string to validate. Examples: "Section 13 Loi n° 05-20", "Loi n° 05-20 s 13".',
         },
       },
       required: ['citation'],
@@ -161,8 +161,8 @@ export const TOOLS: Tool[] = [
     name: 'format_citation',
     description:
       'Format a Moroccan legal citation per standard conventions. ' +
-      'Three formats: "full" (formal, e.g., "Section 13, Privacy Act 1988"), ' +
-      '"short" (abbreviated, e.g., "Privacy Act 1988 s 13"), "pinpoint" (section reference only, e.g., "s 13").',
+      'Three formats: "full" (formal, e.g., "Section 13, Loi n° 05-20"), ' +
+      '"short" (abbreviated, e.g., "Loi n° 05-20 s 13"), "pinpoint" (section reference only, e.g., "s 13").',
     inputSchema: {
       type: 'object',
       properties: {

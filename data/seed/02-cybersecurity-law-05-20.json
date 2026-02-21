@@ -1,0 +1,408 @@
+{
+  "id": "ma-loi-05-20",
+  "type": "statute",
+  "title": "Loi n° 05-20 relative à la cybersécurité",
+  "title_en": "Law No. 05-20 on Cybersecurity",
+  "short_name": "Loi 05-20",
+  "status": "in_force",
+  "issued_date": "2020-07-25",
+  "url": "https://www.dgssi.gov.ma/fr/loi-ndeg-0520-relative-la-cybersecurite",
+  "description": "Cadre juridique marocain de cybersécurité pour les entités publiques, IIV et opérateurs.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "Chapitre premier",
+      "section": "1",
+      "title": "Article 1",
+      "content": "La présente loi fixe :\n– les règles et les dispositions de sécurité applicables aux\nsystèmes d’information des administrations de l’Etat,\ndes collectivités territoriales, des établissements et\nentreprises publics et toute autre personne morale de\ndroit public, désignés dans la présente loi par « entité » ;\n– les règles et les dispositions de sécurité applicables aux\ninfrastructures d’importance vitale ;\n– les règles et les dispositions de sécurité applicables aux\nexploitants des réseaux publics de télécommunication,\naux fournisseurs d’accès à Internet, aux prestataires de\nservices de cybersécurité, aux prestataires de services\nnumériques et aux éditeurs de plateformes Internet,\ndésignés dans la présente loi par « opérateur » ;\n– le cadre national de gouvernance de la cybersécurité ;\n\n– le cadre de collaboration et d’échange d’informations\nentre l’autorité nationale de la cybersécurité, désignée\npar voie réglementaire et appelée dans la présente loi\n« autorité nationale » et les services compétents de l’Etat\nchargés du traitement des infractions portant atteinte\naux systèmes de traitement automatisé des données ;\n– les concours apportés par l’autorité nationale aux\norganismes nationaux compétents pour le renforcement\nde la confiance numérique, le développement de la\ndigitalisation des services fournis par l’Etat et la\nprotection des données à caractère personnel ;\n– les attributions de l’autorité nationale, notamment en\nmatière de développement de l’expertise nationale, de\nsensibilisation dans le domaine de la cybersécurité au\nprofit des entités, des acteurs du secteur privé et des\nparticuliers, et de renforcement de la coopération avec\nles organismes nationaux et étrangers."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "Chapitre premier",
+      "section": "2",
+      "title": "Article 2",
+      "content": "Au sens de la présente loi, on entend par :\n– « Cybersécurité » : l’ensemble de mesures, procédures,\nconcepts de sécurité, méthodes de gestion des risques,\nactions, formations, bonnes pratiques, et technologies\npermettant à un système d’information de résister à\ndes évènements issus du cyberespace, susceptibles\nde compromettre la disponibilité, l’intégrité ou la\nconfidentialité des données stockées, traitées ou\ntransmises et des services connexes que ce système offre\nou qu’il rend accessibles ;\n– « Cybercriminalité » : l’ensemble des actes contrevenant\nà la législation nationale ou aux traités internationaux\nratifiés par le Royaume du Maroc, ayant pour cible les\nréseaux ou les systèmes d’information ou les utilisant\ncomme moyens de la commission d’un délit ou d’un\ncrime ;\n– « Cybermenace » : toute action qui vise à compromettre\nla sécurité d’un système d’information en altérant la\ndisponibilité, l’intégrité ou la confidentialité d’un\nsystème ou de l’information qu’il contient ;\n– « Cyberéthique » : l’ensemble des normes et règles pour\nun comportement responsable dans le cyberespace ;\n– « Infrastructures d’importance vitale » : les installations,\nles ouvrages et les systèmes qui sont indispensables au\nmaintien des fonctions vitales de la société, de la santé,\nde la sûreté, de la sécurité et du bien-être économique\nou social, et dont le dommage ou l’indisponibilité ou la\ndestruction aurait un impact induisant la défaillance\nde ces fonctions ;\n– « Secteur d’activités d’importance vitale » : l’ensemble des\nactivités exercées par les infrastructures d’importance\nvitale et concourant à un même objectif. Ces activités\nont trait soit à la production et la distribution de\nbiens ou de services indispensables à la satisfaction\ndes besoins essentiels pour la vie des populations, ou\nà l’exercice des prérogatives de l’Etat ou au maintien\nde ses capacités de sécurité ou au fonctionnement de\nl’économie, dès lors que ces activités sont difficilement\nsubstituables ou remplaçables, ou qui peuvent présenter\nun danger grave pour la population ;\nBULLETIN OFFICIEL\n– « Système d’information » : un ensemble organisé de\nressources telles que les personnels, matériels, logiciels,\ndonnées et procédures qui permettent de collecter, de\nclassifier, de traiter et de diffuser l’information sur un\nenvironnement donné ;\n\n– « Crise cybernétique » : l’état résultant de l’occurrence\nd’un ou plusieurs événements de cybersécurité pouvant\navoir un impact grave sur la vie des populations,\nl’exercice de l’autorité de l’Etat, le fonctionnement de\nl’économie, ou sur le maintien des capacités de sécurité\net de défense du pays ;\n\n– « Système d’information sensible » : système d’information\ntraitant des informations ou des données sensibles sur\nlesquelles une atteinte à la confidentialité, à l’intégrité\nou à la disponibilité porterait préjudice à une entité ou\nà une infrastructure d’importance vitale ;\n\n– « Gestion des incidents de cybersécurité » : le processus de\ndétection, de signalement et d’évaluation des incidents\nde cybersécurité, ainsi que les mesures d’intervention\net de traitement y afférentes.\n\n– « Service de cybersécurité » : tout service de sécurité\nfourni par des prestataires de services de cybersécurité\nà une entité ou à une infrastructure d’importance vitale\net portant sur la détection et le diagnostic des incidents\nde cybersécurité et le renforcement de la sécurité de\nleurs systèmes d’information ;\n– « Prestataire de services numériques » : toute personne\nphysique ou morale qui fournit à distance, par voie\nélectronique et à la demande d’un destinataire, l’un\ndes services ci-après :\n• un service numérique qui permet à des consommateurs\nou à des professionnels de conclure des contrats de\nvente ou de service en ligne ;\n• un service numérique qui permet aux utilisateurs\nd’effectuer des recherches sur les sites Internet ;\n• un service numérique qui permet l’accès à un ensemble\nmodulable et variable de ressources informatiques\npouvant être partagées, y compris les hébergeurs de\ndonnées et/ou systèmes d’information (Datacenter)\net les prestataires des services d’informatique en\nnuage (Cloud) ;\n– « Hébergement » : toute prestation de stockage de\nsignaux, d’écrits, d’images, de sons ou de messages de\ntoute nature fournie, à titre onéreux ou gratuit, par des\nprestataires de services numériques ;\n– « Externalisation d’un système d’information » : toute\nopération qui consiste à confier, en partie ou en totalité,\nle système d’information d’une entité à un prestataire\ndans le cadre d’un contrat fixant de façon précise\nnotamment le niveau de services et la durée de\nl’externalisation ;\n– « Homologation des systèmes d’information » : document\npar lequel le responsable d’une infrastructure\nd’importance vitale atteste de sa connaissance du\nsystème d’information et des mesures de sécurité\ntechniques, organisationnelles ou juridiques mises en\nœuvre et accepte les risques résiduels ;\n– « Incident de cybersécurité» : un ou plusieurs événements\nindésirables ou inattendus liés à la sécurité des systèmes\nd’information et présentant une forte probabilité\nde compromettre les activités d’une entité, d’une\ninfrastructure d’importance vitale ou d’un opérateur ou\nde menacer la sécurité de leurs systèmes d’information ;\n\nChapitre II\nDu dispositif de sécurité des systèmes d’information\nSection première. – Dispositions propres aux entités"
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Section première. – Dispositions propres aux entités",
+      "section": "3",
+      "title": "Article 3",
+      "content": "Chaque entité doit veiller à ce que ses systèmes\nd’information soient conformes aux directives, règles,\nrèglements, référentiels ou recommandations, édictés par\nl’autorité nationale."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Section première. – Dispositions propres aux entités",
+      "section": "4",
+      "title": "Article 4",
+      "content": "Chaque entité doit élaborer et mettre en œuvre une\npolitique de sécurité de ses systèmes d’information qui soit\nconforme aux directives de l’autorité nationale.\nChaque entité est tenue d’identifier les risques qui\nmenacent la sécurité de ses systèmes d’information et de\nprendre des mesures techniques et organisationnelles\nnécessaires pour gérer ces risques, éviter les incidents de\nnature à porter atteinte aux systèmes d’information ainsi que\npour en réduire au minimum l’impact.\nTout système d’information d’une entité offrant\ndes services numériques à des tiers doit, avant sa mise en\nexploitation, faire l’objet d’un audit de sa sécurité.\nChaque entité doit, régulièrement, auditer ses systèmes\nd’information."
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Section première. – Dispositions propres aux entités",
+      "section": "5",
+      "title": "Article 5",
+      "content": "Chaque entité doit classifier ses actifs informationnels\net systèmes d’information selon leur niveau de sensibilité en\ntermes de confidentialité, d’intégrité et de disponibilité. Les\nmesures de protection des actifs informationnels et systèmes\nd’information doivent être proportionnés au niveau de\nclassification attribué.\nChaque entité doit arrêter des procédures d’habilitation\ndes personnes pouvant accéder aux informations classifiées\net des conditions d’échange, de conservation ou de transport\nde ces informations.\nLe référentiel de classification des actifs informationnels\net des systèmes d’information est fixé par voie réglementaire."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Section première. – Dispositions propres aux entités",
+      "section": "6",
+      "title": "Article 6",
+      "content": "Chaque entité doit désigner un responsable de la sécurité\ndes systèmes d’information qui veille à l’application de la\npolitique de sécurité des systèmes d’information.\nLe responsable de la sécurité des systèmes d’information\nest l’interlocuteur de l’autorité nationale de la cybersécurité\net doit jouir de l’indépendance requise dans l’exercice de sa\nmission."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7",
+      "content": "Chaque entité met en place des moyens appropriés\nde supervision et de détection des évènements susceptibles\nd’affecter la sécurité de ses systèmes d’information et d’avoir\nun impact significatif sur la continuité des services qu’elle\nassure.\nLes données techniques générées par les moyens précités\nne peuvent être exploitées par l’autorité nationale qu’aux seules\nfins de caractériser et traiter la menace affectant la sécurité\ndes systèmes d’information de l’entité concernée."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8",
+      "content": "Chaque entité doit, dès qu’elle prend connaissance\nd’un incident affectant la sécurité ou le fonctionnement de\nses systèmes d’information, le déclarer à l’autorité nationale.\nSection 2. – Dispositions propres\naux infrastructures d’importance vitale\ndisposant de systèmes d’information sensibles"
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Section 2. – Dispositions propres",
+      "section": "14",
+      "title": "Article 14",
+      "content": "Les dispositions de la section première du présent\nchapitre s’appliquent aux infrastructures d’importance vitale."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Section 2. – Dispositions propres",
+      "section": "15",
+      "title": "Article 15",
+      "content": "La liste des secteurs d’activités d’importance vitale et des\nautorités gouvernementales, établissements publics ou autres\npersonnes morales de droit public, assurant la coordination\nde ces secteurs est fixée par voie réglementaire."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Section 2. – Dispositions propres",
+      "section": "16",
+      "title": "Article 16",
+      "content": "A la demande de l’autorité nationale, chaque entité lui\ncommunique, sans délai, les informations complémentaires\nrelatives aux incidents affectant la sécurité ou le fonctionnement\nde ses systèmes d’information.\n\nLes infrastructures d’importance vitale sont désignées\npour chaque secteur d’activité d’importance vitale par l’autorité\ngouvernementale, l’établissement public ou la personne morale\nde droit public dont relève la coordination de ce secteur, et ce\naprès avis de l’autorité nationale.\n\nL’autorité nationale précise les données techniques\net les informations relatives aux incidents qui doivent être\ncommuniquées ainsi que les modalités de leur transmission.\n\nLa liste de ces infrastructures doit être tenue secrète et\ndoit être actualisée à intervalles réguliers et au moins tous\nles deux ans.\n\nElle adresse à l’entité concernée une synthèse des mesures\net recommandations relatives au traitement de l’incident."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Section 2. – Dispositions propres",
+      "section": "9",
+      "title": "Article 9",
+      "content": "Chaque entité prépare un plan de continuité ou de\nreprise d’activités intégrant l’ensemble des solutions de secours\npour neutraliser les interruptions des activités, protéger les\nprocessus métier cruciaux des effets causés par les principales\ndéfaillances des systèmes d’information ou par des sinistres et\ngarantir une reprise de ces processus dans les meilleurs délais.\nLe plan de continuité ou de reprise d’activités doit être\ntesté régulièrement afin de le mettre à jour en fonction des\névolutions propres de l’entité et de l’évolution des menaces."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Section 2. – Dispositions propres",
+      "section": "10",
+      "title": "Article 10",
+      "content": "En cas d’externalisation d’un système d’information\nsensible à un prestataire, ce dernier doit respecter les règles,\nrèglements et référentiels techniques relatifs à la sécurité des\nsystèmes d’information édictés par l’autorité nationale."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11",
+      "content": "Les données sensibles doivent être exclusivement\nhébergées sur le territoire national."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12",
+      "content": "Toute externalisation d’un système d’information\nsensible doit faire l’objet d’un contrat de droit marocain\nqui doit comprendre des engagements de protection de\nl’information, d’auditabilité et de réversibilité, ainsi que les\nexigences de sécurité et les niveaux de service voulus.\n\nLe responsable de l’infrastructure d’importance vitale\nétablit, sur la base des résultats d’une analyse des risques, la\nliste des systèmes d’information sensibles et la transmet avec\nles mises à jour de celle-ci à l’autorité nationale."
+    },
+    {
+      "provision_ref": "art18",
+      "section": "18",
+      "title": "Article 18",
+      "content": "L’autorité nationale peut faire des observations au\nresponsable de l’infrastructure d’importance vitale sur la liste\ndes systèmes d’information sensibles qui lui a été transmise.\nDans ce cas, le responsable de l’infrastructure\nd’importance vitale est tenu de modifier sa liste conformément\nà ces observations et transmet la liste modifiée à l’autorité\nnationale dans un délai de deux mois à compter de la date de\nréception des observations.\nLa liste des systèmes d’information sensibles doit être\ntenue secrète."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "Article 19",
+      "content": "Tout système d’information sensible doit faire l’objet\nd’une homologation de sa sécurité avant sa mise en exploitation.\nLe guide d’homologation des systèmes d’information\nsensibles est fixé par l’autorité nationale."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13",
+      "content": "A la demande de l’autorité nationale, les responsables des\ninfrastructures d’importance vitale soumettent les systèmes\nd’information sensibles desdites infrastructures à un audit\neffectué par cette autorité ou par des prestataires d’audit\nqualifiés par ladite autorité.\n\nL’autorité nationale fixe les règles et le référentiel\ntechnique régissant la sécurité relative à l’externalisation des\nsystèmes d’information.\n\nLes critères de qualification des prestataires d’audit et\nles modalités de déroulement de l’audit sont fixés par voie\nréglementaire.\nBULLETIN OFFICIEL"
+    },
+    {
+      "provision_ref": "art21",
+      "section": "21",
+      "title": "Article 21",
+      "content": "Les responsables des infrastructures d’importance\nvitale sont tenus de communiquer à l’autorité nationale ou\nau prestataire d’audit qualifié les informations et éléments\nnécessaires pour réaliser l’audit, y compris les documents\nrelatifs à leur politique de sécurité et, le cas échéant, les\nrésultats d’audit de sécurité précédents, et leur permettre\nd’accéder aux réseaux et systèmes d’information faisant\nl’objet du contrôle afin d’effectuer des analyses et des relevés\nd’informations techniques.\nCes données techniques comprennent particulièrement\nles données de connexion, les journaux informatiques et les\ntraces des évènements de sécurité générés par les systèmes\nd’exploitation, applications et produits de sécurité.\nLa durée de conservation des données techniques\nnécessaires à l’identification et à l’analyse de l’incident est\nfixée à une année. Cette durée peut être modifiée par voie\nréglementaire."
+    },
+    {
+      "provision_ref": "art27",
+      "section": "27",
+      "title": "Article 27",
+      "content": "Les prestataires d’audit qualifiés et leurs employés\nsont astreints, sous peine des sanctions prévues par le code\npénal, au respect du secret professionnel pendant toute la\ndurée de la mission d’audit et après son achèvement, sur\nles renseignements et documents recueillis ou portés à leur\nconnaissance à l’occasion de cette mission.\n\nL e s e x p l o it a nt s d e s r é s e au x p u b l i c s d e\ntélécommunications, les fournisseurs d’accès à Internet, les\nprestataires de services de cybersécurité, les prestataires de\nservices numériques et les éditeurs de plateformes Internet\ninforment leurs clients de la vulnérabilité de leurs systèmes\nd’information ou de l’atteinte qui pourrait les affecter."
+    },
+    {
+      "provision_ref": "art28",
+      "section": "28",
+      "title": "Article 28",
+      "content": "Lorsque l’audit est effectué par un prestataire d’audit\nqualifié, le rapport d’audit est transmis par le responsable\nde l’infrastructure d’importance vitale à l’autorité nationale.\n\nPour les besoins de la sécurité des systèmes d’information\ndes entités et des infrastructures d’importance vitale, les agents\nde l’autorité nationale habilités sont autorisés, aux seules fins de\nprévenir et de caractériser la cybermenace, à procéder auprès\ndes exploitants des réseaux publics de télécommunications,\ndes fournisseurs d’accès à Internet, des prestataires de services\nde cybersécurité, des prestataires de services numériques et\ndes éditeurs de plateformes Internet, au recueil et à l’analyse\ndes seules données techniques, à l’exclusion de toute autre\nexploitation.\n\nLe prestataire d’audit qualifié doit veiller à la\nconfidentialité du rapport d’audit."
+    },
+    {
+      "provision_ref": "art23",
+      "section": "23",
+      "title": "Article 23",
+      "content": "Lorsque les opérations d’audit sont effectuées par les\nprestataires d’audit qualifiés, les coûts sont supportés par le\nresponsable de l’infrastructure d’importance vitale concernée\npar ces opérations."
+    },
+    {
+      "provision_ref": "art24",
+      "section": "24",
+      "title": "Article 24",
+      "content": "Chaque responsable d’infrastructure d’importance\nvitale auditée doit mettre en place un plan d’actions pour\nmettre en œuvre les recommandations figurant dans les\nrapports d’audit et le transmet à l’autorité nationale pour le\nsuivi de sa mise en œuvre."
+    },
+    {
+      "provision_ref": "art25",
+      "section": "25",
+      "title": "Article 25",
+      "content": "Les responsables des infrastructures d’importance vitale\ndoivent recourir à des services, produits ou solutions qui\npermettent le renforcement des fonctions de sécurité, définis\npar l’autorité nationale.\n\nL’autorité nationale est habilitée à installer, sur\nles réseaux publics de télécommunications et ceux des\nfournisseurs d’accès à Internet des dispositifs techniques aux\nseules fins de détecter des évènements susceptibles d’affecter\nla sécurité des systèmes d’information des entités et des\ninfrastructures d’importance vitale.\nCes dispositifs sont installés pour la durée et dans la\nmesure strictement nécessaires à la caractérisation de la\nmenace."
+    },
+    {
+      "provision_ref": "art29",
+      "section": "29",
+      "title": "Article 29",
+      "content": "Section 3. – Dispositions propres aux opérateurs\n\nL e s exploit ant s de s ré s e au x publ ic s de\ntélécommunications, les fournisseurs d’accès à Internet, les\nprestataires de services de cybersécurité, les prestataires de\nservices numériques et les éditeurs de plateformes Internet\ndoivent, dans le cadre des directives de l’autorité nationale,\nprendre les mesures de protection nécessaires en vue de\nprévenir et neutraliser les effets des menaces ou atteintes aux\nsystèmes d’information de leurs clients."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Section 3. – Dispositions propres aux opérateurs",
+      "section": "30",
+      "title": "Article 30",
+      "content": "L e s exploit ant s de s ré s e au x publ ic s de\ntélécommunications, les fournisseurs d’accès à Internet, les\nprestataires de services de cybersécurité, les prestataires de\nservices numériques et les éditeurs de plateformes Internet,\ndoivent se conformer aux directives de l’autorité nationale\nnotamment en matière de conservation des données techniques\nnécessaires à l’identification de tout incident de cybersécurité.\n\nLorsque les exploitants des réseaux publics de\ntélécommunications, les fournisseurs d’accès à Internet, les\nprestataires de services de cybersécurité, les prestataires de\nservices numériques et les éditeurs de plateformes Internet\ndétectent des évènements susceptibles d’affecter la sécurité des\nsystèmes d’information de leurs clients, ils doivent en informer,\nsans délai, l’autorité nationale.\n\nEn cas d’externalisation des services de cybersécurité, les\nresponsables des infrastructures d’importance vitale doivent\nrecourir à des prestataires qualifiés par l’autorité nationale.\nLes critères de qualification des prestataires de services\nde cybersécurité sont fixés par voie réglementaire."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Section 3. – Dispositions propres aux opérateurs",
+      "section": "31",
+      "title": "Article 31",
+      "content": "Les exploitants des réseaux publics de télécommunications\net les fournisseurs d’accès à Internet doivent recourir, sur les\nréseaux de communications électroniques qu’ils exploitent, à\ndes dispositifs de détection mettant en œuvre des marqueurs\ntechniques fournis par l’autorité nationale, aux seules fins de\ndétecter des événements susceptibles d’affecter la sécurité des\nsystèmes d’information de leurs abonnés."
+    },
+    {
+      "provision_ref": "art32",
+      "section": "32",
+      "title": "Article 32",
+      "content": "Les prestataires de services numériques sont tenus\nd’identifier les risques qui menacent la sécurité de leurs\nsystèmes d’information et de prendre des mesures techniques\net organisationnelles nécessaires pour gérer ces risques, pour\néviter les incidents de nature à porter atteinte à leurs réseaux et\nsystèmes d’information ainsi que pour en réduire au minimum\nl’impact, de manière à garantir la continuité de leurs services."
+    },
+    {
+      "provision_ref": "art33",
+      "section": "33",
+      "title": "Article 33",
+      "content": "Les prestataires de services numériques doivent dès\nqu’ils en prennent connaissance, déclarer à l’autorité nationale\nles incidents affectant les réseaux et systèmes d’information\nnécessaires à la fourniture de leurs services, lorsque les\ninformations dont ils disposent font apparaître que ces\nincidents ont un impact significatif sur la fourniture de ces\nservices."
+    },
+    {
+      "provision_ref": "art34",
+      "section": "34",
+      "title": "Article 34",
+      "content": "Lorsque l’autorité nationale est informée, par quelque\nmoyen que ce soit, qu’un prestataire de services numériques\nne satisfait pas à l’une des obligations prévues par la présente\nloi, elle peut le soumettre à des contrôles destinés à vérifier le\nrespect de ces obligations ainsi que le niveau de sécurité des\nréseaux et systèmes d’information nécessaires à la fourniture\nde ses services.\nLes contrôles sont effectués par l’autorité nationale\nou par des prestataires d’audit qualifiés par ladite autorité.\nDans ce dernier cas, le coût des contrôles est à la charge du\nprestataire de services numériques.\nEn cas de manquement constaté à l’occasion d’un\ncontrôle, l’autorité nationale peut mettre en demeure les\ndirigeants du prestataire concerné de se conformer, dans un\ndélai qu’elle fixe, aux obligations qui incombent au prestataire\nen vertu de la présente section.\nChapitre III\nDe la gouvernance de la cybersécurité\nSection première. – Du comité stratégique de la cybersécurité"
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "Section première. – Du comité stratégique de la cybersécurité",
+      "section": "35",
+      "title": "Article 35",
+      "content": "Il est créé un comité stratégique de la cybersécurité\nchargé de :\n– élaborer les orientations stratégiques de l’Etat en\nmatière de cybersécurité et veiller sur la résilience des\nsystèmes d’information des entités, des infrastructures\nd’importance vitale et des opérateurs visés à la\nsection III du chapitre II de la présente loi ;\n– évaluer annuellement le bilan d’activité de l’autorité\nnationale ;\n– évaluer les travaux du comité national de gestion des\ncrises et évènements cybernétiques majeurs prévu à\nl’article 36 ci-après ;\n– arrêter le périmètre des audits de la sécurité des systèmes\nd’information effectués par l’autorité nationale ;\n– promouvoir la recherche et développement dans le\ndomaine de la cybersécurité ;\n– promouvoir les programmes et actions de sensibilisation\net de renforcement des capacités en cybersécurité au\nprofit des entités et des infrastructures d’importance\nvitale ;\n– donner son avis sur les projets de lois et de textes\nréglementaires se rapportant au domaine de la\ncybersécurité.\nLa composition et les modalités de fonctionnement du\ncomité stratégique de la cybersécurité sont fixées par voie\nréglementaire."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Section première. – Du comité stratégique de la cybersécurité",
+      "section": "36",
+      "title": "Article 36",
+      "content": "Il est institué, auprès du comité stratégique de la\ncybersécurité, un comité de gestion des crises et évènements\ncybernétiques majeurs, chargé d’assurer une intervention\ncoordonnée en matière de prévention et de gestion de crise\npar suite d’incidents de cybersécurité.\nA cet effet, les exploitants des réseaux publics de\ntélécommunications, les fournisseurs d’accès à Internet, les\nprestataires de services de cybersécurité et les prestataires\nde services numériques doivent répondre aux prescriptions\net demandes de concours et d’assistance technique du comité\nde gestion des crises et évènements cybernétiques majeurs.\nLa composition et les modalités de fonctionnement de\nce comité ainsi que le domaine d’intervention de chacun de\nses membres sont fixés par voie réglementaire."
+    },
+    {
+      "provision_ref": "art37",
+      "section": "37",
+      "title": "Article 37",
+      "content": "Pour faire face aux incidents de cybersécurité majeurs,\nle comité de gestion des crises et évènements cybernétiques\nmajeurs peut décider des mesures que les responsables des\nentités et des infrastructures d’importance vitale doivent\nmettre en œuvre et élaborer des recommandations et conseils\ndestinés aux opérateurs du secteur privé et aux particuliers.\nSection 2. – De l’autorité nationale de la cybersécurité"
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "Section 2. – De l’autorité nationale de la cybersécurité",
+      "section": "38",
+      "title": "Article 38",
+      "content": "L’autorité nationale est chargée de mettre en œuvre la\nstratégie de l’Etat en matière de cybersécurité.\nA cet effet, outre les missions qui lui sont dévolues par\nla présente loi, l’autorité nationale est chargée de :\n– coordonner les travaux relatifs à l’élaboration et à la\nmise en œuvre de la stratégie de l’Etat en matière de\ncybersécurité et veiller à l’application des orientations\ndu comité stratégique de la cybersécurité ;\n– définir des mesures de protection des systèmes\nd’information et veiller à leur application ;\nBULLETIN OFFICIEL\n\n– proposer au comité stratégique de la cybersécurité les\nmesures destinées à répondre aux crises affectant ou\nmenaçant la sécurité des systèmes d’information des\nentités et des infrastructures d’importance vitale ;\n– qualifier les prestataires d’audit des systèmes\nd’i n for mat ion s ensible s de s i n fra str uct u re s\nd’importance vitale et les prestataires de service de\ncybersécurité ;\n– concevoir les moyens permettant d’assurer la sécurité\ndes communications électroniques interministérielles\net coordonner leur mise en œuvre ;\n– assurer les contrôles prévus par la présente loi ;\n– veiller à la conduite de missions d’audits de sécurité des\nsystèmes d’information des entités et des infrastructures\nd’importance vitale ;\n– procéder à l’audit des prestataires de services de\ncybersécurité et des prestataires de services numériques\nproposant des services aux infrastructures d’importance\nvitale disposant de systèmes d’information sensibles ;\n– assister et conseiller les entités et les infrastructures\nd’importance vitale pour le renforcement de la sécurité\nde leurs systèmes d’information ;\n– assister et accompagner les entités et les infrastructures\nd’importance vitale pour la mise en place de dispositifs\nde détection des événements affectant ou susceptibles\nd’affecter la sécurité de leurs systèmes d’information et\ncoordonner la réaction à ces événements ;\n– mettre en place, en relation avec les entités et les\ninfrastructures d’importance vitale, un système\nexterne de veille, de détection et d’alerte des événements\naffectant ou susceptibles d’affecter la sécurité de leurs\nsystèmes d’information et coordonner la réaction à ces\névénements ;\n– mener et soutenir les activités de recherche scientifique\net technique dans le domaine de la cybersécurité."
+    },
+    {
+      "provision_ref": "art39",
+      "section": "39",
+      "title": "Article 39",
+      "content": "L’autorité nationale est tenue de préserver la\nconfidentialité des informations sensibles qu’elle recueille\ndans le cadre de la présente loi."
+    },
+    {
+      "provision_ref": "art40",
+      "section": "40",
+      "title": "Article 40",
+      "content": "L’autorité nationale fixe les règles de sécurité nécessaires\nà la protection des systèmes d’information des entités, des\ninfrastructures d’importance vitale et des opérateurs visés à\nl’article premier de la présente loi.\nL’autorité nationale fixe des règles de sécurité\nparticulières à un secteur d’activité d’importance vitale\ndéterminé. Elle notifie aux responsables des infrastructures\nd’importance vitale relevant dudit secteur lesdites règles ainsi\nque les modalités et les délais de leur mise en œuvre.\nLes responsables précités sont tenus d’appliquer ces\nrègles à leurs frais.\n\n1299"
+    },
+    {
+      "provision_ref": "art41",
+      "section": "41",
+      "title": "Article 41",
+      "content": "Pour faire face à une attaque informatique qui vise les\nsystèmes d’information affectant les fonctions vitales de la\nsociété, de la santé, de la sûreté, de la sécurité et du bienêtre économique ou social, les agents de l’autorité nationale\nprocèdent aux opérations d’investigation technique nécessaires\nà la caractérisation de l’attaque et veillent à la mise en œuvre\ndes mesures et recommandations y afférentes."
+    },
+    {
+      "provision_ref": "art42",
+      "section": "42",
+      "title": "Article 42",
+      "content": "L’autorité nationale collabore avec les services\ncompétents de l’Etat à travers l’échange de toute donnée\nou information susceptible de les aider dans le traitement\ndes infractions portant atteinte aux systèmes de traitement\nautomatisé des données.\nLorsqu’il appert à l’autorité nationale, à l’occasion de\nl’exercice de ses attributions, qu’un acte est présumé contraire\nà la loi, elle en saisit les autorités compétentes.\nLes autorités compétentes doivent informer l’autorité\nnationale du sort réservé à la saisine.\nChapitre IV\nDe la formation, de la sensibilibation\net de la coopération"
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Chapitre IV",
+      "section": "43",
+      "title": "Article 43",
+      "content": "L’autorité nationale organise, en collaboration avec les\nacteurs et professionnels de la cybersécurité, des cycles de\nformation et des exercices au profit du personnel des entités\net des infrastructures d’importance vitale pour développer et\nrenforcer les capacités nationales en la matière."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Chapitre IV",
+      "section": "44",
+      "title": "Article 44",
+      "content": "L’autorité nationale définit et met en œuvre des\nprogrammes de sensibilisation sur la cyberéthique et sur les\nenjeux liés aux menaces et risques de cybersécurité au profit\ndu personnel des entités, des infrastructures d’importance\nvitale et du secteur privé et des particuliers.\nDes conseils et recommandations d’hygiène en\ncybersécurité au profit du personnel des entités, des\ninfrastructures d’importance vitale et du secteur privé et\ndes particuliers sont régulièrement publiés sur le site web de\nl’autorité nationale."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Chapitre IV",
+      "section": "45",
+      "title": "Article 45",
+      "content": "L’autorité nationale contribue aux programmes initiés\npar les organes compétents de l’Etat pour le renforcement de\nla confiance numérique, le développement de la digitalisation\ndes services et la protection des données à caractère personnel."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Chapitre IV",
+      "section": "46",
+      "title": "Article 46",
+      "content": "L’autorité nationale développe et coordonne, en\nconcertation avec les administrations concernées, les relations\nde coopération avec les organismes nationaux et étrangers\ndans le domaine de la cybersécurité.\nNº 6906 – 16 hija 1441 (6-8-2020)"
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Chapitre IV",
+      "section": "50",
+      "title": "Article 50",
+      "content": "L’autorité nationale entretient des relations de\ncoopération au niveau national et international en vue de\ntraiter les incidents de cybersécurité et de développer le\npartage de l’expérience et de l’expertise dans ce domaine.\n\nSans préjudice des sanctions pénales plus graves\nprévues par la législation en vigueur, est puni d’une amende\nde 100.000 à 200.000 DH :\n\nChapitre V\nDe la constatation des infractions et des sanctions"
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "Chapitre V",
+      "section": "48",
+      "title": "Article 48",
+      "content": "Outre les officiers de la police judiciaire, sont habilités à\nrechercher et à constater, par procès-verbaux, les infractions\naux dispositions de la présente loi et des textes pris pour son\napplication les agents de l’autorité nationale commissionnés\nà cet effet et assermentés conformément à la législation en\nvigueur.\nLes procès-verbaux de constatation des infractions sont\nadressés au ministère public compétent."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "Chapitre V",
+      "section": "49",
+      "title": "Article 49",
+      "content": "Sans préjudice des sanctions pénales plus graves\nprévues par la législation en vigueur, est puni d’une amende\nde 200.000 à 400.000 DH :\n– tout responsable d’une entité ou d’une infrastructure\nd’importance vitale qui procède à l’hébergement des\ndonnées sensibles en dehors du territoire national, en\nviolation des dispositions de l’article 11 ci-dessus ;\n– tout responsable d’une infrastructure d’importance\nvitale disposant d’un système d’information sensible\nayant mis en exploitation un système d’information\nsensible sans faire l’objet de l’homologation prévue à\nl’article 19 ci-dessus ;\n– tout responsable d’une infrastructure d’importance\nvitale qui a confié l’audit de la sécurité des systèmes\nd’information sensibles de ladite infrastructure à\nun prestataire d’audit non qualifié, en violation des\ndispositions de l’article 20 ci-dessus ;\n\n– quiconque manque aux obligations de déclaration des\nincidents, en violation des dispositions prévues aux\narticles 8, 30 et 33 ci-dessus ;\n– quiconque, par quelque moyen que ce soit, fait obstacle\nou empêche le déroulement des audits de sécurité des\nsystèmes d’information sensibles des infrastructures\nd’importance vitale, prévus à l’article 20 ci-dessus ;\n– tout exploitant d’un réseau public de télécommunications,\nfournisseur d’accès à Internet, prestataire de services\nde cybersécurité, prestataire de services numériques ou\néditeur de plateformes Internet manque aux obligations\nprévues à l’article 26 ci-dessus ;\n– tout exploitant d’un réseau public de télécommunications,\nfournisseur d’accès à Internet ou leurs agents, fait\nobstacle aux actions menées par l’autorité nationale\nou ses agents, prévues à l’article 28 ci-dessus ;\n– tout prestataire de service numérique qui s’abstient de\nprendre les mesures prévues à l’article 32 ci-dessus ou fait\nobstacle aux opérations de contrôle prévues à l’article 34\nci-dessus.\nEst puni de la même peine d’amende, toute personne\ndont le système d’information a été utilisé à son insu pour\npropager des programmes malveillants ou pour accomplir\ndes actes illicites, qui s’abstient d’exécuter les directives de\nl’autorité nationale, après en avoir été informé."
+    },
+    {
+      "provision_ref": "art51",
+      "section": "51",
+      "title": "Article 51",
+      "content": "Le tribunal peut prononcer la confiscation des objets\net moyens ayant servi à commettre les infractions aux\ndispositions de la présente loi."
+    },
+    {
+      "provision_ref": "art52",
+      "section": "52",
+      "title": "Article 52",
+      "content": "En cas de récidive, les sanctions prévues par la présente\nloi sont portées au double.\n\n– quiconque ayant fourni des prestations d’audit de la\nsécurité des systèmes d’information sensibles des\ninfrastructures d’importance vitale sans être qualifié\npar l’autorité nationale ou ayant continué à fournir\nces prestations malgré le retrait de sa qualification par\nladite autorité ;\n\nEst en état de récidive, quiconque ayant été condamné,\npar décision de justice ayant acquis la force de la chose\njugée, à une peine pour une infraction aux dispositions de\nla présente loi, a commis la même infraction moins de 4 ans\naprès l’expiration de cette peine ou sa prescription.\n\n– tout responsable d’une infrastructure d’importance\nvitale ayant externalisé les services de cybersécurité à\nun prestataire non qualifié, en violation des dispositions\nde l’article 25 ci-dessus ;\n\nDispositions finales\n\n– quiconque ayant fourni des prestations de cybersécurité\nsans être qualifié par l’autorité nationale ou ayant\ncontinué à fournir ces prestations malgré le retrait de\nsa qualification par ladite autorité.\n\nChapitre VI"
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Chapitre VI",
+      "section": "53",
+      "title": "Article 53",
+      "content": "La présente loi entre en vigueur à compter de la date\nde publication au Bulletin officiel des textes pris pour son\napplication.\nLe texte en langue arabe a été publié dans l’édition générale du\n« Bulletin officiel » n° 6904 du 9 hija 1441 (30 juillet 2020)."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Cybersécurité",
+      "definition": "l’ensemble de mesures, procédures,",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Cybercriminalité",
+      "definition": "l’ensemble des actes contrevenant",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Cybermenace",
+      "definition": "toute action qui vise à compromettre",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Cyberéthique",
+      "definition": "l’ensemble des normes et règles pour",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Infrastructures d’importance vitale",
+      "definition": "les installations,",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Secteur d’activités d’importance vitale",
+      "definition": "l’ensemble des",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Système d’information",
+      "definition": "un ensemble organisé de",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Crise cybernétique",
+      "definition": "l’état résultant de l’occurrence",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Système d’information sensible",
+      "definition": "système d’information",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Gestion des incidents de cybersécurité",
+      "definition": "le processus de",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Service de cybersécurité",
+      "definition": "tout service de sécurité",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Prestataire de services numériques",
+      "definition": "toute personne",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Hébergement",
+      "definition": "toute prestation de stockage de",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Externalisation d’un système d’information",
+      "definition": "toute",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Homologation des systèmes d’information",
+      "definition": "document",
+      "source_provision": "art2"
+    },
+    {
+      "term": "Incident de cybersécurité",
+      "definition": "un ou plusieurs événements",
+      "source_provision": "art2"
+    }
+  ],
+  "ingestion_status": "ingested"
+}

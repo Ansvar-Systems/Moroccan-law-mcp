@@ -2,8 +2,7 @@
  * Statute ID resolution for Moroccan Law MCP.
  *
  * Resolves fuzzy document references (titles, IDs) to database document IDs.
- * Moroccan legislation identifier resolution
- * (e.g., "Privacy Act 1988", "Corporations Act 2001").
+ * Moroccan legislation identifier resolution.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
@@ -11,9 +10,9 @@ import type Database from '@ansvar/mcp-sqlite';
 /**
  * Resolve a document identifier to a database document ID.
  * Supports:
- * - Direct ID match (e.g., "privacy-act-1988")
- * - Title match (e.g., "Privacy Act 1988", "Privacy Act")
- * - Short name/abbreviation match (e.g., "SOCI Act")
+ * - Direct ID match (e.g., "ma-loi-05-20")
+ * - Title match (e.g., "Loi n° 05-20 relative à la cybersécurité")
+ * - Short name/abbreviation match (e.g., "Loi 43-20")
  * - Fuzzy title substring match
  */
 export function resolveDocumentId(

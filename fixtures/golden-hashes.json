@@ -1,1 +1,26 @@
-{"version":"1.0","hashes":{}}
+{
+  "version": "2.0",
+  "provisions": [
+    {
+      "id": "ma-loi-05-20-art1",
+      "description": "Law 05-20 Article 1 wording marker",
+      "upstream_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2005-20.pdf",
+      "expected_sha256": "N/A",
+      "expected_snippet": "La présente loi fixe"
+    },
+    {
+      "id": "ma-loi-43-20-art1",
+      "description": "Law 43-20 Article 1 wording marker",
+      "upstream_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2043-20.pdf",
+      "expected_sha256": "N/A",
+      "expected_snippet": "La présente loi a pour objet de fixer"
+    },
+    {
+      "id": "ma-decret-2-24-921-art1",
+      "description": "Decree 2-24-921 Article 1 wording marker",
+      "upstream_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2025-04/D%C3%A9cret%202.24.921%20Fr%20.pdf",
+      "expected_sha256": "N/A",
+      "expected_snippet": "responsables des entités et des infrastructures d’importance"
+    }
+  ]
+}
