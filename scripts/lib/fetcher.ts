@@ -7,6 +7,9 @@
  * - PDF text extraction via pdftotext
  */
 
+import * as fs from 'fs';
+import * as path from 'path';
+import { tmpdir } from 'os';
 import { execFile } from 'child_process';
 import { promisify } from 'util';
 
@@ -69,4 +72,58 @@ export async function extractPdfText(pdfPath: string): Promise<string> {
     maxBuffer: 64 * 1024 * 1024,
   });
   return stdout;
+}
+
+interface OcrOptions {
+  startPage?: number;
+  endPage?: number;
+}
+
+async function getPdfPageCount(pdfPath: string): Promise<number> {
+  const { stdout } = await execFileAsync('pdfinfo', [pdfPath], {
+    maxBuffer: 8 * 1024 * 1024,
+  });
+  const match = stdout.match(/Pages:\s+(\d+)/);
+  if (!match) {
+    throw new Error(`Unable to determine page count for: ${pdfPath}`);
+  }
+  return Number.parseInt(match[1], 10);
+}
+
+export async function extractPdfTextWithOcr(pdfPath: string, options: OcrOptions = {}): Promise<string> {
+  const { createWorker } = await import('tesseract.js');
+  const totalPages = await getPdfPageCount(pdfPath);
+  const startPage = Math.max(1, options.startPage ?? 1);
+  const endPage = Math.min(totalPages, options.endPage ?? totalPages);
+
+  if (endPage < startPage) {
+    throw new Error(`Invalid OCR page range: ${startPage}-${endPage}`);
+  }
+
+  const tmpRoot = fs.mkdtempSync(path.join(tmpdir(), 'moroccan-law-mcp-ocr-'));
+  const worker = await createWorker('fra', 1);
+  const pages: string[] = [];
+
+  try {
+    for (let page = startPage; page <= endPage; page++) {
+      const imageBase = path.join(tmpRoot, `page-${String(page).padStart(4, '0')}`);
+      await execFileAsync('pdftoppm', [
+        '-f', String(page),
+        '-l', String(page),
+        '-singlefile',
+        '-png',
+        pdfPath,
+        imageBase,
+      ]);
+
+      const imagePath = `${imageBase}.png`;
+      const { data } = await worker.recognize(imagePath);
+      pages.push(`\n\n[[PAGE ${page}]]\n\n${data.text ?? ''}`);
+    }
+  } finally {
+    await worker.terminate();
+    fs.rmSync(tmpRoot, { recursive: true, force: true });
+  }
+
+  return pages.join('\n');
 }

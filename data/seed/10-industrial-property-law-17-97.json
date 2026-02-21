@@ -6,9 +6,1562 @@
   "short_name": "Loi 17-97",
   "status": "in_force",
   "url": "https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle",
-  "description": "Régime de propriété industrielle (source inaccessible depuis cet environnement au moment de l’ingestion).",
-  "provisions": [],
+  "description": "Régime de propriété industrielle (texte consolidé OMPIC modifié par les lois 31-05 et 23-13).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "chapter": "CHAPITRE PREMIER",
+      "section": "1",
+      "title": "Article 1",
+      "content": "Au sens de la présente loi, la protection\nde la propriété industrielle a pour objet\nles brevets d’invention, les schémas de\nconfiguration (topographies) de circuits\nintégrés, les dessins et modèles industriels,\nles marques de fabrique, de commerce\nou de service, le nom commercial,\nles indications géographiques et les\nappellations d’origine ainsi que la\nrépression de la concurrence déloyale."
+    },
+    {
+      "provision_ref": "art2",
+      "chapter": "CHAPITRE PREMIER",
+      "section": "2",
+      "title": "Article 2",
+      "content": "La propriété industrielle s’entend dans\nl’acception la plus large et s’applique non\nseulement à l’industrie, au commerce\nproprement dits et aux services mais\négalement à toute production du domaine\ndes industries agricoles et extractives\nainsi qu’à tous produits fabriqués ou\nnaturels tels que bestiaux, minéraux,\nboissons."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "CHAPITRE PREMIER",
+      "section": "3",
+      "title": "Article 3",
+      "content": "Les ressortissants de chacun des pays\nfaisant partie de l’Union internationale\npour la protection de la propriété\nindustrielle jouissent de la protection\ndes droits de propriété industrielle\nprévus par la présente loi sous réserve\nde l’accomplissement des conditions et\nformalités qui y sont prévues.\n\nLa même protection est accordée\naux ressortissants des pays parties à\ntout autre traité conclu en matière de\npropriété industrielle auquel le Maroc est\npartie, et prévoyant dans ses dispositions\nun traitement pour ses ressortissants non\nmoins favorable que celui dont bénéficie\nles ressortissants desdits pays."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "CHAPITRE PREMIER",
+      "section": "4",
+      "title": "Article 4",
+      "content": "Aucune obligation de domicile ou\nd’établissement au Maroc, lorsque la\nprotection y sera réclamée, ne pourra\nêtre imposée aux ressortissants des Etats\nmembres de l’Union internationale pour\nla protection de la propriété industrielle.\nLes personnes physiques ou morales,\nn’ayant pas leur domicile ou leur siège\nsocial au Maroc ou n’y possédant pas\nd’établissement industriel ou commercial,\ndoivent faire élection de domicile auprès\nd’un mandataire domicilié ou ayant son\nsiège social au Maroc qui se chargera pour\nleur compte des opérations à effectuer\nauprès de l’organisme chargé de la\npropriété industrielle.\nLes nationaux résidents et les étrangers\nrésidents régulièrement au Maroc,\npersonnes physiques ou morales, peuvent\nfaire personnellement leurs dépôts de\ndemande de titre de propriété industrielle,\nainsi que toutes opérations ultérieures\ny afférentes ou désigner à cet effet un\nmandataire, domicilié ou ayant son siège\nsocial au Maroc.\nLorsque le mandataire est inscrit sur la liste\ndes conseillers en propriété industrielle\nprévue au chapitre II ci-dessous, il est\nhabilité à effectuer toutes les opérations\nrelatives à la propriété industrielle prévues\npar la présente loi auprès de l’organisme\nchargé de la propriété industrielle à\nl’exception de celles portant sur la cessation\nou la transmission des droits y afférents.\nChapitre II\nConditions d’exercice de la profession\nde conseiller en propriété industrielle"
+    },
+    {
+      "provision_ref": "art5",
+      "chapter": "Chapitre III",
+      "section": "5",
+      "title": "Article 5",
+      "content": "Les ressortissants des pays qui ne font\npas partie de l’Union internationale pour\nla protection de la propriété industrielle\njouissent du bénéfice des dispositions de\nla présente loi s’ils sont domiciliés ou ont\nune activité industrielle ou commerciale\neffective et sérieuse sur le territoire de\nl’un des pays de l’Union."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapitre III",
+      "section": "6",
+      "title": "Article 6",
+      "content": "Celui qui aura régulièrement fait le dépôt\nd’une demande (première demande)\nde brevet d’invention, de schéma de\nconfiguration (topographie) de circuits\nintégrés, de dessin ou modèle industriel\nou de marque de fabrique, de commerce\nou de service, dans l’un des pays de\nl’Union internationale pour la protection\nde la propriété industrielle, ou son ayant\ndroit, jouira, pour effectuer le dépôt de\nladite demande au Maroc (demande\nsubséquente), d’un droit de priorité\npendant les délais prévus à l’article 7 ciaprès."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapitre III",
+      "section": "7",
+      "title": "Article 7",
+      "content": "Le délai de priorité ci-dessus mentionné\nest de douze (12) mois pour les\nbrevets d’invention, et les schémas de\nconfiguration (topographies) de circuits\nintégrés, et de six mois pour les dessins\net modèles industriels et les marques de\nfabrique, de commerce ou de service. Les\ndélais commencent à courir à partir de la\ndate du dépôt de la première demande\neffectuée dans l’un des pays de l’Union,\nle jour du dépôt n’étant pas compris dans\nles délais. Si le dernier jour du délai est\nun jour férié ou un jour non ouvrable, le\ndélai est prorogé jusqu’au premier jour\nouvrable qui suit."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapitre III",
+      "section": "8",
+      "title": "Article 8",
+      "content": "Quiconque voudra se prévaloir de la\npriorité d’un dépôt antérieur effectué\ndans l’un des pays de l’Union sera tenu\nde faire une déclaration de priorité écrite\nindiquant la date, le numéro et le pays\nd’origine de ce dépôt. Cette déclaration\ndevra être effectuée à la date du dépôt de\nla demande au Maroc.\nDans un délai de quatre mois courant à\ncompter de la date d’expiration du délai\nde la priorité la plus ancienne, le déposant\ndevra fournir les pièces justifiant le dépôt\nantérieur dans les conditions qui seront\ndéterminées par voie réglementaire.\nLes mêmes formalités et délais prévus\nà l’alinéa 1 et 2 du présent article sont\napplicables à toute personne physique ou\nmorale qui revendique, dans une même\ndemande de dépôt au Maroc, plusieurs\ndroits de priorité."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9",
+      "content": "Les dépôts, lorsqu’un droit de priorité\nest dûment revendiqué, ne pourront être\ninvalidés par des faits accomplis dans\nl’intervalle des délais prévus à l’article\n7 de la présente loi, notamment par\nun autre dépôt, par la publication ou\nl’exploitation du brevet d’invention, ou du\nschéma de configuration ( topographie )\nde circuits intégrés, par la mise en vente\nd’exemplaires du dessin ou modèle\nindustriel ou par l’emploi de la marque."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10",
+      "content": "Les actes accomplis dans le délai de\npriorité par des tiers de bonne foi ne\npourront faire naître aucun droit au\ndelà de la date de dépôt de la demande\ndéposée avec priorité au Maroc. Ces actes\nne pourront donner lieu à aucune action\nen dommages intérêts."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11",
+      "content": "dossiers de demandes de titres de propriété\nindustrielle, en original ou en reproduction,\njusqu’au terme d’un délai de dix ans après\nl’extinction des droits y afférents."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12",
+      "content": "Pour tout acte ou opération prévu par\nla présente loi, à l’exception des actes\njudiciaires, lorsqu’un délai est exprimé :\n››en une ou plusieurs années, il court à\ncompter du jour suivant celui où cet\nacte ou opération a eu lieu et expire,\ndans l’année ultérieure, le mois portant\nle même nom et le jour ayant le même\nquantième que le mois et le jour où ledit\nacte ou opération a eu lieu; toutefois, si\nce mois n’a pas de jour ayant le même\nquantième, ledit délai expire le dernier\njour de ce mois.\n››en un ou plusieurs mois, il court à\ncompter du jour suivant celui où cet\nacte ou opération a eu lieu et expire,\ndans le mois ultérieur, le jour ayant le\nmême quantième que le jour où ledit\nacte ou opération a eu lieu. Toutefois, si\nce mois n’a pas de jour ayant le même\nquantième, ledit délai expire le dernier\njour de ce mois.\n››en nombre de jours, il court à compter\ndu jour suivant celui où cet acte ou\nopération a eu lieu et expire le jour où\nl’on atteint le dernier jour du compte.\nLorsque les délais fixés dans la présente\nloi pour l’accomplissement des opérations\nde dépôt des demandes de titres de\npropriété industrielle n’ont pas été\nobservés, une requête en poursuite de la\nprocédure afférente auxdites opérations\npeut être présentée par le déposant ou\nson mandataire auprès de l’organisme\nchargé de la propriété industrielle dans\nun délai de deux mois courant à compter\n\nLe défaut d’observation des délais et\nformalités prévus par les articles 7 et 8 cidessus entraînera la perte du bénéfice du\ndroit de priorité au Maroc.\nLes brevets d’invention, les schémas de\nconfiguration (topographies) de circuits\nintégrés, les dessins et modèles industriels\net les marques de fabrique, de commerce\nou de service, déposés avec le bénéfice\nde la priorité jouissent d’une durée de\nprotection égale à celle prévue pour les\ndépôts effectués sans revendication de\npriorité."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13",
+      "content": "Les brevets d’invention, les schémas de\nconfiguration (topographies) de circuits\nintégrés, les dessins et modèles industriels\net les marques de fabrique, de commerce\nou de service, demandés pendant la durée\ndu délai de priorité, seront entièrement\nindépendants des titres obtenus dans l’un\ndes pays de l’Union, pour le même objet,\ntant au point de vue des causes de nullité\net de déchéance, qu’au point de vue de la\ndurée de protection."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14",
+      "content": "Toutes opérations de dépôt des demandes\nde titres de propriété industrielle ainsi\nque tout acte affectant ces titres sont\ninscrites sur les registres tenus à cet effet\npar l’organisme chargé de la propriété\nindustrielle. La liste et le contenu de\nces registres, que le dit organisme\nconserve indéfiniment, sont fixés par voie\nréglementaire.\nL’organisme chargé de la propriété\nindustrielle conserve les pièces des"
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15",
+      "content": "Seuls les tribunaux de commerce sont\ncompétents pour connaître de tout litige\nné de l’application de la présente loi, à\nl’exception des actions pénales et des\ndécisions administratives qui y sont\nprévues.\n\nTITRE II\nDes brevets d’invention\nChapitre PREMIER\nDu champ d’application"
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapitre PREMIER",
+      "section": "16",
+      "title": "Article 16",
+      "content": "Toute invention peut faire l’objet d’un\ntitre de propriété industrielle délivré\npar l’organisme chargé de la propriété\nindustrielle. Ce titre confère à son titulaire\nou à ses ayants droit un droit exclusif\nd’exploitation de l’invention. Le droit au\ntitre de propriété industrielle appartient\n\nà l’inventeur ou à ses ayants droit sous\nréserve des dispositions de l’article 18 cidessous.\nSi plusieurs personnes ont réalisé\nl’invention indépendamment l’une de\nl’autre, le droit au titre de propriété\nindustrielle appartient à celle qui justifie\nde la date de dépôt la plus ancienne."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapitre PREMIER",
+      "section": "17",
+      "title": "Article 17",
+      "content": "Le titre de propriété industrielle\nprotégeant les inventions est le brevet\nd’invention, délivré pour une durée de\nprotection de vingt ans à compter de la\ndate de dépôt de la demande."
+    },
+    {
+      "provision_ref": "art18",
+      "section": "18",
+      "title": "Article 18",
+      "content": "Si l’inventeur est un salarié, le droit au\ntitre de propriété industrielle, à défaut de\nstipulation contractuelle plus favorable\nau salarié, est défini selon les dispositions\nci-après:\na. les inventions faites par le salarié dans\nl’exécution soit d’un contrat de travail\ncomportant une mission inventive qui\ncorrespond à ses fonctions effectives,\nsoit d’études et de recherches qui\nlui sont explicitement confiées,\nappartiennent à l’employeur. Les\nconditions dans lesquelles le salarié,\nauteur d’une telle invention, bénéficie\nd’une rémunération supplémentaire\nsont déterminées par les conventions\ncollectives et les contrats individuels de\ntravail.\nTout litige relatif à la rémunération\nsupplémentaire que pourrait percevoir le\nsalarié suite à son invention est soumis\nau tribunal.\nb. toutes\nles\nautres\ninventions\nappartiennent au salarié. Toutefois,\nlorsqu’une invention est faite par un\n\nsalarié, soit dans le cours de l’exécution\nde ses fonctions, soit dans le domaine\ndes activités de l’entreprise, soit par\nla connaissance ou l’utilisation de\ntechniques ou de moyens spécifiques\nà l’entreprise, ou de données procurées\npar elle, le salarié doit en informer\nimmédiatement son employeur par\ndéclaration écrite et envoyée par lettre\nrecommandée avec accusé de réception.\nEn cas de pluralité d’inventeurs, une\ndéclaration conjointe peut être faite par\ntous les inventeurs ou par certains d’entre\neux seulement.\nLe contenu de la déclaration est déterminé\npar voie réglementaire.\nL’employeur dispose d’un délai de six\nmois à compter de la date de réception\nde la déclaration écrite visée ci-dessus\npour se faire attribuer la propriété ou la\njouissance de tout ou partie des droits\nattachés à l’invention de son salarié par\nle dépôt d’une demande de brevet auprès\nde l’organisme chargé de la propriété\nindustrielle.\nToutefois, si l’employeur n’a pas déposé\nla demande de brevet dans le délai visé\nci-dessus, l’invention revient de droit au\nsalarié.\nLe salarié doit en obtenir un juste prix\nqui, à défaut d’accord entre les parties,\nest fixé par le tribunal; celui-ci prendra\nen considération tous les éléments qui\npourront lui être fournis notamment par\nl’employeur et par le salarié, pour calculer\nle juste prix tant en fonction des apports\ninitiaux de l’un et de l’autre que de l’utilité\nindustrielle et commerciale de l’invention.\nc. le salarié et l’employeur doivent se\ncommuniquer\ntous\nrenseignements\nutiles sur l’invention en cause. Ils doivent\ns’abstenir de toute divulgation de nature à\ncompromettre en tout ou en partie l’exercice\ndes droits conférés par le présent titre.\nTout accord entre le salarié et son\nemployeur ayant pour objet une invention\nde salarié doit être constaté par écrit sous\npeine de nullité."
+    },
+    {
+      "provision_ref": "art19",
+      "section": "19",
+      "title": "Article 19",
+      "content": "Si un titre de propriété industrielle a\nété demandé soit pour une invention\nsoustraite à l’inventeur ou à ses ayants\ndroit, soit en violation d’une obligation\nlégale ou conventionnelle, la personne\nlésée peut revendiquer, devant le tribunal,\nla propriété du titre délivré.\nL’action en revendication se prescrit\npar trois ans à compter de la date de\nl’inscription du titre au registre national\ndes brevets visé au 1er alinéa de l’article\n58 ci-dessous.\nToutefois, en cas de mauvaise foi au\nmoment de la délivrance ou de l’acquisition\ndu titre, le délai de prescription est de\ntrois ans à compter de l’expiration du titre."
+    },
+    {
+      "provision_ref": "art20",
+      "section": "20",
+      "title": "Article 20",
+      "content": "L’inventeur, salarié ou non, est mentionné\ncomme tel dans le brevet. Il peut\négalement s’opposer à cette mention."
+    },
+    {
+      "provision_ref": "art21",
+      "section": "21",
+      "title": "Article 21",
+      "content": "L’invention peut porter sur des produits,\nsur des procédés et sur toute application\nnouvelle ou une combinaison de moyens\nconnus pour arriver à un résultat inconnu\npar rapport à l’état de la technique.\nL’invention peut porter également sur\ndes compositions pharmaceutiques, des\nproduits pharmaceutiques ou remèdes\nde toute espèce y compris les procédés et\nappareils servant à leur obtention."
+    },
+    {
+      "provision_ref": "art22",
+      "section": "22",
+      "title": "Article 22",
+      "content": "Est brevetable, dans tous les domaines\ntechnologiques, toute invention nouvelle,\nimpliquant une activité inventive et\nsusceptible d’application industrielle."
+    },
+    {
+      "provision_ref": "art23",
+      "section": "23",
+      "title": "Article 23",
+      "content": "Ne sont pas considérés comme des\ninventions au sens de l’article 22 cidessus:\n1. les découvertes ainsi que les théories\nscientifiques et les méthodes\nmathématiques;\n2. les créations esthétiques;\n3. la présentation d’informations.\n4. les plans, principes et méthodes dans\nl’exercice d’activités intellectuelles, ou\nen matière de jeu ou dans le domaine\ndes activités économiques, ainsi que les\nprogrammes d’ordinateurs. Toutefois,\nsont brevetables les inventions dont\nl’exécution implique l’utilisation d’un\nordinateur, d’un réseau informatique\nou d’autre appareil programmable\net présentant une ou plusieurs\ncaractéristiques réalisées totalement\nou en partie par un ou plusieurs\nprogrammes\nd’ordinateurs.\nPour\nimpliquer une activité inventive, une\ninvention mise en œuvre par ordinateur\ndoit apporter une contribution\ntechnique.\nLes dispositions du présent article\nn’excluent la brevetabilité des éléments\nénumérés auxdites dispositions que\ndans la mesure où la demande de brevet\nou le brevet ne concerne que l’un de ces\néléments considéré en tant que tel."
+    },
+    {
+      "provision_ref": "art24",
+      "section": "24",
+      "title": "Article 24",
+      "content": "Ne sont pas brevetables :\na. les inventions contraires à l’ordre public\n\nou aux bonnes mœurs;\nb. les méthodes de traitement chirurgical\nou thérapeutique du corps humain ou\nanimal et les méthodes de diagnostic\nappliquées au corps humain ou animal.\nCette disposition ne s’applique pas aux\nproduits, notamment aux substances\nou compositions pour la mise en œuvre\nd’une de ces méthodes;\nc. les variétés végétales ou les races\nanimales ainsi que les procédés\nessentiellement\nbiologiques\nd’obtention de végétaux ou de sélection\nde races d’animaux. Cette disposition\nne s’applique pas aux procédés\nmicrobiologiques et aux produits\nobtenus par ces procédés."
+    },
+    {
+      "provision_ref": "art25",
+      "section": "25",
+      "title": "Article 25",
+      "content": "Par dérogation au paragraphe (c) de\nl’article 24 ci-dessus, les inventions\nportant sur les variétés végétales ou\nles races animales sont brevetables\nlorsqu’elles ont pour objet :\na. une matière biologique isolée de la\nvariété végétale ou de la race animale\nou produite à l’aide d’un procédé\ntechnique;\nb. des végétaux ou des animaux si la\nfaisabilité technique de l’invention n’est\npas limitée à une variété végétale ou à\nune race animale déterminée:\nc. d’une variété végétale nouvelle qui\nn’a pas fait l’objet d’une demande\nde certificat d’obtention végétale\nconformément à la législation en\nvigueur en matière de protection des\nobtentions végétales."
+    },
+    {
+      "provision_ref": "art26",
+      "section": "26",
+      "title": "Article 26",
+      "content": "Une invention est considérée comme\nnouvelle si elle n’est pas comprise dans\n\nl’état de la technique.\nL’état de la technique est constitué par\ntout ce qui a été rendu accessible au\npublic par une description écrite ou orale,\nun usage ou tout autre moyen, avant la\ndate de dépôt de la demande de brevet\nau Maroc, ou d’une demande de brevet\ndéposée à l’étranger et dont la priorité est\nvalablement revendiquée.\nEst également considéré comme compris\ndans l’état de la technique le contenu des\ndemandes de brevets déposées au Maroc,\nqui ont une date de dépôt antérieure\nà celle mentionnée au 2ème alinéa du\nprésent article et qui ont été publiées à\ncette date ou à une date postérieure.\nLes 2ème et 3ème alinéas ci-dessus\nn’excluent pas la brevetabilité d’une\nsubstance ou composition comprise dans\nl’état de la technique pour la mise en\nœuvre d’une méthode visée au paragraphe\nb) du 1er alinéa de l’article 24 ci dessus, à\ncondition que son utilisation pour l’une\nquelconque de ces méthodes ne soit pas\ncomprise dans l’état de la technique.\nLes 2ème et 3ème alinéas n’excluent\npas également la brevetabilité d’une\nsubstance ou composition visée au 4ème\nalinéa ci-dessus pour toute utilisation\nspécifique dans une méthode visée au\nb) de l’article 24 ci-dessus, à condition\nque cette utilisation ne soit pas comprise\ndans l’état de la technique."
+    },
+    {
+      "provision_ref": "art27",
+      "section": "27",
+      "title": "Article 27",
+      "content": "Par dérogation aux dispositions de l’article\n26 ci-dessus, la divulgation de l’invention\nn’est pas prise en considération dans les\ncas suivants:\n1. si elle a lieu dans les douze mois\nprécédant la date du dépôt de la\ndemande de brevet d’invention et a\nété effectuée, autorisée ou obtenue\ndu titulaire de la demande de brevet\nd’invention.\n2. si elle résulte de la publication, après\nla date de ce dépôt, d’une demande de\nbrevet d’invention antérieure qui résulte\ndirectement ou indirectement d’un\nabus évident à l’égard du demandeur\nou de son prédécesseur en droit.\n3. du fait que l’invention a été présentée\npour la première fois par le demandeur\nou son prédécesseur en droit dans des\nexpositions internationales officielles\nou officiellement reconnues, organisées\nsur le territoire de l’un des pays de\nl’Union internationale pour la protection\nde la propriété industrielle.\nToutefois, dans ce dernier cas, l’exposition\nde l’invention doit être déclarée lors du\ndépôt de la demande."
+    },
+    {
+      "provision_ref": "art28",
+      "section": "28",
+      "title": "Article 28",
+      "content": "Une invention est considérée comme\nimpliquant une activité inventive si, pour\nun homme du métier, elle ne découle pas\nd’une manière évidente de l’état de la\ntechnique.\nSi l’état de la technique comprend\négalement les documents visés au\n3ème alinéa de l’article 26 ci-dessus, ils\nne sont pas pris en considération pour\nl’appréciation de l’activité inventive."
+    },
+    {
+      "provision_ref": "art29",
+      "section": "29",
+      "title": "Article 29",
+      "content": "Une invention est considérée comme\nsusceptible\nd’application\nindustrielle\nlorsqu’elle présente une utilité déterminée,\nprobante et crédible.\n\nChapitre II\nDu dépôt de la demande de brevet, de\nla délivrance du brevet\net de la validation\nSection première\nDu dépôt de la demande de brevet\nd’invention"
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Section première",
+      "section": "30",
+      "title": "Article 30",
+      "content": "Le dépôt d’une demande de brevet\nd’invention est effectué sur requête\ndu déposant ou de son mandataire auprès\nde l’organisme chargé de la propriété\nindustrielle. Ladite demande donne lieu\nà l’acquittement des droits exigibles\nde dépôt et de la recherche dans un\ndélai d’un mois à compter de la date de\ndépôt. A défaut de l’acquittement des\ndroits exigibles, dans le délai précité,\nla demande de brevet d’invention est\nconsidérée comme retirée."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Section première",
+      "section": "31",
+      "title": "Article 31",
+      "content": "Le dossier de dépôt d’une demande de\nbrevet d’invention doit comporter:\na. un formulaire de dépôt de demande de\nbrevet d’invention dont le contenu est\nfixé par voie réglementaire;\nb. une description de l’invention et/ou une\npartie de cette description, qui semble\nen constituer une, et/ou un renvoi à\nune demande déposée antérieurement,\nsous réserve qu’elle soit accessible.\nCette description peut être fournie\nau moment du dépôt dans n’importe\nquelle langue.\nc. une ou plusieurs revendications ;\nd. les dessins auxquels se réfèrent la\ndescription ou les revendications ;\ne. un abrégé\nLa date de dépôt de la demande de brevet\nest celle à laquelle le déposant ou son\nmandataire a produit les pièces prévues\naux (a) et (b). Le dossier de demande de\nbrevet ne comportant pas lesdites pièces\nn’est pas recevable.\n\nLorsque le dossier de demande de brevet\ncomprend les pièces visées aux (a) et (b)\nci-dessus, la demande de brevet, telle\nque prévue au (a) ci-dessus est inscrite au\nregistre national des brevets visé au 1er\nalinéa de l’article 58 ci-dessous avec date et\nnuméro de dépôt.\nSont fixées par voie réglementaire :\n››les formalités et les pièces à joindre au\ndocument visé au (a) du présent article,\n››les modalités d’application du renvoi et\nde l’accessibilité aux documents visés\nau (b) du présent article."
+    },
+    {
+      "provision_ref": "art32",
+      "chapter": "Section première",
+      "section": "32",
+      "title": "Article 32",
+      "content": "Lorsque, à la date du dépôt, le dossier de\ndemande de brevet ne comporte pas une ou\nplusieurs pièces à joindre aux documents\nvisés aux paragraphes (a) et (b) de l’article\n31 ci-dessus, le déposant ou son mandataire\ndispose d’un délai de trois mois à compter\nde la date de son dépôt pour régulariser son\ndossier, sous réserve des dispositions de\nl’alinéa 2 de l’article 8 ci- dessus.\nLe dossier de la demande ainsi régularisé\ndans le délai imparti conserve la date du\ndépôt initial.\nToute demande de brevet d’invention qui\nn’est pas régularisée dans le délai prévu\nau présent article est considérée comme\nretirée."
+    },
+    {
+      "provision_ref": "art33",
+      "section": "33",
+      "title": "Article 33",
+      "content": "Un récépissé constatant la date de la\nremise des pièces visées aux 2e et 4e\nalinéas de l’article 31 ci-dessus est\nimmédiatement remis après dépôt\nde la demande au déposant ou à son\nmandataire."
+    },
+    {
+      "provision_ref": "art34",
+      "section": "34",
+      "title": "Article 34",
+      "content": "La description de l’invention comprend :\n1. l’indication du domaine technique\nauquel se rapporte l’invention;\n2. l’indication de l’état de la technique\nantérieur, connu du demandeur,\npouvant être considéré comme utile\npour la compréhension de l’invention;\n3. un exposé de l’invention, telle que\ncaractérisée dans les revendications,\npermettant la compréhension du\nproblème technique ainsi que la\nsolution qui lui est apportée; sont\nindiqués, le cas échéant, les avantages\nde l’invention par rapport à l’état de la\ntechnique antérieure;\n4. une brève description des dessins s’il en\nexiste;\n5. un exposé détaillé d’au moins un mode\nde réalisation de l’invention; l’exposé\nest en principe assorti d’exemples et de\nréférences aux dessins, s’il en existe;\n6. l’indication de la manière dont\nl’invention est susceptible d’application\nindustrielle, si cette application ne\nrésulte pas à l’évidence de la description\nou de la nature de l’invention.\nLa description de l’invention doit exposer\nl’invention d’une façon suffisamment\nclaire et complète en divulguant des\ninformations suffisantes permettant à un\nhomme du métier, sans expérimentation\nexcessive, d’exécuter l’invention connue\nde l’inventeur à la date du dépôt.\nLorsqu’une invention concerne l’utilisation\nd’un micro-organisme auquel le public n’a\npas accès et qui ne peut être décrite de\nmanière à permettre à l’homme du métier\nd’exécuter cette invention, sa description\nn’est jugée suffisante que si le microorganisme a fait l’objet d’un dépôt auprès\nd’un organisme habilité. Les modalités\nd’application du présent alinéa sont fixées\npar voie réglementaire."
+    },
+    {
+      "provision_ref": "art35",
+      "section": "35",
+      "title": "Article 35",
+      "content": "Les revendications définissent l’objet de\nla protection demandée en indiquant les\ncaractéristiques techniques de l’invention.\nUne revendication ne peut, sauf absolue\nnécessité, se fonder pour exprimer les\ncaractéristiques techniques de l’invention,\nsur de simples références à la description\nou aux dessins.\nLes revendications doivent être claires,\nconcises et fondées sur la description.\nUne\ninvention\nrevendiquée\nest\nsuffisamment étayée par les informations\ndivulguées lorsque lesdits renseignements\nmontrent raisonnablement à un homme\ndu métier que le demandeur était en\npossession de l’invention revendiquée, à la\ndate du dépôt de la demande de brevet de\nl’invention."
+    },
+    {
+      "provision_ref": "art36",
+      "section": "36",
+      "title": "Article 36",
+      "content": "L’abrégé du contenu technique de\nl’invention est établi exclusivement à des\nfins d’information. Il ne peut être pris en\nconsidération à d’autres fins, notamment\npour apprécier l’étendue de la protection\ndemandée ou sa nouveauté.\nCet abrégé doit être concis et peut être\naccompagné d’un dessin récapitulatif.\nL’intitulé doit caractériser l’objet de\nl’invention. Il doit faire apparaître de\nmanière claire et concise la désignation\ntechnique de l’invention et ne comporter\naucune dénomination de fantaisie."
+    },
+    {
+      "provision_ref": "art37",
+      "section": "37",
+      "title": "Article 37",
+      "content": "La demande de brevet ne doit pas contenir :\n1. d’éléments ou de dessins contraires à\nl’ordre public ou aux bonnes mœurs;\n2. de déclarations dénigrantes concernant\ndes produits ou procédés de tiers ou\nle mérite ou la validité de demandes\nde brevets ou de brevets de tiers. De\nsimples comparaisons avec l’état de la\ntechnique ne sont pas en elles-mêmes\nconsidérées comme dénigrantes;\n3. d’éléments manifestement étrangers à la\ndescription de l’invention.\nLa demande de brevet ne peut comporter\nni restrictions ni conditions, ni réserves."
+    },
+    {
+      "provision_ref": "art38",
+      "section": "38",
+      "title": "Article 38",
+      "content": "La demande de brevet ne peut concerner\nqu’une invention ou une pluralité\nd’inventions liées entre elles de manière\nà ne former qu’un seul concept inventif\ngénéral."
+    },
+    {
+      "provision_ref": "art39",
+      "section": "39",
+      "title": "Article 39",
+      "content": "Avant la délivrance du brevet et sur\ndemande justifiée, le déposant ou\nson mandataire, peut demander la\nrectification des fautes d’expression ou\nde transcription ainsi que des erreurs\nmatérielles relevées dans les pièces et\ndocuments déposés.\nSi la demande de rectification porte sur\nla description, les revendications ou les\ndessins, la rectification n’est autorisée que\nsi elle s’impose à l’évidence, aucun autre\ntexte ou tracé n’ayant pu manifestement\nêtre envisagé par le demandeur.\nLa demande de rectification mentionnée\nà l’alinéa 1 du présent article est\nprésentée par écrit et comporte le texte\ndes modifications proposées.\nIl est statuer sur la demande de\nrectification par l’organisme chargé de\nla propriété industrielle dans un délai\nde quinze jours à compter de la date de\ndépôt de la demande."
+    },
+    {
+      "provision_ref": "art40",
+      "section": "40",
+      "title": "Article 40",
+      "content": "Le titulaire d’une demande de brevet\nou son mandataire muni d’un pouvoir\nspécial, peut, à compter de la date de\ndépôt et avant la date de publication de\nsa demande, retirer cette demande de\nbrevet par une déclaration écrite, sous\nréserve des dispositions ci-après:\na. si des droits réels de licence ou de gage\nont été inscrits au registre national des\nbrevets visé au 1er alinéa de l’article 58\nci-dessous, la déclaration de retrait n’est\nrecevable que si elle est accompagnée du\nconsentement écrit des titulaires de ces\ndroits;\nb. si la demande de brevet est en copropriété,\nle retrait de la demande ne peut être\neffectué que s’il est requis par l’ensemble\ndes copropriétaires.\n\nLa mention de la demande retirée est\ninscrite par l’organisme chargé de la\npropriété industrielle au registre national\ndes brevets visé au 1er alinéa de l’article\n58 ci-dessous."
+    },
+    {
+      "provision_ref": "art41",
+      "section": "41",
+      "title": "Article 41",
+      "content": "Est rejetée, en tout ou en partie, toute\ndemande de brevet qui :\n1. n’est pas considérée comme une\ninvention au sens de l’article 23 cidessus;\n2. n’est pas brevetable au sens de l’article\n24 ci-dessus;\n3. présente une absence manifeste de\nnouveauté ou d’activité inventive au\nsens des articles 26 et 28 ci-dessus;\n4. n’est pas considérée comme une\ninvention susceptible d’application\nindustrielle au sens de l’article 29 cidessus;\n5. n’a pas été divisée ou limitée au sens de\nl’article 38.1 ci-dessus,\n6. ne satisfait pas aux dispositions du 3ème\nalinéa de l’article 43.1 ci-dessous.\nSi les motifs de rejet n’affectent la\ndemande de brevet qu’en partie, seules\nles revendications de cette partie qui sont\nrejetées.\nEn cas de non conformité partielle de la\ndemande aux dispositions de l’article 37\nci-dessus, il est procédé à la suppression\ndes parties correspondantes de la\ndescription et des dessins.\nLe rejet de toute demande de brevet\ndoit être motivé et notifié au déposant\nou à son mandataire. La mention dudit\nrejet est inscrite au registre national des\nbrevets visé au 1er alinéa de l’article 58 cidessous."
+    },
+    {
+      "provision_ref": "art42",
+      "section": "42",
+      "title": "Article 42",
+      "content": "Pour les besoins de la défense nationale,\nla divulgation et l’exploitation des\ninventions faisant l’objet de demandes\nde brevets peuvent être interdites à titre\ndéfinitif ou provisoire.\nA cet effet, toute demande de brevet\nd’invention, et ce, pendant un délai\nde trente jours à compter de la date\nde dépôt de ladite demande, peut être\nconsultée par l’autorité gouvernementale\nchargée de l’administration de la défense\nnationale, à titre confidentiel, dans\nles locaux de l’organisme chargé de la\npropriété industrielle.\nDans un délai de cinq mois à compter de\nla date de dépôt de la demande de brevet\nd’invention, l’autorité gouvernementale\nchargée de l’administration de la défense\nnationale décide de l’interdiction de la\ndivulgation et d’exploitation de ladite\ndemande à titre définitif ou provisoire,\net notifie sa décision à l’autorité\ngouvernementale chargée du commerce\net de l’industrie et à l’organisme chargé\nde la propriété industrielle.\nLes demandes de brevet d’invention\nfaisant objet de la décision d’interdiction\ndéfinitive de divulgation et d’exploitation,\nne peuvent être rendues publiques et les\nprocédures prévues aux articles 43 à 48\nci-dessous, ne peuvent être engagées.\nDans le cas où il y a décision d’interdiction\nà titre provisoire, dans le délai de cinq\nmois susmentionné, et si aucune décision\nd’interdiction définitive n’a été prononcée\ndans le délai de dix huit mois prévu au\n1er alinéa de l’article 44 ci-dessous, les\nprocédures prévues aux articles 43 à 48\nci-dessous seront engagées.\nL’organisme chargé de la propriété\nindustrielle doit notifier par écrit au\ndéposant ou à son mandataire toute\ndécision prise en application du présent\narticle.\nL’interdiction définitive ou provisoire de\ndivulguer et d’exploiter une invention\nouvre droit à une indemnité fixée en\naccord avec le ou les titulaires d’une\ndemande de brevet ou leur mandataire.\nTout litige en matière d’indemnisation\nest soumis au tribunal administratif de\nRabat."
+    },
+    {
+      "provision_ref": "art43",
+      "section": "43",
+      "title": "Article 43",
+      "content": "L’Organisme chargé de la propriété\nindustrielle établit un rapport de\nrecherche préliminaire avec opinion\nsur la brevetabilité relatif à la demande\nde brevet d’invention sur la base des\nrevendications, en tenant compte de la\ndescription et des dessins s’il en existe.\nLorsqu’il établit le rapport de recherche\npréliminaire, l’organisme chargé de la\npropriété industrielle arrête le contenu\ndéfinitif de l’abrégé et fixe l’intitulé de\nl’invention.\nLe contenu du rapport de recherche\npréliminaire avec opinion sur la\nbrevetabilité et les modalités de son\nétablissement sont fixés par voie\nréglementaire."
+    },
+    {
+      "provision_ref": "art44",
+      "section": "44",
+      "title": "Article 44",
+      "content": "Toute demande de brevet d’invention qui\nn’a pas été rejetée ou retirée est publiée\naprès l’expiration d’un délai de dix-huit\nmois à compter de la date de dépôt ou,\nsi une ou plusieurs priorités ont été\nrevendiquées, à compter de la date de\npriorité la plus ancienne.\nLa publication de la demande de brevet\nd’invention comporte la description, les\nrevendications et les dessins s’il en existe,\ntels que ces documents ont été déposés\nou, le cas échéant, modifiés, ainsi que\nl’abrégé tel que définitivement arrêté\net le rapport de recherche préliminaire\nassorti de l’opinion sur la brevetabilité. Si\nledit rapport préliminaire et l’abrégé ne\nsont pas publiés à la même date que la\ndemande, ils sont publiés séparément.\nCette publication confère provisoirement\nau déposant la protection prévue à\nl’article 51 ci-dessous.\nLa mention de la publication de la\ndemande est publiée au catalogue officiel\nvisé à l’article 89 ci-dessous."
+    },
+    {
+      "provision_ref": "art45",
+      "section": "45",
+      "title": "Article 45",
+      "content": "Seul le ou les titulaires de la demande de\nbrevet d’invention ou leurs mandataires\npeuvent obtenir, avant la délivrance du\nbrevet d’invention, sur demande écrite,\nune copie officielle de la demande de\nbrevet d’invention.\n\nSection 2\nDe la délivrance du brevet"
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Section 2",
+      "section": "46",
+      "title": "Article 46",
+      "content": "Après le délai de dix huit mois prévu\nau 1er alinéa de l’article 44 ci-dessus,\nl’organisme chargé de la propriété\nindustrielle délivre le brevet d’invention,\nsous réserve des articles 14.3 et 41 cidessus, après acquittement des droits\nexigibles.\nLes brevets sont délivrés en fonction de la\ndate de dépôt de leur demande selon un\ncalendrier et une périodicité prévue par\nvoie réglementaire."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "Section 2",
+      "section": "47",
+      "title": "Article 47",
+      "content": "L’organisme chargé de la propriété\nindustrielle publie le brevet d’invention\ndélivré comprenant la description, les\ndernières revendications, les dessins\ns’il en existe, et le rapport de recherche\ndéfinitif accompagné de l’opinion sur la\nbrevetabilité.\nSur demande du déposant ou son\nmandataire, l’organisme chargé de la\npropriété industrielle lui délivre le titre du\nbrevet d’invention."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "Section 2",
+      "section": "48",
+      "title": "Article 48",
+      "content": "Le numéro et la date de délivrance du\nbrevet d’invention sont inscrits au registre\nnational des brevets visé au 1er alinéa de\nl’article 58 ci-dessous."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "Section 2",
+      "section": "49",
+      "title": "Article 49",
+      "content": "Toute personne intéressée peut, après\npublication d’une demande de brevet\nd’invention ou délivrance du brevet\nd’invention, obtenir sur demande écrite,\nune copie de ladite demande ou dudit\nbrevet d’invention."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Section 2",
+      "section": "50",
+      "title": "Article 50",
+      "content": "La mention de la délivrance du brevet\nd’invention est publiée dans le catalogue\nofficiel visé à l’article 89 ci-dessous.\n\nSection 3\nDe la validation de la demande\nde brevet d’invention et du brevet\nd’invention"
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "Section première",
+      "section": "51",
+      "title": "Article 51",
+      "content": "Les droits attachés à une demande de brevet\nou à un brevet d’invention prennent effet à\ncompter de la date du dépôt de la demande\nde brevet et confèrent à leur titulaire ou à ses\nayants droit le droit exclusif d’exploitation\nvisé au 1er alinéa de l’article 16 ci-dessus."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "Section première",
+      "section": "52",
+      "title": "Article 52",
+      "content": "L’étendue de la protection conférée par le\nbrevet est déterminée par la teneur des\nrevendications. Toutefois, la description\net les dessins peuvent servir à interpréter\nles revendications.\nSi l’objet du brevet porte sur un procédé, la\n\nprotection conférée par le brevet s’étend\naux produits obtenus directement par ce\nprocédé."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Section première",
+      "section": "53",
+      "title": "Article 53",
+      "content": "Sont interdites, à défaut du consentement\ndu propriétaire du brevet:\na. la fabrication, l’offre, la mise dans\nle commerce, l’utilisation ou bien\nl’importation ou la détention, aux fins\nprécitées, du produit objet du brevet;\nb. l’utilisation d’un procédé objet du\nbrevet ou, lorsque le tiers sait ou lorsque\nles circonstances rendent évident que\nl’utilisation du procédé est interdite\nsans le consentement du propriétaire\ndu brevet, l’offre de son utilisation sur le\nterritoire marocain;\nc. l’offre, la mise dans le commerce ou\nl’utilisation ou bien l’importation ou la\ndétention, aux fins précitées, du produit\nobtenu directement par le procédé\nobjet du brevet."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "Section première",
+      "section": "54",
+      "title": "Article 54",
+      "content": "Est également interdite, à défaut du\nconsentement du propriétaire du brevet,\nla livraison ou l’offre de livraison, sur le\nterritoire marocain, à une personne autre\nque celle habilitée à exploiter l’invention\nbrevetée, des moyens de mise en œuvre,\nsur ce territoire, de cette invention se\nrapportant à un élément essentiel de\ncelle-ci, lorsque le tiers sait ou lorsque\nles circonstances rendent évident que ces\nmoyens sont aptes et destinés à cette\nmise en œuvre.\nLes dispositions de l’alinéa ci-dessus ne\nsont pas applicables lorsque les moyens\nde mise en œuvre sont des produits qui se\ntrouvent couramment dans le commerce,\nsauf si le tiers incite la personne à qui il\nlivre à commettre des actes interdits par\nl’article 53 ci-dessus.\nNe sont pas considérées comme personnes\nhabilitées à exploiter l’invention, au\nsens du 1er alinéa ci-dessus, celles qui\naccomplissent les actes visés à l’article 55\nci-dessous."
+    },
+    {
+      "provision_ref": "art55",
+      "section": "55",
+      "title": "Article 55",
+      "content": "Les droits conférés par le brevet ne\ns’étendent pas :\na. aux actes accomplis dans un cadre privé\net à des fins non commerciales;\nb. aux actes accomplis à titre expérimental\nqui portent sur l’objet de l’invention\nbrevetée;\nc. à la préparation de médicaments faite\nextemporanément et par unité dans les\nofficines de pharmacie, sur ordonnance\nmédicale, ni aux actes concernant les\nmédicaments ainsi préparés;\nd. aux études et essais requis en vue de\nl’obtention d’une autorisation de mise\nsur le marché d’un médicament, ainsi\nqu’aux actes nécessaires à la réalisation\nde ces études et essais et à l’obtention\nde l’autorisation;\ne. aux actes concernant le produit couvert\npar ce brevet, accomplis sur le territoire\nmarocain, après que ce produit ait été\nmis dans le commerce au Maroc par\nle propriétaire du brevet ou avec son\nconsentement exprès;\nf. à l’utilisation d’objets brevetés à bord\nd’aéronefs, de véhicules terrestres ou\nde navires de pays membres de l’Union\ninternationale pour la protection de\nla propriété industrielle qui pénètrent\ntemporairement ou accidentellement\ndans l’espace aérien, sur le territoire ou\ndans les eaux territoriales du Maroc;\ng. aux actes effectués par toute personne\nqui, de bonne foi, à la date de dépôt\nde la demande ou, lorsqu’une priorité\nest revendiquée, à la date de priorité\nde la demande sur la base de laquelle\nle brevet est délivré sur le territoire du\nMaroc, utilisait l’invention ou faisait\ndes préparatifs effectifs et sérieux pour\nl’utiliser, dans la mesure où ces actes\nne diffèrent pas, dans leur nature ou\nleur finalité, de l’utilisation antérieure\neffective ou envisagée. Le droit de\nl’utilisateur antérieur ne peut être\ntransféré qu’avec l’entreprise à laquelle\nil est attaché.\n\nSection 2\nDe la transmission et de la perte des\ndroits\nSous-section PREMIèRE\nDispositions générales"
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "Section 2",
+      "section": "56",
+      "title": "Article 56",
+      "content": "Les droits attachés à une demande de\nbrevet ou à un brevet sont transmissibles\nen totalité ou en partie.\nIls peuvent faire l’objet, en totalité ou\nen partie, d’une concession de licence\nd’exploitation exclusive ou non exclusive,\nainsi que d’une mise en gage.\nLes droits conférés par la demande de\nbrevet ou le brevet peuvent être invoqués\nà l’encontre d’un licencié qui enfreint\nl’une des limites de sa licence imposée en\nvertu de l’alinéa précédent."
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "Section 2",
+      "section": "57",
+      "title": "Article 57",
+      "content": "Sous réserve des dispositions de l’article\n19 ci-dessus, une transmission des droits\nvisés au premier alinéa de l’article 56 cidessus ne porte pas atteinte aux droits\nacquis par des tiers avant la date de\ntransmission.\nLes actes comportant une transmission ou\n\nune licence, visés au premier et deuxième\nalinéas de l’article 56 ci-dessus, sont\nconstatés par écrit, sous peine de nullité."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "Section 2",
+      "section": "58",
+      "title": "Article 58",
+      "content": "Tous les actes transmettant, modifiant\nou affectant les droits attachés à une\ndemande de brevet ou à un brevet doivent,\npour être opposables aux tiers, être inscrits\nsur un registre dit « registre national des\nbrevets » , tenu par l’organisme chargé de\nla propriété industrielle.\nToutefois, avant son inscription, un acte\nest opposable aux tiers qui ont acquis des\ndroits après la date de cet acte mais qui\navaient connaissance de celui-ci lors de\nl’acquisition de ces droits.\nLes actes modifiant la propriété de la\ndemande de brevet ou du brevet ou la\njouissance des droits qui lui sont attachés,\ntel que cession, licence, constitution ou\ncession d’un droit de gage ou renonciation\nà ce dernier, saisie, validation et main\nlevée de saisie, sont inscrits à la demande\nde l’une des parties à l’acte.\nTout changement de nom ou d’adresse du\ntitulaire affectant une demande de brevet\nd’invention ou un brevet d’invention\nenregistré est inscrit au registre national\ndes brevets.\nPour\nl’inscription\ndes\nmentions\nconsécutives à une décision judiciaire\ndevenue définitive, le secrétariat greffe\nadresse dans un délai de quinze jours\nà compter de la date de ladite décision,\nà l’organisme chargé de la propriété\nindustrielle, en expédition complète\net gratuite, les décisions relatives à\nl’existence, l’étendue et l’exercice des\ndroits attachés à la protection prévue par\nle présent titre.\nLes formalités à remplir et les pièces à\njoindre aux demandes d’inscriptions sont\n\nfixées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art59",
+      "section": "59",
+      "title": "Article 59",
+      "content": "Après la publication prévue à l’article 44\nci-dessus, toute personne intéressée peut\nse faire délivrer un extrait du registre\nnational des brevets d’invention.\n\nSous-section 2\nDes licences obligatoires"
+    },
+    {
+      "provision_ref": "art60",
+      "section": "60",
+      "title": "Article 60",
+      "content": "Toute personne de droit public ou privé\npeut, trois ans après la délivrance du\nbrevet ou quatre ans après la date de\ndépôt de la demande de brevet, obtenir\ndu tribunal une licence obligatoire de ce\nbrevet, dans les conditions prévues aux\narticles 61 et 62 ci-dessous, si au moment\nde la requête, et sauf excuses légitimes, le\npropriétaire du brevet ou son ayant cause:\na. n’a pas commencé à exploiter ou fait\ndes préparatifs effectifs et sérieux pour\nexploiter l’invention objet du brevet sur\nle territoire du Royaume du Maroc;\nb. n’a pas commercialisé le produit objet\ndu brevet en quantité suffisante pour\nsatisfaire aux besoins du marché\nmarocain; ou\nc. lorsque\nl’exploitation\nou\nla\ncommercialisation du brevet au Maroc a\nété abandonnée depuis plus de trois ans."
+    },
+    {
+      "provision_ref": "art61",
+      "section": "61",
+      "title": "Article 61",
+      "content": "La demande de licence obligatoire est\nformée auprès du tribunal. Elle doit être\naccompagnée de la justification que le\ndemandeur n’a pu obtenir du propriétaire du\nbrevet une licence d’exploitation à l’amiable\nnotamment à des conditions et modalités\ncommerciales raisonnables et qu’il est en\nétat d’exploitation effective de l’invention."
+    },
+    {
+      "provision_ref": "art62",
+      "section": "62",
+      "title": "Article 62",
+      "content": "La licence obligatoire ne peut être que\nnon exclusive.\nElle est accordée à des conditions\ndéterminées par le tribunal , notamment\nquant à sa durée et à son champ\nd’application, qui seront limités aux fins\nauxquelles la licence est accordée, ainsi\nque le montant des redevances auxquelles\nelle donne lieu. Ces redevances sont fixées\nselon le cas d’espèce, compte tenu de la\nvaleur économique de la licence.\nCes conditions peuvent être modifiées par\nle tribunal à la requête du propriétaire ou\ndu licencié."
+    },
+    {
+      "provision_ref": "art63",
+      "section": "63",
+      "title": "Article 63",
+      "content": "Lorsque les circonstances ayant conduit\nà l’octroi de la licence obligatoire\ncessent d’exister et ne se reproduiront\nvraisemblablement pas, la licence\nd’exploitation peut être retirée sous réserve\nque les intérêts légitimes des licenciés\nsoient protégés de façon adéquate. Le\ntribunal peut réexaminer, sur demande\nmotivée par toute partie y ayant intérêt,\nsi ces circonstances continuent d’exister."
+    },
+    {
+      "provision_ref": "art64",
+      "section": "64",
+      "title": "Article 64",
+      "content": "Si le titulaire d’une licence obligatoire ne\nsatisfait pas aux conditions auxquelles\ncette licence lui a été octroyée, le\npropriétaire du brevet d’invention et le\ncas échéant, les autres licenciés peuvent\nobtenir du tribunal le retrait de cette\nlicence.\nToute cession des droits attachés à une\nlicence obligatoire est, à peine de nullité,\nsoumise à l’autorisation du tribunal."
+    },
+    {
+      "provision_ref": "art65",
+      "section": "65",
+      "title": "Article 65",
+      "content": "Les décisions judiciaires devenues\ndéfinitives et prises en application des\ndispositions de la présente sous-section\nII, doivent être immédiatement notifiées\npar le secrétariat greffe à l’organisme\nchargé de la propriété industrielle qui les\ninscrit au registre national des brevets."
+    },
+    {
+      "provision_ref": "art66",
+      "section": "66",
+      "title": "Article 66",
+      "content": "Lorsqu’une invention protégée par un\nbrevet ne peut être exploitée sans qu’il\nsoit porté atteinte aux droits attachés à\nun brevet antérieur dont le propriétaire\nrefuse la licence d’exploitation à des\nconditions et modalités commerciales\nraisonnables, le propriétaire du brevet\nultérieur peut obtenir du tribunal une\nlicence obligatoire, dans les mêmes\nconditions que celles prévues aux articles\n60 à 62 ci-dessus, sous réserve :\na. que l’invention revendiquée dans le\nbrevet ultérieur suppose un progrès\ntechnique important, d’un intérêt\néconomique considérable par rapport\nà l’invention revendiquée dans le brevet\nantérieur;\nb. que le titulaire du brevet antérieur ait\ndroit à une licence réciproque à des\nconditions raisonnables pour utiliser\nl’invention revendiquée dans le brevet\nultérieur; et\nc. que la licence en rapport avec le brevet\nantérieur soit incessible sauf si le brevet\nultérieur est également cédé.\n\nSous-section 3\nDes licences d’office"
+    },
+    {
+      "provision_ref": "art67",
+      "section": "67",
+      "title": "Article 67",
+      "content": "Si l’intérêt de la santé publique l’exige, les\nbrevets délivrés pour des médicaments, pour\ndes procédés d’obtention de médicaments,\npour des produits nécessaires à l’obtention\nde ces médicaments ou pour des procédés\n\nde fabrication de tels produits, peuvent,\nau cas ou ces médicaments ne sont mis\nà la disposition du public qu’en quantité\nou qualité insuffisante ou à des prix\nanormalement élevés, être exploités\nd’office.\nL’exploitation d’office est édictée par\nun acte administratif à la demande de\nl’administration chargée de la santé\npublique.\nLes dispositions précitées s’appliquent\négalement pour des médicaments destinés\nà être exportés vers un pays n’ayant\naucune capacité de fabrication ou ayant\nune capacité insuffisante de fabrication\nconformément aux accords internationaux\nen la matière dûment ratifiés par le\nRoyaume du Maroc."
+    },
+    {
+      "provision_ref": "art68",
+      "section": "68",
+      "title": "Article 68",
+      "content": "L’acte administratif visé à l’article 67 cidessus est notifié au titulaire du brevet,\naux titulaires de licences le cas échéant,\net à l’organisme chargé de la propriété\nindustrielle qui l’inscrit d’office au registre\nnational des brevets."
+    },
+    {
+      "provision_ref": "art69",
+      "section": "69",
+      "title": "Article 69",
+      "content": "Du jour de la publication de l’acte\nadministratif qui édicte l’exploitation\nd’office d’un brevet, toute personne\nqualifiée peut demander l’octroi d’une\nlicence d’exploitation dite «licence d’office».\nElle est demandée et octroyée dans les\nformes fixées par voie réglementaire.\nLa licence d’office est octroyée à des\nconditions déterminées notamment quant\nà sa durée et à son champ d’application.\nLes redevances auxquelles elle donne lieu\nsont laissées à l’accord des parties et à\ndéfaut d’accord entre elles, leur montant\nest fixé par le tribunal.\nElle prend effet à la date de la notification\n\nde l’acte qui l’octroie aux parties. Cet acte\nest inscrit d’office au registre national des\nbrevets.\nCette licence ne peut être que non exclusive.\nLes droits attachés à une licence d’office\nne peuvent être ni cédés ni transmis ni\nhypothéqués."
+    },
+    {
+      "provision_ref": "art70",
+      "section": "70",
+      "title": "Article 70",
+      "content": "Les modifications des clauses de la\nlicence, demandées soit par le propriétaire\ndu brevet, soit par le titulaire de cette\nlicence sont décidées et publiées selon la\nprocédure prescrite pour l’octroi de ladite\nlicence. Si elles portent sur le montant\ndes redevances, elles sont décidées selon\nla procédure prescrite pour la fixation\ninitiale de ce montant.\nLe retrait de la licence demandé par le\npropriétaire du brevet pour inexécution\ndes obligations imposées au titulaire de\nla licence est effectué conformément\naux dispositions prévues dans le texte\nréglementaire visé à l’article 69."
+    },
+    {
+      "provision_ref": "art71",
+      "section": "71",
+      "title": "Article 71",
+      "content": "L’administration compétente peut mettre\nen demeure les propriétaires des brevets\nd’invention autres que ceux visés à\nl’article 67 ci-dessus d’en entreprendre\nl’exploitation de manière à satisfaire les\nbesoins de l’économie nationale."
+    },
+    {
+      "provision_ref": "art72",
+      "section": "72",
+      "title": "Article 72",
+      "content": "La décision de mise en demeure prévue\nà l’article 71 ci-dessus doit être motivée\net notifiée au titulaire du brevet et, le\ncas échéant, aux titulaires des licences\ninscrites au registre national des brevets\nou à leur mandataire."
+    },
+    {
+      "provision_ref": "art73",
+      "section": "73",
+      "title": "Article 73",
+      "content": "Si la mise en demeure prévue à l’article\n71 ci-dessus n’a pas été suivie d’effet\ndans le délai d’un an courant du jour\nde la réception de sa notification et si\nl’absence d’exploitation ou l’insuffisance\nen qualité ou en quantité de l’exploitation\nentreprise porte gravement préjudice au\ndéveloppement économique et à l’intérêt\npublic, les brevets, objets de la mise en\ndemeure, peuvent être exploités d’office.\nL’exploitation d’office est édictée par un\nacte administratif.\nLe délai d’un an prévu au premier alinéa\nci-dessus, peut être prolongé par acte\nadministratif de l’autorité administrative\ncompétente lorsque le titulaire du brevet\njustifie d’excuses légitimes et compatibles\navec les exigences de l’économie\nnationale.\nLe délai supplémentaire visé au\nprécédent alinéa court à compter de la\ndate d’expiration dudit délai d’un an. La\ndécision accordant ce délai est prise et\nnotifiée selon la procédure et dans les\nformes prévues pour la décision de mise\nen demeure."
+    },
+    {
+      "provision_ref": "art74",
+      "section": "74",
+      "title": "Article 74",
+      "content": "Lorsqu’en vertu des dispositions des 1er\net 2ème alinéas de l’article 73 ci-dessus, il\nest fait usage de l’exploitation d’office des\nbrevets, les dispositions des articles 68 à\n70 ci-dessus sont applicables."
+    },
+    {
+      "provision_ref": "art75",
+      "section": "75",
+      "title": "Article 75",
+      "content": "L’Etat peut obtenir d’office, à tout moment,\npour les besoins de la défense nationale,\nune licence pour l’exploitation d’une\ninvention, objet d’une demande de brevet\nou d’un brevet, que cette exploitation soit\nfaite par lui-même ou pour son compte.\nLa licence d’office est accordée à la\ndemande de l’administration chargée\nde la défense nationale par un acte\nadministratif.\nCet acte fixe les conditions de la licence\nà l’exclusion de celles relatives aux\nredevances auxquelles elle donne lieu.\nLa licence prend effet à la date de la\ndemande de licence d’office.\nA défaut d’accord amiable entre le\npropriétaire du brevet et l’administration\nintéressée, le montant des redevances est\nfixé par le tribunal administratif de Rabat.\n\nSous-section 4\nDe la saisie"
+    },
+    {
+      "provision_ref": "art76",
+      "section": "76",
+      "title": "Article 76",
+      "content": "La saisie d’un brevet est effectuée en\nvertu d’une ordonnance du président du\ntribunal statuant en référé notifiée au\ntitulaire du brevet, à l’organisme chargé\nde la propriété industrielle, ainsi qu’aux\npersonnes possédant des droits sur le\nbrevet.\nLa notification de la saisie rend\ninopposable aux créanciers saisissant\ntoute modification ultérieure des droits\nattachés au brevet.\nA peine de nullité de la saisie, le créancier\nsaisissant doit, dans un délai de quinze\njours à compter de la date de l’ordonnance\nde saisie, se pourvoir devant le tribunal en\nvalidité de la saisie et aux fins de mise en\nvente du brevet.\n\nSous section 5\nDe la copropriété des brevets"
+    },
+    {
+      "provision_ref": "art77",
+      "section": "77",
+      "title": "Article 77",
+      "content": "Sous réserve des dispositions de l’article 80\nci-dessous, la copropriété d’une demande\nde brevet ou d’un brevet est régie par les\ndispositions suivantes:\na. chacun des copropriétaires peut\n\nexploiter l’invention à son profit,\nsauf à indemniser équitablement les\nautres propriétaires qui n’exploitent\npas personnellement l’invention ou\nqui n’ont pas concédé de licences\nd’exploitation. A défaut d’accord\namiable, cette indemnité est fixée par\nle tribunal;\nb. chacun des copropriétaires peut agir en\ncontrefaçon à son seul profit. La requête\nen contrefaçon doit être notifiée aux\nautres copropriétaires. Il est sursis à\nstatuer sur l’action tant qu’il n’est pas\njustifié de cette notification;\nc. chacun des copropriétaires peut\nconcéder à un tiers une licence\nd’exploitation non exclusive à son profit,\nsauf à indemniser équitablement les\nautres copropriétaires qui n’exploitent\npas personnellement l’invention ou\nqui n’ont pas concédé de licences\nd’exploitation. A défaut d’accord\namiable, cette indemnité est fixée par\nle tribunal.\nToutefois, le projet de concession doit\nêtre notifié aux autres copropriétaires\naccompagné d’une offre de cession de la\nquote-part à un prix déterminé.\nDans un délai de trois mois suivant\ncette notification, l’un quelconque\ndes copropriétaires peut s’opposer à la\nconcession de licence à la condition\nd’acquérir la quote-part de celui qui désire\naccorder la licence.\nA défaut d’accord, dans le délai prévu cidessus, le prix est fixé par le tribunal. Les\nparties disposent d’un délai de trente jours\nà compter de la notification de la décision\njudiciaire, pour renoncer à la concession\nou à l’achat de la part de copropriété\nsans préjudice des dommages intérêts\nqui peuvent être dus; les dépens sont à la\n\ncharge de la partie qui renonce.\nd. une licence d’exploitation exclusive\nne peut être accordée qu’avec l’accord\nde tous les copropriétaires ou par\nautorisation de justice;\ne. chaque copropriétaire peut, à tout\nmoment, céder sa quote-part. Les\ncopropriétaires disposent d’un droit de\npréemption pendant un délai de trois\nmois à compter de la notification du\nprojet de cession. A défaut d’accord\nsur le prix, celui-ci est fixé par le\ntribunal. Les parties disposent d’un\ndélai de trente jours à compter de la\nnotification de la décision judiciaire,\npour renoncer à la vente ou à l’achat\nde la part de copropriété sans préjudice\ndes dommages intérêts qui peuvent\nêtre dus; les dépens sont à la charge de\nla partie qui renonce."
+    },
+    {
+      "provision_ref": "art78",
+      "section": "78",
+      "title": "Article 78",
+      "content": "Les dispositions des articles 960 à 981\ndu D.O.C ne sont pas applicables à la\ncopropriété d’une demande de brevet ou\nd’un brevet."
+    },
+    {
+      "provision_ref": "art79",
+      "section": "79",
+      "title": "Article 79",
+      "content": "Le copropriétaire d’une demande de brevet\nou d’un brevet peut notifier aux autres\ncopropriétaires qu’il abandonne à leur\nprofit sa quote-part. A compter de la date\nde l’inscription de cet abandon au registre\nnational des brevets, ledit copropriétaire\nest déchargé de toutes obligations à\nl’égard des autres copropriétaires en cas\nde leur acceptation dudit abandon. Ceux-ci\nse répartissent la quote-part abandonnée\nà proportion de leurs droits dans la\ncopropriété, sauf convention contraire."
+    },
+    {
+      "provision_ref": "art80",
+      "section": "80",
+      "title": "Article 80",
+      "content": "Les dispositions des articles 77 à 79\nci-dessus s’appliquent en l’absence de\nstipulations contraires.\nLes copropriétaires peuvent y déroger\nà tout moment par un règlement de\ncopropriété.\n\nSous- section 6\nDispositions diverses"
+    },
+    {
+      "provision_ref": "art81",
+      "section": "81",
+      "title": "Article 81",
+      "content": "Le droit exclusif d’exploitation attaché au\nbrevet d’invention protégé par le présent\ntitre prend fin à l’expiration de sa durée\nde validité.\nIl peut, à tout moment, faire l’objet de la\npart de son titulaire, d’une renonciation\nsoit pour la totalité de l’invention, soit\npour une ou plusieurs revendications du\nbrevet.\nLa renonciation doit être formulée par une\ndéclaration écrite du titulaire du brevet\nou de son mandataire. Dans ce dernier\ncas, un pouvoir spécial de renonciation\ndoit être joint à la déclaration.\nLorsque le brevet est en copropriété, la\nrenonciation ne peut être effectuée que\nsi elle est requise par l’ensemble des\ncopropriétaires.\nSi des droits réels de licence ou de\ngage ont été inscrits au registre\nnational des brevets, la déclaration de\nrenonciation n’est recevable que si elle\nest accompagnée du consentement des\ntitulaires de ces droits.\nLa renonciation est inscrite au registre\nnational des brevets. Elle prend effet à la\ndate de cette inscription."
+    },
+    {
+      "provision_ref": "art82",
+      "section": "82",
+      "title": "Article 82",
+      "content": "Les droits exigibles pour le maintien\nen vigueur d’un brevet d’invention sont\nacquittés à l’organisme chargé de la\npropriété industrielle pour les années qui\nsuivent celle au cours de laquelle le brevet\nd’invention a été délivré. Le titulaire d’un\nbrevet d’invention qui n’a pas acquitté\nles droits exigibles pour le maintien en\nvigueur de ses droits dans les délais\nprescrits encourt la déchéance desdits\ndroits.\nToutefois, le paiement des droits exigibles\npeut être valablement effectué pendant\nun délai supplémentaire de six mois\ncourant à compter de la date de son\néchéance.\nLorsque le paiement des droits exigibles\nn’a pas été effectué à la date de son\néchéance, un avertissement est adressé\npar l’organisme chargé de la propriété\nindustrielle par lettre recommandée\navec accusé de réception au titulaire du\nbrevet, ou à son mandataire, lui indiquant\nqu’il encourt la déchéance de ses droits\nsi le paiement n’est pas effectué avant\nl’expiration du délai de six mois prévu au\nprécédent alinéa.\nL’absence d’avertissement n’engage pas\nla responsabilité de l’organisme chargé\nde la propriété industrielle et ne constitue\npas une cause de restauration des droits\ndu titulaire du brevet."
+    },
+    {
+      "provision_ref": "art83",
+      "section": "83",
+      "title": "Article 83",
+      "content": "Est déchu de ses droits le titulaire d’un\nbrevet qui n’a pas acquitté les droits\nexigibles à l’expiration du délai de six\nmois prévu au 2e alinéa de l’article 82 cidessus."
+    },
+    {
+      "provision_ref": "art84",
+      "section": "84",
+      "title": "Article 84",
+      "content": "La déchéance est constatée par une\ndécision écrite et motivée de l’organisme\nchargé de la propriété industrielle\nnotifiée au titulaire du brevet ou à son\nmandataire dans les formes fixées par\nvoie réglementaire.\n\nLa déchéance prend effet à la date de\nl’échéance du paiement non effectué.\nLa mention de la décision de constatation\nde la déchéance est inscrite au registre\nnational des brevets.\nToutefois, le titulaire du brevet peut,\ndans les 3 mois courant à compter de la\ndate de notification de la décision visée\nà l’alinéa ci-dessus, présenter un recours\ndevant l’organisme chargé de la propriété\nindustrielle en vue d’être restauré dans ses\ndroits s’il justifie d’une excuse légitime du\nnon acquittement des droits exigibles.\nLa restauration des droits peut être\naccordée par décision écrite de l’organisme\nchargé de la propriété industrielle sous\nréserve que lesdits droits exigibles soient\nacquittés avant l’expiration du délai de\ntrois mois prévu au précédent alinéa.\nLa mention de la décision de restauration\ndes droits est inscrite au registre\nnational des brevets sur lequel est\nportée également mention de la date du\npaiement des droits exigibles. La décision\nde restauration des droits est notifiée au\ntitulaire du brevet d’invention ou à son\nmandataire."
+    },
+    {
+      "provision_ref": "art85",
+      "section": "85",
+      "title": "Article 85",
+      "content": "La nullité du brevet est prononcée par le\ntribunal à la demande de toute personne\nayant intérêt :\na. si l’invention n’est pas brevetable aux\ntermes des dispositions des articles 22\nà 29 de la présente loi;\nb. si la description de l’invention n’expose\npas l’invention d’une façon suffisante\npour qu’un homme du métier puisse\nl’exécuter;\nc. si l’objet de l’invention s’étend au\ndelà de la demande telle qu’elle a été\ndéposée;\n\nd. si les revendications ne définissent pas\nl’étendue de la protection demandée.\nLorsque les motifs de nullité n’affectent\nle brevet qu’en partie, la nullité est\nprononcée sous la forme d’une limitation\ncorrespondante des revendications."
+    },
+    {
+      "provision_ref": "art86",
+      "section": "86",
+      "title": "Article 86",
+      "content": "L’action en nullité peut être exercée par\ntoute personne y ayant intérêt."
+    },
+    {
+      "provision_ref": "art87",
+      "section": "87",
+      "title": "Article 87",
+      "content": "Dans toute instance tendant à faire\nprononcer la nullité d’un brevet, le\nministère public peut se rendre partie\nintervenante et prendre des réquisitions\npour faire prononcer la nullité absolue du\nbrevet.\nIl peut même se pourvoir directement par\naction principale pour faire prononcer la\nnullité."
+    },
+    {
+      "provision_ref": "art88",
+      "section": "88",
+      "title": "Article 88",
+      "content": "L’invention brevetée dont le titulaire a été\ndéchu, et l’invention dont le brevet a été\nannulé ne peuvent faire l’objet d’un autre\ndépôt de demande de brevet."
+    },
+    {
+      "provision_ref": "art89",
+      "chapter": "Chapitre IV",
+      "section": "89",
+      "title": "Article 89",
+      "content": "L’organisme chargé de la propriété\nindustrielle publie un catalogue officiel\ndes brevets d’invention délivrés. Y figure\nmention des actes visés au 1er alinéa de\nl’article 58 ci-dessus.\n\nTITRE III\nDes schémas de configuration\n(topographies)\nde circuits intégrés\nChapitre PREMIER\nDu champ d’application"
+    },
+    {
+      "provision_ref": "art90",
+      "chapter": "Chapitre PREMIER",
+      "section": "90",
+      "title": "Article 90",
+      "content": "Au sens de la présente loi on entend par :\n›› schéma de configuration (topographie) : la\ndisposition tridimensionnelle, quelle que\nsoit son expression, des éléments, dont\nl’un au moins est un élément actif, et de\ntout ou partie des interconnexions d’un\ncircuit intégré, ou une telle disposition\ntridimensionnelle préparée pour un circuit\nintégré destiné à être fabriqué;\n››circuit intégré : un produit, sous sa forme\nfinale ou sous une forme intermédiaire,\ndans lequel les éléments, dont l’un\nau moins est un élément actif, et tout\nou partie des interconnexions font\npartie intégrante du corps et/ou de la\nsurface d’une pièce de matériau et qui\nest destiné à accomplir une fonction\nélectronique."
+    },
+    {
+      "provision_ref": "art91",
+      "chapter": "Chapitre PREMIER",
+      "section": "91",
+      "title": "Article 91",
+      "content": "Les schémas de configuration (topographies)\nde circuits intégrés originaux en ce sens qu’ils\nsont le fruit de l’effort intellectuel de leurs\ncréateurs et qui, au moment de leur création,\nne sont pas courants pour les créateurs de\nschémas de configuration (topographies) et\nles fabricants de circuits intégrés, peuvent\nfaire l’objet de la protection prévue par la\nprésente loi.\nUn schéma de configuration (topographie)\nde circuits intégrés qui consiste en une\ncombinaison d’éléments ou d’interconnexions\nqui sont courants, n’est protégé que si la\ncombinaison, prise dans son ensemble,\nremplit les conditions visées à l’alinéa cidessus."
+    },
+    {
+      "provision_ref": "art92",
+      "chapter": "Chapitre PREMIER",
+      "section": "92",
+      "title": "Article 92",
+      "content": "La protection accordée à un schéma de\nconfiguration (topographie) de circuits\nintégrés ne s’applique qu’au schéma de\nconfiguration (topographie) de circuits\nintégrés proprement dit, à l’exclusion de\ntout concept, procédé, système, technique\nou information codée incorporée dans ce\nschéma de configuration.\n\nChapitre II\nDispositions diverses"
+    },
+    {
+      "provision_ref": "art93",
+      "chapter": "Chapitre II",
+      "section": "93",
+      "title": "Article 93",
+      "content": "Les dispositions des chapitres II et III du\ntitre II de la présente loi sont applicables aux\nschémas de configuration (topographies)\nde circuits intégrés sous réserve des\ndispositions particulières ci-après."
+    },
+    {
+      "provision_ref": "art94",
+      "chapter": "Chapitre II",
+      "section": "94",
+      "title": "Article 94",
+      "content": "Tout\nschéma\nde\nconfiguration\n(topographie) de circuits intégrés peut\nfaire l’objet d’un titre de propriété\nindustrielle appelé « certificat de schéma\nde configuration (topographie) de circuits\nintégrés».\nLes schémas de configuration (topographies)\nde circuits intégrés sont protégés pour une\npériode de dix ans à compter de la date de\ndépôt de leur demande."
+    },
+    {
+      "provision_ref": "art95",
+      "chapter": "Chapitre II",
+      "section": "95",
+      "title": "Article 95",
+      "content": "Le droit au titre appartient au créateur\nou à ses ayants droit sous réserve des\ndispositions de l’article 18 ci-dessus.\nLes dispositions des articles 19 et 20 ci-\n\ndessus sont applicables aux schémas de\nconfiguration (topographies) de circuits\nintégrés."
+    },
+    {
+      "provision_ref": "art96",
+      "chapter": "Chapitre II",
+      "section": "96",
+      "title": "Article 96",
+      "content": "La demande de certificat de schéma de\nconfiguration (topographie) de circuits\nintégrés doit être accompagnée au moment\nde son dépôt d’une copie ou d’un dessin du\nschéma de configuration (topographie)\nde circuits intégrés et, lorsque le circuit\nintégré a été exploité commercialement,\nd’un échantillon de ce circuit intégré, ainsi\nque d’informations définissant la fonction\nélectronique que le circuit intégré est\ndestiné à accomplir."
+    },
+    {
+      "provision_ref": "art97",
+      "chapter": "Chapitre II",
+      "section": "97",
+      "title": "Article 97",
+      "content": "Le dépôt de la demande visée à l’article\n96 ci-dessus, à moins que le schéma ne\nsoit courant, ne peut intervenir deux ans\naprès que ledit schéma ait fait l’objet\nd’une première exploitation commerciale\nordinaire n’importe où dans le monde.\nLedit dépôt ne peut également en aucun\ncas intervenir quinze ans après que la\ntopographie finale ou intermédiaire du\ncircuit intégré a été fixée ou codée pour la\npremière fois si elle n’a jamais été exploitée."
+    },
+    {
+      "provision_ref": "art98",
+      "chapter": "Chapitre II",
+      "section": "98",
+      "title": "Article 98",
+      "content": "Est rejetée toute demande de certificat de\nschéma de configuration (topographie) de\ncircuits intégrés qui ne satisfait pas aux\ndispositions de l’article 96 ci-dessus et de la\nsection première du chapitre II du titre II de\nla présente loi."
+    },
+    {
+      "provision_ref": "art99",
+      "section": "99",
+      "title": "Article 99",
+      "content": "Sont interdits à défaut du consentement\ndu détenteur du droit d’un schéma de\nconfiguration (topographie) de circuits\nintégrés:\n\na. la reproduction, que ce soit par\nincorporation dans un circuit intégré ou\nautrement, de la totalité d’un schéma\nde configuration (topographie) protégé\nou d’une partie de celui-ci, sauf s’il\ns’agit de reproduire une partie qui ne\nsatisfait pas à l’exigence d’originalité\nvisée à l’article 91 ci-dessus;\nb. l’importation, la vente ou la distribution\nde toute autre manière, à des fins\ncommerciales, d’un schéma de\nconfiguration (topographie) protégé\nou d’un circuit intégré dans lequel un\nschéma de configuration protégé est\nincorporé, ou d’un article incorporant\nun tel circuit intégré, uniquement dans\nla mesure où cet article continue de\ncontenir un schéma de configuration\nreproduit illicitement."
+    },
+    {
+      "provision_ref": "art100",
+      "section": "100",
+      "title": "Article 100",
+      "content": "Ne sont pas considérés comme illégaux\nles actes suivants :\na. les actes visés au a) de l’article 99 cidessus, accomplis à des fins privées ou\nà la seule fin d’évaluation, d’analyse, de\nrecherche ou d’enseignement;\nb. la création, à partir d’une telle\névaluation, analyse ou recherche,\nd’une topographie distincte pouvant\nprétendre à la protection conformément\naux dispositions de la présente loi;\nc. l’un quelconque des actes visés à\nl’article 99 ci-dessus à l’égard d’un\ncircuit intégré incorporant un schéma\nde\nconfiguration\n(topographie)\nreproduit de façon illicite, ou de tout\narticle incorporant un tel circuit intégré,\nlorsque la personne qui accomplit\nou fait accomplir ces actes ne savait\npas et n’avait pas de raison valable de\nsavoir, lorsqu’elle a acquis ledit circuit\nintégré, ou l’article l’incorporant, qu’il\nincorporait un schéma de configuration\nreproduit de façon illicite. Après le\nmoment où cette personne aura reçu un\navis l’informant de manière suffisante\nque le schéma de configuration est\nreproduit de façon illicite , elle pourra\naccomplir l’un quelconque des actes\nvisés à l’égard des stocks dont elle\ndispose ou qu’elle a commandé avant\nce moment, mais pourra être astreinte à\nverser au détenteur du droit une somme\néquivalant à une redevance raisonnable\ntelle que celle qui serait exigible dans le\ncadre d’une licence librement négociée\npour un tel schéma de configuration."
+    },
+    {
+      "provision_ref": "art101",
+      "section": "101",
+      "title": "Article 101",
+      "content": "Si un schéma de configuration (topographie)\nde circuits intégrés n’a pas fait l’objet d’un\ndépôt de demande de certificat, dans un\ndélai de quinze ans à partir de la date de\nsa création, il ne peut faire naître aucun\ndroit exclusif."
+    },
+    {
+      "provision_ref": "art102",
+      "section": "102",
+      "title": "Article 102",
+      "content": "Peuvent être déclarés nuls par les\njuridictions sur demande de toute\npersonne intéressée, les certificats de\nschémas de configuration (topographies)\nde circuits intégrés qui ne sont pas\noriginaux au sens de l’article 91 ci-dessus\net qui ne répondent pas aux conditions\nprévues à l’article 97 ci-dessus."
+    },
+    {
+      "provision_ref": "art103",
+      "section": "103",
+      "title": "Article 103",
+      "content": "Toute personne intéressée peut se faire\ndélivrer un extrait du registre constatant\nles inscriptions portées sur un registre\ndit « registre national des certificats de\nschémas de configuration ( topographies )\nde circuits intégrés» tenu par l’organisme\nchargé de la propriété industrielle.\n\nTITRE IV\nDes dessins et modèles industriels\nChapitre PREMIER\nDu champ d’application"
+    },
+    {
+      "provision_ref": "art104",
+      "chapter": "Chapitre PREMIER",
+      "section": "104",
+      "title": "Article 104",
+      "content": "Au sens de la présente loi, est considéré\ncomme dessin industriel tout assemblage\nde lignes ou de couleurs et, comme\nmodèle industriel, toute forme plastique,\nassociée ou non à des lignes ou à des\ncouleurs, pourvu que cet assemblage\nou cette forme donne une apparence\nspéciale à un produit industriel ou\nartisanal et puisse servir de type pour\nla fabrication d’un produit industriel ou\nartisanal.\nLe dessin ou modèle industriel doit se\ndifférencier de ses similaires soit par une\nconfiguration distincte et reconnaissable\nlui conférant un caractère de nouveauté,\nsoit par un ou plusieurs effets extérieurs\nlui donnant une physionomie propre et\nnouvelle."
+    },
+    {
+      "provision_ref": "art105",
+      "chapter": "Chapitre PREMIER",
+      "section": "105",
+      "title": "Article 105",
+      "content": "Un dessin ou un modèle industriel\nprésente un caractère de nouveauté ou\nune physionomie propre et nouvelle si\nl’impression visuelle d’ensemble qu’il\nsuscite chez l’observateur averti diffère\nde celle produite par tout dessin ou\nmodèle rendu accessible au public par\nune publicité ou tout autre moyen, avant\nla date de son dépôt ou, le cas échéant,\navant la date de priorité valablement\nrevendiquée.\nUn dessin ou un modèle industriel n’est\npas considéré comme rendu accessible au\n\npublic par le seul fait que, dans les douze\nmois précédant la date de son dépôt, il\na figuré pour la première fois dans une\nexposition internationale officielle ou\nofficiellement reconnue, organisée sur\nle territoire de l’un des pays de l’Union\ninternationale pour la protection de la\npropriété industrielle.\n\nChapitre II\nDu droit à la protection"
+    },
+    {
+      "provision_ref": "art106",
+      "chapter": "Chapitre II",
+      "section": "106",
+      "title": "Article 106",
+      "content": "La propriété d’un dessin ou modèle\nindustriel appartient à celui qui l’a créé\nou à ses ayants droit; mais le premier\ndéposant dudit dessin ou modèle\nindustriel est présumé, jusqu’à preuve\ndu contraire, en être le créateur sous\nréserve des dispositions de l’article 107\nci-dessous."
+    },
+    {
+      "provision_ref": "art107",
+      "chapter": "Chapitre II",
+      "section": "107",
+      "title": "Article 107",
+      "content": "Les dispositions de l’article 18 ci-dessus\nsont applicables aux dessins et modèles\nindustriels."
+    },
+    {
+      "provision_ref": "art108",
+      "chapter": "Chapitre II",
+      "section": "108",
+      "title": "Article 108",
+      "content": "Si un même objet peut être considéré à\nla fois comme une invention brevetable\net comme un dessin ou modèle industriel\nnouveau et si les éléments constitutifs\nde la nouveauté du dessin ou modèle\nindustriel sont inséparables de ceux de\nl’invention, ledit objet ne peut être protégé\nque conformément aux dispositions\napplicables aux brevets d’invention."
+    },
+    {
+      "provision_ref": "art109",
+      "chapter": "Chapitre II",
+      "section": "109",
+      "title": "Article 109",
+      "content": "Si deux ou plusieurs personnes ont\ncréé collectivement un dessin ou\nmodèle industriel, le droit à l’obtention\nde la protection légale appartient\n\ncollectivement à ces personnes ou à leurs\nayants droit. N’est toutefois pas considéré\ncomme créateur ou co-créateur celui qui\na simplement prêté son aide à la création\ndu dessin ou modèle industriel, sans y\napporter une contribution créatrice."
+    },
+    {
+      "provision_ref": "art110",
+      "chapter": "Chapitre II",
+      "section": "110",
+      "title": "Article 110",
+      "content": "Les dispositions des articles 77 à 80 cidessus sont applicables aux dessins et\nmodèles industriels."
+    },
+    {
+      "provision_ref": "art111",
+      "chapter": "Chapitre II",
+      "section": "111",
+      "title": "Article 111",
+      "content": "Si un enregistrement a été demandé soit\nen fraude des droits d’un tiers, soit en\nviolation d’une obligation légale ou\nconventionnelle, la personne qui estime\navoir un droit sur le dessin ou modèle\nindustriel peut revendiquer sa propriété en\njustice.\nA moins que le déposant ne soit de\nmauvaise foi, l’action en revendication se\nprescrit par trois ans à compter de la date\nde l’enregistrement du dessin ou modèle\nindustriel au registre national des dessins\net modèles industriels visé au 1er alinéa de\nl’article 126 ci-dessous."
+    },
+    {
+      "provision_ref": "art112",
+      "chapter": "Chapitre II",
+      "section": "112",
+      "title": "Article 112",
+      "content": "Seuls les dessins ou modèles industriels\nrégulièrement déposés et enregistrés\npar l’organisme chargé de la propriété\nindustrielle bénéficient de la protection\naccordée par la présente loi à compter de\nla date de leur dépôt.\nL’enregistrement d’un dessin ou modèle\nindustriel donne lieu à l’établissement\nd’un titre de propriété industrielle appelé\n« certificat d’enregistrement de dessin ou\nmodèle industriel «, déposé et enregistré\ndans les formes et conditions prévues au\nchapitre III du présent titre."
+    },
+    {
+      "provision_ref": "art113",
+      "section": "113",
+      "title": "Article 113",
+      "content": "Ne bénéficient pas de la protection prévue\npar la présente loi, les dessins ou modèles\nindustriels qui portent atteinte aux\nbonnes mœurs ou à l’ordre public ainsi\nque les dessins ou modèles industriels\nreproduisant les effigies, signes, sigles,\ndénominations, décorations emblèmes,\nmonnaies et poinçons officiels de\ncontrôle et de garantie du Royaume ou\ndes autres pays membres de l’Union de\nParis mentionnés au paragraphe (a) de\nl’article 135 ci-dessous sauf autorisation\ndes autorités compétentes pour leur\nusage.\n\nChapitre III\nDe la procédure de dépôt et de\nl’enregistrement des dessins et\nmodèles industriels"
+    },
+    {
+      "provision_ref": "art114",
+      "chapter": "Chapitre III",
+      "section": "114",
+      "title": "Article 114",
+      "content": "Toute personne souhaitant obtenir un\ncertificat d’enregistrement de dessin ou\nmodèle industriel doit déposer auprès\nde l’organisme chargé de la propriété\nindustrielle un dossier de dépôt de dessin\nou modèle industriel dans les conditions\nprescrites au présent chapitre. Le dépôt\npeut être fait par le déposant ou son\nmandataire.\nLe dépôt peut être effectué auprès\nde l’organisme chargé de la propriété\nindustrielle par voie électronique selon\nles conditions et formalités prévues par\nvoie réglementaire. Dans ce cas, la date\nde dépôt est celle de la réception par ledit\norganisme.\nUn même dépôt peut porter jusqu’à cent\ndessins ou modèles industriels sous\nréserve que lesdits dessins ou modèles\nindustriels appartiennent à la même\nclasse de la classification internationale\npour les dessins ou modèles industriels.\nLe dossier de dépôt du dessin ou modèle\nindustriel doit comporter à la date du\ndépôt:\na. une demande de dépôt de dessin\nou modèle industriel, mentionnant\nl’objet du dessin ou modèle industriel,\net dont le contenu est fixé par voie\nréglementaire;\nb. une reproduction graphique ou\nphotographique en deux exemplaires\ndes dessins et modèles industriels et\nl’intitulé des reproductions graphiques\nou photographiques qui s’y rapportent.\nCette\nreproduction\npeut\nêtre\naccompagnée d’une brève description.\nLes modalités de présentation des\nreproductions sont fixées par voie\nréglementaire.\nc. la justification des droits exigibles.\nLe dossier de dépôt du dessin ou modèle\nindustriel ne comportant pas les pièces\nprévues aux a), b) et c) ci-dessus n’est pas\nrecevable au moment même du dépôt.\nLes formalités à remplir et les pièces\nà joindre aux a), b) et c) ci-dessus sont\nfixées par voie réglementaire.\nLorsque le dossier de dépôt du dessin\nou modèle industriel comprend les\npièces visées aux a), b) et c) ci-dessus, la\ndemande de dépôt du dessin ou modèle\nindustriel telle que prévue au a) ci-dessus\nest inscrite par ordre chronologique des\ndépôts au registre national des dessins et\nmodèles industriels visé au 1er alinéa de\nl’article 126 ci-dessous avec une date et\nun numéro de dépôt."
+    },
+    {
+      "provision_ref": "art115",
+      "section": "115",
+      "title": "Article 115",
+      "content": "Lorsque, à la date du dépôt, le dossier de\ndépôt du dessin ou modèle industriel ne\ncomporte pas une ou plusieurs pièces\nà joindre aux documents visés aux\nparagraphes a), b) et c) de l’article 114 cidessus, et dont la liste est fixée par voie\nréglementaire en application du 5ème\nalinéa du même article, le déposant ou\nson mandataire dispose d’un délai de trois\nmois à compter de la date de son dépôt\npour régulariser son dossier.\nToute demande d’enregistrement de\ndessin ou modèle industriel qui n’est\npas régularisée dans le délai précité est\nconsidérée comme retirée.\nLe dossier régularisé dans le délai imparti\nconserve la date du dépôt initial.\nSi le dernier jour est un jour férié ou un\njour non ouvrable, le délai est prorogé\njusqu’au jour ouvrable qui suit."
+    },
+    {
+      "provision_ref": "art116",
+      "section": "116",
+      "title": "Article 116",
+      "content": "Un récépissé constatant la date de la\nremise des pièces visées aux 4e et 6e\nalinéas de l’article 114 ci-dessus est\nremis immédiatement après le dépôt\nde la demande au déposant ou à son\nmandataire."
+    },
+    {
+      "provision_ref": "art117",
+      "section": "117",
+      "title": "Article 117",
+      "content": "Dans un délai de trois mois à compter\nde la date de dépôt du dessin ou modèle\nindustriel, le déposant ou son mandataire\npeut, sur requête justifiée, demander la\nrectification des fautes d’expression ou\nde transcription ainsi que des erreurs\nmatérielles relevées dans les pièces\net documents déposés à l’exception\ndes reproductions graphiques ou\nphotographiques des dessins ou modèles\nindustriels déposés qui ne peuvent être\nmodifiés.\nAucune rectification ne peut être opérée\nau delà du délai susvisé.\nLa demande de rectification mentionnée\nà l’alinéa premier du présent article est\nprésentée par écrit et comporte l’objet\ndes rectifications proposées."
+    },
+    {
+      "provision_ref": "art118",
+      "section": "118",
+      "title": "Article 118",
+      "content": "Est rejetée, en tout ou en partie, toute\ndemande de dépôt de dessin ou modèle\nindustriel qui :\n1. ne satisfait pas aux dispositions du 1er\nalinéa de l’article 104 ci-dessus;\n2. ne satisfait pas aux dispositions de\nl’article 113 ci-dessus;\nToute décision de rejet de demande de\ndépôt de dessin ou modèle industriel doit\nêtre motivée et notifiée au déposant ou à\nson mandataire.La mention dudit rejet est\ninscrite au registre national des dessins et\nmodèles industriels visé au 1er alinéa de\nl’article 126 ci-dessous."
+    },
+    {
+      "provision_ref": "art119",
+      "section": "119",
+      "title": "Article 119",
+      "content": "Lorsque le dossier de dépôt d’un dessin ou\nmodèle industriel ne fait pas l’objet d’un\nrejet en application des dispositions de\nl’article 118 ci-dessus, le dessin ou modèle\nindustriel est enregistré par l’organisme\nchargé de la propriété industrielle sans\nexamen préalable quant au fond. La date\nde l’enregistrement est celle du dépôt. Le\ndépôt fait l’objet d’un enregistrement au\nregistre national des dessins et modèles\nindustriels visé au 1er alinéa de l’article\n126 ci-dessous."
+    },
+    {
+      "provision_ref": "art120",
+      "section": "120",
+      "title": "Article 120",
+      "content": "Suite à l’enregistrement prévu à\nl’article 119 ci-dessus, un certificat\nd’enregistrement du dessin ou modèle\nindustriel, accompagné de la reproduction\ngraphique ou photographique du dessin\nou modèle industriel est remis ou notifié\nau déposant ou à son mandataire."
+    },
+    {
+      "provision_ref": "art121",
+      "section": "121",
+      "title": "Article 121",
+      "content": "Toute\npersonne\nintéressée\npeut\naprès publication d’une demande\nd’enregistrement de dessin ou modèle\nindustriel ou enregistrement du dessin ou\nmodèle industriel obtenir, sur demande\nécrite, une copie de ladite demande ou\ndudit dessin ou modèle industriel.\n\nChapitre IV\nDes effets de l’enregistrement du\ndessin et modèle industriel"
+    },
+    {
+      "provision_ref": "art122",
+      "chapter": "Chapitre IV",
+      "section": "122",
+      "title": "Article 122",
+      "content": "L’enregistrement d’un dessin ou modèle\nindustriel produit ses effets durant cinq\nannées à compter de la date du dépôt.\nIl peut être renouvelé sur demande\ndu titulaire ou son mandataire muni\nd’un pouvoir avec la justification de\nl’acquittement des droits exigibles, pour\nquatre nouvelles périodes consécutives\nde cinq années. Le renouvellement de\nl’enregistrement doit être effectué dans\nles six mois précédant l’expiration de sa\ndurée de validité.\nToutefois, un délai de grâce de six mois\nà compter de l’expiration de la durée\nde validité est accordé au déposant\npour effectuer ledit renouvellement.\nLe renouvellement court à compter de\nl’expiration de la durée de validité de\nl’enregistrement.\nLe renouvellement ne peut porter que\nsur le dessin ou modèle industriel tel\nqu’il figure dans son dernier état au\nregistre national des dessins et modèles\nindustriels.\n\nLes formalités de renouvellement sont\nfixées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art123",
+      "chapter": "Chapitre IV",
+      "section": "123",
+      "title": "Article 123",
+      "content": "Tout créateur d’un dessin ou modèle\nindustriel ou ses ayants droit ont le\ndroit exclusif d’exploiter, vendre ou faire\nvendre ce dessin ou modèle industriel\nconformément aux dispositions prévues\npar la présente loi sans préjudice des\ndroits qu’ils peuvent tenir d’autres\ndispositions légales et notamment de\nla législation relative à la protection des\nœuvres littéraires et artistiques."
+    },
+    {
+      "provision_ref": "art124",
+      "chapter": "Chapitre IV",
+      "section": "124",
+      "title": "Article 124",
+      "content": "L’enregistrement du dessin ou modèle\nindustriel confère à son titulaire le droit\nd’interdire aux tiers, lorsque les actes\nci-après seront entrepris à des fins\ncommerciales ou industrielles :\na. la reproduction du dessin ou modèle\nindustriel en vue de son exploitation;\nb. l’importation, l’offre à la vente et la\nvente d’un produit reproduisant le\ndessin ou modèle industriel protégé;\nc. la détention d’un tel produit aux fins de\nl’offrir à la vente ou de le vendre.\nLes actes visés au a ) ci-dessus ne\ndeviennent pas licites par le seul fait que\nla reproduction présente des différences\nsecondaires par rapport au dessin ou\nau modèle industriel protégé ou qu’elle\nconcerne une classification autre que la\nsienne."
+    },
+    {
+      "provision_ref": "art125",
+      "chapter": "Section PREMIèRE",
+      "section": "125",
+      "title": "Article 125",
+      "content": "Les droits attachés à une demande\nd’enregistrement d’un dessin ou modèle\nindustriel ou aux dessins ou modèles\nindustriels enregistrés sont transmissibles\nen totalité ou en partie.\nIls peuvent faire l’objet, en totalité ou\nen partie, d’une concession de licence\nd’exploitation exclusive ou non exclusive,\nainsi que d’une mise en gage.\nLes droits conférés par l’enregistrement\nd’un dessin ou modèle industriel peuvent\nêtre invoqués à l’encontre d’un licencié\nqui enfreint l’une des limites de sa licence\nimposée en vertu de l’alinéa précédent.\nSous réserve des dispositions de l’article\n19 ci-dessus, une transmission des droits\nvisés au premier alinéa du présent article\nne porte pas atteinte aux droits acquis par\ndes tiers avant la date de transmission.\nLes actes comportant une transmission\nou une licence, visés aux deux premiers\nalinéas ci-dessus, sont constatés par\nécrit, sous peine de nullité."
+    },
+    {
+      "provision_ref": "art126",
+      "chapter": "Section PREMIèRE",
+      "section": "126",
+      "title": "Article 126",
+      "content": "Tous les actes transmettant, modifiant\nou affectant les droits attachés à une\ndemande d’enregistrement d’un dessin\nou modèle industriel ou à un dessin ou\nmodèle industriel doivent, pour être\nopposables aux tiers, être inscrits sur\nun registre dit «registre national des\ndessins et modèles industriels» tenu\npar l’organisme chargé de la propriété\nindustrielle.\nToutefois, avant son inscription un acte\nest opposable aux tiers qui ont acquis des\ndroits après la date de cet acte mais qui\navaient connaissance de celui-ci lors de\nl’acquisition de ces droits.\nLes actes modifiant la propriété d’une\ndemande d’enregistrement d’un dessin\nou modèle industriel enregistrés ou la\njouissance des droits qui lui sont attachés,\ntels que cession, licence, constitution ou\ncession d’un droit de gage ou renonciation\nà ce dernier, saisie, validation et main\nlevée de saisie, sont inscrits à la demande\nde l’une des parties à l’acte.\nTout changement de nom ou d’adresse\ndu titulaire affectant une demande\nd’enregistrement d’un dessin ou modèle\nindustriel ou un dessin ou modèle\nindustriel enregistré est inscrit au\nregistre national des dessins et modèles\nindustriels.\nPour\nl’inscription\ndes\nmentions\nconsécutives à une décision judiciaire\ndevenue définitive, le secrétariat greffe\nadresse dans un délai de quinze jours à\ncompter de la date de ladite décision\nà l’organisme chargé de la propriété\nindustrielle, en expédition complète\net gratuite, les décisions relatives à\nl’existence, l’étendue et l’exercice des\ndroits attachés à la protection prévue par\nle présent titre.\nLes formalités à remplir et les pièces à\njoindre aux demandes d’inscriptions sont\nfixées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art127",
+      "section": "127",
+      "title": "Article 127",
+      "content": "Après la publication d’une demande\nd’enregistrement d’un dessin ou modèle\nindustriel, toute personne intéressée\npeut se faire délivrer un extrait du\nregistre national des dessins et modèles\nindustriels.\n\nSection 2\nDe la saisie"
+    },
+    {
+      "provision_ref": "art128",
+      "chapter": "Section 2",
+      "section": "128",
+      "title": "Article 128",
+      "content": "La saisie d’un dessin ou modèle industriel\nest effectuée en vertu d’une ordonnance\ndu président du tribunal statuant en\nréféré notifiée au titulaire du dessin ou\nmodèle industriel, à l’organisme chargé\nde la propriété industrielle, ainsi qu’aux\npersonnes possédant des droits sur le\ndessin ou modèle industriel.\n\nLa notification de la saisie rend\ninopposable aux créanciers saisissants\ntoute modification ultérieure des droits\nattachés au dessin ou modèle industriel.\nA peine de nullité de la saisie, le créancier\nsaisissant doit, dans un délai de quinze\njours à compter de la date de l’ordonnance\nde saisie, se pourvoir devant le tribunal en\nvalidité de la saisie et aux fins de mise en\nvente du dessin ou modèle industriel.\n\nSection 3\nDispositions diverses"
+    },
+    {
+      "provision_ref": "art129",
+      "chapter": "Section 3",
+      "section": "129",
+      "title": "Article 129",
+      "content": "Le droit exclusif d’exploitation attaché au\ndessin ou modèle industriel protégé par le\nprésent titre prend fin à l’expiration d’un\ndélai maximum de 25 ans à compter de la\ndate du dépôt initial."
+    },
+    {
+      "provision_ref": "art130",
+      "chapter": "Section 3",
+      "section": "130",
+      "title": "Article 130",
+      "content": "Le titulaire d’un dessin ou modèle\nindustriel peut, à tout moment, renoncer\nà la protection de son dessin ou modèle\nindustriel par déclaration écrite adressée\nà l’organisme chargé de la propriété\nindustrielle.\nLa renonciation peut être limitée à une\npartie seulement des dessins ou modèles\nindustriels si le dépôt comprend plusieurs\ndessins ou modèles industriels.\nLorsque le dessin ou modèle industriel est\nen copropriété, la renonciation ne peut\nêtre effectuée que si elle est requise par\nl’ensemble des copropriétaires.\nSi des droits réels de licence ou de gage\nont été inscrits au registre national\ndes dessins et modèles industriels,\nla déclaration de renonciation à\nl’enregistrement n’est recevable que si\nelle est accompagnée du consentement\n\ndes titulaires des droits inscrits.\nLa renonciation est inscrite au registre\nnational des dessins et modèles\nindustriels."
+    },
+    {
+      "provision_ref": "art131",
+      "chapter": "Section 3",
+      "section": "131",
+      "title": "Article 131",
+      "content": "Tout intéressé, y compris le ministère\npublic peut invoquer la nullité de\nl’enregistrement d’un dessin ou modèle\nindustriel effectué en violation des\ndispositions des articles 104, 105 et 113\nci-dessus.\n\nChapitre VI\nDe la publication des dessins et\nmodèles industriels"
+    },
+    {
+      "provision_ref": "art132",
+      "chapter": "Chapitre VI",
+      "section": "132",
+      "title": "Article 132",
+      "content": "Le dessin ou modèle industriel, fait\nl’objet d’une publication dans un délai\nde six mois à compter de la date de son\nenregistrement, selon les modalités\nfixées par voie réglementaire.\nLe déposant peut demander lors du dépôt\nl’ajournement de cette publication pour\nune durée maximum de dix huit mois.\nL’ajournement de la publication doit\nporter sur l’ensemble des dessins ou\nmodèle industriel objet du dépôt. La\npublication intervient à l’expiration du\ndélai d’ajournement.\nPendant la période visée ci-dessus, le\ndéposant peut, à tout moment, requérir\nla publication immédiate.\nJusqu’à l’expiration de la période visée\nci- dessus, l’organisme chargé de la\npropriété industrielle tient confidentiel\nle dossier de dépôt assorti d’une requête\nd’ajournement.\nL’organisme chargé de la propriété\nindustrielle publie un catalogue officiel\nde tous les dessins ou modèles industriels\nenregistrés. Y figure mention des actes\nvisés au 1er alinéa de l’article 126 cidessus.\n\nTITRE V\nDes marques de fabrique, de\ncommerce ou de service\nChapitre PREMIER\nDu champ d’application"
+    },
+    {
+      "provision_ref": "art133",
+      "chapter": "Chapitre PREMIER",
+      "section": "133",
+      "title": "Article 133",
+      "content": "Au sens de la présente loi, la marque\nde fabrique, de commerce ou de\nservice est un signe susceptible de\nreprésentation servant à distinguer les\nproduits ou services d’une personne\nphysique ou morale.\nPeuvent notamment constituer un tel\nsigne:\na. les dénominations sous toutes les\nformes telles que: mots, assemblage\nde mots, noms patronymiques et\ngéographiques, pseudonymes, lettres,\nchiffres, sigles;\nb. les signes figuratifs tels que:\ndessins, étiquettes, cachets, lisières,\nreliefs, formes tridimensionnelles,\nhologrammes, logos, images de\nsynthèse; les formes, notamment celles\ndu produit ou de son conditionnement\nou celles caractérisant un service;\nles dispositions, combinaisons de\ncouleurs ou nuances de couleurs.\nc. les signes sonores tels que: sons,\nphrases musicales;\nd.les signes olfactifs."
+    },
+    {
+      "provision_ref": "art134",
+      "chapter": "Chapitre PREMIER",
+      "section": "134",
+      "title": "Article 134",
+      "content": "Le caractère distinctif d’un signe\nde nature à constituer une marque\ns’apprécie à l’égard des produits ou\nservices désignés.\nSont dépourvus de caractère distinctif:\na. les signes ou dénominations qui, dans\nle langage courant ou professionnel,\nsont exclusivement la désignation\nnécessaire, générique ou usuelle du\nproduit ou du service;\nb. les signes ou dénominations pouvant\nservir à désigner une caractéristique du\nproduit ou du service, et notamment\nl’espèce, la qualité, la quantité, la\ndestination, la valeur, la provenance\ngéographique ou l’époque de la\nproduction du bien ou de la prestation\nde service;\nc. les signes constitués exclusivement par\ndes formes imposées par la nature ou la\nfonction du produit, ou conférant à ce\ndernier sa valeur substantielle."
+    },
+    {
+      "provision_ref": "art135",
+      "chapter": "Chapitre PREMIER",
+      "section": "135",
+      "title": "Article 135",
+      "content": "Ne peut être adopté comme marque ou\nélément de marque un signe:\na. qui reproduit l’effigie de sa Majesté\nle Roi, ou celle d’un membre de la\nFamille Royale, les armoiries ou les\ndrapeaux ou les emblèmes officiels\ndu Royaume, les signes ou les\npoinçons officiels de contrôle et\nde garantie du Royaume ou des\nautres pays membres de l’Union de\nParis, les sigles ou dénominations\nde l’Organisation des Nations\nUnies\net\ndes\norganisations\ninternationales\nadoptés\npar\ncelles-ci ou ceux qui ont déjà fait\nl’objet d’accords internationaux\nen vigueur destinés à assurer\nleur protection, les décorations\nnationales ou étrangères, les\n\nmonnaies métalliques ou fiduciaires\nmarocaines ou étrangères, ainsi\nque toute imitation au point de vue\nhéraldique conformément à l’article\n6ter de la Convention de Paris\npour la protection de la propriété\nindustrielle.\n\nLes signes visés au paragraphe a)\nci-dessus\npeuvent\ntoutefois\nêtre\nenregistrés par l’organisme chargé de la\npropriété industrielle sous réserve de la\nproduction de l’autorisation des autorités\ncompétentes.\n\nb. Qui est contraire à l’ordre public\nou aux bonnes mœurs, ou dont\nl’utilisation est légalement interdite;\nc. Qui porte sur le nom d’une\nindication géographique ou d’une\nappellation d’origine d’un produit\nou service ou qui est de nature à\ntromper le public notamment sur la\nnature, la qualité ou la provenance\ngéographique\nou\nl’indication\ngéographique ou l’appellation\nd’origine du produit ou service."
+    },
+    {
+      "provision_ref": "art136",
+      "section": "136",
+      "title": "Article 136",
+      "content": "Sont interdits à l’entrée au territoire du\nRoyaume, et ne peuvent être admis sous\nles régimes économiques en douane,\nni mis en circulation tous produits\nnaturels ou fabriqués, portant soit sur eux\nmêmes, soit sur les emballages, caisses,\nballots, enveloppes, bandes, étiquettes,\nune marque, un nom, un signe, une\nempreinte, une étiquette ou un motif\ndécoratif comportant une reproduction\nou un dessin des signes visés à l’article\n135 a) ci-dessus, sous réserve de la\nproduction de l’autorisation des autorités\ncompétentes."
+    },
+    {
+      "provision_ref": "art137",
+      "section": "137",
+      "title": "Article 137",
+      "content": "Ne peut être adopté comme marque\nun signe portant atteinte à des droits\nantérieurs, et notamment:\na. à une marque antérieure enregistrée ou\nnotoirement connue au sens de l’article\n6 bis de la convention de Paris pour la\nprotection de la propriété industrielle;\nb. à une dénomination ou raison sociale,\ns’il existe un risque de confusion dans\nl’esprit du public;\nc. à un nom commercial ou à une\nenseigne connu sur l’ensemble du\nterritoire national, s’il existe un risque\nde confusion dans l’esprit du public;\nd. à une indication géographique ou à une\nappellation d’origine protégées;\ne. aux droits protégés par la loi relative à\nla protection des œuvres littéraires et\nartistiques;\nf. aux droits résultant d’un dessin ou\nmodèle industriel protégé;\ng. au droit de la personnalité d’un tiers,\nnotamment à son nom patronymique,\nà son pseudonyme ou à son image;\nh. au nom, à l’image ou à la renommée\nd’une collectivité territoriale."
+    },
+    {
+      "provision_ref": "art138",
+      "section": "138",
+      "title": "Article 138",
+      "content": "La nature du produit ou service auquel la\nmarque est destinée ne peut en aucun\ncas faire obstacle au dépôt et à la validité\nde cette marque."
+    },
+    {
+      "provision_ref": "art139",
+      "section": "139",
+      "title": "Article 139",
+      "content": "La marque peut être collective ou\nindividuelle. La marque de fabrique, de\ncommerce ou de service est facultative\nsous réserve de dispositions légales\ncontraires.\nChapitre II\nDu droit à la marque et de la\nprocédure de dépôt, de l’opposition\net de l’enregistrement de la marque\n\nd’enregistrement de marque de fabrique,\nde commerce ou de service «, déposée et\nenregistrée dans les formes et conditions\nprévues à la section II du présent chapitre.\n\nSection PREMIèRE\nDu droit à la marque\n\nSection 2\nDe la procédure de dépôt, de\nl’opposition, et de l’enregistrement\nde la marque"
+    },
+    {
+      "provision_ref": "art140",
+      "chapter": "Section 2",
+      "section": "140",
+      "title": "Article 140",
+      "content": "La propriété de la marque s’acquiert par\nl’enregistrement. La marque peut être\nacquise en copropriété."
+    },
+    {
+      "provision_ref": "art141",
+      "chapter": "Section 2",
+      "section": "141",
+      "title": "Article 141",
+      "content": "Les dispositions des articles 77 à 80 cidessus sont applicables aux marques de\nfabrique, de commerce ou de service."
+    },
+    {
+      "provision_ref": "art142",
+      "chapter": "Section 2",
+      "section": "142",
+      "title": "Article 142",
+      "content": "Si un enregistrement a été demandé\nsoit en fraude des droits d’un tiers, soit\nen violation d’une obligation légale\nou conventionnelle, la personne qui\nestime avoir un droit sur la marque peut\nrevendiquer sa propriété en justice.\nA moins que le déposant ne soit de\nmauvaise foi, l’action en revendication\nse prescrit par trois ans à compter de la\ndate de l’enregistrement de la marque au\nregistre national des marques visé au 1er\nalinéa de l’article 157 ci-dessous."
+    },
+    {
+      "provision_ref": "art143",
+      "chapter": "Section 2",
+      "section": "143",
+      "title": "Article 143",
+      "content": "Seules les marques régulièrement\ndéposées et enregistrées par l’organisme\nchargé de la propriété industrielle\nbénéficient de la protection accordée par\nla présente loi à compter de leur date de\ndépôt.\nL’enregistrement d’une marque donne\nlieu à l’établissement d’un titre de\npropriété industrielle appelé « certificat"
+    },
+    {
+      "provision_ref": "art144",
+      "chapter": "Section 2",
+      "section": "144",
+      "title": "Article 144",
+      "content": "Le dépôt d’une demande d’enregistrement\nde marque est effectué par le déposant\nou son mandataire auprès de l’organisme\nchargé de la propriété industrielle.\nLe dépôt peut être effectué auprès\nde l’organisme chargé de la propriété\nindustrielle par voie électronique selon les\nconditions et formalités prévues par voie\nréglementaire. La date de dépôt est celle\nde la réception du dossier de la demande\nde dépôt par ledit organisme.\nLe dossier de dépôt de marque doit\ncomporter à la date de son dépôt:\n\na. une demande d’enregistrement de\nmarque dont le contenu est fixé par\nvoie réglementaire, et mentionnant\nl’énumération claire et complète des\nproduits ou services pour lesquels\nl’enregistrement de la marque\nest demandé conformément à\nl’arrangement de Nice concernant\nla classification internationale des\nproduits et services aux fins de\nl’enregistrement des marques;\nb. deux reproductions du modèle de la\nmarque en noir et blanc ;\nc. deux reproductions du modèle de\nla marque en couleurs en cas de\nrevendication de couleurs;\nd. la justification des droits exigibles.\n\nLe dossier de dépôt de la marque ne\ncomportant pas les pièces prévues aux\n(a), (b), (c), et (d) ci-dessus n’est pas\nrecevable.\nLes formalités à remplir et les pièces à\njoindre aux documents visés aux (a), (b),\n(c), et (d) ci-dessus sont fixées par voie\nréglementaire.\nLorsque le dossier de dépôt de la marque\ncomprend les pièces visées aux (a),\n(b), (c), et (d) ci-dessus, la demande\nd’enregistrement de la marque telle que\nprévue au (a) ci-dessus est inscrite au\nregistre national des marques visé au 1er\nalinéa de l’article 157 ci-dessous avec\ndate et numéro de dépôt."
+    },
+    {
+      "provision_ref": "art145",
+      "section": "145",
+      "title": "Article 145",
+      "content": "Lorsque, à la date du dépôt, le dossier\nde dépôt de la marque ne comporte\npas une ou plusieurs pièces à joindre\naux documents visés à l’article 144 cidessus et dont la liste est fixée par voie\nréglementaire en application du 5ème\nalinéa dudit article, le déposant ou son\nmandataire dispose d’un délai de trois\nmois à compter de la date de son dépôt\npour régulariser son dossier, sous réserve\ndes dispositions de l’alinéa 2 de l’article 8\nci- dessus.\nToute demande d’enregistrement qui\nn’est pas régularisée dans les délais\nprécités est considérée comme retirée.\nLe dossier régularisé dans les délais\nimpartis conserve la date du dépôt initial.\nSi le dernier jour des délais est un jour\nférié ou un jour non ouvrable, le délai est\nprorogé jusqu’au jour ouvrable qui suit."
+    },
+    {
+      "provision_ref": "art146",
+      "section": "146",
+      "title": "Article 146",
+      "content": "Un récépissé constatant la date de\n\nremise des pièces visées aux 2e et 4e\nalinéas de l’article 144 ci-dessus est\nremis immédiatement après le dépôt\nde la demande au déposant ou à son\nmandataire."
+    },
+    {
+      "provision_ref": "art147",
+      "section": "147",
+      "title": "Article 147",
+      "content": "Dans un délai de trois mois à compter de\nla date de dépôt de la marque, le déposant\nou son mandataire peut, sur requête\njustifiée, demander la rectification des\nfautes d’expression ou de transcription\nainsi que des erreurs matérielles relevées\ndans les pièces et documents déposés,\nà l’exception du modèle de la marque\ndéposé et des classes désignées dans la\ndemande d’enregistrement qui ne peuvent\nêtre modifiés. Aucune rectification ne peut\nêtre opérée au delà du délai susvisé.\nLa demande de rectification mentionnée\nà l’alinéa 1 du présent article est\nprésentée par écrit et comporte l’objet des\nrectifications proposées."
+    },
+    {
+      "provision_ref": "art148",
+      "section": "148",
+      "title": "Article 148",
+      "content": "Est rejetée, en tout ou en partie, toute\ndemande d’enregistrement de marque qui:\n1. ne satisfait pas aux dispositions prévues\naux articles 133, 134 et 135 ci-dessus;\n2. a fait l’objet d’une opposition au titre\nde l’article 148.2 ci-dessous reconnue\njustifiée.\nToute décision de rejet de demande\nd’enregistrement de marque doit être\nmotivée et notifiée au déposant ou à son\nmandataire. La mention dudit rejet est\ninscrite au registre national des marques\nvisé au 1er alinéa de l’article 157 cidessous et fait l’objet d’une publication."
+    },
+    {
+      "provision_ref": "art149",
+      "section": "149",
+      "title": "Article 149",
+      "content": "Lorsque la demande d’enregistrement\nd’une marque ne fait pas l’objet d’un rejet\nen application des dispositions de l’article\n148 ci-dessus, la marque est enregistrée\npar l’organisme chargé de la propriété\nindustrielle.\nLa date de l’enregistrement est celle du\ndépôt.\nLe dépôt fait l’objet d’un enregistrement\nau registre national des marques visé au\n1er alinéa de l’article 157 ci-dessous."
+    },
+    {
+      "provision_ref": "art150",
+      "section": "150",
+      "title": "Article 150",
+      "content": "Suite à l’enregistrement visé à l’article 149\nci-dessus, un certificat d’enregistrement\nde la marque accompagné du modèle de\nla marque enregistrée est remis ou notifié\nau déposant ou à son mandataire."
+    },
+    {
+      "provision_ref": "art151",
+      "section": "151",
+      "title": "Article 151",
+      "content": "Toute\npersonne\nintéressée\npeut\naprès publication d’une demande\nd’enregistrement\nde\nmarque\nou\nenregistrement de la marque, obtenir\nsur demande écrite, une copie de ladite\ndemande ou de ladite marque, telle\nqu’elle a été enregistrée.\n\nChapitre III\nDes effets de l’enregistrement de la\nmarque"
+    },
+    {
+      "provision_ref": "art152",
+      "chapter": "Chapitre III",
+      "section": "152",
+      "title": "Article 152",
+      "content": "L’enregistrement d’une marque produit\nses effets à compter de la date de dépôt\npour une période de dix ans indéfiniment\nrenouvelable. Il peut être renouvelé tous\nles dix ans sur demande du titulaire ou\nson mandataire muni d’une procuration\navec la justification de l’acquittement\ndes droits exigibles. Les formalités de\nrenouvellement sont fixées par voie\nréglementaire.\nLe renouvellement de l’enregistrement\ndoit être effectué dans les six mois\nprécédant l’expiration de sa durée de\nvalidité.\nToutefois, un délai de grâce de six mois\ncourant à compter de l’expiration de la\ndurée de validité est accordé au déposant\npour effectuer ledit renouvellement.\nLe renouvellement court à compter de\nl’expiration de la durée de validité de\nl’enregistrement.\n\nLe renouvellement ne peut porter que\nsur la marque telle qu’elle figure dans\nson dernier état au registre national des\nmarques.\nToute modification du signe ou extension\nde la liste des produits ou services\ndésignés doit faire l’objet d’un nouveau\ndépôt."
+    },
+    {
+      "provision_ref": "art153",
+      "chapter": "Chapitre III",
+      "section": "153",
+      "title": "Article 153",
+      "content": "L’enregistrement de la marque confère à\nson titulaire un droit de propriété sur cette\nmarque pour les produits ou services qu’il\na désigné."
+    },
+    {
+      "provision_ref": "art154",
+      "chapter": "Chapitre III",
+      "section": "154",
+      "title": "Article 154",
+      "content": "Sont interdits, sauf autorisation du\npropriétaire:\na. la reproduction, l’usage ou l’apposition\nd’une marque, même avec l’adjonction de\nmots tels que : « formule, façon, système,\nimitation, «genre, méthode «, ainsi que\nl’usage d’une marque reproduite ou d’un\nsigne identique à cette marque, pour des\nproduits ou services identiques à ceux\ncouverts par l’enregistrement;\nb. la suppression ou la modification d’une\nmarque régulièrement apposée."
+    },
+    {
+      "provision_ref": "art155",
+      "chapter": "Chapitre III",
+      "section": "155",
+      "title": "Article 155",
+      "content": "Sont interdits, sauf autorisation du\npropriétaire, s’il peut en résulter un risque\nde confusion dans l’esprit du public:\na. la reproduction, l’usage ou l’apposition\nd’une marque, ainsi que l’usage d’une\nmarque reproduite ou d’un signe\nidentique ou similaire pour des produits\nou services similaires ou relatifs à ceux\ncouverts par l’enregistrement;\nb. l’imitation d’une marque et l’usage\n\nd’une marque imitée, pour des produits\nou services identiques ou similaires à\nceux couverts par l’enregistrement.\n\nChapitre IV\nDe la transmission et de la perte des\ndroits\nSection PREMIèRE\nDispositions générales"
+    },
+    {
+      "provision_ref": "art156",
+      "chapter": "Section PREMIèRE",
+      "section": "156",
+      "title": "Article 156",
+      "content": "Les droits attachés à une demande\nd’enregistrement de marque ou à une\nmarque enregistrée sont transmissibles en\ntotalité ou en partie.\nIls peuvent faire l’objet en totalité ou\nen partie d’une concession de licence\nd’exploitation exclusive ou non exclusive,\nainsi que d’une mise en gage.\nLes droits conférés par l’enregistrement\nde la marque peuvent être invoqués à\nl’encontre d’un licencié qui enfreint l’une\ndes limites de sa licence imposée en vertu\nde l’alinéa précédent.\nSous réserve des dispositions de l’article\n142 ci-dessus, une transmission des droits\nvisée au premier alinéa du présent article\nne porte pas atteinte aux droits acquis par\ndes tiers avant la date de transmission.\nLes actes comportant une transmission\nou une licence, visés aux deux premiers\nalinéas ci-dessus, sont constatés par écrit,\nsous peine de nullité."
+    },
+    {
+      "provision_ref": "art157",
+      "chapter": "Section PREMIèRE",
+      "section": "157",
+      "title": "Article 157",
+      "content": "A l’exception des contrats de licence\nd’exploitation des demandes d’enregistrement\nde marque ou des marques enregistrées,\ntous les actes transmettant, modifiant ou\naffectant les droits attachés à une demande\nd’enregistrement de marque ou à une marque\nenregistrée doivent, pour être opposables aux\ntiers, être inscrits sur un registre dit «registre\nnational des marques» tenu par l’organisme\nchargé de la propriété industrielle.\nToutefois, avant leur inscription, les\nactes prévus au 1er alinéa ci-dessus sont\nopposables aux tiers qui ont acquis des\ndroits après la date de ces actes mais qui\navaient connaissance de celui-ci lors de\nl’acquisition de ces droits.\nLes actes modifiant la propriété d’une\ndemande d’enregistrement de marque ou\nd’une marque enregistrée ou la jouissance\ndes droits qui lui sont attachés, tel que\ncession, constitution ou cession d’un\ndroit de gage ou renonciation à ce dernier,\nsaisie, validation et main levée de saisie,\nsont inscrits auprès de l’organisme chargé\nde la propriété industrielle à la demande\nde l’une des parties à l’acte.\nTout changement de nom ou d’adresse\ndu titulaire affectant une demande\nd’enregistrement de marque ou une\nmarque enregistrée est inscrit au registre\nnational des marques.\nPour\nl’inscription\ndes\nmentions\nconsécutives à une décision judiciaire\ndevenue définitive, le secrétariat greffe\nadresse dans un délai de quinze jours\nà compter de la date de ladite décision\nà l’organisme chargé de la propriété\nindustrielle, en expédition complète\net gratuite, les décisions relatives à\nl’existence, l’étendue et l’exercice des\ndroits attachés à la protection prévue par\nle présent titre.\nLes formalités à remplir et les pièces à\njoindre aux demandes d’inscriptions sont\nfixées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art158",
+      "section": "158",
+      "title": "Article 158",
+      "content": "Après la publication d’une demande\nd’enregistrement de marque, toute\npersonne intéressée peut se faire délivrer\nun extrait du registre national des\nmarques.\n\nSection 2\nDe la saisie"
+    },
+    {
+      "provision_ref": "art159",
+      "chapter": "Section 2",
+      "section": "159",
+      "title": "Article 159",
+      "content": "La saisie d’une marque de fabrique, de\ncommerce ou de service est effectuée\npar ordonnance du président du tribunal\nstatuant en référé notifié au titulaire\nde la marque, à l’organisme chargé de\nla propriété industrielle, ainsi qu’aux\npersonnes possédant des droits sur ladite\nmarque.\nLa notification de la saisie rend\ninopposable aux créanciers saisissant\ntoute modification ultérieure des droits\nattachés à la marque.\nA peine de nullité de la saisie, le créancier\nsaisissant doit, dans un délai de quinze\njours à compter de la date de l’ordonnance\nde saisie, se pourvoir devant le tribunal,\nen validité de la saisie et aux fins de mise\nen vente de la marque.\n\nSection 3\nDispositions diverses"
+    },
+    {
+      "provision_ref": "art160",
+      "chapter": "Section 3",
+      "section": "160",
+      "title": "Article 160",
+      "content": "Le propriétaire d’une marque enregistrée\npeut, à tout moment, par déclaration écrite\nrenoncer aux effets de cet enregistrement\npour tout ou partie des produits ou\nservices couverts par l’enregistrement.\nLorsque la marque est en copropriété, la\nrenonciation ne peut être effectuée que\n\nsi elle est requise par l’ensemble des\ncopropriétaires.\nSi des droits réels de licence ou de\ngage ont été inscrits au registre\nnational des marques, la déclaration de\nrenonciation n’est recevable que si elle\nest accompagnée du consentement des\ntitulaires des droits inscrits.\nLa renonciation est inscrite au registre\nnational des marques."
+    },
+    {
+      "provision_ref": "art161",
+      "chapter": "Section 3",
+      "section": "161",
+      "title": "Article 161",
+      "content": "Tout intéressé, y compris le ministère\npublic, peut demander la nullité de\nl’enregistrement d’une marque effectué\nen violation des dispositions des articles\n133 à 135 ci-dessus.\nSeul le titulaire d’un droit antérieur peut\nagir en nullité sur le fondement de l’article\n137 ci-dessus. Toutefois, son action n’est\npas recevable si la marque a été déposée\nde bonne foi et s’il en a toléré l’usage\npendant cinq ans.\nLa décision d’annulation a un effet absolu."
+    },
+    {
+      "provision_ref": "art162",
+      "chapter": "Section 3",
+      "section": "162",
+      "title": "Article 162",
+      "content": "Le titulaire d’une marque notoirement\nconnue au sens de l’article 6 bis de la\nConvention de Paris pour la protection\nde la propriété industrielle peut réclamer\nl’annulation de l’enregistrement d’une\nmarque susceptible de créer une\nconfusion avec la sienne. Cette action en\nnullité se prescrit par cinq ans à compter\nde la date d’enregistrement de la marque\nà moins que ce dernier n’ait été demandé\nde mauvaise foi."
+    },
+    {
+      "provision_ref": "art163",
+      "chapter": "Section 3",
+      "section": "163",
+      "title": "Article 163",
+      "content": "Encourt la déchéance de ses droits le\npropriétaire de la marque qui, sans justes\n\nmotifs, n’en a pas fait un usage sérieux,\npour les produits ou services couverts par\nl’enregistrement, pendant une période\nininterrompue de cinq ans.\nEst assimilé à un tel usage :\na. l’usage fait avec le consentement du\npropriétaire de la marque ou, pour les\nmarques collectives, dans les conditions\ndu règlement;\nb. l’usage de la marque sous une forme\nmodifiée n’en altérant pas le caractère\ndistinctif;\nc. l’apposition de la marque sur des\nproduits ou leur conditionnement,\nexclusivement en vue de l’exportation.\nLa déchéance peut être demandée en\njustice par toute personne intéressée. Si\nla demande ne porte que sur une partie\ndes produits ou des services couverts\npar l’enregistrement, la déchéance ne\ns’étend qu’aux produits ou aux services\nconcernés.\nL’usage sérieux de la marque commencé\nou repris postérieurement à la période\nde cinq ans visée au premier alinéa du\nprésent article n’y fait pas obstacle s’il a\nété entrepris dans les trois mois précédant\nla demande de déchéance et après\nque le propriétaire ait eu connaissance\nde l’éventualité de la demande de\ndéchéance.\nLa preuve de l’exploitation incombe\nau propriétaire de la marque dont la\ndéchéance est demandée. Elle peut être\napportée par tous moyens.\nLa déchéance prend effet à la date\nd’expiration du délai de cinq ans prévu au\npremier alinéa du présent article. Elle a\nun effet absolu."
+    },
+    {
+      "provision_ref": "art164",
+      "section": "164",
+      "title": "Article 164",
+      "content": "Encourt également la déchéance de\nses droits le propriétaire d’une marque\ndevenue de son fait:\na. la désignation usuelle dans le commerce\ndu produit ou du service;\nb. propre à induire le public en erreur,\nnotamment sur la nature, la qualité ou\nla provenance géographique, du produit\nou du service."
+    },
+    {
+      "provision_ref": "art165",
+      "section": "165",
+      "title": "Article 165",
+      "content": "Toute décision judiciaire définitive\nprononçant l’annulation ou la déchéance\nd’une marque doit être inscrite au registre\nnational des marques."
+    },
+    {
+      "provision_ref": "art168",
+      "section": "168",
+      "title": "Article 168",
+      "content": "Ne bénéficient pas de la protection prévue\npar le présent chapitre les marques\ncollectives et les marques collectives de\ncertification dont le règlement d’usage\nest contraire aux bonnes mœurs ou à\nl’ordre public."
+    },
+    {
+      "provision_ref": "art169",
+      "section": "169",
+      "title": "Article 169",
+      "content": "Section 2\nDispositions diverses\n\nLa marque doit être désignée dans la\ndemande d’enregistrement visée au a)\ndu 2e alinéa de l’article 144 ci-dessus\ncomme marque collective ou comme\nmarque collective de certification.\nLe dossier de dépôt de marque collective\nou de marque collective de certification\ndoit également comprendre une copie du\nrèglement régissant l’emploi de la marque\ncollective ou de la marque collective\nde certification, dûment certifiée par le\ndéposant.\nCette copie doit être produite soit le jour\nmême du dépôt du dossier soit, le cas\néchéant, dans les conditions et le délai\nprévus à l’article 145 ci-dessus.\nLe propriétaire de la marque collective ou\nde la marque collective de certification\npeut, à tout moment, communiquer par\nécrit à l’organisme chargé de la propriété\nindustrielle tout changement apporté\nau règlement régissant la marque. La\nmention de tels changements est inscrite\nau registre national des marques."
+    },
+    {
+      "provision_ref": "art170",
+      "chapter": "Section 2",
+      "section": "170",
+      "title": "Article 170",
+      "content": "Les dispositions des chapitres II, III et\nIV du présent titre sont applicables aux\n\nLe règlement visé au 1er alinéa de\nl’article 166 ci-dessus doit préciser\n\nChapitre V\nDes marques collectives et des\nmarques collectives de certification\nSection PREMIèRE\nDu champ d’application"
+    },
+    {
+      "provision_ref": "art166",
+      "chapter": "Section PREMIèRE",
+      "section": "166",
+      "title": "Article 166",
+      "content": "La marque est dite collective lorsqu’elle\npeut être exploitée par toute personne\nrespectant un règlement d’usage établi\npar le titulaire de l’enregistrement.\nLa marque collective de certification\nest appliquée au produit ou service qui\nprésente notamment, quant à sa nature,\nses propriétés ou ses qualités, des\ncaractères précisés dans son règlement.\nmarques collectives et aux marques\ncollectives de certification, sous réserve\ndes dispositions particulières ci-après.\n\nles caractéristiques communes ou les\nqualités des produits ou services que la\nmarque doit désigner et les conditions\ndans lesquelles la marque peut être\nutilisée ainsi que les personnes autorisées\nà l’utiliser."
+    },
+    {
+      "provision_ref": "art171",
+      "chapter": "Section PREMIèRE",
+      "section": "171",
+      "title": "Article 171",
+      "content": "Une marque collective de certification\nne peut être déposée que par une\npersonne morale qui n’est ni fabricant, ni\nimportateur, ni vendeur de produits ou de\nservices."
+    },
+    {
+      "provision_ref": "art172",
+      "chapter": "Section PREMIèRE",
+      "section": "172",
+      "title": "Article 172",
+      "content": "L’usage de la marque collective de\ncertification est ouvert à toutes les\npersonnes, distinctes du titulaire, qui\nfournissent des produits ou des services\nrépondant aux conditions imposées par le\nrèglement."
+    },
+    {
+      "provision_ref": "art173",
+      "chapter": "Section PREMIèRE",
+      "section": "173",
+      "title": "Article 173",
+      "content": "La marque collective de certification ne\npeut faire l’objet ni de cession, ni de gage,\nni d’aucune mesure d’exécution forcée.\nToutefois, l’administration compétente\npeut autoriser la transmission de\nl’enregistrement d’une marque collective\nde certification, si le bénéficiaire de la\ntransmission se charge du contrôle effectif\nde l’emploi de la marque. La transmission\ndoit être inscrite au registre national des\nmarques."
+    },
+    {
+      "provision_ref": "art174",
+      "chapter": "Section PREMIèRE",
+      "section": "174",
+      "title": "Article 174",
+      "content": "Lorsqu’une marque collective de\ncertification a été utilisée et qu’elle a\ncessé d’être protégée par la loi, elle ne\npeut être ni déposée ni utilisée à un titre\nquelconque avant un délai de dix ans."
+    },
+    {
+      "provision_ref": "art175",
+      "chapter": "Section PREMIèRE",
+      "section": "175",
+      "title": "Article 175",
+      "content": "La nullité de l’enregistrement d’une\nmarque collective de certification peut\nêtre prononcée sur requête du ministère\npublic ou à la demande de tout intéressé\nlorsque la marque ne répond pas à l’une\ndes prescriptions du présent chapitre.\nLa décision d’annulation a un effet absolu.\n\nChapitre VI\nDe la publication des marques"
+    },
+    {
+      "provision_ref": "art176",
+      "chapter": "Chapitre VI",
+      "section": "176",
+      "title": "Article 176",
+      "content": "L’organisme chargé de la propriété\nindustrielle publie un catalogue officiel\nde toutes les marques de fabrique, de\ncommerce ou de service, des marques\ncollectives et des marques collectives\nde certification enregistrées. Y figure\nmention des actes prévus au 1er alinéa de\nl’article 157 ci-dessus.\n\nChapitre VII\nDes mesures aux frontieres"
+    },
+    {
+      "provision_ref": "art178",
+      "section": "178",
+      "title": "Article 178",
+      "content": "La mesure de suspension de mise en libre\ncirculation effectuée en application des\ndispositions du présent chapitre, n’engage\npas la responsabilité de l’Administration\ndes douanes et impôts indirects.\nDans le cas où les marchandises ne\nseraient pas reconnues contrefaites,"
+    },
+    {
+      "provision_ref": "art177",
+      "chapter": "Chapitre PREMIER",
+      "section": "177",
+      "title": "Article 177",
+      "content": "On entend par nom commercial\nl’appellation distinctive ou le signe\ndistinctif sous lequel est exploitée une\nentreprise.\nNe peut constituer un nom commercial\nun nom ou une désignation qui, par sa\nnature ou par l’usage qui peut en être\nfait, est contraire aux bonnes mœurs et\nà l’ordre public ou qui pourrait tromper\nles milieux commerciaux ou le public sur\nla nature de l’entreprise désignée par ce\nnom."
+    },
+    {
+      "provision_ref": "art179",
+      "chapter": "Chapitre PREMIER",
+      "section": "179",
+      "title": "Article 179",
+      "content": "Le nom commercial, qu’il fasse ou non\npartie d’une marque, est protégé par les\ndispositions de la loi n° 15 - 95 formant\ncode de commerce contre tout usage\nultérieur du nom commercial par un\ntiers, que ce soit sous forme de nom\ncommercial ou de marque de fabrique, de\ncommerce ou de service s’il y a risque de\nconfusion pour le public.\n\nChapitre II\nDes indications géographiques et\ndes appellations d’origine et de\nl’opposition"
+    },
+    {
+      "provision_ref": "art180",
+      "chapter": "Chapitre II",
+      "section": "180",
+      "title": "Article 180",
+      "content": "On entend par indication géographique,\ntoute indication qui sert à identifier un\nproduit comme étant originaire d’un\nterritoire, d’une région ou d’une localité de\nce territoire, dans les cas où une qualité,\nréputation ou autre caractéristique\ndéterminée du produit peut être\nattribuée essentiellement à cette origine\ngéographique.\nUne indication géographique est\nconstituée de tout signe ou toute\ncombinaison de signes tels que des mots,\ny compris les noms géographiques et de\npersonnes, ainsi que des lettres, chiffres,\néléments figuratifs et couleurs, y compris\nles couleurs uniques quelle qu’en soit la\nforme."
+    },
+    {
+      "provision_ref": "art181",
+      "chapter": "Chapitre II",
+      "section": "181",
+      "title": "Article 181",
+      "content": "L’appellation d’origine est la dénomination\ngéographique d’un pays, d’une région ou\nd’une localité servant à désigner un produit\nqui en est originaire et dont la qualité,\nla réputation ou autres caractéristiques\ndéterminées sont dues exclusivement ou\nessentiellement au milieu géographique,\ncomprenant des facteurs naturels et des\nfacteurs humains."
+    },
+    {
+      "provision_ref": "art182",
+      "chapter": "Chapitre II",
+      "section": "182",
+      "title": "Article 182",
+      "content": "Est illicite :\na. l’utilisation directe ou indirecte d’une\nindication fausse ou fallacieuse\nconcernant la provenance d’un produit\nou d’un service, ou l’identité du\nproducteur, fabricant ou commerçant;\nb. l’utilisation directe ou indirecte\nd’une indication géographique ou\nd’une appellation d’origine fausse\nou fallacieuse, ou l’imitation d’une\nindication géographique ou d’une\nappellation d’origine, même si l’origine\nvéritable du produit est indiquée ou si\nl’appellation est employée en traduction\nou accompagnée d’expressions telles\nque « genre» « façon » « imitation », ou\nsimilaires."
+    },
+    {
+      "provision_ref": "art183",
+      "section": "183",
+      "title": "Article 183",
+      "content": "L’action publique visant à réprimer les\nactes illicites visés à l’article 182 peut être\nintroduite par le ministère public. Une Action\nen dommages intérêts peut également être\nintroduite par toute partie lésée, personne\nphysique ou morale, association ou syndicat,\net notamment par les producteurs, fabricants\nou commerçants qui peuvent correctement\nidentifier leurs produits ou services avec\nl’indication ou l’appellation en cause, ou\npar les associations les représentant à cet\neffet, sans préjudice du droit de recours à\nl’action civile ou de revendication de mesures\nconservatoires.\n\nChapitre III\nDe la concurrence déloyale"
+    },
+    {
+      "provision_ref": "art184",
+      "chapter": "Chapitre III",
+      "section": "184",
+      "title": "Article 184",
+      "content": "Constitue un acte de concurrence déloyale,\ntout acte de concurrence contraire aux\nusages honnêtes en matière industrielle\nou commerciale.\nSont notamment interdits :\n1. tous faits quelconques de nature à\ncréer une confusion par n’importe\nquel moyen avec l’établissement, les\nproduits ou l’activité industrielle ou\ncommerciale d’un concurrent ;\n2. les allégations fausses dans l’exercice\ndu commerce de nature à discréditer\nl’établissement, les produits ou\nl’activité industrielle ou commerciale\nd’un concurrent ;\n3. les indications ou allégations dont\nl’usage dans l’exercice du commerce est\nsusceptible d’induire le public en erreur\nsur la nature, le mode de fabrication, les\ncaractéristiques, l’aptitude à l’emploi\nou la quantité des marchandises."
+    },
+    {
+      "provision_ref": "art185",
+      "chapter": "Chapitre III",
+      "section": "185",
+      "title": "Article 185",
+      "content": "Les faits de concurrence déloyale ne\npeuvent donner lieu qu’à une action civile\nen cessation des actes qui la constituent\net en dommages intérêts.\n\nTITRE VII\nDe la protection temporaire aux\nexpositions,\ndes récompenses industrielles\net du datage des créations\nChapitre PREMIER\nDe la protection temporaire"
+    },
+    {
+      "provision_ref": "art186",
+      "chapter": "Chapitre PREMIER",
+      "section": "186",
+      "title": "Article 186",
+      "content": "Une protection temporaire est accordée aux\ninventionsbrevetables,auxperfectionnements\nou additions se rattachant à une invention\nbrevetée, aux schémas de configuration\n(topographies) de circuits intégrés, aux\ndessins et modèles industriels ainsi qu’aux\nmarques de fabrique, de commerce ou de\nservice pour les produits ou services présentés\npour la première fois dans des expositions\ninternationales officielles ou officiellement\nreconnues, organisées sur le territoire de l’un\ndes pays de l’Union internationale pour la\nprotection de la propriété industrielle."
+    },
+    {
+      "provision_ref": "art187",
+      "chapter": "Chapitre PREMIER",
+      "section": "187",
+      "title": "Article 187",
+      "content": "Cette protection, dont la durée est fixée à\nsix mois à dater de l’ouverture officielle de\nl’exposition, aura pour effet de conserver aux\nexposants ou à leurs ayants droit le droit de\nréclamer pendant ce délai la protection dont\nleurs inventions, schémas de configuration\n(topographies) de circuits intégrés, dessins\net modèles industriels ou marques seraient\nlégalement susceptibles de bénéficier en\napplication des dispositions de la présente loi.\nLes formalités que devront remplir les\nexposants pour bénéficier de la protection\ntemporaire sont fixées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art188",
+      "chapter": "Chapitre PREMIER",
+      "section": "188",
+      "title": "Article 188",
+      "content": "La durée de la protection temporaire ne sera\npas augmentée des délais de priorités prévus\npar l’article 7 ci-dessus.\n\nChapitre II\nDes récompenses industrielles\nSection PREMIèRE\nDu droit à la protection"
+    },
+    {
+      "provision_ref": "art189",
+      "chapter": "Section PREMIèRE",
+      "section": "189",
+      "title": "Article 189",
+      "content": "Seules peuvent bénéficier de la protection\ninstituée par les dispositions ci-après, les\nrécompenses industrielles comprenant\nles prix, médailles, mentions, titres ou\nattestations quelconques de distinction qui\nont été obtenues dans les expositions visées à\nl’article 186 ci-dessus.\nIl ne peut être fait un usage industriel ou\ncommercial des récompenses industrielles\nénumérées ci-dessus par leurs bénéficiaires\nou leurs ayants droit qu’après leur\nenregistrement auprès de l’organisme chargé\nde la propriété industrielle sur le registre visé à\nl’article 199 ci-dessous."
+    },
+    {
+      "provision_ref": "art190",
+      "chapter": "Section PREMIèRE",
+      "section": "190",
+      "title": "Article 190",
+      "content": "Les récompenses industrielles sont décernées\n\nsoit à titre personnel soit à titre collectif.\nLorsque la récompense a été décernée à\ntitre personnel, il ne peut en être fait usage\nindustriel ou commercial que par la personne\nqui l’a obtenue ou par ses ayants droit. Dans\nce dernier cas, le nom du titulaire de la\nrécompense doit être indiqué en caractères\napparents.\nLorsque la récompense a été décernée à titre\ncollectif, il peut en être fait usage industriel\nou commercial, soit par le groupement\n\nintéressé, soit par chacun des membres de\nce groupement, à la condition de mentionner\nexpressément, en caractères aussi apparents\nque ceux de la récompense elle même, la\ncollectivité qui l’a obtenue.\nIl ne peut être fait usage industriel ou\ncommercial d’une récompense attribuée à\nune entreprise industrielle ou commerciale\nque par le propriétaire de cette entreprise ou\npar ses ayants droit.\nIl ne peut être fait usage industriel ou\ncommercial d’une récompense attribuée\nà titre de collaborateur qu’à la condition\npar le titulaire d’indiquer qu’il s’agit\nd’une récompense de collaborateur et de\nmentionner le nom de l’entreprise à laquelle\nil était attaché lorsqu’il l’a obtenue. Le\npropriétaire de l’entreprise ne peut également\nen faire usage qu’à la condition d’indiquer qu’il\ns’agit d’une récompense de collaborateur.\nLorsqu’une récompense industrielle a été\ndécernée en considération d’un produit\ndéterminé, l’usage industriel ou commercial\npeut en être cédé en même temps que le\nproduit."
+    },
+    {
+      "provision_ref": "art191",
+      "section": "191",
+      "title": "Article 191",
+      "content": "Ne bénéficient pas de la protection prévue par\nla présente loi les récompenses industrielles\nqui reproduisent les signes visés à l’article 135\na) ci-dessus sauf autorisation des autorités\ncompétentes pour leur usage.\n\nSection 2\nDe la procédure de dépôt et de\nl’enregistrement de la récompense\nindustrielle"
+    },
+    {
+      "provision_ref": "art192",
+      "chapter": "Section 2",
+      "section": "192",
+      "title": "Article 192",
+      "content": "Toute personne souhaitant bénéficier de la\nprotection prévue par l’article 189 ci-dessus,\ndoit déposer auprès de l’organisme chargé de\nla propriété industrielle un dossier de dépôt de\nrécompense industrielle.\nLe dossier de dépôt de récompense industrielle\ndoit comporter à la date de son dépôt:\na. une demande d’enregistrement de\nrécompense industrielle mentionnant\nl’objet de la récompense industrielle,\net dont le contenu est fixé par voie\nréglementaire;\nb. deux exemplaires du titre de la\nrécompense\nindustrielle\ncertifiés\nconformes à l’original;\nc. la justification des droits exigibles.\nLe dossier de dépôt de récompense\nindustrielle ne comportant pas les pièces\nprévues aux a), b) et c) ci-dessus n’est pas\nrecevable au moment même du dépôt.\nLes formalités à remplir et les pièces à\njoindre aux documents visés aux a), b) et\nc) sont fixées par voie réglementaire.\nLorsque le dossier de dépôt de\nrécompense industrielle comprend les\npièces visés aux a), b) et c) ci-dessus,\nla demande d’enregistrement de\nrécompense industrielle telle que prévue\nau a) ci-dessus est inscrite par ordre\nchronologique des dépôts au registre\nnational des récompenses industrielles\nvisé au 1er alinéa de l’article 199 cidessous avec une date et un numéro de\ndépôt."
+    },
+    {
+      "provision_ref": "art193",
+      "chapter": "Section 2",
+      "section": "193",
+      "title": "Article 193",
+      "content": "Lorsque, à la date de dépôt, le dossier de\ndépôt de la récompense industrielle ne\ncomporte pas une ou plusieurs pièces à\njoindre aux documents visés aux a), b)\net c) ci-dessus et dont la liste est fixée\npar voie réglementaire en application\ndu 4e alinéa de l’article 192 ci-dessus, le\ndéposant ou son mandataire dispose d’un\ndélai de trois mois à compter de la date\nde son dépôt pour régulariser son dossier.\nLe dossier régularisé dans le délai imparti\nconserve la date du dépôt initial.\nLe délai de trois mois est un délai franc.\nSi le dernier jour est un jour férié ou un\njour non ouvrable, le délai est prorogé\njusqu’au jour ouvrable qui suit."
+    },
+    {
+      "provision_ref": "art194",
+      "section": "194",
+      "title": "Article 194",
+      "content": "Un récépissé constatant la date de\nremise des pièces visées aux 2ème et\n4ème alinéas de l’article 192 ci-dessus\nest remis immédiatement après le dépôt\nde la demande ou notifié au bénéficiaire\nde la récompense industrielle ou à son\nmandataire."
+    },
+    {
+      "provision_ref": "art195",
+      "section": "195",
+      "title": "Article 195",
+      "content": "Dans un délai de trois mois à compter\nde la date de dépôt du dossier de la\nrécompense industrielle, le bénéficiaire\nde ladite récompense ou son mandataire\npeut, sur requête justifiée, demander la\nrectification des fautes d’expression ou\nde transcription ainsi que des erreurs\nmatérielles relevées uniquement dans la\ndemande d’enregistrement prévue au a)\ndu 2ème alinéa de l’article 192 ci-dessus.\nAucune rectification ne peut être opérée\nau delà du délai susvisé.\nLa demande de rectification mentionnée\nà l’alinéa précédent est présentée par\nécrit et comporte l’objet des rectifications\nproposées."
+    },
+    {
+      "provision_ref": "art196",
+      "section": "196",
+      "title": "Article 196",
+      "content": "Sont rejetées les demandes d’enregistrement\nde récompense industrielle qui:\n1. n’ont pas été régularisées dans le délai\nde trois mois prévu à l’article 193 cidessus;\n\n2. reproduisent les signes visés à l’article\n135 a) ci-dessus.\nLes signes visés au 2) ci-dessus peuvent\ntoutefois être enregistrés par l’organisme\nchargé de la propriété industrielle sous\nréserve de la production de l’autorisation\ndes autorités compétentes.\nLe rejet de toute demande d’enregistrement\nde récompense industrielle doit être motivé\net notifié au déposant ou à son mandataire\npar lettre recommandée avec accusé de\nréception. La mention du rejet est inscrite\nau registre national des récompenses\nindustrielles visé au 1er alinéa de l’article 199\nci-dessous."
+    },
+    {
+      "provision_ref": "art197",
+      "section": "197",
+      "title": "Article 197",
+      "content": "Lorsque la demande d’enregistrement de la\nrécompense industrielle ne fait pas l’objet\nd’un rejet en application de l’article 196 cidessus, l’un des exemplaires du titre de la\nrécompense industrielle visés au b) du 2ème\nalinéa de l’article 192 ci-dessus doit être\nrestitué au bénéficiaire ou à son mandataire\nrevêtu de la date de son dépôt et de son\nnuméro d’enregistrement chronologique.\nL’autre exemplaire sur lequel sont transcrites\nles mêmes références est conservé\npar l’organisme chargé de la propriété\nindustrielle.\n\nSection 3\nDispositions diverses"
+    },
+    {
+      "provision_ref": "art198",
+      "chapter": "Section 3",
+      "section": "198",
+      "title": "Article 198",
+      "content": "Toute publicité d’une récompense\nindustrielle doit indiquer la nature\nexacte de la récompense, l’organisme\nqui l’a décernée et la date de son\nobtention."
+    },
+    {
+      "provision_ref": "art199",
+      "chapter": "Section 3",
+      "section": "199",
+      "title": "Article 199",
+      "content": "L’organisme chargé de la propriété industrielle\ntient un registre spécial dit «registre national\ndes récompenses industrielles» où sont\ninscrits tous les enregistrements relatifs aux\nrécompenses industrielles ainsi que toutes\nles opérations y afférentes.\nToute personne intéressée peut se faire\ndélivrer, sur demande écrite, une copie\nou un extrait des enregistrements et des\ninscriptions portées sur le registre national\ndes récompenses industrielles. Toutefois,\nla délivrance de telles copies ou extraits\ndes inscriptions portées sur ledit registre,\npeut être communiquée gratuitement aux\nadministrations publiques.\n\nSection 4\nDe la publication des récompenses\nindustrielles"
+    },
+    {
+      "provision_ref": "art200",
+      "chapter": "Section 4",
+      "section": "200",
+      "title": "Article 200",
+      "content": "L’organisme chargé de la propriété\nindustrielle publie un catalogue officiel\nde toutes les récompenses industrielles\nenregistrées.\n\nChapitre III\nDe la procédure de datage d’une\ncréation relevant du régime de\npropriété intellectuelle"
+    },
+    {
+      "provision_ref": "art201",
+      "chapter": "Chapitre PREMIER",
+      "section": "201",
+      "title": "Article 201",
+      "content": "Toute atteinte portée aux droits du propriétaire\nd’un brevet d’invention, d’un schéma de\nconfiguration (topographie) de circuits\nintégrés, d’un dessin ou modèle industriel\nenregistré, d’une marque de fabrique, de\ncommerce ou de service enregistrée, ou\nd’une indication géographique ou d’une\nappellation d’origine telle que définie\nrespectivement aux articles 53, 54, 99, 123,\n124, 154, 155 et 182 ci-dessus constitue une\ncontrefaçon.\nL’offre, la mise dans le commerce, la\nreproduction, l’utilisation, la détention en vue\nde l’utilisation ou la mise dans le commerce\nd’un produit contrefait, lorsque ces faits\nsont commis par une autre personne que le\nfabriquant du produit contrefait, n’engage\nla responsabilité de leur auteur que s’il en\navait connaissance ou avait des motifs\nraisonnables d’en avoir connaissance."
+    },
+    {
+      "provision_ref": "art202",
+      "chapter": "Chapitre PREMIER",
+      "section": "202",
+      "title": "Article 202",
+      "content": "L’action en contrefaçon est exercée par\nle propriétaire du brevet d’invention du\ncertificat d’un schéma de configuration\n(topographie) de circuits intégrés, de dessin\nou modèle industriel enregistré, d’une\nmarque de fabrique, de commerce ou de\nservice enregistrée.\nToutefois, le bénéficiaire d’un droit exclusif\nd’exploitation peut, sauf stipulation contraire\ndu contrat de licence, exercer l’action en\ncontrefaçon si, après mise en demeure\ntransmise par un huissier de justice ou par\nun greffier, le propriétaire n’exerce pas cette\naction.\nLe propriétaire est recevable à intervenir\nà l’instance en contrefaçon engagée par\nle bénéficiaire, conformément à l’alinéa\nprécédent.\nTout licencié est recevable à intervenir à\nl’instance en contrefaçon engagée par le\npropriétaire, afin d’obtenir la réparation du\npréjudice qui lui est propre."
+    },
+    {
+      "provision_ref": "art203",
+      "chapter": "Chapitre PREMIER",
+      "section": "203",
+      "title": "Article 203",
+      "content": "Lorsque le tribunal est saisi d’une action en\ncontrefaçon ou en concurrence déloyale,\nson président, statuant en référé, peut\ninterdire, à titre provisoire, sous astreinte, la\npoursuite des actes argués de contrefaçon\n\nou de concurrence déloyale, ou subordonner\ncette poursuite à la constitution de garanties\ndestinées à assurer l’indemnisation du\npropriétaire du titre de propriété industrielle\nou du bénéficiaire d’un droit exclusif\nd’exploitation.\nCette interdiction est ordonnée contre une\npartie à l’action de contrefaçon exercée ou, le\ncas échéant, contre un tiers, pour empêcher\nqu’un acte de contrefaçon ne soit commis et,\nen particulier, pour empêcher l’introduction,\ndans les circuits commerciaux, de produits\ncontrefaits.\nLa demande d’interdiction ou de constitution\nde garanties n’est admise que si l’action au\nfond apparaît sérieuse et a été engagée dans\nun délai maximum de trente jours à compter\ndu jour où le propriétaire a eu connaissance\ndes faits sur lesquels elle est fondée.\nLe juge peut subordonner l’interdiction à la\nconstitution par le demandeur de garanties\ndestinées à assurer l’indemnisation éventuelle\ndu préjudice subi par le défendeur si l’action en\ncontrefaçon est ultérieurement jugée non fondée."
+    },
+    {
+      "provision_ref": "art204",
+      "section": "204",
+      "title": "Article 204",
+      "content": "Est compétent le tribunal du lieu du domicile\nréel ou élu du défendeur, celui du lieu où\nest établi son mandataire ou le tribunal du\nlieu où est établi l’organisme chargé de la\npropriété industrielle si le défendeur est\ndomicilié à l’étranger.\nLes actions mettant en jeu à la fois une\nquestion de marque et une question de\ndessin ou de modèle ou de concurrence\ndéloyale connexes sont portées devant le\ntribunal.\nPar dérogation aux dispositions du 1er\nalinéa ci-dessus, le tribunal compétent pour\nordonner les mesures conservatoires prévues\nà l’article 176.2 ci-dessus, est celui dont relève\n\nle lieu d’importation des marchandises objet\nde la demande de suspension visée à l’article\n176.1 ci-dessus."
+    },
+    {
+      "provision_ref": "art205",
+      "section": "205",
+      "title": "Article 205",
+      "content": "L’action publique ne peut être exercée que\nsur la plainte de la partie lésée sauf en cas\nd’infraction aux dispositions prévues au a)\nde l’article 24 et des articles 113 et 135 cidessus pour lesquelles le ministère public est\ncompétent.\nEn cas, d’action civile introduite antérieurement\nen constatation de la réalité du dommage ou\nen cas d’action en nullité, en revendication\nde propriété ou en déchéance introduite par\nle défenseur, le tribunal correctionnel ne peut\nstatuer sur la plainte de la partie lésée qu’après\njugement devenu définitif."
+    },
+    {
+      "provision_ref": "art206",
+      "section": "206",
+      "title": "Article 206",
+      "content": "Les actions civiles et pénales prévues par le\nprésent titre sont prescrites par trois ans à\ncompter de la date des faits qui en sont la\ncause."
+    },
+    {
+      "provision_ref": "art207",
+      "section": "207",
+      "title": "Article 207",
+      "content": "L’action civile visée au deuxième alinéa de\nl’article 205 ci- dessus suspend la prescription\nde l’action pénale."
+    },
+    {
+      "provision_ref": "art208",
+      "section": "208",
+      "title": "Article 208",
+      "content": "Les personnes condamnées en application\ndes dispositions du présent titre peuvent, en\noutre, être privées pour une période de cinq\nans au maximum, du droit de faire partie des\nChambres professionnelles."
+    },
+    {
+      "provision_ref": "art209",
+      "section": "209",
+      "title": "Article 209",
+      "content": "La juridiction ordonne la publication des\ndécisions judiciaires devenues définitives\nrendues en application des dispositions de la\nprésente loi.\nChapitre II\nDes brevets d’invention\nSection PREMIèRE\nDes actions civiles"
+    },
+    {
+      "provision_ref": "art210",
+      "chapter": "Section PREMIèRE",
+      "section": "210",
+      "title": "Article 210",
+      "content": "Le bénéficiaire d’une licence obligatoire,\nmentionnée aux articles 60 et 66 ci-dessus,\npeut exercer l’action en contrefaçon si, après\nmise en demeure, le propriétaire du brevet\nn’exerce pas cette action.\nLe bénéficiaire d’une licence d’office visée\naux articles 69, 74 et 75 ci-dessus, peut\nexercer l’action en contrefaçon si, après mise\nen demeure, le propriétaire n’exerce pas\ncette action."
+    },
+    {
+      "provision_ref": "art211",
+      "chapter": "Section PREMIèRE",
+      "section": "211",
+      "title": "Article 211",
+      "content": "Le titulaire d’une demande de brevet ou d’un\nbrevet, a la possibilité de faire la preuve par\ntous les moyens de la contrefaçon dont il se\nprétend victime.\nIl est par ailleurs en droit de faire procéder,\nsur ordonnance du président du tribunal\ndans le ressort duquel a été commise la\ncontrefaçon, par un commissaire judiciaire,\nà la description détaillée, avec ou sans\nsaisie, des produits ou procédés prétendus\ncontrefaits. Il peut être procédé à ladite\ndescription avec l’assistance d’un expert\nqualifié.\nL’exécution de ladite ordonnance peut être\nsubordonnée à une consignation par le\nrequérant.\nDans la même ordonnance, le président\ndu tribunal peut autoriser un commissaire\njudiciaire, assisté d’un expert qualifié, pour\nprocéder à toute constatation utile en vue\nd’établir l’origine, la consistance et l’étendue\nde la contrefaçon.\nLe même droit est ouvert au concessionnaire\nd’un droit exclusif d’exploitation sous la\ncondition prévue au deuxième alinéa de\nl’article 202 de la présente loi, ainsi que, sous\nla condition prévue à l’article 210 ci-dessus,\nau titulaire d’une licence obligatoire ou d’une\nlicence d’office.\nA défaut par le requérant de s’être pourvu\ndevant le tribunal dans le délai maximum de\ntrente jours à compter du jour de l’exécution\nde l’ordonnance, la description détaillée,\navec ou sans saisie, est nulle de plein droit\nsans préjudice d’éventuels dommages\nintérêts."
+    },
+    {
+      "provision_ref": "art212",
+      "chapter": "Section PREMIèRE",
+      "section": "212",
+      "title": "Article 212",
+      "content": "Sur la demande de la partie lésée, et\nautant que la mesure s’avère nécessaire\npour assurer l’interdiction de continuer la\ncontrefaçon, le tribunal pourra ordonner\nla confiscation, au profit du demandeur,\nd’objets reconnus contrefaits, qui sont la\npropriété du contrefacteur à la date de\nl’entrée en vigueur de l’interdiction, et, le\ncas échéant, celle des dispositifs ou moyens\nspécialement destinés à la réalisation de la\ncontrefaçon.\nIl sera tenu compte de la valeur des objets\nconfisqués dans le calcul de l’indemnité\nallouée au bénéficiaire de la condamnation.\n\nSection 2\nDes actions pénales"
+    },
+    {
+      "provision_ref": "art213",
+      "chapter": "Section 2",
+      "section": "213",
+      "title": "Article 213",
+      "content": "Toute atteinte portée sciemment aux\ndroits du propriétaire d’un brevet tels qu’ils\nsont définis aux articles 53 et 54 ci-dessus\nconstitue une contrefaçon et est punie d’une\npeine de deux à six mois d’emprisonnement\net d’une amende de 50.000 à 500.000\ndirhams ou de l’une de ces deux peines\n\nseulement.\nEn cas de récidive, les peines peuvent être\nportées au double.\nIl y a récidive, au sens du présent article,\nlorsqu’il a été rendu contre le prévenu,\ndans les cinq années antérieures, une\ncondamnation devenue irrévocable pour des\nfaits identiques.\nLe tribunal pourra également ordonner la\ndestruction des objets reconnus contrefaits,\nqui sont la propriété du contrefacteur,\nainsi que celle des dispositifs ou moyens\nspécialement destinés à la réalisation de la\ncontrefaçon."
+    },
+    {
+      "provision_ref": "art214",
+      "chapter": "Section 2",
+      "section": "214",
+      "title": "Article 214",
+      "content": "Seront punis des mêmes peines que les\ncontrefacteurs, ceux qui ont sciemment\nrecelé, exposé, mis en vente ou vendu,\nintroduit ou exporté les produits réputés\ncontrefaits. Il en sera de même pour toute\naide apportée sciemment à l’auteur des\ninfractions visées ci-dessus."
+    },
+    {
+      "provision_ref": "art215",
+      "chapter": "Section 2",
+      "section": "215",
+      "title": "Article 215",
+      "content": "Les peines prévues aux articles 213 et 214 cidessus sont portées à un emprisonnement\nde six mois à deux ans et à une amende de\n100.000 à 500.000 dirhams ou à l’une de ces\ndeux peines seulement si le contrefacteur est\nun salarié ayant travaillé dans les ateliers ou\ndans l’établissement du breveté.\nLes mêmes peines sont encourues par le\nsalarié qui s’est associé au contrefacteur\naprès lui avoir donné connaissance des\nprocédés décrits au brevet.\nLe salarié peut être poursuivi conformément\naux dispositions de l’article 447 du Code\npénal."
+    },
+    {
+      "provision_ref": "art216",
+      "chapter": "Section 2",
+      "section": "216",
+      "title": "Article 216",
+      "content": "Sans préjudice des peines prévues par des\nlois spéciales, sont punis d’une amende\nde 50.000 à 500.000 dirhams, ceux qui,\nsoit par des discours ou conférences dans\nles lieux ou réunions publics, soit par des\nécrits, des imprimés vendus ou distribués,\nmis en vente ou exposés dans les lieux ou\nréunions publics, soit par des placards ou\naffiches exposés au regard du public, ont\ndonné tous renseignements, indications\nou descriptions quelconques concernant\ndes brevets d’invention, ou des schémas de\nconfiguration ( topographies ) de circuits\nintégrés dont la demande a été déposée\npar eux ou par autrui, mais qui ne sont pas\nencore délivrés.\nDans le cas de récidive, il est prononcé, outre\nl’amende, un emprisonnement de trois mois\nà deux ans."
+    },
+    {
+      "provision_ref": "art217",
+      "section": "217",
+      "title": "Article 217",
+      "content": "Quiconque a sciemment enfreint une des\ninterdictions prévues à l’article 42 ci-dessus\nest puni d’une amende de 100.000 à 500.000\ndirhams.\nConformément aux dispositions de l’article\n192 du code pénal ,si la violation a porté\npréjudice à la défense nationale, en temps\nde guerre, la peine est celle de la réclusion\nde cinq à trente ans. Lorsqu’elle est\ncommise, en temps de paix, elle est celle de\nl’emprisonnement de un à cinq ans.\n\nChapitre III\nDes schémas de configuration\n(topographies) de circuits intégrés"
+    },
+    {
+      "provision_ref": "art218",
+      "chapter": "Chapitre III",
+      "section": "218",
+      "title": "Article 218",
+      "content": "Les dispositions du chapitre II du présent\ntitre sont applicables aux actions civiles et\npénales en contrefaçon des schémas de\nconfiguration (topographies) de circuits\nintégrés.\n\nChapitre IV\nDes dessins et modèles industriels\nSection PREMIèRE\nDes actions civiles"
+    },
+    {
+      "provision_ref": "art219",
+      "chapter": "Section PREMIèRE",
+      "section": "219",
+      "title": "Article 219",
+      "content": "Le titulaire du dessin ou modèle industriel\na la possibilité de faire la preuve par tous\nles moyens de la contrefaçon dont il se\nprétend victime.\nIl est par ailleurs en droit de faire procéder,\nsur ordonnance du président du tribunal\ndans le ressort duquel a été commise\nla contrefaçon, par un commissaire\njudiciaire, à la description détaillée, avec\nou sans saisie, des produits prétendus\ncontrefaits\nIl peut être procédé à ladite description\navec l’assistance d’un expert qualifié.\nL’exécution de ladite ordonnance peut\nêtre subordonnée à une consignation par\nle requérant.\nDans la même ordonnance, le président\ndu tribunal peut autoriser un commissaire\njudiciaire, assisté d’un expert qualifié, qui\nsera chargé de toute constatation utile en\nvue d’établir l’origine, la consistance et\nl’étendue de la contrefaçon.\nLe même droit est ouvert au\nconcessionnaire d’un droit exclusif\nd’exploitation sous la condition prévue\nau deuxième alinéa de l’article 202 cidessus.\nA défaut par le requérant de s’être pourvu\ndevant le tribunal dans le délai maximum\nde trente jours à compter du jour de\nl’exécution de l’ordonnance ci-dessus, la\ndescription détaillée, avec ou sans saisie,\nest nulle de plein droit sans préjudice\nd’éventuels dommages intérêts."
+    },
+    {
+      "provision_ref": "art220",
+      "chapter": "Section PREMIèRE",
+      "section": "220",
+      "title": "Article 220",
+      "content": "Sur la demande de la partie lésée, et\nautant que la mesure s’avère nécessaire\npour assurer l’interdiction de continuer la\ncontrefaçon, le tribunal pourra ordonner\nla confiscation, au profit du demandeur,\nd’objets reconnus contrefaits, qui sont\nla propriété du contrefacteur à la date\nde l’entrée en vigueur de l’interdiction,\net, le cas échéant, celle des dispositifs\nou moyens spécialement destinés à la\nréalisation de la contrefaçon.\nIl sera tenu compte de la valeur des\nobjets confisqués dans le calcul de\nl’indemnité allouée au bénéficiaire de la\ncondamnation.\n\nSection 2\nDes actions pénales"
+    },
+    {
+      "provision_ref": "art221",
+      "chapter": "Section 2",
+      "section": "221",
+      "title": "Article 221",
+      "content": "Toute atteinte portée sciemment aux droits\ndu propriétaire d’un dessin ou modèle\nindustriel est punie d’une peine de deux à six\nmois d’emprisonnement et d’une amende\nde 50.000 à 500.000 dirhams ou de l’une de\nces deux peines seulement.\nEn cas de récidive, les peines peuvent être\nportées au double.\nIl y a récidive, au sens du présent article,\nlorsqu’il a été rendu contre le prévenu,\ndans les cinq années antérieures, une\ncondamnation devenue irrévocable pour des\nfaits identiques.\nLes peines prévues à l’alinéa précédent\nsont également encourues si le prévenu\nest en état de récidive, comme ayant été\ncondamné dans les cinq années précédentes\npar décision irrévocable prononcée pour des\n\nfaits identiques.\nLe tribunal pourra également ordonner la\ndestruction des objets reconnus contrefaits,\nqui sont la propriété du contrefacteur,\nainsi que celle des dispositifs ou moyens\nspécialement destinés à la réalisation de la\ncontrefaçon.\n\nChapitre V\nDes marques de fabrique, de\ncommerce ou de service\nSection PREMIèRE\nDes actions civiles"
+    },
+    {
+      "provision_ref": "art222",
+      "chapter": "Section PREMIèRE",
+      "section": "222",
+      "title": "Article 222",
+      "content": "Le titulaire d’une demande d’enregistrement\nde marque, le propriétaire d’une marque\nenregistrée ou le bénéficiaire d’un droit\nexclusif d’exploitation est en droit de faire\nprocéder, en vertu d’une ordonnance du\nprésident du tribunal qui autorise un\ncommissaire judiciaire à procéder soit\nà la description détaillée avec ou sans\nprélèvement d’échantillons, soit à la saisie\ndes produits ou des services qu’il prétend\nmarqués, offerts à la vente, livrés ou fournis à\nson préjudice en violation de ses droits.\nIl peut être procédé à ladite description avec\nl’assistance d’un expert qualifié.\nDans la même ordonnance, le président\ndu tribunal peut autoriser la saisie ou une\nautre forme de rétention des matériaux,\ndes instruments et des éléments de preuve\ndocumentaire, sous forme d’originaux ou\nde copies, liés à l’atteinte ainsi que toute\nconstatation utile en vue d’établir l’origine, la\nnature et l’étendue de l’infraction.\nL’exécution de ladite ordonnance peut être\nsubordonnée à une consignation par le\nrequérant destinée à assurer l’indemnisation\n\néventuelle du préjudice subi par le défendeur\nsi l’action en contrefaçon est ultérieurement\njugée non fondée.\nA défaut par le requérant de s’être pourvu\ndevant le tribunal dans le délai maximum de\ntrente jours à compter du jour de l’exécution\nde l’ordonnance ci-dessus, la description\ndétaillée, ou la saisie, est nulle de plein\ndroit sans préjudice d’éventuels dommages\nintérêts."
+    },
+    {
+      "provision_ref": "art223",
+      "chapter": "Section PREMIèRE",
+      "section": "223",
+      "title": "Article 223",
+      "content": "Dans le cas où il s’agit de constater une\nsubstitution d’un produit ou d’un service à\ncelui qui a été demandé sous une marque\nenregistrée, l’agent du greffe n’est tenu\nd’exhiber l’ordonnance prévue à l’article\n222 ci-dessus, qu’après livraison du produit\nou prestation du service autre que celui\nqui aurait été demandé et si l’ordonnance\nautorise plusieurs constatations de la\nsubstitution, seulement après la dernière\nlivraison ou la dernière prestation."
+    },
+    {
+      "provision_ref": "art224",
+      "chapter": "Section PREMIèRE",
+      "section": "224",
+      "title": "Article 224",
+      "content": "Sur la demande de la partie lésée, et\nautant que la mesure s’avère nécessaire\npour assurer l’interdiction de continuer la\ncontrefaçon, le tribunal pourra ordonner la\ndestruction d’objets reconnus contrefaits,\nsauf circonstances exceptionnelles, qui\nsont la propriété du contrefacteur à la date\nde l’entrée en vigueur de l’interdiction, et, le\ncas échéant, la destruction des dispositifs\nou moyens spécialement destinés à la\nréalisation de la contrefaçon.\nLe détenteur des droits a la possibilité\nde choisir entre les dommages-intérêts\neffectivement subis plus tout bénéfice\nattribuable à l’activité interdite qui n’a pas\nété pris en compte dans le calcul de ces\ndommages ou des dommages-intérêts dont\nle montant est au moins 50.000 dirhams et\nau plus 500.000 dirhams, selon ce que le\ntribunal estime équitable pour la réparation\ndu préjudice subi.\n\nSection 2\nDes actions pénales"
+    },
+    {
+      "provision_ref": "art225",
+      "chapter": "Section 2",
+      "section": "225",
+      "title": "Article 225",
+      "content": "Sont considérés comme contrefacteurs et\npunis d’un emprisonnement de trois mois\nà un an et d’une amende de 100.000 à\n1.000.000 dirhams ou de l’une de ces deux\npeines seulement:\n1. ceux qui ont contrefait une marque\nenregistrée ou ont frauduleusement\napposé une marque appartenant à\nautrui;\n2. ceux qui ont fait usage d’une marque\nsans l’autorisation de l’intéressé\nmême avec l’adjonction de mots tels\nque «formule», «façon», «système»,\n«recette», «imitation», «genre», ou\nde toute autre indication similaire\npropre à tromper l’acheteur;\n3. ceux qui ont détenu sans motif\nlégitime des produits qu’ils savaient\nrevêtus d’une marque contrefaite ou\nfrauduleusement apposée et qui ont\nsciemment vendu, mis en vente, fourni\nou offert de fournir des produits ou\nservices sous une telle marque;\n4. ceux qui ont sciemment livré un produit\nou fourni un service autre que celui qui\nleur a été demandé sous une marque\nenregistrée.\n5. ceux qui ont importé ou exporté\ndes produits revêtus d’une marque\ncontrefaite\nou\nfrauduleusement\napposée.\n6. celui qui a sciemment importé ou\nutilisé à une échelle commerciale\ndes étiquettes ou des emballages et\ndes conditionnements sur lesquels\nest apposée sans autorisation une\nmarque qui est identique à une\nmarque de fabrique ou de commerce\nenregistrée ou qui ne peut en être\ndistinguée et qui sont destinés à\nêtre utilisés commercialement sur\ndes marchandises ou dans le cadre\nde services qui sont identiques aux\nmarchandises ou aux services pour\nlesquels une telle marque de fabrique\nou de commerce est enregistrée"
+    },
+    {
+      "provision_ref": "art226",
+      "chapter": "Section 2",
+      "section": "226",
+      "title": "Article 226",
+      "content": "Sont punis d’une peine de deux à six mois\nd’emprisonnement et d’une amende de\n50.000 à 500.000 dirhams ou de l’une de ces\ndeux peines seulement:\n1. ceux qui sans contrefaire une marque\nenregistrée, en ont fait une imitation\nfrauduleuse de nature à tromper\nl’acheteur ou ont fait usage d’une\nmarque frauduleusement imitée ;\n2. ceux qui ont fait usage d’une marque\nenregistrée portant des indications\npropres à tromper l’acheteur sur la\nnature, les qualités substantielles, la\ncomposition ou la teneur en principes\nutiles, l’espèce ou l’origine de l’objet ou\ndu produit désigné;\n3. ceux qui ont détenu sans motif légitime\ndes produits qu’ils savaient revêtus\nd’une marque frauduleusement imitée\nou ceux qui ont sciemment vendu,\nmis en vente ou offert de fournir des\nproduits ou des services sous une telle\nmarque."
+    },
+    {
+      "provision_ref": "art230",
+      "section": "230",
+      "title": "Article 230",
+      "content": "Sont punis d’un emprisonnement d’un à trois\nmois et d’une amende de 50.000 à 500.000\ndirhams ou de l’une de ces deux peines\nseulement ceux qui ont fait figurer dans\nleurs marques de fabrique, de commerce\nou de service les signes prohibés visés à\nl’article 135 a) ci-dessus sans autorisation\ndes autorités compétentes, ceux qui ont\nintroduit au Maroc, détenu, mis en vente ou\nvendu des produits naturels ou fabriqués\nportant comme marque lesdits signes.\n\nToute usurpation ou tout usage frauduleux\nd’un nom commercial qu’il fasse ou non\npartie d’une marque de fabrique, de\ncommerce ou de service est punie des peines\nprévues à l’article 225 ci-dessus."
+    },
+    {
+      "provision_ref": "art227",
+      "section": "227",
+      "title": "Article 227",
+      "content": "1\n\nLes actes illicites visés à l’article 182 cidessus sont passibles des sanctions prévues\nà l’article 226 ci-dessus sans préjudice des\npeines prévues par des lois spéciales.\n\nPar dérogation aux dispositions du premier\nalinéa de l’article 205 ci-dessus, toute\natteinte portée aux droits du propriétaire\nd’une marque de fabrique, de commerce\nou de service enregistrée telle que définie\nrespectivement aux articles 154, 155, 225 et\n226 ci-dessus, peut faire l’objet de poursuites\nordonnées d’office par le ministère public,\nsans plainte portée par une partie privée ou\nun détenteur de droits."
+    },
+    {
+      "provision_ref": "art228",
+      "section": "228",
+      "title": "Article 228",
+      "content": "Le tribunal pourra ordonner également la\ndestruction des objets reconnus contrefaits,\nqui sont la propriété du contrefacteur,\nainsi que celle des dispositifs ou moyens\nspécialement destinés à la réalisation de la\ncontrefaçon."
+    },
+    {
+      "provision_ref": "art229",
+      "section": "229",
+      "title": "Article 229",
+      "content": "Les peines prévues par les articles 225 à 228\nci-dessus sont applicables en matière de\nmarques collectives ainsi qu’en matière de\nmarques collectives de certification.\n\nChapitre VI\nDu nom commercial\n\nChapitre VII\nDes indications géographiques et\nappellations d’origine"
+    },
+    {
+      "provision_ref": "art231",
+      "chapter": "Chapitre VII",
+      "section": "231",
+      "title": "Article 231",
+      "content": "Chapitre VIII\nDes récompenses industrielles"
+    },
+    {
+      "provision_ref": "art232",
+      "chapter": "Chapitre VIII",
+      "section": "232",
+      "title": "Article 232",
+      "content": "Sont punis d’un emprisonnement de deux\nà six mois et d’une amende de 50.000 à\n500.000 dirhams ou de l’une de ces deux\npeines seulement:\n1. ceux qui, sans droit et frauduleusement\nse sont attribués les récompenses\nindustrielles, prévues à l’article 189\nci-dessus, ou s’en sont attribués\nd’imaginaires, par apposition sur\nleurs produits, enseignes, annonces,\nprospectus, lettres, papiers de commerce,\nemballages ou de toute autre manière;\n2. ceux qui dans les mêmes conditions, les\nont appliquées à d’autres objets que ceux\npour lesquels elles avaient été obtenues ;\n3. ceux qui ont fait usage industriel ou\ncommercial de récompenses autres que\ncelles prévues à l’article 189 ci-dessus."
+    },
+    {
+      "provision_ref": "art233",
+      "chapter": "Chapitre VIII",
+      "section": "233",
+      "title": "Article 233",
+      "content": "Sont punis d’une amende de 25.000 à\n250.000 dirhams ceux qui, bénéficiaires\nd’une récompense industrielle, en ont fait un\nusage industriel ou commercial sans s’être\nconformés aux dispositions des articles 189,\n190 et 198 ci-dessus.\n\nTITRE IX\nDispositions transitoires"
+    },
+    {
+      "provision_ref": "art234",
+      "chapter": "TITRE IX",
+      "section": "234",
+      "title": "Article 234",
+      "content": "La présente loi entrera en application six\nmois après la publication des textes pris pour\nson application et abrogera alors toutes les\ndispositions antérieures relatives au même\nobjet et notamment le dahir du 21 chaabane\n1334 (23 juin 1916) relatif à la protection de\nla propriété industrielle, la loi du 9 chaabane\n1357 (4 octobre 1938) relative à la protection\nde la propriété industrielle dans la zone\nde Tanger et le dahir du 10 rajeb 1359 ( 14\nAoût 1940 ) relatif à la délivrance des brevets\nd’invention intéressant la défense nationale,\ntels qu’ils ont été modifiés et complétés."
+    },
+    {
+      "provision_ref": "art235",
+      "chapter": "TITRE IX",
+      "section": "235",
+      "title": "Article 235",
+      "content": "Sont maintenus les droits acquis\nantérieurement à la date de l’entrée en\napplication de la présente loi pour la durée de\nprotection restant à courir sous réserve des\ndispositions ci-après."
+    },
+    {
+      "provision_ref": "art236",
+      "chapter": "TITRE IX",
+      "section": "236",
+      "title": "Article 236",
+      "content": "Les demandes de brevets d’invention\ndéposées avant la date de l’entrée en\napplication de la présente loi, conformément\naux dispositions du dahir du 21 chaabane\n1334 ( 23 juin 1916 ) et de la loi du 9\nchaabane 1357 ( 4 octobre 1938 ) précités,\nseront instruites et les titres correspondants\nseront délivrés conformément aux\ndispositions et aux formalités prévues par\nledit dahir et ladite loi.\nLes demandes d’enregistrement de\nmodèles d’utilité déposées avant la date\nde l’entrée en application de la présente\nloi conformément aux dispositions de\nla loi du 9 chaabane 1357 (4 octobre\n1938) précitée, seront instruites et les\ntitres correspondants seront délivrés\nconformément aux dispositions et aux\nformalités prévues par la présente loi.\nLesdites demandes produiront leurs effets\nà compter de la date de leur dépôt."
+    },
+    {
+      "provision_ref": "art237",
+      "chapter": "TITRE IX",
+      "section": "237",
+      "title": "Article 237",
+      "content": "Les\nbrevets\nd’invention\ndélivrés\nconformément aux dispositions du dahir\ndu 21 chaabane 1334 ( 23 juin 1916 ) et de\nla loi du 9 chaabane 1357 ( 4 octobre 1938\n) précités, ainsi que les modèles d’utilité,\nles dessins et modèles industriels et les\nmarques de fabrique ou de commerce,\ndéposés et enregistrés conformément aux\ndispositions desdits dahir et loi produiront\nleurs effets sur l’ensemble du territoire du\nRoyaume à compter de la date de l’entrée\nen application de la présente loi."
+    },
+    {
+      "provision_ref": "art238",
+      "section": "238",
+      "title": "Article 238",
+      "content": "Les marques protégées par la priorité\nd’usage conformément aux dispositions du\ndahir du 21 chaabane 1334 ( 23 juin 1916\n) précité et aux dispositions de la loi du 9\nchaabane 1357 (4 octobre 1938) précitée,\nsans avoir été déposées et enregistrées en\napplication des dispositions desdits dahir\net loi, seront maintenues en vigueur à la\ncondition de faire l’objet, dans les six mois\ncourant à compter de la date de l’entrée en\napplication de la présente loi, d’un dépôt\n\nde demande d’enregistrement effectué,\nconformément aux dispositions de la\nprésente loi."
+    },
+    {
+      "provision_ref": "art239",
+      "section": "239",
+      "title": "Article 239",
+      "content": "L’extension des droits attachés aux titres\nde propriété industrielle à l’ensemble\ndu territoire du Royaume profitera aux\ntitulaires de licences sous réserve de\nstipulations contractuelles contraires.\nA défaut d’entente entre les propriétaires\ndesdits titres et les bénéficiaires de licences,\nle litige est soumis au tribunal.\nDécret n° 2-14-316 du 8 rabii\nII 1436 (29 Janvier 2015)\nmodifiant et complétant le\ndécret n° 2-00-368 pris pour\nl’application de la loi n° 1797 relative à la protection\nde la propriété Industrielle.\n\nLe chef du gouvernement,\nVu la loi n° 17-97 relative à la protection\nde la propriété industrielle promulguée par\nle dahir n° 1-00-19 du 9 kaada 1420 (15\nfévrier 2000) ;\nVu la loi n° 13-99 portant création de\nl’Office Marocain de la Propriété Industrielle\net Commerciale promulguée par le dahir\n2000) ;\nVu le décret n° 2-00-368 du 18 rabii II 1425\n(7 juin 2004) pris pour l’application de la loi\nprécitée n° 17-97 relative à la protection de\nla propriété industrielle;\nVu le décret n° 2-99-71 du 9 hija 1420\n(16 mars 2000) pris pour l’application de\nla loi n° 13-99 portant création de l’Office\nMarocain de la Propriété Industrielle et\nCommerciale ;\nAprès délibération du Conseil du\ngouvernement tenu le 23 rabii I 1436 (15\njanvier 2015),\n\nDécrète :\nTITRE PREMIER\nDispositions générales"
+    }
+  ],
   "definitions": [],
-  "ingestion_status": "skipped",
-  "ingestion_notes": "Source fetch failed: fetch failed"
+  "ingestion_status": "ingested"
 }

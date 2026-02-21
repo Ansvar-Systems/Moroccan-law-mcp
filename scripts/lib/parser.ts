@@ -25,6 +25,9 @@ export interface SourceDocument {
   description?: string;
   law_number?: string;
   start_hint?: string;
+  end_hint?: string;
+  ocr_page_start?: number;
+  ocr_page_end?: number;
 }
 
 export interface ParsedProvision {
@@ -64,7 +67,7 @@ export interface ParseResult {
   skip_reason?: string;
 }
 
-const ARTICLE_HEADING = /(?:^|\n)\s*(?:ARTICLE|Article|ART\.?)(?:\s+)(premier|PREMIER|1er|[0-9]+(?:\s*[-–]\s*[0-9]+)?(?:\s+(?:bis|ter|quater))?)(?:\s*[:.\-–])?/g;
+const ARTICLE_HEADING = /(?:^|[\n\r]|[«"“”]\s*)(?:ARTICLE|Article|ART\.?|Artic[ecll]{1,5})(?:\s+)(premier|PREMIER|1er|unique|UNIQUE|[0-9]+(?:\s*[-–—]\s*[0-9]+)?(?:\s+(?:bis|ter|quater))?)(?:\s*[:.\-–—])?/g;
 const CHAPTER_HEADING = /(?:^|\n)\s*(CHAPITRE\s+[A-Z0-9IVX\-]+[^\n]*|Chapitre\s+[A-Za-z0-9IVX\-]+[^\n]*|TITRE\s+[A-Z0-9IVX\-]+[^\n]*|Titre\s+[A-Za-z0-9IVX\-]+[^\n]*|SECTION\s+[A-Z0-9IVX\-]+[^\n]*|Section\s+[A-Za-z0-9IVX\-]+[^\n]*)/g;
 
 export const SOURCE_DOCUMENTS: SourceDocument[] = [
@@ -127,10 +130,12 @@ export const SOURCE_DOCUMENTS: SourceDocument[] = [
     short_name: 'Loi 31-08',
     status: 'in_force',
     url: 'https://www.dgssi.gov.ma/fr/loi-ndeg31-08-edictant-des-mesures-de-protection-du-consommateur-y-compris-la',
-    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2031-08.pdf',
-    source_authority: 'DGSSI',
+    source_url: 'https://www.sgg.gov.ma/BO/bo_fr/2011/BO_5932_Fr.pdf',
+    source_authority: 'SGG',
     source_encoding: 'plain',
     law_number: '31-08',
+    ocr_page_start: 5,
+    ocr_page_end: 29,
     description: 'Protection des consommateurs, y compris consommateurs en ligne.',
   },
   {
@@ -176,10 +181,13 @@ export const SOURCE_DOCUMENTS: SourceDocument[] = [
     short_name: 'Loi 07-03',
     status: 'in_force',
     url: 'https://www.dgssi.gov.ma/fr/loi-07-03-completant-le-code-penal-en-ce-qui-concerne-les-infractions-relatives-aux',
-    source_url: 'https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2007-03.pdf',
-    source_authority: 'DGSSI',
+    source_url: 'https://www.sgg.gov.ma/BO/bo_fr/2004/BO_5184_Fr.pdf',
+    source_authority: 'SGG',
     source_encoding: 'plain',
     law_number: '07-03',
+    end_hint: 'Loi n° 67-99',
+    ocr_page_start: 3,
+    ocr_page_end: 4,
     description: 'Infractions pénales relatives aux systèmes d’information.',
   },
   {
@@ -223,11 +231,11 @@ export const SOURCE_DOCUMENTS: SourceDocument[] = [
     short_name: 'Loi 17-97',
     status: 'in_force',
     url: 'https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle',
-    source_url: 'https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle',
+    source_url: 'http://www.ompic.ma/sites/default/files/LivreLoiFR20160426.pdf',
     source_authority: 'OMPIC',
     source_encoding: 'plain',
-    law_number: '17-97',
-    description: 'Régime de propriété industrielle (source inaccessible depuis cet environnement au moment de l’ingestion).',
+    start_hint: 'LOI n°17-97 relative à la propriété industrielle',
+    description: 'Régime de propriété industrielle (texte consolidé OMPIC modifié par les lois 31-05 et 23-13).',
   },
 ];
 
@@ -315,7 +323,7 @@ function normalizeSourceText(text: string): string {
 function normalizeSection(sectionRaw: string): string {
   const cleaned = sectionRaw.replace(/\s+/g, ' ').trim();
   if (/^(premier|1er)$/i.test(cleaned)) return '1';
-  return cleaned.replace(/\s+/g, '').replace(/[–]/g, '-');
+  return cleaned.replace(/\s+/g, '').replace(/[–—]/g, '-');
 }
 
 function findStartIndex(text: string, doc: SourceDocument): number {
@@ -324,6 +332,11 @@ function findStartIndex(text: string, doc: SourceDocument): number {
     const lawPattern = new RegExp(`LOI\\s+N[^\\n]{0,20}${escaped}`, 'gi');
     const matches = [...text.matchAll(lawPattern)];
     if (matches.length > 0) {
+      // OCR for BO scans can reorder columns; prefer the first hit in that case.
+      if (doc.ocr_page_start || doc.ocr_page_end) {
+        return matches[0].index ?? 0;
+      }
+
       // Last match avoids early references in promulgation headers.
       return matches[matches.length - 1].index ?? 0;
     }
@@ -340,6 +353,21 @@ function findStartIndex(text: string, doc: SourceDocument): number {
   return 0;
 }
 
+function findEndIndex(text: string, doc: SourceDocument, startIndex: number): number {
+  if (!doc.end_hint) {
+    return text.length;
+  }
+
+  const hintPattern = new RegExp(doc.end_hint.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+  const searchWindow = text.slice(startIndex);
+  const match = hintPattern.exec(searchWindow);
+  if (!match || typeof match.index !== 'number') {
+    return text.length;
+  }
+
+  return startIndex + match.index;
+}
+
 function findChapter(text: string, articleStart: number): string | undefined {
   const windowStart = Math.max(0, articleStart - 2000);
   const before = text.slice(windowStart, articleStart);
@@ -350,6 +378,7 @@ function findChapter(text: string, articleStart: number): string | undefined {
 
 function cleanupArticleContent(content: string): string {
   return content
+    .replace(/\n\s*\[\[PAGE\s+\d+\]\]\s*\n/gi, '\n')
     .replace(/\n\s*(BULLETIN OFFICIEL|Nº\s*\d+[^\n]*|N°\s*\d+[^\n]*)\s*/gi, '\n')
     .replace(/\n\s*\d+\s*\n/g, '\n')
     .replace(/[ \t]+/g, ' ')
@@ -391,7 +420,8 @@ export function parseOfficialDocument(doc: SourceDocument, rawText: string): Par
 
   const normalized = normalizeSourceText(decoded);
   const startIndex = findStartIndex(normalized, doc);
-  const sliced = normalized.slice(startIndex);
+  const endIndex = findEndIndex(normalized, doc, startIndex);
+  const sliced = normalized.slice(startIndex, endIndex);
 
   const articleMatches = [...sliced.matchAll(ARTICLE_HEADING)];
 
@@ -450,7 +480,15 @@ export function parseOfficialDocument(doc: SourceDocument, rawText: string): Par
     }
   }
 
-  if (provisions.length === 0) {
+  const uniqueProvisions = new Map<string, ParsedProvision>();
+  for (const provision of provisions) {
+    if (!uniqueProvisions.has(provision.provision_ref)) {
+      uniqueProvisions.set(provision.provision_ref, provision);
+    }
+  }
+  const dedupedProvisions = [...uniqueProvisions.values()];
+
+  if (dedupedProvisions.length === 0) {
     return {
       parsed: {
         id: doc.id,
@@ -484,7 +522,7 @@ export function parseOfficialDocument(doc: SourceDocument, rawText: string): Par
       in_force_date: doc.in_force_date,
       url: doc.url,
       description: doc.description,
-      provisions,
+      provisions: dedupedProvisions,
       definitions,
       ingestion_status: 'ingested',
     },

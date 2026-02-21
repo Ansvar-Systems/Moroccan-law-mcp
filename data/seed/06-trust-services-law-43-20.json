@@ -465,7 +465,21 @@
       "chapter": "TITRE II",
       "section": "76",
       "title": "Article 76",
-      "content": "Sont modifiées les dispositions des articles 2-1 (troisième\nalinéa) et 417-3 (troisième alinéa) du dahir formant Code des\nobligations et des contrats du 9 ramadan 1331 (12 août 1913)\nainsi qu’il suit :\n« Article 2-1.– (troisième alinéa) : Toutefois, les actes\n« relatifs ………………………………. pour les besoins de sa\n« profession et les actes établis par les établissements de crédit\n« et organismes assimilés. »\n« Article 417-3. – (troisième alinéa) : Tout acte sur lequel\n« est apposée une signature électronique qualifiée et dont\n« l’horodatage électronique est qualifié, a la même force\n« ……………….. date certaine. »"
+      "content": "Sont modifiées les dispositions des articles 2-1 (troisième\nalinéa) et 417-3 (troisième alinéa) du dahir formant Code des\nobligations et des contrats du 9 ramadan 1331 (12 août 1913)\nainsi qu’il suit :"
+    },
+    {
+      "provision_ref": "art2-1",
+      "chapter": "TITRE II",
+      "section": "2-1",
+      "title": "Article 2-1",
+      "content": "– (troisième alinéa) : Toutefois, les actes\n« relatifs ………………………………. pour les besoins de sa\n« profession et les actes établis par les établissements de crédit\n« et organismes assimilés. »"
+    },
+    {
+      "provision_ref": "art417-3",
+      "chapter": "TITRE II",
+      "section": "417-3",
+      "title": "Article 417-3",
+      "content": "– (troisième alinéa) : Tout acte sur lequel\n« est apposée une signature électronique qualifiée et dont\n« l’horodatage électronique est qualifié, a la même force\n« ……………….. date certaine. »"
     },
     {
       "provision_ref": "art77",
@@ -522,13 +536,6 @@
       "section": "84",
       "title": "Article 84",
       "content": "La présente loi entre en vigueur à compter de la date\nde publication au Bulletin officiel des textes pris pour son\napplication.\nLe texte en langue arabe a été publié dans l’édition générale du\n« Bulletin officiel » n° 6951 du 27 joumada I 1442 (11 janvier 2021).\nArrêté conjoint du ministre de l’agriculture, de la pêche\nmaritime, du développement rural et des eaux et forêts et\ndu ministre de l’économie, des finances et de la réforme de\nl’administration n°2415-20 du 11 safar 1442 (29 septembre\n2020) octroyant une subvention à la commercialisation des\nsemences céréalières certifiées et des semences céréalières\nde génération ultérieure à la deuxième reproduction GUR2\nainsi que la prime de stockage au titre de la campagne\nagricole 2020-2021.\n\nL E MINISTRE DE L’AGRICULTURE, DE LA PÊCHE\nMARITIME, DU DÉVELOPPEMENT RURAL ET DES\nEAUX ET FORÊTS,\n\nLE MINISTRE DE L’ÉCONOMIE, DES FINANCES ET DE LA\nRÉFORME DE L’ADMINISTRATION,\n\nVu le dahir n° l-69-169 du 10 joumada I 1389 (25 juillet 1969)\nréglementant la production et la commercialisation de\nsemences et de plants, tel qu’il a été modifié par le dahir\nportant loi n° l-76-472 du 5 chaoual 1397 (19 septembre 1977),\nnotamment son article 7 ;\nVu l’arrêté du ministre de l’agriculture et de la pêche\nmaritime n° 2197-13 du 2 ramadan 1434 (11 juillet 2013) portant\nhomologation du règlement technique relatif à la production,\nau contrôle, au conditionnement et à la certification des\nsemences des céréales à paille (blé, orge, avoine, triticale,\nseigle et riz),\nARRÊTENT :\n\nChapitre premier\nSUBVENTION À LA COMMERCIALISATION\nDES SEMENCES CÉRÉALIÈRES"
-    },
-    {
-      "provision_ref": "art1",
-      "chapter": "Chapitre premier",
-      "section": "1",
-      "title": "Article 1",
-      "content": "- Subventions aux semences d’origine\nnationale\nLes semences certifiées (catégories G3, G4, R1 et R2) de\nblé tendre, de blé dur et d’orge de production nationale issues\ndu stock de reports 2017, 2018 et 2019 ou des achats de la récolte\n2020, commercialisées par les sociétés semencières agréées\nau titre de la campagne agricole 2020-2021, bénéficieront de\nsubventions calculées en tenant compte des prix de vente\nsubventionnés maxima prévus à l’article 6 ci-dessous.\nLes semences «GUR2» de blé tendre, de blé dur et\nd’orge, commercialisées par les sociétés semencières agréées,\nau titre de la campagne agricole 2020-2021, bénéficieront des\nsubventions équivalentes à celles octroyées aux semences\ncertifiées, d’origine nationale des mêmes espèces calculées,\nen tenant compte des prix de vente subventionnés maxima\nprévus à l’article 8 ci-dessous.\nAu titre de la campagne agricole 2020/2021, la subvention\naccordée au quintal de semences céréalières certifiées de\nproduction nationale est déterminée sur la base du différentiel,\ndéduit par les sociétés agréées, entre les prix de reviens\nà l’hectare et des prix de vente subventionnés maxima des\nsemences céréalières de catégorie R2 prévus à l’article 6 cidessous, comme suit :"
     }
   ],
   "definitions": [],

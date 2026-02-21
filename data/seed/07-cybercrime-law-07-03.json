@@ -7,8 +7,50 @@
   "status": "in_force",
   "url": "https://www.dgssi.gov.ma/fr/loi-07-03-completant-le-code-penal-en-ce-qui-concerne-les-infractions-relatives-aux",
   "description": "Infractions pénales relatives aux systèmes d’information.",
-  "provisions": [],
+  "provisions": [
+    {
+      "provision_ref": "art607-4",
+      "section": "607-4",
+      "title": "Article 607-4",
+      "content": "— Sans préjudice de dispositions pénales\n« plus sévères, est puni de six mois à deux ans d'emprisonnement\nLOUANGE A DIEU SEUL ! «et de 10.000 à 100.000 dirhams d’amende quiconque commet\n(Grand Sceau de Sa Majesté Mohammed VI) «les actes prévus à l’article précédent contre tout ou partie d’un\nQue l’on sache par les présentes — puisse Dieu en élever et “ système de traitement automatisé de données supposé contenir\nen fortifier la teneur ! « des informations relatives à la sûreté intérieure ou extérieure de\n« l'Etat ou des secrets concernant l’économie nationale.\nQue Notre Majesté Chérifienne, j sd Scitine rénale N ;\nVu la Constitution, notamment ses articles 26 et 58, (Sans préjudice de dispositions pénales plus sévères. la\n« peine est portée de deux ans à cinq ans d’emprisonnement et de\nA DÉCIDÉ CE QUI SUIT « 100.000 à 200.000 dirhams d'amende lorsqu’il résulte des\nEst promulguée et sera publiée au Bulletin officiel. à la suite | «actes réprimés au premier alinéa du présent article soit la\ndu présent dahir, la loi n° 07-03 complétant le code pénal en ce « modification ou la suppression de données contenues dans le\nqui concerne les infractions relatives aux systèmes de traitement «système de traitement automatisé des données, soit une\nautomatisé des données, telle qu'adoptée par la Chambre des | «altération du fonctionnement de ce système ou lorsque lesdits\nreprésentants et la Chambre des conseillers. « actes sont commis par un fonctionnaire ou un employé lors de\nFait à Rabat, le 16 ramadan 1424 (11 novembre 2003). | “ l'exercice de es fonctions ou à ! Occasion de cet exercice ou\n«s'il en facilite l'accomplissement à autrui.\nPour contreseing :"
+    },
+    {
+      "provision_ref": "art607-5",
+      "section": "607-5",
+      "title": "Article 607-5",
+      "content": "-Le fait d'entraver ou de fausser\nLe Premier ministre, « intentionnellement le fonctionnement d’un système de\nDRISS JETTOU. « traitement automatisé de données est puni d’un an à trois ans\n« d'emprisonnement et de 10.000 à 200.000 dirhams d'amende\n* « ou de l’une de ces deux peines seulement.\n* *"
+    },
+    {
+      "provision_ref": "art607-6",
+      "section": "607-6",
+      "title": "Article 607-6",
+      "content": "- Le fait d'introduire frauduleusement des\n«données dans un système de traitement automatisé des\nLoi n° 07-03 «données ou de détériorer ou de supprimer ou de modifier\ncomplétant le code pénal « frauduleusement les données qu’il contient, leur mode de\nen ce qui concerne les infractions relatives «traitement ou dc transmission, est puni d’un an à trois ans\naux systèmes de traitement automatisé des données « d'emprisonnement et de 10.000 à 200.000 dirhams d'amende\n————— « où de l’une de ces deux peines seulement."
+    },
+    {
+      "provision_ref": "art607-7",
+      "section": "607-7",
+      "title": "Article 607-7",
+      "content": "- Sans préjudice de dispositions pénales plus\nLe titre 1 du livre HI du code pénal est complété par le « sévères, le faux ou la falsification de documents informatisés,\nchapitre X ainsi qu'il suit : « quelle que soit leur forme. de nature à causer un préjudice à\n« LIVRE HI « autrui, est puni d’un emprisonnement d’un an à cinq ans et d’une\nA . « amende de 10.000 à 1.000.000 de dirhams.\n« Titre premier\n« Chapitre X « Sans préjudice de dispositions pénales plus sévères, la\n, { « même peine est applicable à quiconque fait sciemment usage\n« De l'atteinte aux systèmes « des documents informatisés visés à l'alinéa précédent.\n« de traitement automatisé des données ; ;"
+    },
+    {
+      "provision_ref": "art607-3",
+      "section": "607-3",
+      "title": "Article 607-3",
+      "content": "— Le fait d'accéder, frauduleusement. dans"
+    },
+    {
+      "provision_ref": "art6078",
+      "section": "6078",
+      "title": "Article 6078",
+      "content": "\"La tentative des délits prévus par les\n« tout ou partie d'un système de traitement automiatisé de données “ articles 607-3 À 607-7 cirdessus et par ! article 607-10 ci-après\n«est puni d'un mois à trois mois d'emprisonnement et de 2.000 à | < ©*t punie des mêmes peines que le délit lui-même.\n«10.000 dirhams d'amende ou de l'une de ces deux peines"
+    },
+    {
+      "provision_ref": "art607-9",
+      "section": "607-9",
+      "title": "Article 607-9",
+      "content": "- Quiconque aura participé à une\n«seulement. « association formée ou à une entente établie en vue de la\n«Est passible de la même peine toute personne qui « préparation. concrétisée par un ou plusieurs faits matériels.\n«se maintient dans tout ou partie d’un système de traitement | «d'une ou de plusieurs infractions prévues au présent chapitre\n« automatisé de données auquel elle a accédé par erreur ct alors «est puni des peines prévues pour l'infraction elle-même ou\n« qu’elle n’en à pas le droit. « pour l'infraction la plus sévèrement réprimée.\n150 BULLETIN OFFICIEL N° 5184 — 14 hija 1424 (5-2-2004)"
+    }
+  ],
   "definitions": [],
-  "ingestion_status": "skipped",
-  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+  "ingestion_status": "ingested"
 }

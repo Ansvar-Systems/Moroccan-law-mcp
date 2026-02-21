@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-21T20:19:48.422Z",
+  "generated_at": "2026-02-21T21:14:08.756Z",
   "summary": {
     "processed": 10,
-    "ingested": 7,
-    "skipped": 2,
-    "failed": 1,
-    "total_provisions": 362,
+    "ingested": 10,
+    "skipped": 0,
+    "failed": 0,
+    "total_provisions": 700,
     "total_definitions": 16
   },
   "documents": [
@@ -15,7 +15,7 @@
       "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2009-08.pdf",
       "source_authority": "DGSSI",
       "status": "ingested",
-      "provisions": 65,
+      "provisions": 63,
       "definitions": 0
     },
     {
@@ -39,12 +39,11 @@
     {
       "id": "ma-loi-31-08",
       "title": "Loi n° 31-08 édictant des mesures de protection du consommateur",
-      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/loi%2031-08.pdf",
-      "source_authority": "DGSSI",
-      "status": "skipped",
-      "provisions": 0,
-      "definitions": 0,
-      "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+      "source_url": "https://www.sgg.gov.ma/BO/bo_fr/2011/BO_5932_Fr.pdf",
+      "source_authority": "SGG",
+      "status": "ingested",
+      "provisions": 95,
+      "definitions": 0
     },
     {
       "id": "ma-loi-53-05",
@@ -52,7 +51,7 @@
       "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2053-05.pdf",
       "source_authority": "DGSSI",
       "status": "ingested",
-      "provisions": 41,
+      "provisions": 40,
       "definitions": 0
     },
     {
@@ -61,18 +60,17 @@
       "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2043-20.pdf",
       "source_authority": "DGSSI",
       "status": "ingested",
-      "provisions": 81,
+      "provisions": 82,
       "definitions": 0
     },
     {
       "id": "ma-loi-07-03",
       "title": "Loi n° 07-03 complétant le code pénal en ce qui concerne les infractions relatives aux systèmes de traitement automatisé des données",
-      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-03/loi%2007-03.pdf",
-      "source_authority": "DGSSI",
-      "status": "skipped",
-      "provisions": 0,
-      "definitions": 0,
-      "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+      "source_url": "https://www.sgg.gov.ma/BO/bo_fr/2004/BO_5184_Fr.pdf",
+      "source_authority": "SGG",
+      "status": "ingested",
+      "provisions": 7,
+      "definitions": 0
     },
     {
       "id": "ma-decret-2-24-921",
@@ -95,12 +93,11 @@
     {
       "id": "ma-loi-17-97",
       "title": "Loi n° 17-97 relative à la protection de la propriété industrielle",
-      "source_url": "https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle",
+      "source_url": "http://www.ompic.ma/sites/default/files/LivreLoiFR20160426.pdf",
       "source_authority": "OMPIC",
-      "status": "failed",
-      "provisions": 0,
-      "definitions": 0,
-      "notes": "fetch failed"
+      "status": "ingested",
+      "provisions": 238,
+      "definitions": 0
     }
   ]
 }

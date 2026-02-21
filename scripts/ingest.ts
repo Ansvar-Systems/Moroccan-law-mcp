@@ -9,7 +9,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { downloadWithRateLimit, extractPdfText } from './lib/fetcher.js';
+import { downloadWithRateLimit, extractPdfText, extractPdfTextWithOcr } from './lib/fetcher.js';
 import { SOURCE_DOCUMENTS, parseOfficialDocument, type SourceDocument } from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -76,7 +76,17 @@ async function fetchSource(document: SourceDocument, skipFetch: boolean): Promis
 
   if (skipFetch && fs.existsSync(rawPath)) {
     if (ext === '.pdf') {
-      const rawText = await extractPdfText(rawPath);
+      let rawText = await extractPdfText(rawPath);
+      const hasLowTextDensity = rawText.replace(/\s+/g, '').length < 200;
+      if (hasLowTextDensity && (document.ocr_page_start || document.ocr_page_end)) {
+        const from = document.ocr_page_start ?? 1;
+        const to = document.ocr_page_end ?? from;
+        console.log(`    -> OCR fallback for pages ${from}-${to}`);
+        rawText = await extractPdfTextWithOcr(rawPath, {
+          startPage: document.ocr_page_start,
+          endPage: document.ocr_page_end,
+        });
+      }
       return { rawPath, rawText };
     }
     return { rawPath, rawText: fs.readFileSync(rawPath, 'utf8') };
@@ -90,7 +100,17 @@ async function fetchSource(document: SourceDocument, skipFetch: boolean): Promis
   fs.writeFileSync(rawPath, response.bytes);
 
   if (ext === '.pdf') {
-    const rawText = await extractPdfText(rawPath);
+    let rawText = await extractPdfText(rawPath);
+    const hasLowTextDensity = rawText.replace(/\s+/g, '').length < 200;
+    if (hasLowTextDensity && (document.ocr_page_start || document.ocr_page_end)) {
+      const from = document.ocr_page_start ?? 1;
+      const to = document.ocr_page_end ?? from;
+      console.log(`    -> OCR fallback for pages ${from}-${to}`);
+      rawText = await extractPdfTextWithOcr(rawPath, {
+        startPage: document.ocr_page_start,
+        endPage: document.ocr_page_end,
+      });
+    }
     return { rawPath, rawText };
   }
 
