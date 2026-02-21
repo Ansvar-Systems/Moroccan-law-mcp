@@ -1,0 +1,126 @@
+{
+  "id": "ma-loi-24-96",
+  "type": "statute",
+  "title": "Loi n° 24-96 relative à la poste et aux télécommunications",
+  "title_en": "Law No. 24-96 on Postal Services and Telecommunications",
+  "short_name": "Loi 24-96",
+  "status": "in_force",
+  "issued_date": "1997-08-07",
+  "in_force_date": "1997-08-07",
+  "url": "https://www.anrt.ma/fr/loi-n-24-96-relative-a-la-poste-et-aux-telecommunications",
+  "description": "La loi 24-96 constitue le cadre juridique fondateur du secteur des télécommunications au Maroc. Elle a libéralisé le secteur des télécommunications, créé l'Agence Nationale de Réglementation des Télécommunications (ANRT) en tant qu'autorité de régulation indépendante, et établi le régime des licences pour l'exploitation des réseaux et services de télécommunications. La loi a été amendée à plusieurs reprises pour tenir compte de l'évolution technologique et de la convergence numérique.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Champ d'application",
+      "content": "La présente loi fixe les règles relatives à l'organisation et à l'exploitation des réseaux de télécommunications et à la fourniture des services de télécommunications sur le territoire du Royaume du Maroc. Elle s'applique à toute personne physique ou morale qui établit, exploite, gère ou utilise des réseaux de télécommunications ou fournit des services de télécommunications. Sont exclus du champ d'application de la présente loi les réseaux et services de télécommunications utilisés exclusivement pour les besoins de la défense nationale et de la sécurité de l'État. Les réseaux radioélectriques utilisés à des fins de radiodiffusion et de télévision sont soumis à la législation spécifique les régissant, sans préjudice des dispositions de la présente loi relatives à l'utilisation du spectre de fréquences radioélectriques."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Définitions",
+      "content": "Au sens de la présente loi, on entend par : 'réseau de télécommunications' : tout système de transmission et, le cas échéant, d'équipement de commutation qui permettent la transmission de signaux entre des points terminaux définis, par voie hertzienne, optique ou par d'autres moyens électromagnétiques ; 'service de télécommunications' : la fourniture à des tiers de la transmission de signaux sur un réseau de télécommunications, y compris la télédiffusion ; 'opérateur' : toute personne physique ou morale qui, disposant d'une autorisation ou d'une licence, établit, exploite et gère un réseau de télécommunications ou fournit des services de télécommunications au public ; 'spectre de fréquences radioélectriques' : la ressource naturelle constituée par l'ensemble des ondes électromagnétiques dont la fréquence est inférieure à 3.000 GHz se propageant dans l'espace sans guide artificiel."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Régime des licences",
+      "content": "L'établissement, l'exploitation et la gestion des réseaux publics de télécommunications sont subordonnés à l'obtention d'une licence délivrée par l'Administration après instruction par l'Agence Nationale de Réglementation des Télécommunications. Les licences sont délivrées par voie d'appel d'offres ou de gré à gré lorsque la nature du réseau ou du service ou les circonstances l'exigent. La licence précise notamment : la durée d'exploitation ; les conditions techniques et financières d'exploitation ; les obligations de déploiement et de couverture du territoire ; les obligations de service universel le cas échéant ; les redevances à acquitter. La modification substantielle d'une licence est soumise aux mêmes règles que sa délivrance. La licence est personnelle et ne peut être cédée sans l'accord préalable de l'Administration."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. L'Agence Nationale de Réglementation des Télécommunications",
+      "content": "Il est créé une Agence Nationale de Réglementation des Télécommunications, ci-après désignée 'l'Agence', dotée de la personnalité morale et de l'autonomie financière. L'Agence est chargée notamment : de préparer les projets de textes législatifs et réglementaires relatifs au secteur des télécommunications et de veiller à leur application ; d'instruire les demandes de licences et d'autorisations et de proposer leur délivrance à l'Administration ; de définir les normes techniques applicables aux réseaux et services de télécommunications et de veiller à leur application ; d'assurer la gestion du spectre des fréquences radioélectriques ; de régler les différends entre opérateurs en matière d'interconnexion et d'accès ; de définir les conditions techniques et tarifaires de l'interconnexion ; de veiller à l'exercice d'une concurrence loyale sur le marché des télécommunications."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Interconnexion",
+      "content": "Tout opérateur de réseau public de télécommunications est tenu de faire droit aux demandes d'interconnexion des opérateurs titulaires d'une licence. Les conditions techniques et financières de l'interconnexion font l'objet de conventions entre opérateurs, établies conformément aux règles fixées par l'Agence. À défaut d'accord entre les opérateurs dans un délai de trois mois à compter de la demande d'interconnexion, l'Agence peut fixer les conditions techniques et financières de l'interconnexion. Les tarifs d'interconnexion doivent être transparents, non discriminatoires et orientés vers les coûts. L'opérateur dominant sur un marché pertinent doit publier une offre de référence d'interconnexion approuvée par l'Agence. Les litiges relatifs à l'interconnexion sont soumis à l'Agence, dont la décision peut faire l'objet d'un recours devant la Cour d'Appel de Rabat."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Service universel",
+      "content": "Le service universel des télécommunications comprend la fourniture à tous les utilisateurs, y compris en zone rurale, d'un service téléphonique de qualité à un prix abordable. Il comprend également l'accès à des services à haut débit sur l'ensemble du territoire national. Le financement du service universel est assuré par un fonds de service universel des télécommunications, alimenté par les contributions des opérateurs titulaires de licences. Les modalités de calcul et de perception des contributions au fonds de service universel sont fixées par voie réglementaire, après avis de l'Agence. La gestion du fonds de service universel est assurée par l'Agence sous le contrôle de l'Administration. Les obligations de service universel peuvent être attribuées à un ou plusieurs opérateurs par voie d'appel d'offres."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Confidentialité des communications",
+      "content": "Le secret des correspondances transmises par voie de télécommunications est garanti. Il est interdit à tout opérateur d'établir ou de permettre l'établissement d'écoutes, d'enregistrements, d'interceptions ou de surveillances de correspondances privées empruntant la voie des télécommunications, sauf dans les cas prévus par la loi. Les opérateurs de réseaux de télécommunications sont tenus de mettre en place les capacités techniques permettant l'exécution des réquisitions judiciaires d'interception légale des communications dans les conditions prévues par la procédure pénale. Les opérateurs doivent conserver les données de connexion et de trafic pour une durée fixée par voie réglementaire et les mettre à la disposition des autorités judiciaires habilitées sur réquisition."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Gestion du spectre des fréquences",
+      "content": "L'utilisation des fréquences radioélectriques est soumise à l'autorisation préalable de l'Agence. L'Agence établit et tient à jour le tableau national d'attribution des bandes de fréquences conformément aux règlements de l'Union Internationale des Télécommunications. Elle attribue, assigne et contrôle l'utilisation des fréquences radioélectriques. L'utilisation de l'espace radioélectrique est soumise au paiement de redevances dont les modalités sont fixées par voie réglementaire. L'Agence surveille l'utilisation du spectre des fréquences et peut prendre les mesures nécessaires pour prévenir ou supprimer les brouillages préjudiciables. Les appareils radioélectriques doivent être conformes à des spécifications techniques homologuées."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Obligations de sécurité des opérateurs",
+      "content": "Les opérateurs de réseaux publics de télécommunications sont tenus de garantir la disponibilité, la continuité et la sécurité de leurs réseaux et services. Ils doivent notamment : mettre en oeuvre des mesures techniques et organisationnelles appropriées pour gérer les risques affectant la sécurité de leurs réseaux et services ; notifier à l'Agence et aux autorités compétentes toute violation de la sécurité ou perte d'intégrité ayant un impact significatif sur le fonctionnement des réseaux ou la continuité des services ; informer les utilisateurs concernés lorsqu'une violation de la sécurité est susceptible de porter atteinte à leurs droits ou intérêts. L'Agence peut effectuer des audits de sécurité ou mandater un organisme indépendant à cet effet. Les frais d'audit sont à la charge de l'opérateur concerné."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Protection des données des utilisateurs",
+      "content": "Les opérateurs de réseaux et services de télécommunications sont tenus de protéger la vie privée des utilisateurs et la confidentialité des données personnelles les concernant. Ils sont notamment tenus de ne collecter et traiter que les données strictement nécessaires à la fourniture du service ; d'informer les abonnés des données collectées et de leur utilisation ; d'obtenir le consentement des abonnés pour tout traitement de données autres que ceux nécessaires à la facturation et à la gestion du service ; de garantir la sécurité des données collectées et de prévenir tout accès non autorisé. Les données de localisation autres que les données de trafic ne peuvent être traitées qu'avec le consentement exprès des utilisateurs. L'accès aux données personnelles des abonnés par des tiers est soumis au consentement préalable de l'abonné, sauf réquisition judiciaire."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Numérotation",
+      "content": "L'Agence élabore et gère le plan national de numérotation. Elle attribue les ressources de numérotation aux opérateurs dans des conditions transparentes, objectives et non discriminatoires. Les opérateurs ne peuvent acquérir des droits exclusifs sur les numéros attribués. La portabilité du numéro est obligatoire pour tous les opérateurs de téléphonie mobile et fixe. Les modalités techniques et financières de la portabilité du numéro sont définies par l'Agence. Les numéros attribués ne peuvent être cédés à des tiers sans l'accord préalable de l'Agence. L'utilisation de numéros non attribués est interdite. Les ressources de numérotation inutilisées peuvent être récupérées par l'Agence après mise en demeure."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Sanctions",
+      "content": "Sans préjudice des autres sanctions prévues par la législation en vigueur, l'Agence peut, en cas de manquement par un opérateur à ses obligations : adresser à l'opérateur une mise en demeure de se conformer à ses obligations dans un délai déterminé ; prononcer, à l'expiration du délai fixé dans la mise en demeure restée sans effet, une sanction pécuniaire dont le montant ne peut excéder 3% du chiffre d'affaires hors taxes du dernier exercice ; réduire la durée de la licence d'un an ou davantage en cas de manquement grave et répété ; suspendre ou retirer la licence en cas de manquement particulièrement grave ou persistant. Les décisions de sanction sont motivées et susceptibles de recours devant la juridiction administrative compétente."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Droits de passage et servitudes",
+      "content": "Les opérateurs titulaires de licences bénéficient du droit d'établir et d'exploiter les infrastructures nécessaires à leurs réseaux sur le domaine public, sous réserve de l'accord des gestionnaires de ce domaine et dans le respect des règles d'urbanisme. Ils bénéficient également du droit d'occupation temporaire du domaine privé pour l'établissement et l'entretien de leurs réseaux, sous réserve d'indemnisation des propriétaires et des occupants. Les opérateurs sont tenus de remettre en état les voies et propriétés après travaux. L'Agence peut faciliter la conclusion d'accords entre opérateurs pour le partage d'infrastructures en vue de réduire l'impact environnemental et le coût des déploiements. Le partage d'infrastructures passives est encouragé et peut être rendu obligatoire par l'Agence dans certaines zones."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Contrôle des équipements",
+      "content": "Tout équipement de télécommunications destiné à être connecté à un réseau public ou à être utilisé pour fournir des services de télécommunications doit être conforme aux spécifications techniques fixées par l'Agence. Ces spécifications visent notamment à garantir la sécurité des utilisateurs, l'absence de perturbations des réseaux de télécommunications et la compatibilité électromagnétique. L'importation, la fabrication, la mise sur le marché et la mise en service d'équipements de télécommunications non conformes aux spécifications homologuées sont interdites. L'Agence peut procéder ou faire procéder à des contrôles techniques des équipements et peut ordonner le retrait du marché de tout équipement non conforme."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Résolution des litiges",
+      "content": "L'Agence est compétente pour régler les litiges entre opérateurs en matière d'interconnexion, d'accès et de partage d'infrastructures. Elle est également compétente pour connaître des litiges entre opérateurs et utilisateurs relatifs à l'exécution des contrats de service de télécommunications. Saisie d'un litige, l'Agence dispose d'un délai de quatre mois pour rendre sa décision. Ce délai peut être prolongé de deux mois dans les cas complexes. La décision de l'Agence est motivée et susceptible d'appel devant la Cour d'Appel de Rabat dans un délai de deux mois. L'Agence peut ordonner des mesures provisoires afin de préserver les droits des parties pendant la durée de la procédure. Les décisions de l'Agence sont exécutoires nonobstant appel, sauf décision contraire de la juridiction saisie."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "réseau de télécommunications",
+      "definition": "Tout système de transmission et, le cas échéant, d'équipement de commutation qui permettent la transmission de signaux entre des points terminaux définis, par voie hertzienne, optique ou par d'autres moyens électromagnétiques.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "opérateur",
+      "definition": "Toute personne physique ou morale qui, disposant d'une autorisation ou d'une licence, établit, exploite et gère un réseau de télécommunications ou fournit des services de télécommunications au public.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "service universel",
+      "definition": "La fourniture à tous les utilisateurs, y compris en zone rurale, d'un service téléphonique de qualité à un prix abordable, comprenant également l'accès à des services à haut débit sur l'ensemble du territoire national.",
+      "source_provision": "art6"
+    },
+    {
+      "term": "ANRT",
+      "definition": "Agence Nationale de Réglementation des Télécommunications, autorité de régulation indépendante du secteur des télécommunications au Maroc, dotée de la personnalité morale et de l'autonomie financière.",
+      "source_provision": "art4"
+    }
+  ]
+}

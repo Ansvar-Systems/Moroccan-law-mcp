@@ -1,0 +1,149 @@
+{
+  "id": "ma-loi-09-08",
+  "type": "statute",
+  "title": "Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel",
+  "title_en": "Law No. 09-08 on the Protection of Individuals with Regard to Personal Data Processing",
+  "short_name": "Loi 09-08",
+  "status": "in_force",
+  "issued_date": "2009-02-18",
+  "in_force_date": "2009-06-22",
+  "url": "https://www.cndp.ma/images/Lois/loi_09_08_fr.pdf",
+  "description": "La loi 09-08 constitue le texte fondateur de la protection des données personnelles au Maroc. Elle établit les principes régissant la collecte, le traitement, la conservation et la communication des données à caractère personnel, et crée la Commission Nationale de contrôle de la protection des Données à caractère Personnel (CNDP). Cette loi s'inspire largement de la directive européenne 95/46/CE et transpose les normes internationales de protection de la vie privée dans le droit marocain.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Objet et champ d'application",
+      "content": "La présente loi a pour objet de protéger les personnes physiques à l'égard du traitement des données à caractère personnel. Elle s'applique au traitement de données à caractère personnel lorsque le responsable du traitement est établi sur le territoire du Royaume du Maroc, ou lorsque le responsable du traitement n'est pas établi sur le territoire marocain mais recourt à des moyens de traitement situés sur ce territoire, à l'exception des traitements effectués à des fins de transit. Tout responsable du traitement qui n'est pas établi sur le territoire marocain mais qui recourt à des moyens de traitement situés sur ce territoire doit désigner un représentant établi au Maroc, sans préjudice des actions qui pourraient être engagées contre le responsable du traitement lui-même."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Définitions",
+      "content": "Au sens de la présente loi, on entend par : 'données à caractère personnel' : toute information de quelque nature qu'elle soit et indépendamment de son support, y compris le son et l'image, concernant une personne physique identifiée ou identifiable, dénommée ci-après 'personne concernée' ; est réputée identifiable une personne qui peut être identifiée, directement ou indirectement, notamment par référence à un numéro d'identification ou à un ou plusieurs éléments spécifiques de son identité physique, physiologique, génétique, psychique, culturelle, sociale ou économique ; 'traitement de données à caractère personnel' : toute opération ou ensemble d'opérations effectuées ou non à l'aide de procédés automatisés, appliquées à des données à caractère personnel, telles que la collecte, l'enregistrement, l'organisation, la conservation, l'adaptation ou la modification, l'extraction, la consultation, l'utilisation, la communication par transmission, diffusion ou toute autre forme de mise à disposition, le rapprochement ou l'interconnexion, ainsi que le verrouillage, l'effacement ou la destruction ; 'responsable du traitement' : toute personne physique ou morale, autorité publique, service ou tout autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement des données à caractère personnel."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Conditions de licéité du traitement",
+      "content": "Le traitement de données à caractère personnel est licite et ne peut être effectué que si la personne concernée a donné son consentement exprès ou si le traitement est nécessaire : à l'exécution d'un contrat auquel la personne concernée est partie ou à l'exécution de mesures précontractuelles prises à la demande de celle-ci ; au respect d'une obligation légale à laquelle le responsable du traitement est soumis ; à la sauvegarde des intérêts vitaux de la personne concernée ; à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique, dont est investi le responsable du traitement ou le tiers auquel les données sont communiquées ; à la réalisation de l'intérêt légitime poursuivi par le responsable du traitement ou par le ou les tiers auxquels les données sont communiquées, à condition que ne prévalent pas l'intérêt ou les droits et libertés fondamentaux de la personne concernée."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Principes relatifs à la qualité des données",
+      "content": "Les données à caractère personnel doivent être : collectées et traitées de manière loyale et licite ; collectées à des fins déterminées, explicites et légitimes et ne pas être traitées ultérieurement de manière incompatible avec ces finalités ; adéquates, pertinentes et non excessives au regard des finalités pour lesquelles elles sont collectées et pour lesquelles elles sont traitées ultérieurement ; exactes et, si nécessaire, mises à jour ; tout responsable du traitement doit prendre toutes les mesures raisonnables pour que les données inexactes ou incomplètes, au regard des finalités pour lesquelles elles sont collectées ou pour lesquelles elles sont traitées ultérieurement, soient effacées ou rectifiées ; conservées sous une forme permettant l'identification des personnes concernées pendant une durée n'excédant pas celle nécessaire à la réalisation des finalités pour lesquelles elles sont collectées et traitées."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Données sensibles",
+      "content": "Il est interdit de collecter ou de traiter des données à caractère personnel qui font apparaître, directement ou indirectement, les origines raciales ou ethniques, les opinions politiques, les convictions religieuses ou philosophiques ou l'appartenance syndicale des personnes, ou qui sont relatives à la santé ou à la vie sexuelle de celles-ci. Cette interdiction ne s'applique pas lorsque la personne concernée a donné son consentement exprès à un tel traitement, sous réserve que le responsable du traitement respecte les prescriptions résultant de la présente loi ; le traitement est nécessaire à la sauvegarde de la vie de la personne concernée ou d'une autre personne dans le cas où la personne concernée se trouve dans l'incapacité physique ou juridique de donner son consentement ; le traitement est effectué, dans le strict respect du secret professionnel, par un professionnel de santé ou un établissement de santé et est nécessaire aux fins de la médecine préventive, des diagnostics médicaux, de l'administration de soins ou de traitements."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Obligations d'information",
+      "content": "Lorsque des données à caractère personnel sont collectées directement auprès de la personne concernée, le responsable du traitement ou son représentant est tenu de fournir à la personne concernée, au moment de la collecte des données, les informations suivantes, sauf si la personne en est déjà informée : l'identité du responsable du traitement et, le cas échéant, de son représentant ; les finalités du traitement auquel les données sont destinées ; le caractère obligatoire ou facultatif des réponses ; les conséquences d'un défaut de réponse ; les destinataires ou les catégories de destinataires des données ; l'existence d'un droit d'accès et de rectification aux données la concernant. Lorsque les données sont collectées auprès de tiers, les mêmes informations doivent être communiquées dès l'enregistrement des données ou, si une communication à des tiers est envisagée, au plus tard lors de la première communication des données."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Droit d'accès",
+      "content": "Toute personne physique justifiant de son identité a le droit d'interroger le responsable d'un traitement de données à caractère personnel en vue d'obtenir : la confirmation que des données à caractère personnel la concernant font ou ne font pas l'objet d'un traitement ; des informations portant au moins sur les finalités du traitement, les catégories de données sur lesquelles il porte, les destinataires ou catégories de destinataires auxquels les données sont communiquées ; la communication, sous une forme accessible, des données à caractère personnel la concernant, ainsi que de toute information disponible quant à l'origine de ces données ; les informations permettant de connaître et de contester la logique qui sous-tend le traitement automatisé des données la concernant, dans le cas d'une décision prise à son égard sur le fondement d'un tel traitement. Le responsable du traitement peut s'opposer aux demandes manifestement abusives, notamment par leur nombre, leur caractère répétitif ou systématique."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Droit de rectification et d'effacement",
+      "content": "Toute personne physique peut exiger du responsable d'un traitement que soient, selon les cas, rectifiées, complétées, mises à jour, verrouillées ou effacées les données à caractère personnel la concernant, qui sont inexactes, incomplètes, équivoques, périmées, ou dont la collecte, l'utilisation, la communication ou la conservation est interdite. Lorsque la personne concernée est en droit de s'y opposer, ou lorsque les données ont été utilisées à des fins de prospection, notamment commerciale, le responsable du traitement doit procéder aux rectifications, suppressions ou mises à jour nécessaires sans délai ni frais pour la personne concernée. La personne concernée dispose également du droit de s'opposer, pour des motifs légitimes, à ce que des données la concernant fassent l'objet d'un traitement, sauf si ce traitement répond à une obligation légale."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Droit d'opposition",
+      "content": "La personne concernée a le droit de s'opposer, sans frais, à ce que les données la concernant soient utilisées à des fins de prospection, notamment commerciale, par le responsable actuel du traitement ou celui d'un traitement ultérieur. La personne concernée a également le droit d'être informée avant que des données la concernant ne soient, pour la première fois, communiquées à des tiers ou utilisées pour le compte de tiers à des fins de prospection, et de s'opposer expressément à cette communication ou utilisation. Lorsque la personne concernée s'y oppose, les données la concernant ne peuvent plus faire l'objet d'un tel traitement. La personne concernée peut s'opposer, pour des motifs légitimes, à ce que des données la concernant fassent l'objet d'un traitement."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Sécurité et confidentialité",
+      "content": "Le responsable du traitement est tenu de prendre toutes précautions utiles, au regard de la nature des données et des risques présentés par le traitement, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès. Les sous-traitants doivent présenter des garanties suffisantes au regard des mesures de sécurité technique et d'organisation relatives aux traitements à effectuer. Le responsable du traitement qui a recours à un sous-traitant doit veiller au respect par celui-ci des obligations imposées par la présente loi. Le contrat liant le sous-traitant au responsable du traitement stipule notamment que le sous-traitant n'agit que sur instruction du responsable du traitement et que les obligations visées au présent article lui incombent également."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Transferts de données vers l'étranger",
+      "content": "Le transfert vers un pays étranger de données à caractère personnel faisant l'objet d'un traitement, ou destinées à faire l'objet d'un traitement après leur transfert, ne peut avoir lieu que si ce pays assure un niveau de protection suffisant de la vie privée et des libertés et droits fondamentaux des personnes à l'égard du traitement dont ces données font l'objet ou peuvent faire l'objet. Le caractère suffisant du niveau de protection assuré par un pays étranger s'apprécie au regard notamment des dispositions en vigueur dans cet État en matière de protection des données à caractère personnel, ainsi que des mesures de sécurité qui y sont appliquées. La Commission peut autoriser un transfert ou une catégorie de transferts de données à caractère personnel vers un pays n'assurant pas un niveau de protection suffisant lorsque le responsable du traitement apporte des garanties suffisantes au regard de la protection de la vie privée et des libertés et droits fondamentaux des personnes."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Déclaration préalable",
+      "content": "Tout traitement automatisé de données à caractère personnel doit faire l'objet d'une déclaration auprès de la Commission Nationale de contrôle de la protection des Données à caractère Personnel avant sa mise en oeuvre. Cette déclaration comporte l'engagement que le traitement satisfait aux exigences de la présente loi. La Commission délivre un récépissé immédiatement. La déclaration doit mentionner notamment le nom et l'adresse du responsable du traitement et, le cas échéant, de son représentant ; les catégories de données traitées ; la ou les finalités du traitement ; les destinataires ou les catégories de destinataires auxquels les données sont communiquées ; les transferts de données envisagés à destination de l'étranger ; la durée de conservation des données ; les mesures prises pour assurer la sécurité du traitement."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Autorisation préalable",
+      "content": "Sont soumis à autorisation de la Commission les traitements automatisés susceptibles de présenter des risques particuliers d'atteinte aux droits et aux libertés des personnes concernées, notamment ceux qui ont pour objet l'interconnexion de fichiers provenant d'organismes différents et répondant à des finalités différentes ; le traitement de données à caractère personnel relatives aux infractions, condamnations ou mesures de sûreté ; le traitement de données à caractère personnel à des fins de recherche dans le domaine de la santé ; le traitement de données à caractère personnel relatives aux opinions philosophiques, politiques, syndicales, religieuses ou à l'appartenance ethnique ; le traitement automatisé susceptible d'exclure des personnes du bénéfice d'un droit, d'une prestation ou d'un contrat en l'absence de toute disposition législative ou réglementaire. La Commission dispose d'un délai de deux mois pour statuer sur les demandes d'autorisation."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. La Commission Nationale de contrôle",
+      "content": "Il est institué une Commission Nationale de contrôle de la protection des Données à caractère Personnel, ci-après désignée 'la Commission', dotée de la personnalité morale et de l'autonomie financière. La Commission comprend sept membres nommés par Sa Majesté le Roi pour une durée de cinq ans : un président et deux membres désignés parmi les personnes dont la compétence en matière de protection des libertés individuelles est reconnue ; un membre représentant la Chambre des Représentants désigné par son président ; un membre représentant la Chambre des Conseillers désigné par son président ; un conseiller d'État désigné par le président de la Chambre Administrative de la Cour Suprême ; un membre du Conseil National de l'Ordre des Avocats du Maroc. Le mandat des membres est renouvelable une seule fois."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Pouvoirs de la Commission",
+      "content": "La Commission est chargée de veiller au respect des dispositions de la présente loi. À ce titre, elle reçoit les déclarations relatives aux traitements automatisés de données à caractère personnel et délivre les autorisations prévues par la présente loi ; procède à des vérifications portant sur tout traitement de données à caractère personnel et se fait communiquer tous renseignements et documents utiles à sa mission ; peut prononcer, par voie de décision motivée, des sanctions administratives notamment des mises en demeure, des astreintes journalières, des sanctions financières allant jusqu'à 300.000 dirhams ; donne son avis sur la conformité aux dispositions de la présente loi de tout projet de loi ou de règlement relatif au traitement de données à caractère personnel. Les agents de la Commission sont astreints au secret professionnel pour les faits, actes et renseignements dont ils ont pu avoir connaissance dans l'exercice de leurs fonctions."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Article 16. Sanctions pénales",
+      "content": "Est puni d'une amende de 10.000 à 100.000 dirhams quiconque procède ou fait procéder à un traitement de données à caractère personnel sans avoir accompli les formalités préalables prévues par la présente loi ; procède ou fait procéder à un traitement de données à caractère personnel alors qu'une décision de la Commission portant cessation ou refus du traitement s'y oppose. Est puni d'un emprisonnement d'un mois à six mois et d'une amende de 20.000 à 200.000 dirhams quiconque, ayant connaissance de données à caractère personnel dont le traitement est interdit, les divulgue ou les communique à des tiers ; collecte des données à caractère personnel par un moyen frauduleux, déloyal ou illicite ; traite des données à caractère personnel à des fins autres que celles pour lesquelles elles ont été collectées. Les personnes morales peuvent être déclarées responsables pénalement des infractions définies à la présente loi."
+    },
+    {
+      "provision_ref": "art17",
+      "section": "17",
+      "title": "Article 17. Médiation et plaintes",
+      "content": "Toute personne qui considère que le traitement de données à caractère personnel qui lui sont relatives ne respecte pas les prescriptions de la présente loi peut saisir la Commission. La Commission examine les réclamations qui lui sont soumises et instruit les plaintes. La Commission peut, à la demande des parties, se prononcer sur la conformité du traitement à la présente loi. La Commission peut, lorsqu'elle constate une violation des dispositions de la présente loi, mettre en demeure le responsable du traitement de faire cesser ladite violation. En cas d'urgence, la Commission peut prononcer l'interruption du traitement ou le verrouillage des données. Lorsque la mise en demeure n'a pas été suivie d'effet, la Commission peut saisir le procureur du Roi ou se constituer partie civile devant la juridiction compétente."
+    },
+    {
+      "provision_ref": "art18",
+      "section": "18",
+      "title": "Article 18. Dispositions transitoires",
+      "content": "Les traitements automatisés de données à caractère personnel régulièrement mis en oeuvre avant la publication de la présente loi doivent, dans un délai de deux ans à compter de cette publication, satisfaire aux exigences définies par la présente loi. Pendant cette période transitoire, les responsables de traitements existants sont tenus de procéder à leur déclaration auprès de la Commission dans un délai de douze mois à compter de la date de publication de la présente loi. À l'issue de ce délai, les traitements non déclarés ou non mis en conformité feront l'objet des sanctions prévues à l'article 16 de la présente loi. Les responsables de traitement ayant procédé à la déclaration de leurs fichiers auprès des autorités compétentes avant l'entrée en vigueur de la présente loi bénéficient d'une présomption de conformité pendant la durée du délai transitoire."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "données à caractère personnel",
+      "definition": "Toute information de quelque nature qu'elle soit concernant une personne physique identifiée ou identifiable, directement ou indirectement, notamment par référence à un numéro d'identification ou à un ou plusieurs éléments spécifiques de son identité physique, physiologique, génétique, psychique, culturelle, sociale ou économique.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "traitement",
+      "definition": "Toute opération ou ensemble d'opérations effectuées ou non à l'aide de procédés automatisés, appliquées à des données à caractère personnel, telles que la collecte, l'enregistrement, l'organisation, la conservation, l'adaptation ou la modification, l'extraction, la consultation, l'utilisation, la communication, le rapprochement ou l'interconnexion, ainsi que le verrouillage, l'effacement ou la destruction.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "responsable du traitement",
+      "definition": "Toute personne physique ou morale, autorité publique, service ou tout autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement des données à caractère personnel.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "sous-traitant",
+      "definition": "Toute personne physique ou morale, autorité publique, service ou tout autre organisme qui traite des données à caractère personnel pour le compte du responsable du traitement.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "consentement",
+      "definition": "Toute manifestation de volonté libre, spécifique et informée par laquelle la personne concernée accepte que des données à caractère personnel la concernant fassent l'objet d'un traitement.",
+      "source_provision": "art3"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "ma-loi-05-20",
+  "type": "statute",
+  "title": "Loi n° 05-20 relative à la cybersécurité",
+  "title_en": "Law No. 05-20 on Cybersecurity",
+  "short_name": "Loi 05-20",
+  "status": "in_force",
+  "issued_date": "2020-07-22",
+  "in_force_date": "2020-07-22",
+  "url": "https://www.dgssi.gov.ma/sites/default/files/attached_files/loi_n05-20_relative_a_la_cybersecurite_fr.pdf",
+  "description": "La loi 05-20 relative à la cybersécurité constitue le cadre juridique principal régissant la cybersécurité au Maroc. Elle définit les règles applicables aux systèmes d'information des administrations publiques et des opérateurs d'importance vitale, institue les mécanismes de gouvernance nationale de la cybersécurité, et confie à la Direction Générale de la Sécurité des Systèmes d'Information (DGSSI) le rôle d'autorité nationale en matière de cybersécurité. La loi établit également le cadre pour la protection des infrastructures critiques et la gestion des incidents de sécurité.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Objet",
+      "content": "La présente loi a pour objet de définir le cadre juridique régissant la cybersécurité au Maroc. À ce titre, elle détermine les règles applicables à la protection des systèmes d'information des administrations de l'État, des collectivités territoriales, des établissements publics et des opérateurs d'importance vitale ; fixe les attributions de l'autorité nationale en matière de cybersécurité ; définit les conditions dans lesquelles il est fait appel aux prestataires de services de cybersécurité ; établit les mécanismes de coopération entre les secteurs public et privé en matière de cybersécurité ; et prévoit les sanctions applicables en cas de violation de ses dispositions. La présente loi s'inscrit dans le cadre de la stratégie nationale de sécurité des systèmes d'information et vise à renforcer la confiance numérique au sein de l'économie nationale."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Définitions",
+      "content": "Au sens de la présente loi, on entend par : 'cybersécurité' : l'ensemble des mesures techniques et non techniques permettant de protéger les systèmes d'information contre les cybermenaces, de détecter les incidents de sécurité et d'y répondre de manière adéquate ; 'système d'information' : tout ensemble de matériels, logiciels, données, procédures, personnels et services visant à traiter, stocker ou transmettre de l'information ; 'opérateur d'importance vitale' : tout opérateur public ou privé gérant ou utilisant un ou plusieurs systèmes d'information jugés essentiels pour la souveraineté nationale, la sécurité de l'État, l'économie nationale ou la santé publique ; 'incident de sécurité' : tout événement compromettant la disponibilité, la confidentialité, l'intégrité ou la traçabilité des systèmes d'information ; 'cybermenace' : toute action susceptible de compromettre la sécurité des systèmes d'information, notamment les attaques informatiques, les logiciels malveillants, les intrusions et les tentatives d'accès non autorisé."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Champ d'application",
+      "content": "La présente loi s'applique : aux administrations de l'État, aux collectivités territoriales et aux établissements publics utilisant des systèmes d'information dans le cadre de leurs missions ; aux opérateurs d'importance vitale dont la liste est fixée par voie réglementaire sur proposition de l'autorité nationale chargée de la cybersécurité ; aux prestataires de services de cybersécurité intervenant auprès des entités visées ci-dessus. Les dispositions de la présente loi relatives à la protection des systèmes d'information et à la notification des incidents s'appliquent également aux opérateurs de réseaux de communications électroniques et aux prestataires de services d'hébergement de données sur le territoire national. Un décret d'application précise les modalités de classification des opérateurs d'importance vitale et les critères permettant d'identifier les systèmes d'information d'importance vitale."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Autorité nationale de cybersécurité",
+      "content": "La Direction Générale de la Sécurité des Systèmes d'Information (DGSSI), placée sous l'autorité du Chef du Gouvernement, est l'autorité nationale chargée de la cybersécurité. À ce titre, la DGSSI est notamment chargée d'élaborer et de proposer la stratégie nationale de sécurité des systèmes d'information ; de coordonner les actions des différents ministères et organismes en matière de cybersécurité ; d'édicter les normes, référentiels et directives de sécurité applicables aux systèmes d'information des entités visées par la présente loi ; d'homologuer les prestataires de services de cybersécurité habilités à intervenir sur les systèmes d'information sensibles ; d'assurer la veille et l'alerte sur les cybermenaces au niveau national ; d'accompagner les entités dans la mise en oeuvre de leurs plans de sécurité des systèmes d'information."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. maCERT — Centre de veille, de détection et de réponse",
+      "content": "Il est créé, au sein de la Direction Générale de la Sécurité des Systèmes d'Information, un centre de veille, de détection et de réponse aux attaques informatiques, dénommé 'maCERT'. Le maCERT est chargé notamment : de collecter et d'analyser les informations relatives aux menaces et vulnérabilités affectant les systèmes d'information ; de diffuser des alertes et des recommandations de sécurité à destination des entités concernées ; de coordonner la réponse aux incidents de sécurité affectant les systèmes d'information des administrations publiques et des opérateurs d'importance vitale ; d'assurer la coopération avec les CERTs étrangers et les organisations internationales compétentes en matière de cybersécurité ; de contribuer au développement des capacités nationales en matière de cybersécurité."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Plans de sécurité des systèmes d'information",
+      "content": "Les administrations de l'État, les collectivités territoriales et les établissements publics doivent élaborer et mettre en oeuvre des plans de sécurité de leurs systèmes d'information conformément aux normes et référentiels établis par l'autorité nationale chargée de la cybersécurité. Ces plans doivent notamment comprendre : une cartographie des systèmes d'information et une classification des données traitées ; une analyse des risques pesant sur les systèmes d'information ; les mesures techniques et organisationnelles retenues pour traiter ces risques ; les procédures de gestion des incidents de sécurité et de continuité d'activité ; un programme de formation et de sensibilisation des utilisateurs. Les plans de sécurité doivent être mis à jour annuellement et transmis à la DGSSI selon les modalités fixées par voie réglementaire. Des audits de sécurité périodiques, effectués par des prestataires homologués, sont obligatoires."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Obligations des opérateurs d'importance vitale",
+      "content": "Les opérateurs d'importance vitale sont soumis aux obligations suivantes : élaborer et mettre en oeuvre un plan de sécurité des systèmes d'information de leurs activités d'importance vitale, conformément aux prescriptions de l'autorité nationale ; faire réaliser des audits de sécurité réguliers par des prestataires de services de cybersécurité qualifiés et transmettre les résultats à l'autorité nationale ; notifier sans délai à l'autorité nationale tout incident de sécurité susceptible d'affecter le fonctionnement de leurs systèmes d'information d'importance vitale ou de porter atteinte à la sécurité nationale ; mettre en oeuvre les mesures correctives préconisées par l'autorité nationale à la suite d'un audit ou d'un incident ; se conformer aux prescriptions techniques et organisationnelles édictées par l'autorité nationale. Les opérateurs d'importance vitale sont soumis au contrôle de l'autorité nationale, qui peut à tout moment demander communication de tout document nécessaire à l'exercice de sa mission."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Notification des incidents",
+      "content": "Tout incident de sécurité affectant un système d'information d'importance vitale doit être notifié à l'autorité nationale chargée de la cybersécurité dans les meilleurs délais et au plus tard vingt-quatre heures après sa détection. La notification doit comporter les informations permettant d'identifier la nature de l'incident, les systèmes d'information affectés, les données ou services concernés, les mesures prises ou envisagées pour y remédier, et les impacts observés ou potentiels. L'autorité nationale peut imposer des mesures d'urgence destinées à contenir les effets de l'incident et à protéger les autres systèmes d'information. Les informations relatives aux incidents de sécurité notifiées à l'autorité nationale sont confidentielles et ne peuvent être divulguées sans l'accord de l'entité concernée, sauf en cas de nécessité absolue pour la protection des intérêts nationaux."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Homologation des prestataires de services de cybersécurité",
+      "content": "Les prestataires de services de cybersécurité qui interviennent sur les systèmes d'information des administrations publiques et des opérateurs d'importance vitale doivent être préalablement homologués par l'autorité nationale chargée de la cybersécurité. L'homologation est accordée pour une durée de trois ans renouvelable, sous réserve que le prestataire remplisse les conditions fixées par voie réglementaire, notamment en termes de compétences techniques, de ressources humaines qualifiées, d'outillage adéquat et de garanties de confidentialité. L'autorité nationale tient et publie un registre des prestataires homologués. Elle peut suspendre ou retirer l'homologation en cas de manquement aux obligations imposées ou de mise en cause de la sécurité nationale. Les conditions et modalités d'homologation sont précisées par décret."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Approvisionnement et équipements de sécurité",
+      "content": "Les administrations publiques et les opérateurs d'importance vitale sont tenus de ne faire appel qu'à des équipements, logiciels et services de sécurité informatique préalablement qualifiés ou approuvés par l'autorité nationale chargée de la cybersécurité pour les fonctions de sécurité jugées critiques. L'autorité nationale établit et publie les listes des produits et services qualifiés ainsi que les conditions dans lesquelles des dérogations peuvent être accordées. Les équipements et logiciels utilisés dans les systèmes d'information d'importance vitale doivent faire l'objet d'une évaluation de sécurité, selon des méthodes et référentiels définis par l'autorité nationale. L'importation de tout équipement de sécurité informatique destiné aux systèmes sensibles est soumise à l'autorisation préalable de l'autorité nationale."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Coopération internationale",
+      "content": "L'autorité nationale chargée de la cybersécurité est habilitée à conclure des accords de coopération avec les autorités homologues étrangères et les organisations internationales compétentes en matière de cybersécurité. Ces accords peuvent notamment porter sur l'échange d'informations relatives aux cybermenaces et aux vulnérabilités ; la coordination des réponses aux incidents transfrontaliers ; le développement des capacités et le partage de bonnes pratiques ; la formation et le renforcement des capacités des équipes nationales de réponse aux incidents. Toute coopération internationale en matière de cybersécurité est conduite dans le respect de la souveraineté nationale et des intérêts stratégiques du Royaume du Maroc. Les informations échangées dans ce cadre sont traitées conformément aux exigences de confidentialité applicables."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Cryptographie et chiffrement",
+      "content": "L'utilisation de moyens de cryptographie dans les systèmes d'information des administrations publiques et des opérateurs d'importance vitale est soumise à la réglementation en vigueur et aux prescriptions de l'autorité nationale chargée de la cybersécurité. Les algorithmes et protocoles de chiffrement utilisés pour protéger les informations sensibles de l'État doivent être approuvés par l'autorité nationale. L'exportation et l'importation de moyens de cryptographie sont soumises à l'autorisation préalable des autorités compétentes conformément à la législation en vigueur. L'autorité nationale peut imposer aux fournisseurs de services de communications électroniques et d'hébergement de données des obligations relatives à la fourniture de capacités permettant l'interception légale des communications dans le cadre des procédures judiciaires applicables."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Contrôle et inspection",
+      "content": "L'autorité nationale chargée de la cybersécurité dispose de pouvoirs de contrôle lui permettant de vérifier le respect des dispositions de la présente loi et de ses textes d'application. À ce titre, les agents de l'autorité nationale spécialement habilités peuvent procéder à des inspections des systèmes d'information des entités soumises à la présente loi, sur place ou à distance, après en avoir informé préalablement le responsable de l'entité concernée, sauf en cas d'urgence caractérisée par une menace imminente. Les entités contrôlées sont tenues de fournir à ces agents toute information, document, donnée ou tout accès nécessaire à l'exercice de leur mission. Les agents sont astreints au secret professionnel pour toutes les informations dont ils ont connaissance dans l'exercice de leurs fonctions."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Sanctions administratives",
+      "content": "En cas de manquement aux obligations prévues par la présente loi et ses textes d'application, l'autorité nationale chargée de la cybersécurité peut prononcer les sanctions administratives suivantes : une mise en demeure assortie d'un délai pour remédier au manquement constaté ; une astreinte journalière dont le montant ne peut excéder cent mille dirhams par jour de retard, dans la limite d'un million de dirhams ; une sanction financière dont le montant ne peut excéder trois millions de dirhams pour les personnes morales et cinq cent mille dirhams pour les personnes physiques ; la suspension temporaire ou le retrait de l'homologation accordée aux prestataires de services de cybersécurité. Les décisions de sanctions administratives sont motivées et susceptibles de recours devant la juridiction administrative compétente. Les sanctions prononcées font l'objet d'une publication dans le registre officiel de l'autorité nationale."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Sanctions pénales",
+      "content": "Sans préjudice des sanctions pénales prévues par le Code pénal et les lois spéciales relatives aux infractions commises au moyen des technologies de l'information et de la communication, est puni d'une amende de 300.000 à 3.000.000 de dirhams le responsable d'un opérateur d'importance vitale qui ne respecte pas les obligations de notification d'incident prévues par la présente loi. Est puni d'un emprisonnement de six mois à deux ans et d'une amende de 100.000 à 500.000 dirhams, ou de l'une de ces deux peines seulement, quiconque fait obstacle aux opérations de contrôle et d'inspection menées par les agents habilités de l'autorité nationale. Les personnes morales peuvent être déclarées pénalement responsables des infractions commises en leur nom et pour leur compte par leurs organes ou représentants."
+    },
+    {
+      "provision_ref": "art16",
+      "section": "16",
+      "title": "Article 16. Textes d'application",
+      "content": "Des décrets pris en Conseil de gouvernement après délibération en Conseil des ministres fixent notamment : la liste des secteurs d'activité d'importance vitale et les critères d'identification des opérateurs d'importance vitale ; les modalités d'élaboration, de mise en oeuvre et de mise à jour des plans de sécurité des systèmes d'information ; les conditions et modalités d'homologation des prestataires de services de cybersécurité ; les normes et référentiels de sécurité applicables aux systèmes d'information des entités concernées ; les modalités de notification des incidents de sécurité ; les conditions d'approbation des équipements et logiciels de sécurité ; les modalités d'exercice des pouvoirs de contrôle et d'inspection de l'autorité nationale. Les arrêtés du Chef du Gouvernement précisent les conditions d'application des décrets susvisés."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "cybersécurité",
+      "definition": "L'ensemble des mesures techniques et non techniques permettant de protéger les systèmes d'information contre les cybermenaces, de détecter les incidents de sécurité et d'y répondre de manière adéquate.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "opérateur d'importance vitale",
+      "definition": "Tout opérateur public ou privé gérant ou utilisant un ou plusieurs systèmes d'information jugés essentiels pour la souveraineté nationale, la sécurité de l'État, l'économie nationale ou la santé publique.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "incident de sécurité",
+      "definition": "Tout événement compromettant la disponibilité, la confidentialité, l'intégrité ou la traçabilité des systèmes d'information.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "DGSSI",
+      "definition": "Direction Générale de la Sécurité des Systèmes d'Information, autorité nationale chargée de la cybersécurité au Maroc, placée sous l'autorité du Chef du Gouvernement.",
+      "source_provision": "art4"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ma-dgssi-critical-infrastructure",
+  "type": "statute",
+  "title": "Décret portant sur la protection des infrastructures d'importance vitale — Cadre DGSSI",
+  "title_en": "Decree on Critical Infrastructure Protection — DGSSI Framework",
+  "short_name": "DGSSI-CIP",
+  "status": "in_force",
+  "issued_date": "2020-12-30",
+  "in_force_date": "2021-01-01",
+  "url": "https://www.dgssi.gov.ma/fr/content/protection-des-infrastructures-dimportance-vitale",
+  "description": "Le décret portant sur la protection des infrastructures d'importance vitale complète la loi 05-20 sur la cybersécurité en fixant les critères d'identification des opérateurs et des systèmes d'information d'importance vitale, les obligations de sécurité spécifiques qui leur sont applicables, et les mécanismes de contrôle de leur mise en oeuvre. Il définit l'organisation de la protection des infrastructures critiques au Maroc sous la coordination de la DGSSI.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Identification des secteurs d'activités d'importance vitale",
+      "content": "Sont considérés comme secteurs d'activités d'importance vitale les secteurs dont la défaillance ou la perturbation des activités serait susceptible d'avoir des conséquences graves sur le fonctionnement de la société, de l'économie nationale ou la sécurité de l'État. Ces secteurs comprennent notamment : l'énergie, incluant la production, le transport et la distribution d'électricité, de gaz naturel et de produits pétroliers ; les transports, incluant le transport aérien, maritime, ferroviaire et routier ; les communications électroniques et les services postaux ; les services financiers et bancaires, incluant les marchés financiers et les systèmes de paiement ; la santé publique, incluant les établissements hospitaliers et la chaîne d'approvisionnement en médicaments ; l'eau, incluant la production et la distribution d'eau potable et le traitement des eaux usées ; la sécurité nationale, incluant les forces armées et les services de renseignement."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Critères d'identification des opérateurs d'importance vitale",
+      "content": "Est désigné comme opérateur d'importance vitale tout organisme public ou privé qui : exploite une infrastructure essentielle au fonctionnement d'un secteur d'activité d'importance vitale ; gère ou exploite des systèmes d'information dont la défaillance ou la compromission serait susceptible d'entraîner des pertes humaines, des perturbations économiques majeures ou de porter atteinte à la sécurité nationale ; assure des services essentiels dont l'interruption affecterait un nombre significatif de personnes. La désignation des opérateurs d'importance vitale est effectuée par arrêté du Chef du Gouvernement sur proposition du ministre compétent et après consultation de la DGSSI. La liste des opérateurs d'importance vitale est classifiée et n'est pas publiée dans sa totalité au Bulletin Officiel."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Obligations de sécurité des opérateurs d'importance vitale",
+      "content": "Les opérateurs d'importance vitale sont tenus de réaliser une cartographie complète de leurs systèmes d'information d'importance vitale et de la mettre à jour annuellement ; d'effectuer une analyse des risques pesant sur ces systèmes, en utilisant une méthode approuvée par la DGSSI ; d'élaborer et de mettre en oeuvre un plan de sécurité des systèmes d'information couvrant l'ensemble des mesures organisationnelles, physiques et techniques nécessaires pour prévenir les incidents et y répondre efficacement ; de faire réaliser des audits de sécurité tous les deux ans par des prestataires qualifiés et de communiquer les résultats à la DGSSI ; de mettre en oeuvre les mesures correctives préconisées dans les audits dans les délais fixés par la DGSSI. Les obligations de sécurité sont précisées dans des référentiels sectoriels élaborés par la DGSSI en concertation avec les ministères de tutelle."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Points de contact sécurité",
+      "content": "Chaque opérateur d'importance vitale désigne un responsable de la sécurité des systèmes d'information (RSSI) et communique ses coordonnées à la DGSSI. Le RSSI est l'interlocuteur principal de la DGSSI pour toutes les questions relatives à la sécurité des systèmes d'information de l'opérateur. Il est chargé notamment d'élaborer et de faire respecter la politique de sécurité des systèmes d'information ; de coordonner la mise en oeuvre du plan de sécurité ; de gérer les incidents de sécurité et de les notifier à la DGSSI ; de sensibiliser et de former le personnel aux enjeux de la cybersécurité. Un point de contact opérationnel disponible en permanence doit être désigné pour les situations d'urgence. Les coordonnées de ce point de contact sont mises à jour auprès de la DGSSI dans les quarante-huit heures en cas de changement."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Procédure de notification des incidents",
+      "content": "Tout incident de sécurité affectant ou susceptible d'affecter les systèmes d'information d'importance vitale doit être notifié à la DGSSI selon la procédure suivante : dans les deux heures suivant la détection, une notification initiale est transmise par voie sécurisée, indiquant la nature de l'incident, les systèmes affectés et les premières mesures prises ; dans les vingt-quatre heures, un rapport intermédiaire précise l'étendue de l'incident, les impacts constatés et l'état d'avancement des opérations de réponse ; dans les soixante-douze heures, un rapport complet est transmis incluant l'analyse des causes, les mesures correctives mises en oeuvre et les leçons tirées de l'incident. La DGSSI peut, en cas d'urgence caractérisée, imposer des mesures de confinement immédiates. La notification d'un incident n'exonère pas l'opérateur de sa responsabilité de gérer et de résoudre l'incident dans les meilleurs délais."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Référentiel général de sécurité",
+      "content": "La DGSSI élabore et tient à jour un référentiel général de sécurité définissant les règles de sécurité applicables aux systèmes d'information des administrations publiques et des opérateurs d'importance vitale. Ce référentiel couvre notamment les exigences de sécurité physique des centres informatiques ; les règles de gestion des accès logiques et d'authentification forte ; les exigences de chiffrement des données sensibles en transit et au repos ; les règles de journalisation et de supervision des événements de sécurité ; les procédures de gestion des vulnérabilités et des correctifs de sécurité ; les exigences de continuité d'activité et de reprise après sinistre. Le référentiel général de sécurité est mis à jour au minimum tous les deux ans pour tenir compte de l'évolution des menaces et des technologies. Les entités concernées disposent d'un délai de dix-huit mois pour se mettre en conformité avec les nouvelles exigences."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Exercices de cybersécurité",
+      "content": "La DGSSI organise régulièrement des exercices nationaux de cybersécurité auxquels les opérateurs d'importance vitale sont tenus de participer. Ces exercices ont pour objet de tester la résilience des systèmes d'information d'importance vitale face à des cyberattaques simulées ; d'évaluer la capacité des opérateurs à détecter et à répondre aux incidents de sécurité ; de tester les mécanismes de coordination et de communication entre les différents acteurs en cas de crise cyber nationale ; de renforcer les compétences des équipes de sécurité. Les opérateurs d'importance vitale sont également encouragés à mener leurs propres exercices sectoriels, en coordination avec la DGSSI. Les résultats de ces exercices font l'objet d'un rapport de retour d'expérience partagé avec les parties prenantes concernées."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Qualification des prestataires de services de sécurité",
+      "content": "Les prestataires de services de sécurité intervenant sur les systèmes d'information d'importance vitale doivent être préalablement qualifiés par la DGSSI. La qualification est accordée aux prestataires qui remplissent les conditions suivantes : disposer d'un personnel qualifié et habilité à traiter des informations sensibles ; employer des méthodes et des outils approuvés par la DGSSI pour les prestations de sécurité ; mettre en place des mesures organisationnelles garantissant la confidentialité des informations auxquelles ils ont accès dans le cadre de leurs prestations ; souscrire une assurance responsabilité civile professionnelle couvrant les activités de sécurité informatique. La qualification est accordée pour une durée de trois ans et renouvelable. La DGSSI publie et met à jour régulièrement la liste des prestataires qualifiés."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Coordination intersectorielle",
+      "content": "Un comité interministériel de cybersécurité des infrastructures vitales est institué sous la présidence du Chef du Gouvernement. Ce comité est composé des représentants des ministres chargés de la Défense nationale, de l'Intérieur, des Affaires Étrangères, des Finances, de l'Énergie, des Transports, de la Santé et des Télécommunications, ainsi que du Directeur général de la DGSSI. Il se réunit au minimum deux fois par an et peut être convoqué en session extraordinaire en cas de crise cyber majeure. Le comité est notamment chargé d'approuver la stratégie nationale de cybersécurité et d'en superviser la mise en oeuvre ; de coordonner la réponse aux crises cyber d'ampleur nationale ; de statuer sur les questions de qualification des infrastructures critiques. La DGSSI assure le secrétariat de ce comité."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Partage d'informations sur les menaces",
+      "content": "La DGSSI met en oeuvre un dispositif national de partage d'informations sur les cybermenaces permettant aux opérateurs d'importance vitale d'accéder, dans un cadre sécurisé, aux informations relatives aux menaces et vulnérabilités affectant leurs secteurs. Ce dispositif est fondé sur le principe de la réciprocité : les opérateurs qui bénéficient des alertes de la DGSSI sont tenus de lui communiquer les informations sur les incidents et menaces qu'ils détectent. La DGSSI peut constituer des groupes de partage d'informations sectoriels regroupant les opérateurs d'importance vitale d'un même secteur. Les informations partagées dans ce cadre sont soumises au secret professionnel et ne peuvent être divulguées sans l'accord de l'entité qui les a communiquées, sauf nécessité absolue pour la protection des intérêts nationaux."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Sécurité de la chaîne d'approvisionnement",
+      "content": "Les opérateurs d'importance vitale sont tenus de prendre en compte les risques liés à leur chaîne d'approvisionnement dans leur gestion de la sécurité des systèmes d'information. Ils doivent notamment : évaluer les risques de sécurité posés par leurs fournisseurs et prestataires techniques ; insérer des clauses de sécurité dans leurs contrats avec les fournisseurs de systèmes et services critiques ; vérifier la conformité de leurs fournisseurs aux exigences de sécurité applicables ; être informés sans délai par leurs fournisseurs de tout incident de sécurité susceptible d'affecter les systèmes ou données de l'opérateur. La DGSSI peut publier des listes d'équipements ou de logiciels présentant des risques de sécurité identifiés, et imposer aux opérateurs d'importance vitale de n'utiliser que des équipements et logiciels dont l'origine et la sécurité ont été vérifiées."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Contrôle et sanctions",
+      "content": "La DGSSI dispose d'un pouvoir de contrôle lui permettant de vérifier le respect par les opérateurs d'importance vitale de leurs obligations en matière de cybersécurité. À l'issue de ses contrôles, la DGSSI peut émettre des recommandations, mettre en demeure l'opérateur de remédier aux manquements constatés dans un délai déterminé, ou saisir les autorités administratives ou judiciaires compétentes. En cas de manquement grave ou persistant, la DGSSI peut prononcer des sanctions administratives conformément aux dispositions de la loi 05-20. Les opérateurs qui font obstacle aux opérations de contrôle de la DGSSI s'exposent aux sanctions pénales prévues par la loi 05-20. Les résultats des contrôles sont confidentiels, sauf décision contraire motivée par la protection de l'intérêt public."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "infrastructure d'importance vitale",
+      "definition": "Installation, système ou partie de ceux-ci, dont la défaillance ou la perturbation serait susceptible d'entraîner de graves conséquences sur le fonctionnement de la société, de l'économie nationale, la sécurité de l'État ou la santé publique.",
+      "source_provision": "art1"
+    },
+    {
+      "term": "opérateur d'importance vitale",
+      "definition": "Tout organisme public ou privé désigné par arrêté du Chef du Gouvernement comme exploitant une infrastructure essentielle au fonctionnement d'un secteur d'activité d'importance vitale.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "RSSI",
+      "definition": "Responsable de la Sécurité des Systèmes d'Information, personne désignée au sein de chaque opérateur d'importance vitale pour être l'interlocuteur principal de la DGSSI et coordonner la mise en oeuvre des mesures de sécurité.",
+      "source_provision": "art4"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ma-loi-69-99",
+  "type": "statute",
+  "title": "Loi n° 69-99 relative aux établissements de crédit et organismes assimilés — Dispositions fintech et cybersécurité",
+  "title_en": "Law No. 69-99 on Credit Institutions and Similar Organisms — Fintech and Cybersecurity Provisions",
+  "short_name": "Loi 69-99",
+  "status": "in_force",
+  "issued_date": "2014-01-24",
+  "in_force_date": "2014-03-26",
+  "url": "https://www.bkam.ma/content/download/3025/32043/Loi%2069_99.pdf",
+  "description": "La loi 69-99 sur les établissements de crédit et organismes assimilés, amendée à plusieurs reprises, encadre l'activité bancaire et financière au Maroc. Les dispositions relatives à la fintech et à la cybersécurité du secteur financier découlent des circulaires de Bank Al-Maghrib complémentant cette loi. Elles imposent aux établissements financiers des obligations strictes en matière de sécurité des systèmes d'information, de gestion des risques opérationnels liés aux nouvelles technologies et de protection des données des clients.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Champ d'application et définitions",
+      "content": "La présente loi s'applique aux établissements de crédit et aux organismes assimilés exerçant leurs activités sur le territoire marocain. Sont considérés comme établissements de crédit les personnes morales qui exercent, à titre de profession habituelle, l'activité de réception de fonds du public, les opérations de crédit, ou la mise à la disposition de la clientèle de tous moyens de paiement. Sont assimilés aux établissements de crédit les sociétés de financement participatif, les établissements de paiement, les associations de microcrédit et les fonds collectifs d'investissement. La loi s'étend aux services financiers numériques, incluant les plateformes de paiement électronique, les agrégateurs de données financières et les prestataires de services d'initiation de paiement, dès lors qu'ils exercent leur activité sur le territoire marocain."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Agrément des établissements de paiement",
+      "content": "L'exercice de l'activité d'établissement de paiement est subordonné à l'obtention d'un agrément délivré par le Gouverneur de Bank Al-Maghrib. L'agrément précise les services de paiement que l'établissement est autorisé à fournir. Les établissements de paiement peuvent notamment exécuter les opérations de virement, de prélèvement, de paiement par carte et de monnaie électronique. Pour obtenir l'agrément, l'établissement doit démontrer qu'il dispose d'un capital minimum libéré dont le montant est fixé par Bank Al-Maghrib ; d'un plan d'affaires sur trois ans ; d'une organisation administrative et comptable adaptée ; d'un dispositif de contrôle interne et de gestion des risques adapté à la nature de ses activités ; de mesures de sécurité appropriées pour les systèmes informatiques et de paiement. Les prestataires de services de paiement opérant uniquement par voie numérique sont soumis aux mêmes exigences d'agrément."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Exigences de sécurité des systèmes d'information",
+      "content": "Les établissements de crédit et les établissements de paiement sont tenus de se doter d'un système d'information sécurisé permettant d'assurer la disponibilité, l'intégrité et la confidentialité des données traitées. Ils doivent notamment mettre en oeuvre une politique de sécurité des systèmes d'information approuvée par l'organe dirigeant et révisée annuellement ; réaliser des analyses de risques régulières portant sur leurs systèmes d'information critiques ; mettre en place des mesures de détection et de réponse aux incidents de sécurité ; effectuer des tests d'intrusion périodiques sur leurs systèmes critiques par des prestataires qualifiés indépendants ; assurer la continuité des services critiques en cas d'incident grâce à des plans de continuité d'activité et de reprise après sinistre. Bank Al-Maghrib peut émettre des circulaires précisant les exigences techniques minimales de sécurité applicables au secteur financier."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Authentification forte des clients",
+      "content": "Les établissements de crédit et les prestataires de services de paiement sont tenus d'appliquer une authentification forte du client pour l'accès à des comptes de paiement en ligne, l'initiation d'opérations de paiement électronique, et l'exécution d'actions à distance susceptibles d'entraîner un risque de fraude ou d'abus. L'authentification forte du client est fondée sur l'utilisation d'au moins deux éléments appartenant à des catégories différentes parmi la connaissance (quelque chose que seul l'utilisateur connaît), la possession (quelque chose que seul l'utilisateur possède) et l'inhérence (quelque chose que l'utilisateur est). Les méthodes d'authentification utilisées doivent être conçues de manière à protéger la confidentialité des données d'authentification. Des dérogations à l'authentification forte peuvent être accordées pour des transactions de faible valeur et à faible risque, dans les conditions fixées par Bank Al-Maghrib."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Protection des données des clients",
+      "content": "Les établissements de crédit et les prestataires de services de paiement sont soumis aux obligations de protection des données personnelles de leurs clients conformément à la loi 09-08 et aux dispositions du présent titre. Ils sont notamment tenus de ne collecter que les données strictement nécessaires à la fourniture des services financiers demandés par le client ; d'informer leurs clients de manière claire et transparente sur l'utilisation de leurs données personnelles, y compris à des fins de scoring et d'analyse de crédit ; d'obtenir le consentement exprès des clients pour tout traitement de leurs données à des fins de marketing ou de profilage commercial ; de mettre en oeuvre des mesures techniques et organisationnelles appropriées pour protéger les données des clients contre tout accès non autorisé, perte ou divulgation. Le partage des données financières des clients avec des tiers est soumis au consentement préalable du client, conformément aux règles de l'open banking."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Notification des incidents de sécurité",
+      "content": "Les établissements de crédit et les prestataires de services de paiement sont tenus de notifier à Bank Al-Maghrib tout incident de sécurité opérationnel ou de paiement majeur, selon les modalités et délais fixés par Bank Al-Maghrib. La notification doit contenir des informations sur la nature de l'incident, son impact sur les services et les clients, et les mesures prises ou envisagées pour y remédier. Bank Al-Maghrib peut, si elle le juge nécessaire, informer d'autres autorités compétentes, notamment Bank Al-Maghrib en tant qu'autorité de résolution, et le maCERT. Les établissements doivent également informer directement leurs clients affectés lorsque l'incident est susceptible de porter préjudice à leurs intérêts financiers. Une analyse post-incident doit être réalisée et communiquée à Bank Al-Maghrib dans un délai d'un mois."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Externalisation et cloud computing",
+      "content": "Les établissements de crédit qui externalisent des fonctions ou des activités essentielles à des prestataires de services tiers, notamment dans le cadre du recours à des services d'informatique en nuage, restent entièrement responsables du respect de leurs obligations légales et réglementaires. Ils doivent notamment s'assurer que les conditions contractuelles régissant l'externalisation prévoient des exigences de sécurité équivalentes à celles qui leur sont applicables ; se réserver le droit d'auditer le prestataire et d'accéder aux informations nécessaires à cet effet ; s'assurer que Bank Al-Maghrib peut exercer ses pouvoirs de surveillance sur le prestataire ; prévoir des plans de sortie permettant de reprendre en interne ou de transférer à un autre prestataire les fonctions externalisées en cas de défaillance. L'hébergement des données clients dans des pays ne disposant pas d'un niveau de protection des données équivalent au Maroc est soumis à l'autorisation préalable de Bank Al-Maghrib."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Lutte contre la fraude en ligne",
+      "content": "Les établissements de crédit et les prestataires de services de paiement sont tenus de mettre en oeuvre des systèmes de détection et de prévention de la fraude adaptés aux risques liés à leurs activités en ligne. Ces systèmes doivent notamment permettre la surveillance en temps réel des transactions pour détecter les opérations suspectes ; bloquer automatiquement les transactions présentant des caractéristiques de fraude connues ; alerter le client et lui permettre de confirmer ou d'infirmer une transaction suspecte avant son exécution. En cas de fraude avérée, l'établissement doit rembourser immédiatement le montant de l'opération frauduleuse au client, sauf si ce dernier a agi de manière frauduleuse ou n'a pas respecté ses obligations de sécurité. Un rapport annuel sur les fraudes détectées et les mesures prises est transmis à Bank Al-Maghrib."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Open banking et accès aux comptes",
+      "content": "Les établissements de crédit gestionnaires de comptes sont tenus de permettre, avec le consentement exprès de leurs clients, l'accès aux informations de leurs comptes et l'initiation de paiements par des prestataires de services de paiement tiers habilités. L'accès des prestataires tiers aux comptes des clients doit être sécurisé par des interfaces de programmation applicative standardisées et sécurisées, définies par Bank Al-Maghrib. Les prestataires tiers accédant aux comptes des clients doivent être enregistrés auprès de Bank Al-Maghrib et respecter des exigences de sécurité et de protection des données équivalentes à celles des établissements de crédit. Les établissements gestionnaires de comptes ne peuvent discriminer l'accès des prestataires tiers habilités ni leur imposer des conditions plus contraignantes que celles applicables à leurs propres services. Bank Al-Maghrib veille au bon fonctionnement de l'écosystème open banking et peut émettre des normes techniques à cet effet."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Tests de résilience et stress tests cyber",
+      "content": "Bank Al-Maghrib peut exiger des établissements systémiques et des prestataires de services de paiement critiques qu'ils réalisent périodiquement des exercices avancés de test de leur résilience opérationnelle face aux cyberattaques. Ces exercices peuvent inclure des tests de pénétration en mode boîte rouge simulant des attaques sophistiquées sur les systèmes critiques ; des simulations de crise cyber avec activation des plans de continuité d'activité ; des tests de l'efficacité des procédures de réponse aux incidents. Les résultats de ces tests sont communiqués à Bank Al-Maghrib et font l'objet d'un plan de remédiation. Bank Al-Maghrib peut également conduire ou mandater des superviseurs pour effectuer des tests de résilience non annoncés sur les systèmes des établissements supervisés."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Gouvernance de la sécurité",
+      "content": "L'organe d'administration des établissements de crédit est responsable de la définition et de la supervision de la stratégie de cybersécurité de l'établissement. Il doit approuver la politique de sécurité des systèmes d'information et en suivre régulièrement la mise en oeuvre ; s'assurer que des ressources suffisantes sont allouées à la cybersécurité ; recevoir des rapports réguliers sur les risques cyber et les incidents de sécurité ; désigner un responsable de la sécurité des systèmes d'information disposant de l'autorité et des ressources nécessaires. La direction générale veille à l'intégration des exigences de sécurité dans tous les projets de développement de nouveaux produits et services numériques, selon une approche de sécurité dès la conception. Les membres du conseil d'administration reçoivent une formation sur les enjeux de la cybersécurité dans le secteur financier."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Sanctions",
+      "content": "En cas de manquement aux exigences de sécurité des systèmes d'information prévues par la présente loi et les circulaires de Bank Al-Maghrib, cette dernière peut prononcer les sanctions disciplinaires suivantes : un avertissement ; un blâme ; l'interdiction d'effectuer certaines opérations et toutes autres limitations dans l'exercice de l'activité ; la suspension temporaire d'un ou plusieurs dirigeants ; le retrait de l'agrément. Bank Al-Maghrib peut également imposer des sanctions pécuniaires dont le montant maximum est fixé par voie réglementaire. Les décisions de sanction sont motivées et susceptibles de recours devant la juridiction administrative compétente. Bank Al-Maghrib publie annuellement un rapport sur les sanctions prononcées, sans mention nominative des établissements sanctionnés, sauf en cas de retrait d'agrément."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "établissement de paiement",
+      "definition": "Personne morale agréée par Bank Al-Maghrib pour fournir et exécuter des services de paiement, sans avoir le statut d'établissement de crédit.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "authentification forte",
+      "definition": "Procédure d'authentification fondée sur l'utilisation d'au moins deux éléments appartenant à des catégories différentes parmi la connaissance, la possession et l'inhérence, dont la violation de l'un n'entraîne pas la compromission de la fiabilité des autres.",
+      "source_provision": "art4"
+    },
+    {
+      "term": "open banking",
+      "definition": "Pratique permettant aux clients d'établissements de crédit d'autoriser des prestataires de services de paiement tiers habilités à accéder à leurs informations de compte ou à initier des paiements en leur nom, via des interfaces techniques sécurisées et standardisées.",
+      "source_provision": "art9"
+    }
+  ]
+}

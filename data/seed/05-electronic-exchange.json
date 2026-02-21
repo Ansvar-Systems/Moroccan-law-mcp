@@ -1,0 +1,120 @@
+{
+  "id": "ma-loi-53-05",
+  "type": "statute",
+  "title": "Loi n° 53-05 relative à l'échange électronique de données juridiques",
+  "title_en": "Law No. 53-05 on Electronic Exchange of Legal Data",
+  "short_name": "Loi 53-05",
+  "status": "in_force",
+  "issued_date": "2007-11-30",
+  "in_force_date": "2008-02-07",
+  "url": "https://www.mtpnet.gov.ma/Documents/Loi53_05.pdf",
+  "description": "La loi 53-05 relative à l'échange électronique de données juridiques constitue le cadre légal du commerce électronique et de la signature électronique au Maroc. Elle établit les conditions dans lesquelles les écrits électroniques ont force probante, définit le régime des signatures électroniques et des prestataires de services de certification électronique, et fixe les règles applicables à la conclusion de contrats par voie électronique.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Champ d'application",
+      "content": "La présente loi s'applique à tout échange électronique de données juridiques, notamment aux contrats conclus par voie électronique, aux actes et documents établis ou signés électroniquement, et aux communications électroniques utilisées dans le cadre de procédures juridiques et administratives. Elle est applicable à l'échange de données entre personnes physiques et morales de droit privé, et entre ces personnes et les administrations publiques. Sont exclus du champ d'application de la présente loi les actes relatifs au droit de la famille et des successions, les sûretés réelles immobilières, et tout autre acte dont la nature ou la forme est incompatible avec la dématérialisation, notamment les actes qui doivent être faits en présence simultanée des parties."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Équivalence de l'écrit électronique",
+      "content": "L'écrit sous forme électronique est admis en preuve au même titre que l'écrit sur support papier, sous réserve que puisse être dûment identifiée la personne dont il émane et qu'il soit établi et conservé dans des conditions de nature à en garantir l'intégrité. La fiabilité d'un procédé de signature électronique est présumée jusqu'à preuve contraire lorsque ce procédé met en oeuvre une signature électronique sécurisée établie grâce à un dispositif sécurisé de création de signature électronique et que la vérification de cette signature repose sur l'utilisation d'un certificat électronique qualifié. L'original d'un écrit électronique est l'écrit qui satisfait aux exigences de la présente loi et dont l'intégrité est assurée de façon fiable depuis sa création jusqu'à sa présentation."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Signature électronique",
+      "content": "La signature électronique consiste en l'usage d'un procédé fiable d'identification garantissant son lien avec l'acte auquel elle s'attache. La fiabilité d'un procédé de signature électronique est présumée dans les conditions définies par décret. La signature électronique sécurisée doit être propre au signataire, créée par des moyens que le signataire peut garder sous son contrôle exclusif, garantir avec l'acte auquel elle s'attache un lien tel que toute modification ultérieure de l'acte soit détectable. Lorsque la signature électronique a été vérifiée à l'aide d'un certificat qualifié, elle bénéficie d'une présomption de fiabilité. Les procédés de signature électronique qui ne satisfont pas à ces exigences ne sont pas exclus mais ne bénéficient pas de cette présomption."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Prestataires de services de certification électronique",
+      "content": "Les prestataires de services de certification électronique qui délivrent des certificats qualifiés sont soumis à l'accréditation préalable par l'Autorité Nationale d'Accréditation et de Certification compétente. L'accréditation est accordée pour une durée de trois ans renouvelable. Les prestataires accrédités sont soumis au contrôle de l'autorité d'accréditation, qui peut à tout moment demander communication de tous documents utiles à sa mission. Les prestataires de services de certification électronique doivent notamment : employer du personnel ayant les qualifications nécessaires ; utiliser des systèmes et des produits fiables ; prendre des mesures contre la falsification des certificats ; conserver toutes les informations pertinentes relatives aux certificats délivrés pendant une durée minimale de dix ans."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Contrats conclus par voie électronique",
+      "content": "Quiconque propose, à titre professionnel, par voie électronique, la fourniture de biens ou la prestation de services, met à disposition les conditions contractuelles applicables d'une manière qui permette leur conservation et leur reproduction. La proposition de contracter par voie électronique doit indiquer : les différentes étapes à suivre pour conclure le contrat par voie électronique ; les moyens techniques permettant à l'utilisateur, avant la conclusion du contrat, d'identifier les erreurs commises dans la saisie des données et de les corriger ; les langues proposées pour la conclusion du contrat ; les modalités d'archivage du contrat par l'auteur de l'offre et les conditions d'accès au contrat archivé. Pour que le contrat soit valablement conclu, le destinataire de l'offre doit avoir eu la possibilité de vérifier le détail de sa commande et de corriger d'éventuelles erreurs avant de confirmer son acceptation."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Moment et lieu de formation du contrat électronique",
+      "content": "Le contrat est conclu lorsque le destinataire de l'offre reçoit la confirmation de l'acceptation de son acceptation de la part de l'auteur de l'offre. L'auteur de l'offre doit accuser réception de la commande du destinataire de l'offre sans délai injustifié et par voie électronique. La commande et l'accusé de réception sont réputés reçus lorsque les parties auxquelles ils sont adressés peuvent y avoir accès. Ces dispositions ne s'appliquent pas aux contrats conclus exclusivement par échange de courriers électroniques ou par des communications individuelles équivalentes. En l'absence d'accord entre les parties sur le lieu de conclusion du contrat électronique, le contrat est réputé conclu au lieu où l'auteur de l'offre a son établissement principal."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Conservation des données électroniques",
+      "content": "Lorsque la loi impose la conservation d'informations transmises ou reçues par voie électronique, cette conservation peut être effectuée sur support électronique, sous réserve que les données conservées soient accessibles et consultables pour toute la durée prévue pour leur conservation ; les données conservées le soient dans le format dans lequel elles ont été reçues ou envoyées, ou dans un format qui peut être démontré représenter avec exactitude les informations reçues ou envoyées ; les données conservées permettent d'identifier l'origine et la destination de chaque communication ainsi que la date et l'heure de l'envoi ou de la réception. Les prestataires de services d'archivage électronique doivent mettre en oeuvre des mesures techniques et organisationnelles appropriées pour garantir l'intégrité, la confidentialité et la disponibilité des données archivées."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Horodatage électronique",
+      "content": "L'horodatage électronique est un procédé permettant d'attester qu'une donnée électronique existait à un instant donné. Un horodatage qualifié bénéficie d'une présomption de fiabilité quant à la date et l'heure qu'il indique, ainsi que quant à l'intégrité des données auxquelles cette date et cette heure sont liées. L'horodatage qualifié doit lier la date et l'heure à des données de telle sorte que toute modification des données soit détectable ; être fondé sur une source de temps exacte liée au temps universel coordonné ; être signé au moyen d'une signature électronique avancée ou scellé au moyen d'un cachet électronique avancé. Les prestataires de services d'horodatage qualifié doivent être accrédités par l'autorité nationale compétente."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Responsabilité des prestataires de certification",
+      "content": "Le prestataire de services de certification électronique accrédité qui délivre un certificat au public est responsable du préjudice causé à toute personne qui fait confiance raisonnablement à ce certificat en ce qui concerne l'exactitude à la date d'émission de toutes les informations contenues dans le certificat qualifié ; la garantie que, à la date d'émission du certificat, le signataire identifié dans le certificat qualifié détenait les données afférentes à la création de signature électronique correspondant aux données de vérification de signature figurant dans le certificat ; la garantie que les données afférentes à la création de signature électronique et les données de vérification de signature peuvent être utilisées de façon complémentaire, dans le cas où le prestataire génère les deux. Il peut néanmoins s'exonérer de sa responsabilité en prouvant qu'il n'a commis aucune faute ou négligence."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Actes administratifs électroniques",
+      "content": "Les administrations publiques peuvent émettre et recevoir des actes, documents et communications dans des conditions électroniques conformes à la présente loi. Les actes administratifs établis sous forme électronique ont la même valeur juridique que leurs équivalents sur support papier, sous réserve qu'ils satisfassent aux exigences de la présente loi en matière d'identification de l'auteur et d'intégrité du document. Les citoyens peuvent effectuer leurs démarches administratives par voie électronique dans les conditions fixées par chaque administration. Les échanges électroniques entre administrations publiques sont encouragés dans le respect des normes d'interopérabilité définies par l'Administration compétente. La dématérialisation des procédures administratives doit garantir l'égal accès de tous les citoyens aux services publics."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Archivage électronique",
+      "content": "L'archivage électronique des documents et actes juridiques est effectué dans des conditions garantissant la conservation, l'intégrité, la lisibilité et l'accessibilité des documents archivés pendant toute la durée légale de conservation. Les prestataires de services d'archivage électronique doivent être dûment accrédités par l'autorité nationale compétente. Un document archivé sous forme électronique fait foi au même titre qu'un document original sur support papier, à condition que son intégrité puisse être démontrée de manière fiable depuis sa création jusqu'à sa présentation. Les modalités techniques de l'archivage électronique sécurisé, notamment les formats, algorithmes de condensation et mesures de sécurité, sont précisées par voie réglementaire."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Sanctions",
+      "content": "Toute personne qui délivre des certificats électroniques qualifiés sans être dûment accréditée est punie d'une amende de 50.000 à 500.000 dirhams. Toute personne qui fournit sciemment des informations incorrectes à un prestataire de services de certification en vue d'obtenir un certificat qualifié est punie d'une amende de 10.000 à 100.000 dirhams et d'un emprisonnement de trois mois à deux ans, ou de l'une de ces peines seulement. Toute personne qui use d'une signature électronique ou d'un certificat qualifié à des fins frauduleuses est punie des peines prévues par le Code pénal pour le faux en écriture. Les personnes morales peuvent être déclarées pénalement responsables des infractions prévues par la présente loi et sont punies d'une amende dont le montant peut atteindre cinq fois l'amende applicable aux personnes physiques."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Interopérabilité",
+      "content": "Les systèmes de signature électronique, de certification et d'archivage électronique utilisés au Maroc doivent être interopérables avec les systèmes étrangers équivalents dans les conditions fixées par voie réglementaire. L'autorité nationale compétente établit les normes et référentiels d'interopérabilité applicables aux services de confiance électroniques. Elle reconnaît les certificats qualifiés délivrés par des prestataires étrangers accrédités par des autorités de supervision reconnues par le Maroc, sous réserve de réciprocité. Les accords de reconnaissance mutuelle conclus avec des pays étrangers sont publiés au Bulletin Officiel."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Textes d'application",
+      "content": "Des décrets pris en Conseil de gouvernement précisent notamment les conditions de fiabilité des procédés de signature électronique ; les conditions d'accréditation des prestataires de services de certification électronique et des prestataires de services d'archivage électronique ; les spécifications techniques des dispositifs sécurisés de création de signature électronique ; les conditions dans lesquelles les administrations publiques recourent aux actes et communications électroniques ; les normes et formats d'interopérabilité des systèmes de confiance électronique. Un arrêté du ministre chargé du Commerce précise les conditions dans lesquelles la proposition de contracter par voie électronique doit être mise à la disposition du destinataire."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "signature électronique",
+      "definition": "Données sous forme électronique, qui sont jointes ou liées logiquement à d'autres données sous forme électronique et que le signataire utilise pour signer.",
+      "source_provision": "art3"
+    },
+    {
+      "term": "certificat qualifié",
+      "definition": "Certificat électronique délivré par un prestataire de services de certification accrédité, attestant du lien entre une clé publique de vérification de signature et l'identité de son titulaire.",
+      "source_provision": "art4"
+    },
+    {
+      "term": "horodatage électronique",
+      "definition": "Procédé permettant d'attester qu'une donnée électronique existait à un instant donné, en liant la date et l'heure à des données de telle sorte que toute modification ultérieure des données soit détectable.",
+      "source_provision": "art8"
+    },
+    {
+      "term": "prestataire de services de certification",
+      "definition": "Entité ou personne physique ou morale qui délivre des certificats électroniques ou fournit d'autres services liés aux signatures électroniques.",
+      "source_provision": "art4"
+    }
+  ]
+}

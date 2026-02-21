@@ -1,0 +1,126 @@
+{
+  "id": "ma-loi-43-20",
+  "type": "statute",
+  "title": "Loi n° 43-20 relative aux services de confiance pour les transactions électroniques",
+  "title_en": "Law No. 43-20 on Trust Services for Electronic Transactions",
+  "short_name": "Loi 43-20",
+  "status": "in_force",
+  "issued_date": "2021-06-24",
+  "in_force_date": "2021-06-24",
+  "url": "https://www.mtpnet.gov.ma/Documents/Loi-43-20.pdf",
+  "description": "La loi 43-20 modernise le cadre juridique des services de confiance électronique au Maroc, en complétant et mettant à jour la loi 53-05. Elle étend les services de confiance électronique au-delà de la signature électronique pour couvrir les cachets électroniques, l'horodatage qualifié, les services d'envoi recommandé électronique, et l'authentification de site web. Elle crée un régime de qualification pour les prestataires de services de confiance et aligne le droit marocain sur les meilleures pratiques internationales.",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1. Objet et champ d'application",
+      "content": "La présente loi a pour objet de définir le régime juridique applicable aux services de confiance pour les transactions électroniques. Elle couvre les services de confiance suivants : la création, la vérification et la validation des signatures électroniques ; la création, la vérification et la validation des cachets électroniques ; la création, la vérification et la validation des horodatages électroniques ; les services d'envoi recommandé électronique ; les services d'authentification de sites web ; la conservation des signatures électroniques, des cachets électroniques et des certificats relatifs à ces services. La présente loi s'applique aux prestataires de services de confiance établis au Maroc et aux transactions électroniques impliquant des parties établies sur le territoire national."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2. Définitions",
+      "content": "Au sens de la présente loi, on entend par : 'service de confiance' : un service électronique fourni commercialement consistant en la création, la vérification et la validation de signatures électroniques, de cachets électroniques ou d'horodatages électroniques, de services d'envoi recommandé électronique et de certificats relatifs à ces services, ou en la création, la vérification et la validation de certificats pour l'authentification de sites web, ou en la préservation de signatures, de cachets ou de certificats électroniques relatifs à ces services ; 'prestataire de services de confiance qualifié' : prestataire de services de confiance qui fournit un ou plusieurs services de confiance qualifiés et qui a été octroyé le statut qualifié par l'autorité de supervision ; 'cachet électronique' : données sous forme électronique jointes à d'autres données sous forme électronique ou associées logiquement à d'autres données afin de garantir l'origine et l'intégrité de ces données."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3. Autorité nationale de supervision",
+      "content": "L'autorité nationale désignée par voie réglementaire est chargée de superviser les prestataires de services de confiance établis au Maroc. À ce titre, l'autorité nationale est chargée d'établir et de publier une liste de confiance nationale des prestataires de services de confiance qualifiés et des services de confiance qualifiés qu'ils fournissent ; de superviser les prestataires de services de confiance établis sur le territoire national, notamment en contrôlant leur conformité aux exigences de la présente loi ; de traiter les demandes de qualification des prestataires de services de confiance et de leur octroyer ou refuser le statut qualifié ; de coopérer avec les autorités de supervision étrangères dans le cadre des accords internationaux. L'autorité nationale peut déléguer certaines de ses missions de supervision à des organismes d'évaluation de la conformité accrédités."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Article 4. Exigences applicables aux prestataires qualifiés",
+      "content": "Les prestataires de services de confiance qualifiés doivent satisfaire aux exigences suivantes : disposer d'une organisation fiable, de personnel qualifié, de ressources financières suffisantes et de procédures sécurisées appropriées pour la fourniture de leurs services ; utiliser des systèmes et produits fiables protégés contre toute altération ; prendre des mesures contre la falsification et le vol ; conserver toutes les informations pertinentes concernant les données émises par le prestataire de services de confiance qualifié, en particulier aux fins de fournir des éléments de preuve en justice, pendant la période pertinente ; ne pas stocker ni copier des données afférentes à la création de signature de la personne à laquelle le prestataire a fourni des services de gestion de clés ; informer sans délai l'autorité de supervision et, le cas échéant, les autres organismes compétents de toute violation de la sécurité ou perte d'intégrité ayant un impact sur le service de confiance fourni."
+    },
+    {
+      "provision_ref": "art5",
+      "section": "5",
+      "title": "Article 5. Signatures électroniques qualifiées",
+      "content": "Une signature électronique qualifiée a un effet juridique équivalent à celui d'une signature manuscrite. Une signature électronique qualifiée fondée sur un certificat qualifié délivré dans un État ayant conclu avec le Maroc un accord de reconnaissance mutuelle est reconnue comme signature électronique qualifiée. Les exigences applicables aux dispositifs de création de signature électronique qualifiée sont les suivantes : la confidentialité des données afférentes à la création de signature électronique utilisées pour la création de la signature électronique est suffisamment garantie ; les données afférentes à la création de signature électronique utilisées pour la création de signature électronique ne peuvent être déduites de manière pratique et la signature est protégée de manière fiable contre toute falsification utilisant la technologie actuellement disponible."
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Article 6. Cachets électroniques qualifiés",
+      "content": "Un cachet électronique qualifié bénéficie d'une présomption d'intégrité des données et d'exactitude de l'origine des données auxquelles il est associé. Un cachet électronique qualifié fondé sur un certificat qualifié délivré dans un État ayant conclu avec le Maroc un accord de reconnaissance mutuelle est reconnu comme cachet électronique qualifié. Les cachets électroniques qualifiés sont utilisés par les personnes morales pour garantir l'authenticité et l'intégrité de leurs documents et données électroniques. Les exigences applicables aux dispositifs de création de cachet électronique qualifié sont définies par voie réglementaire, en cohérence avec les normes internationales applicables."
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Article 7. Envoi recommandé électronique qualifié",
+      "content": "Les données envoyées et reçues par le biais d'un service d'envoi recommandé électronique qualifié bénéficient d'une présomption d'intégrité des données, d'envoi de ces données par l'expéditeur identifié, de réception par le destinataire identifié des données, et d'exactitude de la date et de l'heure d'envoi et de réception. Un service d'envoi recommandé électronique qualifié doit satisfaire aux exigences suivantes : les données sont transmises par le biais d'un canal sécurisé ; l'envoi ou la réception des données est attesté par une preuve signée au moyen d'une signature électronique avancée ou scellée au moyen d'un cachet électronique avancé d'un prestataire de services de confiance qualifié. Les prestataires de ce service doivent conserver les preuves d'envoi et de réception pendant une durée minimale fixée par voie réglementaire."
+    },
+    {
+      "provision_ref": "art8",
+      "section": "8",
+      "title": "Article 8. Authentification de sites web",
+      "content": "Les certificats qualifiés pour l'authentification de sites web garantissent l'authenticité d'un site web et permettent de relier ce site web à la personne physique ou morale à laquelle le certificat est délivré. Un certificat qualifié pour l'authentification de sites web doit contenir notamment le nom du domaine ou les noms de domaines utilisés par la personne physique ou morale à laquelle le certificat est délivré ; l'État membre dans lequel est établie la personne physique ou morale ; le nom et l'État membre d'établissement du prestataire de services de confiance qualifié qui délivre les certificats qualifiés. La vérification des informations contenues dans un certificat qualifié pour l'authentification de sites web doit être effectuée conformément aux meilleures pratiques du secteur."
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Article 9. Conservation des signatures et cachets électroniques",
+      "content": "Les services de conservation des signatures et cachets électroniques qualifiés visent à prolonger la fiabilité des signatures et cachets électroniques au-delà de leur période de validité technologique. Un service qualifié de conservation de signatures électroniques qualifiées ou de cachets électroniques qualifiés garantit que les données permettant la validation de la signature ou du cachet sont préservées pour une période allant au-delà de la durée de validité technologique. Les exigences techniques applicables aux services de conservation qualifiés sont définies par voie réglementaire. Les prestataires de services de conservation qualifiés sont soumis aux exigences générales applicables aux prestataires de services de confiance qualifiés, ainsi qu'à des exigences supplémentaires spécifiques à ces services."
+    },
+    {
+      "provision_ref": "art10",
+      "section": "10",
+      "title": "Article 10. Qualification et audit",
+      "content": "La qualification d'un prestataire de services de confiance s'obtient sur demande adressée à l'autorité nationale de supervision. L'autorité nationale, avant d'octroyer le statut qualifié, fait procéder à une évaluation de la conformité du prestataire aux exigences prévues par la présente loi par un organisme d'évaluation de la conformité accrédité. L'évaluation de la conformité est effectuée selon les normes techniques pertinentes, notamment les normes de l'Institut européen des normes de télécommunications (ETSI) applicables ou des normes équivalentes reconnues. L'organisme d'évaluation soumet un rapport d'évaluation à l'autorité nationale, qui se prononce sur la demande de qualification dans un délai de trois mois. La qualification est accordée pour une durée de deux ans et renouvelable sur la base d'un audit de conformité."
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Article 11. Liste de confiance nationale",
+      "content": "L'autorité nationale de supervision établit, tient à jour, publie et signe électroniquement la liste de confiance nationale contenant des informations relatives aux prestataires de services de confiance qualifiés et aux services de confiance qualifiés qu'ils fournissent. La liste de confiance nationale est disponible sous une forme accessible au public et dans un format adapté au traitement automatisé. Elle indique notamment l'identité du prestataire, son statut de qualification, la liste des services qualifiés fournis et la période de qualification. Tout changement affectant le statut de qualification d'un prestataire est reflété dans la liste dans les meilleurs délais et au plus tard dans les vingt-quatre heures."
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Article 12. Responsabilité des prestataires qualifiés",
+      "content": "Un prestataire de services de confiance qualifié est responsable de tout préjudice causé intentionnellement ou par négligence à toute personne physique ou morale en raison du manquement aux obligations prévues par la présente loi. La charge de la preuve de l'absence d'intention ou de négligence incombe au prestataire de services de confiance qualifié. Si le prestataire de services de confiance qualifié informe dûment ses clients à l'avance des limitations de l'utilisation de ses services et que ces limitations sont reconnaissables par des tiers, il n'est pas responsable des dommages découlant de l'utilisation de services dépassant les limitations indiquées. Un prestataire de services de confiance non qualifié est responsable conformément au droit commun de la responsabilité civile."
+    },
+    {
+      "provision_ref": "art13",
+      "section": "13",
+      "title": "Article 13. Reconnaissance mutuelle internationale",
+      "content": "Le Maroc peut conclure des accords de reconnaissance mutuelle avec des États étrangers concernant les services de confiance électroniques. Dans le cadre de ces accords, les services de confiance qualifiés fournis par des prestataires établis dans les États parties aux accords bénéficient d'une présomption de conformité aux exigences de la présente loi. L'autorité nationale publie la liste des États avec lesquels de tels accords ont été conclus. Les prestataires étrangers souhaitant opérer au Maroc sans bénéficier d'un accord de reconnaissance mutuelle doivent solliciter une qualification auprès de l'autorité nationale selon les mêmes procédures que les prestataires nationaux."
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Article 14. Notification des incidents de sécurité",
+      "content": "Les prestataires de services de confiance notifient sans retard injustifié à l'autorité nationale de supervision et, le cas échéant, aux autres organismes compétents, toute violation de la sécurité ou perte d'intégrité ayant un impact significatif sur le service de confiance fourni ou sur les données personnelles qui y sont conservées. Lorsque la violation ou la perte d'intégrité est susceptible de porter préjudice à une personne physique ou morale à laquelle le service de confiance a été fourni, le prestataire de services de confiance en informe également cette personne sans retard injustifié. L'autorité nationale informe, si nécessaire, les autorités compétentes des autres États concernés. Le rapport de notification doit contenir une description de la nature de l'incident, ses conséquences et les mesures prises pour y remédier."
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Article 15. Sanctions",
+      "content": "Toute personne qui fournit des services de confiance qualifiés sans avoir obtenu la qualification prévue par la présente loi est punie d'une amende de 100.000 à 1.000.000 de dirhams. Toute personne qui fait sciemment de fausses déclarations dans le cadre d'une demande de qualification est punie d'une amende de 50.000 à 500.000 dirhams et d'un emprisonnement de six mois à deux ans, ou de l'une de ces peines seulement. Toute personne qui ne procède pas à la notification d'un incident de sécurité dans les conditions prévues par la présente loi est punie d'une amende de 20.000 à 200.000 dirhams. Les personnes morales peuvent être déclarées pénalement responsables des infractions visées par la présente loi et sont punies d'une amende dont le montant peut atteindre cinq fois l'amende prévue pour les personnes physiques."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "service de confiance",
+      "definition": "Service électronique fourni commercialement consistant en la création, la vérification et la validation de signatures électroniques, de cachets électroniques ou d'horodatages électroniques, de services d'envoi recommandé électronique et de certificats relatifs à ces services.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "prestataire de services de confiance qualifié",
+      "definition": "Prestataire de services de confiance qui fournit un ou plusieurs services de confiance qualifiés et qui a été octroyé le statut qualifié par l'autorité nationale de supervision.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "cachet électronique",
+      "definition": "Données sous forme électronique jointes à d'autres données sous forme électronique ou associées logiquement à d'autres données afin de garantir l'origine et l'intégrité de ces données, utilisées par les personnes morales.",
+      "source_provision": "art2"
+    },
+    {
+      "term": "liste de confiance nationale",
+      "definition": "Liste publiée par l'autorité nationale de supervision contenant des informations relatives aux prestataires de services de confiance qualifiés et aux services de confiance qualifiés qu'ils fournissent, signée électroniquement et disponible au public.",
+      "source_provision": "art11"
+    }
+  ]
+}
