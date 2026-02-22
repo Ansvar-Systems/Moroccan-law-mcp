@@ -20,9 +20,9 @@ beforeAll(() => {
 });
 
 describe('Database integrity', () => {
-  it('should have 10 legal documents', () => {
+  it('should have at least 10 legal documents', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_documents').get() as { cnt: number };
-    expect(row.cnt).toBe(10);
+    expect(row.cnt).toBeGreaterThanOrEqual(10);
   });
 
   it('should have at least 300 provisions', () => {
@@ -73,7 +73,7 @@ describe('Negative tests', () => {
   });
 });
 
-describe('All 10 laws are present', () => {
+describe('Baseline laws are present', () => {
   const expectedDocs = [
     'ma-decret-2-22-687',
     'ma-decret-2-24-921',

@@ -15,7 +15,7 @@ sources:
       summary: "Primary legal text copies and implementing regulations published by Moroccan government authority."
     coverage:
       scope: "Cybersecurity, trust services, electronic transactions, telecommunications, and related decrees"
-      limitations: "Some official PDFs are image-only or obfuscated; those documents are skipped and documented in data/seed/_ingestion-report.json"
+      limitations: "Image-only PDFs are skipped (OCR disabled by policy) and documented in data/seed/_ingestion-report.json"
     languages:
       - "fr"
       - "ar"
@@ -32,7 +32,7 @@ sources:
       summary: "Official Bulletin Officiel publication source used for legal provenance checks."
     coverage:
       scope: "Official BO publication provenance and cross-checks"
-      limitations: "Some BO PDFs use non-standard embedded fonts that hinder direct machine extraction"
+      limitations: "Portal may be unreachable from some runtime environments; inaccessible BO sources are documented as failed/skipped"
     languages:
       - "fr"
       - "ar"
@@ -48,8 +48,8 @@ sources:
       url: "https://www.ompic.ma/fr/content/loi-17-97-relative-la-protection-de-la-propriete-industrielle"
       summary: "Official portal for industrial property legislation references."
     coverage:
-      scope: "Industrial property law references"
-      limitations: "Portal connectivity may fail from some environments; affected records are marked skipped"
+      scope: "Industrial property and RCC legal references (laws, decrees, and arrêtés)"
+      limitations: "Some legacy documents use scanned or non-extractable formats; those records are marked skipped with reason"
     languages:
       - "fr"
       - "ar"

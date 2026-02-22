@@ -1,0 +1,13 @@
+{
+  "id": "ma-loi-15-95",
+  "type": "statute",
+  "title": "Loi 15-95 formant code de commerce",
+  "short_name": "Loi 15-95",
+  "status": "in_force",
+  "url": "http://www.ompic.ma/fr/content/lois-et-reglementations-rcc",
+  "description": "Discovered from OMPIC legal references.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

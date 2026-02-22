@@ -74,6 +74,34 @@ export async function extractPdfText(pdfPath: string): Promise<string> {
   return stdout;
 }
 
+export async function extractDocxText(docxPath: string): Promise<string> {
+  const { stdout } = await execFileAsync('unzip', ['-p', docxPath, 'word/document.xml'], {
+    maxBuffer: 64 * 1024 * 1024,
+  });
+
+  return stdout
+    .replace(/<\/w:p>/g, '\n')
+    .replace(/<w:tab\/>/g, ' ')
+    .replace(/<w:br\/>/g, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex: string) => {
+      const code = Number.parseInt(hex, 16);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : '';
+    })
+    .replace(/&#([0-9]+);/g, (_, dec: string) => {
+      const code = Number.parseInt(dec, 10);
+      return Number.isFinite(code) ? String.fromCodePoint(code) : '';
+    })
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, '\'')
+    .replace(/&#39;/g, '\'')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\r/g, '');
+}
+
 interface OcrOptions {
   startPage?: number;
   endPage?: number;

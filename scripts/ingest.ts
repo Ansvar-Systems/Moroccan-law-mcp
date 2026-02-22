@@ -9,8 +9,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { downloadWithRateLimit, extractPdfText, extractPdfTextWithOcr } from './lib/fetcher.js';
-import { SOURCE_DOCUMENTS, parseOfficialDocument, type SourceDocument } from './lib/parser.js';
+import { downloadWithRateLimit, extractDocxText, extractPdfText } from './lib/fetcher.js';
+import { parseOfficialDocument, type SourceDocument } from './lib/parser.js';
+import { discoverSourceDocuments } from './lib/discovery.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -64,8 +65,19 @@ function cleanSeedDirectory(): void {
   }
 }
 
-function sourceExtension(url: string): '.pdf' | '.html' | '.bin' {
+function cleanSourceTextDirectory(): void {
+  const entries = fs.readdirSync(SOURCE_TEXT_DIR)
+    .filter(f => f.endsWith('.txt'));
+
+  for (const entry of entries) {
+    fs.unlinkSync(path.join(SOURCE_TEXT_DIR, entry));
+  }
+}
+
+function sourceExtension(url: string): '.pdf' | '.docx' | '.doc' | '.html' | '.bin' {
   if (/\.pdf(?:$|\?)/i.test(url)) return '.pdf';
+  if (/\.docx(?:$|\?)/i.test(url)) return '.docx';
+  if (/\.doc(?:$|\?)/i.test(url)) return '.doc';
   if (/\.html?(?:$|\?)/i.test(url)) return '.html';
   return '.bin';
 }
@@ -76,18 +88,10 @@ async function fetchSource(document: SourceDocument, skipFetch: boolean): Promis
 
   if (skipFetch && fs.existsSync(rawPath)) {
     if (ext === '.pdf') {
-      let rawText = await extractPdfText(rawPath);
-      const hasLowTextDensity = rawText.replace(/\s+/g, '').length < 200;
-      if (hasLowTextDensity && (document.ocr_page_start || document.ocr_page_end)) {
-        const from = document.ocr_page_start ?? 1;
-        const to = document.ocr_page_end ?? from;
-        console.log(`    -> OCR fallback for pages ${from}-${to}`);
-        rawText = await extractPdfTextWithOcr(rawPath, {
-          startPage: document.ocr_page_start,
-          endPage: document.ocr_page_end,
-        });
-      }
-      return { rawPath, rawText };
+      return { rawPath, rawText: await extractPdfText(rawPath) };
+    }
+    if (ext === '.docx') {
+      return { rawPath, rawText: await extractDocxText(rawPath) };
     }
     return { rawPath, rawText: fs.readFileSync(rawPath, 'utf8') };
   }
@@ -100,18 +104,11 @@ async function fetchSource(document: SourceDocument, skipFetch: boolean): Promis
   fs.writeFileSync(rawPath, response.bytes);
 
   if (ext === '.pdf') {
-    let rawText = await extractPdfText(rawPath);
-    const hasLowTextDensity = rawText.replace(/\s+/g, '').length < 200;
-    if (hasLowTextDensity && (document.ocr_page_start || document.ocr_page_end)) {
-      const from = document.ocr_page_start ?? 1;
-      const to = document.ocr_page_end ?? from;
-      console.log(`    -> OCR fallback for pages ${from}-${to}`);
-      rawText = await extractPdfTextWithOcr(rawPath, {
-        startPage: document.ocr_page_start,
-        endPage: document.ocr_page_end,
-      });
-    }
-    return { rawPath, rawText };
+    return { rawPath, rawText: await extractPdfText(rawPath) };
+  }
+
+  if (ext === '.docx') {
+    return { rawPath, rawText: await extractDocxText(rawPath) };
   }
 
   const rawText = response.bytes.toString('utf8');
@@ -127,6 +124,7 @@ function writeSeed(document: SourceDocument, parsed: ReturnType<typeof parseOffi
 async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean): Promise<void> {
   ensureDirs();
   cleanSeedDirectory();
+  cleanSourceTextDirectory();
 
   const report: IngestionReportItem[] = [];
 
@@ -254,13 +252,16 @@ async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean):
 
 async function main(): Promise<void> {
   const { limit, skipFetch } = parseArgs();
+  const discoveredDocuments = await discoverSourceDocuments();
 
   console.log('Moroccan Law MCP -- Real Data Ingestion');
   console.log('========================================');
   console.log('Sources: DGSSI / OMPIC (official Moroccan portals)');
   console.log('Rate limiting: 1200ms between requests\n');
+  console.log(`Discovered source documents: ${discoveredDocuments.length}`);
+  console.log('OCR mode: disabled (image-only sources are skipped and documented)\n');
 
-  const documents = limit ? SOURCE_DOCUMENTS.slice(0, limit) : SOURCE_DOCUMENTS;
+  const documents = limit ? discoveredDocuments.slice(0, limit) : discoveredDocuments;
   await ingestDocuments(documents, skipFetch);
 }
 

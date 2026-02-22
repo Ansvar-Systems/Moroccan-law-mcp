@@ -1,0 +1,13 @@
+{
+  "id": "ma-loi-21-05",
+  "type": "statute",
+  "title": "Loi n° 21-05 modifiant et complétant la loi n° 5-96 sur la société en nom collectif, la société en commandite simple, la société en commandite par actions, la société à responsabilité limitée et la société en participation.",
+  "short_name": "Loi 21-05",
+  "status": "in_force",
+  "url": "http://www.ompic.ma/fr/content/lois-et-reglementations-rcc",
+  "description": "Discovered from OMPIC legal references.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}
