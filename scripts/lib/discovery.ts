@@ -4,6 +4,7 @@
  * Discovers machine-downloadable legal texts from reachable official portals:
  * - DGSSI legal/regulatory index
  * - OMPIC legal references pages
+ * - Adala (Ministry of Justice) -- Next.js app with 3,858 PDFs across 36+ folders
  *
  * OCR is intentionally not used. Image-only documents are handled as skipped
  * downstream by the parser/ingestion pipeline.
@@ -19,6 +20,37 @@ const OMPIC_INDEX_URLS = [
 ];
 
 const OBFUSCATED_LAW_NUMBERS = new Set(['09-08', '53-05']);
+
+// --- Adala (Ministry of Justice) configuration ---
+const ADALA_BASE_URL = 'https://adala.justice.gov.ma';
+
+/** Priority folder IDs on the Adala portal with their legal domain labels. */
+const ADALA_FOLDERS: Array<{ id: number; domain: string; domainAr: string }> = [
+  { id: 19,  domain: 'civil',          domainAr: 'القانون المدني' },
+  { id: 20,  domain: 'commercial',     domainAr: 'القانون التجاري' },
+  { id: 21,  domain: 'criminal',       domainAr: 'القانون الجنائي' },
+  { id: 22,  domain: 'family',         domainAr: 'قانون الأسرة' },
+  { id: 26,  domain: 'administrative', domainAr: 'القانون الإداري' },
+  { id: 37,  domain: 'electronic',     domainAr: 'القانون الإلكتروني' },
+  { id: 57,  domain: 'labor',          domainAr: 'قانون الشغل' },
+  { id: 568, domain: 'constitutional', domainAr: 'القانون الدستوري' },
+  { id: 896, domain: 'organic-laws',   domainAr: 'القوانين التنظيمية' },
+];
+
+/** Shape of a file entry inside Adala __NEXT_DATA__ pageProps.content.files[]. */
+interface AdalaFileEntry {
+  id?: number;
+  /** Document title (Arabic). */
+  name?: string;
+  /** Relative path to the PDF, e.g. "uploads/2025/03/14/filename-1741952873602.pdf". */
+  path?: string;
+  language?: string;
+  type?: string;
+  folderId?: number;
+  createdAt?: string;
+  updatedAt?: string;
+  [key: string]: unknown;
+}
 
 type DiscoveredKind = 'loi' | 'decret' | 'arrete' | 'circulaire' | 'unknown';
 
@@ -294,12 +326,191 @@ async function discoverOmpicDocuments(): Promise<SourceDocument[]> {
   return discovered;
 }
 
+// ---------------------------------------------------------------------------
+// Adala (Ministry of Justice) discovery
+// ---------------------------------------------------------------------------
+
+/**
+ * Extracts the __NEXT_DATA__ JSON blob from an Adala page's HTML.
+ * Returns the parsed pageProps object or undefined if not found.
+ */
+function extractNextData(html: string): Record<string, unknown> | undefined {
+  const match = /<script\s+id="__NEXT_DATA__"\s+type="application\/json"[^>]*>([\s\S]*?)<\/script>/i.exec(html);
+  if (!match?.[1]) return undefined;
+  try {
+    const parsed = JSON.parse(match[1]) as { props?: { pageProps?: Record<string, unknown> } };
+    return parsed?.props?.pageProps ?? undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/**
+ * Extracts PDF file entries from the pageProps structure.
+ *
+ * Primary path: pageProps.content.files[] -- each entry has `path`, `name`, `id`.
+ * Fallback: recursively searches for any object with a `path` field ending in .pdf
+ * in case the Adala page structure changes.
+ */
+function collectPdfEntries(pageProps: Record<string, unknown>): AdalaFileEntry[] {
+  // Try the known structure first: pageProps.content.files
+  const content = pageProps['content'] as Record<string, unknown> | undefined;
+  if (content && Array.isArray(content['files'])) {
+    const files = content['files'] as AdalaFileEntry[];
+    return files.filter(f => {
+      const p = typeof f.path === 'string' ? f.path : '';
+      return /\.pdf(?:$|[?#])/i.test(p);
+    });
+  }
+
+  // Fallback: recursive search for objects with a PDF `path` field.
+  const collected: AdalaFileEntry[] = [];
+  function walk(data: unknown): void {
+    if (Array.isArray(data)) {
+      for (const item of data) walk(item);
+      return;
+    }
+    if (data !== null && typeof data === 'object') {
+      const record = data as Record<string, unknown>;
+      const pathVal = typeof record['path'] === 'string' ? record['path'] : undefined;
+      if (pathVal && /\.pdf(?:$|[?#])/i.test(pathVal)) {
+        collected.push(record as AdalaFileEntry);
+      }
+      for (const value of Object.values(record)) {
+        if (Array.isArray(value) || (value !== null && typeof value === 'object')) {
+          walk(value);
+        }
+      }
+    }
+  }
+  walk(pageProps);
+  return collected;
+}
+
+/**
+ * Builds a clean title from an Arabic PDF filename.
+ * Strips the timestamp suffix and .pdf extension, replaces hyphens with spaces.
+ */
+function titleFromAdalaFilename(filename: string): string {
+  return filename
+    .replace(/\.pdf$/i, '')
+    // Strip trailing timestamp pattern like -1704067200000 or -17040672
+    .replace(/-\d{8,}$/, '')
+    // Replace hyphens between Arabic words with spaces
+    .replace(/-/g, ' ')
+    .trim();
+}
+
+/**
+ * Builds a stable ID from an Adala file entry.
+ * Uses the numeric id if present, otherwise slugifies the filename.
+ */
+function adalaEntryId(entry: AdalaFileEntry, domain: string): string {
+  if (entry.id && typeof entry.id === 'number') {
+    return `ma-adala-${domain}-${entry.id}`;
+  }
+  const name = entry.name ?? entry.path ?? 'unknown';
+  const slug = slugify(titleFromAdalaFilename(name)).slice(0, 60);
+  return `ma-adala-${domain}-${slug || 'unnamed'}`;
+}
+
+/**
+ * Resolves the full download URL for an Adala PDF.
+ * The `path` field contains relative paths like "uploads/2025/03/14/filename.pdf".
+ * The download URL is: https://adala.justice.gov.ma/api/uploads/YYYY/MM/DD/[filename].pdf
+ */
+function resolveAdalaUrl(entry: AdalaFileEntry): string | undefined {
+  const raw = entry.path;
+  if (!raw || typeof raw !== 'string') return undefined;
+
+  // Already absolute
+  if (raw.startsWith('http://') || raw.startsWith('https://')) return raw;
+
+  // Relative path starting with /
+  if (raw.startsWith('/')) return `${ADALA_BASE_URL}${raw}`;
+
+  // Bare path like "uploads/2025/03/14/..." -- prepend /api/
+  if (raw.startsWith('uploads/')) return `${ADALA_BASE_URL}/api/${raw}`;
+
+  // Any other relative path
+  return `${ADALA_BASE_URL}/${raw}`;
+}
+
+/**
+ * Discovers PDF documents from the Adala (Ministry of Justice) portal.
+ * Fetches each priority folder page and extracts file metadata from
+ * the embedded __NEXT_DATA__ JSON props.
+ */
+async function discoverAdalaDocuments(): Promise<SourceDocument[]> {
+  const discovered: SourceDocument[] = [];
+
+  for (const folder of ADALA_FOLDERS) {
+    const folderUrl = `${ADALA_BASE_URL}/resources/${folder.id}`;
+    try {
+      const html = await fetchHtml(folderUrl);
+      const pageProps = extractNextData(html);
+      if (!pageProps) {
+        console.log(`  [adala] folder ${folder.id} (${folder.domain}): no __NEXT_DATA__ found, skipping`);
+        continue;
+      }
+
+      const pdfEntries = collectPdfEntries(pageProps);
+      console.log(`  [adala] folder ${folder.id} (${folder.domain}): ${pdfEntries.length} PDFs found`);
+
+      for (const entry of pdfEntries) {
+        const sourceUrl = resolveAdalaUrl(entry);
+        if (!sourceUrl) continue;
+
+        // entry.name is the document title (Arabic), entry.path is the file path.
+        const title = (entry.name && entry.name.length >= 2)
+          ? entry.name.trim()
+          : titleFromAdalaFilename(entry.path ?? sourceUrl.split('/').pop() ?? 'unknown');
+        if (!title || title.length < 2) continue;
+
+        const id = adalaEntryId(entry, folder.domain);
+
+        discovered.push({
+          seed_file: '',
+          id,
+          type: 'statute',
+          title,
+          status: 'in_force',
+          url: folderUrl,
+          source_url: sourceUrl,
+          source_authority: 'Adala (Ministère de la Justice)',
+          source_encoding: 'plain',
+          description: `Discovered from Adala portal, folder: ${folder.domain} (${folder.domainAr}).`,
+        });
+      }
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : String(error);
+      console.log(`  [adala] folder ${folder.id} (${folder.domain}): discovery failed (${msg}), skipping`);
+      continue;
+    }
+  }
+
+  return discovered;
+}
+
 export async function discoverSourceDocuments(): Promise<SourceDocument[]> {
   const baseDocs = SOURCE_DOCUMENTS.map(doc => ({ ...doc }));
-  const discoveredDocs = [
-    ...(await discoverDgssiDocuments()),
-    ...(await discoverOmpicDocuments()),
-  ];
+  // Each discovery source is wrapped individually so a single unreachable portal
+  // does not prevent the rest of the pipeline from running.
+  const discoveredDocs: SourceDocument[] = [];
+
+  for (const [label, fn] of [
+    ['DGSSI', discoverDgssiDocuments],
+    ['OMPIC', discoverOmpicDocuments],
+    ['Adala', discoverAdalaDocuments],
+  ] as const) {
+    try {
+      const docs = await (fn as () => Promise<SourceDocument[]>)();
+      discoveredDocs.push(...docs);
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : String(error);
+      console.log(`  [discovery] ${label} source unreachable (${msg}), continuing with other sources.`);
+    }
+  }
 
   const byId = new Map<string, SourceDocument>();
   const sourceUrls = new Set<string>();

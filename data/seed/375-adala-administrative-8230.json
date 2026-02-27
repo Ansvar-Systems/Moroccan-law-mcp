@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-8230",
+  "type": "statute",
+  "title": "مرسوم باصدار طابع بریدی خاص",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 2ربيع الثاني 14( 1395أبريل .)1975\nالوزير األول\nاالمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون،\nاالمضاء :الجنرال ادريس بن عمر العلمي.\n\n - 1الجريدة الرسمية عدد 3260بتاريخ 11ربيع الثاني 23( 1395أبريل ،)1975ص.1152\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

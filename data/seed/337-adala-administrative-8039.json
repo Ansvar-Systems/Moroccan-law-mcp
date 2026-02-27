@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8039",
+  "type": "statute",
+  "title": "مرسوم بإصدار طابع بریدي خاص",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار طابع بريدي خاص من فئة 0،70درهم يحمل عنوان «الذكرى الخامسة\nوالعشرون لإلعالن العالمي لحقوق النسان»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذي ينشر بالجريدة\nالرسمية.\nوحرر بالرباط في 2صفر 25( 1394يبراير .)1974\nالوزير األول،\nالمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون،\nالمضاء :الجنرال ادريس بن عمر العلمي.\n\n -1الجريدة الرسمية عدد 3205بتاريخ 9ربيع األول 3( 1394أبريل ،)1974ص .709\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

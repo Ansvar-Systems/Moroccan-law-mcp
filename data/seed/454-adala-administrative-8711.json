@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8711",
+  "type": "statute",
+  "title": "مرسوم ملكي بإصدار سلسلة خاصة لطوابع بريدية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار سلسلة خاصة لثالثة طوابع بريدية من فئة 0،25و 0،40و 1درهم ،تحمل\nعنوان «أسبوع الطفولة»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ي سند تنفيذ مرسومنا الملكي هذا الذي ينشر بالجريدة الرسمية إلى وزير البريد والبرق\nوالتليفون.\nوحرر بالرباط في 28شعبان 20( 1388نونبر .)1968\nعن جاللة الملك وبأمر منه،\nالوزير األول،\nالمضاء :الدكتور محمد بنهيمة.\n\n -1الجريدة الرسمية عدد 2926بتاريخ 6رمضان 27( 1388نونبر ،)1968ص .2805\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

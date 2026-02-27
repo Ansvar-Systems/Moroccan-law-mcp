@@ -1,0 +1,12 @@
+{
+  "id": "ma-adala-administrative-8012",
+  "type": "statute",
+  "title": "ظهير شريف بمثابة قانون يحدد العمل بموجبه لفترة مؤقتة بمقتضيات الظهير الشريف رقم 1.62.329 المعفاة بمقتضاه من حقوق التسجيل والتنبر العقود والاوراق والوثائق المنطقة بإعادة بناء مدينة أكادير",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

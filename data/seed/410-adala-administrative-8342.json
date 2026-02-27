@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-8342",
+  "type": "statute",
+  "title": "مرسوم باصدار سلسلة خاصة لطابعين بريديين",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند الى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 21محرم 3( 1395يبراير .)1975\nالوزير االول،\nاالمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون بالنيابة،\nوزير التعليم االبتدائي والثانوي،\nاالمضاء :محمد بوعمود.\n\n - 1الجريدة الرسمية عدد 3250صادرة بتاريخ 30محرم 12( 1395يبراير ،)1975ص .524\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

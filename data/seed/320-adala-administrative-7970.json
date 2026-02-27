@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-7970",
+  "type": "statute",
+  "title": "مرسوم بإصدار طابع بريدي خاص",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار طابع بريدي خاص من فئة 0،70درهم يحمل عنوان «الروطاري الدولي-\nالمقاطعة 173بمراكش»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 22جمادى األولى 13( 1394يونيه .)1974\nالوزير األول،\nاإلمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون،\nاإلمضاء :الجنرال ادريس بن عمر العلمي.\n\n -1الجريدة الرسمية عدد 3216بتاريخ 28جمادى األولى 19( 1394يونيه ،)1974ص .1728\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}
