@@ -1,0 +1,15 @@
+{
+  "id": "ma-circulaire-2-2023",
+  "type": "statute",
+  "title": "Circulaire du chef du gouvernement n° 2/2023 du 12 janvier 2023 pour l’application de la directive nationale de la SSI",
+  "title_en": "Prime Minister Circular No. 2/2023 on Implementing the National Information Systems Security Directive (DNSSI)",
+  "short_name": "Circulaire 2/2023",
+  "status": "in_force",
+  "issued_date": "2023-01-12",
+  "url": "https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires/circulaire-du-chef-du-gouvernement-ndeg-22023-du-12-janvier",
+  "description": "Circulaire de mise en œuvre de la Directive Nationale de la Sécurité des Systèmes d’Information.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

@@ -12,7 +12,7 @@
 import { downloadWithRateLimit } from './fetcher.js';
 import { SOURCE_DOCUMENTS, type SourceDocument } from './parser.js';
 
-const DGSSI_INDEX_URL = 'https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires';
+const DGSSI_INDEX_URL = 'https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires/';
 const OMPIC_INDEX_URLS = [
   'http://www.ompic.ma/fr/content/lois-et-reglementations',
   'http://www.ompic.ma/fr/content/lois-et-reglementations-rcc',

@@ -1,0 +1,15 @@
+{
+  "id": "ma-doc",
+  "type": "statute",
+  "title": "Dahir des Obligations et Contrats (Dahir du 12 août 1913)",
+  "title_en": "Code of Obligations and Contracts (Dahir of 12 August 1913)",
+  "short_name": "DOC",
+  "status": "in_force",
+  "issued_date": "1913-08-12",
+  "url": "http://adala.justice.gov.ma/production/legislation/fr/civil/dahirdesObligationsetcontrats.htm",
+  "description": "Dahir des Obligations et Contrats, droit civil marocain des obligations.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "Source fetch failed: fetch failed"
+}

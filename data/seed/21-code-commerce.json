@@ -1,0 +1,15 @@
+{
+  "id": "ma-code-commerce",
+  "type": "statute",
+  "title": "Code de commerce (Loi n° 15-95)",
+  "title_en": "Commercial Code (Law No. 15-95)",
+  "short_name": "Code de commerce",
+  "status": "in_force",
+  "issued_date": "1996-08-01",
+  "url": "http://adala.justice.gov.ma/production/legislation/fr/Nouveautes/CodeDeCommerce.htm",
+  "description": "Code de commerce marocain régissant les activités commerciales.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "Source fetch failed: fetch failed"
+}

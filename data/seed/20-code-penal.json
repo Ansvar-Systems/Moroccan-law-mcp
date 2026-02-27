@@ -1,0 +1,15 @@
+{
+  "id": "ma-code-penal",
+  "type": "statute",
+  "title": "Code pénal marocain (Dahir n° 1-59-413 du 26 novembre 1962)",
+  "title_en": "Moroccan Penal Code",
+  "short_name": "Code pénal",
+  "status": "in_force",
+  "issued_date": "1962-11-26",
+  "url": "http://adala.justice.gov.ma/production/legislation/fr/penal/CodePenal.htm",
+  "description": "Code pénal marocain définissant les infractions et les peines.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "Source fetch failed: fetch failed"
+}

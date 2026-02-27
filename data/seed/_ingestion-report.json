@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-22T04:58:11.963Z",
+  "generated_at": "2026-02-27T06:55:55.969Z",
   "summary": {
-    "processed": 27,
-    "ingested": 14,
-    "skipped": 13,
-    "failed": 0,
-    "total_provisions": 1295,
+    "processed": 34,
+    "ingested": 15,
+    "skipped": 14,
+    "failed": 5,
+    "total_provisions": 1297,
     "total_definitions": 16
   },
   "documents": [
@@ -102,9 +102,18 @@
       "definitions": 0
     },
     {
-      "id": "ma-circulaire-2-2023",
-      "title": "Circulaire du chef du gouvernement n° 2/2023 du 12 janvier 2023 pour l'application de la directive nationale de la SSI",
-      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Circulaire%2002-2023.pdf",
+      "id": "ma-arrete-3-17-25",
+      "title": "Arrêté du Chef du Gouvernement n° 3-17-25 du 7 safar 1447 (1er août 2025) fixant le référentiel des exigences de qualification des prestataires de services Cloud",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2025-09/Arre%CC%82te%CC%81%20du%20Chef%20du%20gouvernement%20n%C2%B0%203-17-25%20du%207%20safar%201447%20%281er%20aou%CC%82t%202025%29%20fixant%20le%20re%CC%81fe%CC%81rentiel%20des%20exigences%20de%20qualification%20des%20prestataires%20de%20services%20Cloud.pdf",
+      "source_authority": "DGSSI",
+      "status": "ingested",
+      "provisions": 2,
+      "definitions": 0
+    },
+    {
+      "id": "ma-decret-2-21-406",
+      "title": "Décret n° 2-21-406 du 4 hija 1442 (15 juillet 2021) pris pour l’application de la loi n° 05-20 relative à la cybersécurité",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%20%202-21-406%20.pdf",
       "source_authority": "DGSSI",
       "status": "skipped",
       "provisions": 0,
@@ -112,18 +121,9 @@
       "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
     },
     {
-      "id": "ma-decret-2-01-2324",
-      "title": "Décret n° 2-01-2324 du 27 Hija 1422 (12 mars 2002) pris pour l'application de la loi n° 9.94 sur la protection des obtentions végétales.",
-      "source_url": "http://www.ompic.org.ma/sites/default/files/D%C3%A9cret%20Obtentions%20v%C3%A9getales.pdf",
-      "source_authority": "OMPIC",
-      "status": "ingested",
-      "provisions": 11,
-      "definitions": 0
-    },
-    {
-      "id": "ma-decret-2-08-518",
-      "title": "Décret n° 2-08-518 du 25 joumada i 1430 (21 mai 2009) pris pour l'application des articles 13, 14, 15, 21 et 23 de la loi n° 53-05 relative à l'échange électronique des données juridiques",
-      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%202-08-518%20.pdf",
+      "id": "ma-arrete-1148-25",
+      "title": "Arrêté conjoint n° 1148/25 portant approbation de la convention instituant le Centre d’Innovation en Cybersécurité",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2025-06/arr%C3%AAt%C3%A9_n_1148.25.pdf",
       "source_authority": "DGSSI",
       "status": "skipped",
       "provisions": 0,
@@ -132,8 +132,18 @@
     },
     {
       "id": "ma-decret-2-09-165",
-      "title": "Décret n° 2-09-165 du 25 joumada i 1430 (21 mai 2009) pris pour l’application de la loi n° 09-08 relative à la protection des personnes physiques à l’égard des traitements des données à caractère personnel",
-      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%202-09-165%20loi%2009-08%20.pdf",
+      "title": "Décret n° 2-09-165 du 25 joumada I 1430 (21 mai 2009) pris pour l’application de la loi n° 09-08 relative à la protection des personnes physiques à l’égard des traitements des données à caractère personnel",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%202-09-165.pdf",
+      "source_authority": "DGSSI",
+      "status": "skipped",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+    },
+    {
+      "id": "ma-decret-2-08-518",
+      "title": "Décret n° 2-08-518 du 25 joumada I 1430 (21 mai 2009) pris pour l’application des articles 13, 14, 15, 21 et 23 de la loi n° 53-05 relative à l’échange électronique des données juridiques",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%20%202-08-518.pdf",
       "source_authority": "DGSSI",
       "status": "skipped",
       "provisions": 0,
@@ -142,7 +152,7 @@
     },
     {
       "id": "ma-decret-2-11-509",
-      "title": "Décret n°2-11-509 du 22 chaoual 1432 (21 septembre 2011) complétant le décret n° 2-82-673 du 28 rabii i 1403 (13 janvier 1983) relatif à l'organisation de l'adn et portant création de la dgssi",
+      "title": "Décret n° 2-11-509 du 22 chaoual 1432 (21 septembre 2011) complétant le décret n° 2-82-673 relatif à l’organisation de l’ADN et portant création de la DGSSI",
       "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%20%202-11-509.pdf",
       "source_authority": "DGSSI",
       "status": "skipped",
@@ -152,7 +162,7 @@
     },
     {
       "id": "ma-decret-2-13-881",
-      "title": "Décret n° 2-13-881 du 28 rabii i 1436 (20 janvier 2015) modifiant et complétant le décret n° 2-08-518 du 25 joumada i 1430 (21 mai 2009)",
+      "title": "Décret n° 2-13-881 du 28 rabii I 1436 (20 janvier 2015) modifiant et complétant le décret n° 2-08-518",
       "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%202-13-881%20.pdf",
       "source_authority": "DGSSI",
       "status": "skipped",
@@ -161,14 +171,73 @@
       "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
     },
     {
-      "id": "ma-decret-2-21-406",
-      "title": "Décret n° 2-21-406 du 4 hija 1442 (15 juillet 2021) pris pour l'application de la loi n° 05-20 relative à la cybersécurité",
-      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Decret%20%202-21-406%20.pdf",
+      "id": "ma-circulaire-2-2023",
+      "title": "Circulaire du chef du gouvernement n° 2/2023 du 12 janvier 2023 pour l’application de la directive nationale de la SSI",
+      "source_url": "https://www.dgssi.gov.ma/sites/default/files/legislative/brochure/2023-07/Circulaire%2002-2023.pdf",
       "source_authority": "DGSSI",
       "status": "skipped",
       "provisions": 0,
       "definitions": 0,
       "notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+    },
+    {
+      "id": "ma-constitution-2011",
+      "title": "Constitution du Royaume du Maroc (2011)",
+      "source_url": "https://www.sgg.gov.ma/Portals/0/constitution/constitution_2011_Fr.pdf",
+      "source_authority": "SGG",
+      "status": "failed",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "fetch failed"
+    },
+    {
+      "id": "ma-code-penal",
+      "title": "Code pénal marocain (Dahir n° 1-59-413 du 26 novembre 1962)",
+      "source_url": "http://adala.justice.gov.ma/production/legislation/fr/penal/CodePenal.htm",
+      "source_authority": "Adala (Ministère de la Justice)",
+      "status": "failed",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "fetch failed"
+    },
+    {
+      "id": "ma-code-commerce",
+      "title": "Code de commerce (Loi n° 15-95)",
+      "source_url": "http://adala.justice.gov.ma/production/legislation/fr/Nouveautes/CodeDeCommerce.htm",
+      "source_authority": "Adala (Ministère de la Justice)",
+      "status": "failed",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "fetch failed"
+    },
+    {
+      "id": "ma-code-travail",
+      "title": "Code du travail (Loi n° 65-99)",
+      "source_url": "http://adala.justice.gov.ma/production/legislation/fr/Nouveautes/CodeDuTravail.htm",
+      "source_authority": "Adala (Ministère de la Justice)",
+      "status": "failed",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "fetch failed"
+    },
+    {
+      "id": "ma-doc",
+      "title": "Dahir des Obligations et Contrats (Dahir du 12 août 1913)",
+      "source_url": "http://adala.justice.gov.ma/production/legislation/fr/civil/dahirdesObligationsetcontrats.htm",
+      "source_authority": "Adala (Ministère de la Justice)",
+      "status": "failed",
+      "provisions": 0,
+      "definitions": 0,
+      "notes": "fetch failed"
+    },
+    {
+      "id": "ma-decret-2-01-2324",
+      "title": "Décret n° 2-01-2324 du 27 Hija 1422 (12 mars 2002) pris pour l'application de la loi n° 9.94 sur la protection des obtentions végétales.",
+      "source_url": "http://www.ompic.org.ma/sites/default/files/D%C3%A9cret%20Obtentions%20v%C3%A9getales.pdf",
+      "source_authority": "OMPIC",
+      "status": "ingested",
+      "provisions": 11,
+      "definitions": 0
     },
     {
       "id": "ma-decret-2-64-406",

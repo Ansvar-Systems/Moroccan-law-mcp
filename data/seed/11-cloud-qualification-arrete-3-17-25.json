@@ -1,0 +1,27 @@
+{
+  "id": "ma-arrete-3-17-25",
+  "type": "statute",
+  "title": "Arrêté du Chef du Gouvernement n° 3-17-25 du 7 safar 1447 (1er août 2025) fixant le référentiel des exigences de qualification des prestataires de services Cloud",
+  "title_en": "Order No. 3-17-25 Setting Cloud Service Provider Qualification Requirements",
+  "short_name": "Arrêté 3-17-25",
+  "status": "in_force",
+  "issued_date": "2025-08-01",
+  "url": "https://www.dgssi.gov.ma/fr/textes-legislatifs-et-reglementaires/arrete-du-chef-du-gouvernement-ndeg-3-17-25-du-7-safar-1447",
+  "description": "Référentiel des exigences de qualification des prestataires de services Cloud (application du décret 2-24-921).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article 1",
+      "content": "– En application des dispositions de l’article 4 du décret susvisé n° 2-24-921, est fixé\ndans l’annexe du présent arrêté le référentiel des exigences de qualification des prestataires de services Cloud."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2",
+      "content": "– Le présent arrêté sera publié au Bulletin officiel.\nRabat, le 7 safar 1447 (1er août 2025).\nAZIZ AKHANNOUCH.\n\n*\n*\n\n*"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

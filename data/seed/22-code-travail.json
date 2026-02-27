@@ -1,0 +1,15 @@
+{
+  "id": "ma-code-travail",
+  "type": "statute",
+  "title": "Code du travail (Loi n° 65-99)",
+  "title_en": "Labor Code (Law No. 65-99)",
+  "short_name": "Code du travail",
+  "status": "in_force",
+  "issued_date": "2004-06-08",
+  "url": "http://adala.justice.gov.ma/production/legislation/fr/Nouveautes/CodeDuTravail.htm",
+  "description": "Code du travail marocain régissant les relations de travail.",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "Source fetch failed: fetch failed"
+}
