@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-7980",
+  "type": "statute",
+  "title": "مرسوم يصادق بمقتضاه على النظام الداخلي للمجلس الوطني لقدماء المقاومين وأعضاء جيش التحرير",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يصادق على النظام الداخلي للمجلس الوطني لقدماء المقاومين وأعضاء جيش التحرير\nالمضاف إلى أصل هذا المرسوم."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط بتاريخ 30جمادى األولى 21( 1394يونيه .)1974\nالوزير األول،\nاإلمضاء :أحمد عصمان.\n\n -1الجريدة الرسمية عدد 3217بتاريخ 5جمادى الثانية 26( 1394يونيه ،)1974ص .1807\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

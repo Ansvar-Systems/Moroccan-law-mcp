@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8302",
+  "type": "statute",
+  "title": "ظهیر شریف بالتفويض في السلطة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يفوض إ لى الوزير األول في اتخاذ المراسيم المنصوص عليها في الفصلين 38و 39من\nالدستور."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى الوزير األول تنفيذ ظهيرنا الشريف هذا الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط 23شوال 22( 1390دجنبر .)1970\n\n -1الجريدة الرسمية عدد 3035مكرر بتاريخ 2ذو القعدة 31( 1390دجنبر ،)1970ص .3225\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

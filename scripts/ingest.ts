@@ -33,10 +33,11 @@ interface IngestionReportItem {
   notes?: string;
 }
 
-function parseArgs(): { limit: number | null; skipFetch: boolean } {
+function parseArgs(): { limit: number | null; skipFetch: boolean; resume: boolean } {
   const args = process.argv.slice(2);
   let limit: number | null = null;
   let skipFetch = false;
+  let resume = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit' && args[i + 1]) {
@@ -44,10 +45,12 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
       i++;
     } else if (args[i] === '--skip-fetch') {
       skipFetch = true;
+    } else if (args[i] === '--resume') {
+      resume = true;
     }
   }
 
-  return { limit, skipFetch };
+  return { limit, skipFetch, resume };
 }
 
 function ensureDirs(): void {
@@ -121,10 +124,22 @@ function writeSeed(document: SourceDocument, parsed: ReturnType<typeof parseOffi
   return outputPath;
 }
 
-async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean): Promise<void> {
+/** Check if an existing seed file has non-empty provisions. */
+function existingSeedHasProvisions(seedFile: string): boolean {
+  const seedPath = path.join(SEED_DIR, seedFile);
+  if (!fs.existsSync(seedPath)) return false;
+  try {
+    const data = JSON.parse(fs.readFileSync(seedPath, 'utf8'));
+    return Array.isArray(data.provisions) && data.provisions.length > 0;
+  } catch { return false; }
+}
+
+async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean, resume: boolean): Promise<void> {
   ensureDirs();
-  cleanSeedDirectory();
-  cleanSourceTextDirectory();
+  if (!resume) {
+    cleanSeedDirectory();
+    cleanSourceTextDirectory();
+  }
 
   const report: IngestionReportItem[] = [];
 
@@ -135,6 +150,26 @@ async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean):
   let totalDefinitions = 0;
 
   for (const document of documents) {
+    // In resume mode, skip documents that already have good seeds.
+    if (resume && existingSeedHasProvisions(document.seed_file)) {
+      console.log(`  ${document.id}: already has provisions, skipping (resume)`);
+      // Still count towards totals from existing seed
+      try {
+        const existing = JSON.parse(fs.readFileSync(path.join(SEED_DIR, document.seed_file), 'utf8'));
+        const prov = existing.provisions?.length ?? 0;
+        const defs = existing.definitions?.length ?? 0;
+        totalProvisions += prov;
+        totalDefinitions += defs;
+        ingestedCount++;
+        report.push({
+          id: document.id, title: document.title, source_url: document.source_url,
+          source_authority: document.source_authority, status: 'ingested',
+          provisions: prov, definitions: defs, notes: 'resumed from existing seed',
+        });
+      } catch { /* ignore */ }
+      continue;
+    }
+
     process.stdout.write(`  ${document.id}: fetching source...`);
 
     try {
@@ -189,6 +224,26 @@ async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean):
     } catch (error) {
       const note = error instanceof Error ? error.message : String(error);
       console.log(` FAILED (${note})`);
+
+      // Preserve existing seed if it has provisions (don't overwrite good data).
+      if (existingSeedHasProvisions(document.seed_file)) {
+        console.log(`    -> keeping existing seed (has provisions)`);
+        try {
+          const existing = JSON.parse(fs.readFileSync(path.join(SEED_DIR, document.seed_file), 'utf8'));
+          const prov = existing.provisions?.length ?? 0;
+          const defs = existing.definitions?.length ?? 0;
+          totalProvisions += prov;
+          totalDefinitions += defs;
+          ingestedCount++;
+          report.push({
+            id: document.id, title: document.title, source_url: document.source_url,
+            source_authority: document.source_authority, status: 'ingested',
+            provisions: prov, definitions: defs, notes: `fetch failed but existing seed preserved`,
+          });
+          failedCount++;
+          continue;
+        } catch { /* fall through to write empty fallback */ }
+      }
 
       const fallback = {
         id: document.id,
@@ -251,18 +306,19 @@ async function ingestDocuments(documents: SourceDocument[], skipFetch: boolean):
 }
 
 async function main(): Promise<void> {
-  const { limit, skipFetch } = parseArgs();
+  const { limit, skipFetch, resume } = parseArgs();
   const discoveredDocuments = await discoverSourceDocuments();
 
   console.log('Moroccan Law MCP -- Real Data Ingestion');
   console.log('========================================');
-  console.log('Sources: DGSSI / OMPIC (official Moroccan portals)');
-  console.log('Rate limiting: 1200ms between requests\n');
+  console.log('Sources: DGSSI / OMPIC / Adala (official Moroccan portals)');
+  console.log('Rate limiting: 1200ms between requests');
+  console.log(`Resume mode: ${resume ? 'ON (preserving existing seeds)' : 'OFF'}\n`);
   console.log(`Discovered source documents: ${discoveredDocuments.length}`);
   console.log('OCR mode: disabled (image-only sources are skipped and documented)\n');
 
   const documents = limit ? discoveredDocuments.slice(0, limit) : discoveredDocuments;
-  await ingestDocuments(documents, skipFetch);
+  await ingestDocuments(documents, skipFetch, resume);
 }
 
 main().catch(error => {

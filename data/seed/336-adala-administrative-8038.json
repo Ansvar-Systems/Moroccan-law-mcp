@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8038",
+  "type": "statute",
+  "title": "مرسوم بإصدار سلسلة خاصة من الطوابع البريدية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار سلسلة خاصة لطابعين بريديين من فئة 0،25و 0،70درهم تحمل\nعنوان« :الزربية»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذي ينشر بالجريدة\nالرسمية.\nوحرر بالرباط في 7ربيع األول ( 1394فاتح أبريل .)1974\nالوزير األول،\nاإلمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون،\nاإلمضاء :الجنرال ادريس بن عمر العلمي.\n\n -1الجريدة الرسمية عدد 3206بتاريخ 16ربيع األول 10( 1394أبريل ،)1974ص .780\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

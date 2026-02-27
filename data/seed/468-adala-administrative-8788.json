@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8788",
+  "type": "statute",
+  "title": "مرسوم ملكي بإصدار سلسلة طوابع بريدية خاصة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار سلسلة خاصة لخمسة طوابع بريدية من فئة - 0،40 - 0،25 - 0،20\n 0،60و 1درهم ،تحمل عنوان «النقود المغربية القديمة»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ مرسومنا الملكي هذا الذي ينشر بالجريدة\nالرسمية.\nوحرر بالرباط في 5جمادى األولى 31( 1388يوليوز .)1968\nعن صاحب الجاللة وبأمر منه،\nالوزير األول،\nالمضاء :الدكتور محمد بنهيمة.\n\n -1الجريدة الرسمية عدد 2910بتاريخ 12جمادى األولى 7( 1388غشت ،)1968ص .1739\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

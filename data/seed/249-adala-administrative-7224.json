@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-7224",
+  "type": "statute",
+  "title": "قانون يؤهل بموجبه أعضاء مجالس الجماعات الحضرية والقروية ومندوبو المستخدمين وممثلو المستخدمين بالمقاولات المنجمية لممارسة اختصاصاتهم ابتداء من 7 محرم 1404 (14 أكتوبر 1983)",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر ظهيرنا الشريف هذا بالجريدة الرسمية.\nوختم بسفارة المملكة المغربية بباريز في 7محرم 14( 1404أكتوبر .)1983\nوقعه بالعطف:\nالوزير األول:\nاالمضاء :المعطى بوعبيد.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

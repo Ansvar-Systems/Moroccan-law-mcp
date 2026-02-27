@@ -1,0 +1,36 @@
+{
+  "id": "ma-adala-administrative-6792",
+  "type": "statute",
+  "title": "مرسوم يتعلق بتحديد تأليف فوج المدعوين للخدمة العسكرية عن سنة 1995 وعدد افراد هذا الفوج وكذا تاريخ استدعائهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيحدد عدد افراد فوج المدعوين للخدمة العسكرية خالل سنة 1995بخمسة آالف\nوأربعمائة وعشرين (.)5420"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيتألف هذا الفوج من شبان تتراوح أعمارهم بين 18و 28سنة ويتوفر لهم مستوى تعليم\nعام ال يقل عن مستوى شهادة الدروس االبتدائية."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ة\nيحدد تاريخ استدعاء هذا الفوج بفاتح يناير .1995"
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ة\nينشر هذا المرسوم في الجريدة الرسمية.\nوحرر بالرباط في 25من محرم 5( 1415يوليو .)1994\nاالمضاء :عبد اللطيف الفياللي.\n\n - 1الجريدة الرسمية عدد 4264بتاريخ 10صفر 20( 1415يوليو ،)1994ص .1157\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

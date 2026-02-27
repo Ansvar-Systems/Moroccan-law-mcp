@@ -67,8 +67,57 @@ export interface ParseResult {
   skip_reason?: string;
 }
 
-const ARTICLE_HEADING = /(?:^|[\n\r]|[«"“”]\s*)(?:ARTICLE|Article|ART\.?|Artic[ecll]{1,5})(?:\s+)(premier|PREMIER|1er|unique|UNIQUE|[0-9]+(?:\s*[-–—]\s*[0-9]+)?(?:\s+(?:bis|ter|quater))?)(?:\s*[:.\-–—])?/g;
-const CHAPTER_HEADING = /(?:^|\n)\s*(CHAPITRE\s+[A-Z0-9IVX\-]+[^\n]*|Chapitre\s+[A-Za-z0-9IVX\-]+[^\n]*|TITRE\s+[A-Z0-9IVX\-]+[^\n]*|Titre\s+[A-Za-z0-9IVX\-]+[^\n]*|SECTION\s+[A-Z0-9IVX\-]+[^\n]*|Section\s+[A-Za-z0-9IVX\-]+[^\n]*)/g;
+// French article headings (existing)
+const ARTICLE_HEADING_FR = /(?:^|[\n\r]|[«”””]\s*)(?:ARTICLE|Article|ART\.?|Artic[ecll]{1,5})(?:\s+)(premier|PREMIER|1er|unique|UNIQUE|[0-9]+(?:\s*[-–—]\s*[0-9]+)?(?:\s+(?:bis|ter|quater))?)(?:\s*[:.\-–—])?/g;
+
+// Arabic ordinal words used in Moroccan legal texts for article numbering.
+// These map to numbers 1-12 and special terms (unique, preliminary).
+// Note: bidi control characters are stripped in normalizeSourceText() so
+// the regex does not need to account for them.
+const AR_ORDINALS_PATTERN = [
+  'الأول|األول|الأولى|األولى',   // 1st (masc/fem, with/without hamza)
+  'الثاني|الثانية',             // 2nd
+  'الثالث|الثالثة',             // 3rd
+  'الرابع|الرابعة',             // 4th
+  'الخامس|الخامسة',            // 5th
+  'السادس|السادسة',            // 6th
+  'السابع|السابعة',             // 7th
+  'الثامن|الثامنة',             // 8th
+  'التاسع|التاسعة',             // 9th
+  'العاشر|العاشرة',             // 10th
+  'الحادي عشر|الحادية عشرة',    // 11th
+  'الثاني عشر|الثانية عشرة',    // 12th
+  'الفريد|الفريدة|الوحيد|الوحيدة', // unique
+  'التمهيدي|التمهيدية',          // preliminary
+].join('|');
+
+// Arabic article headings:
+//   المادة (al-madda = Article) — used in most Moroccan statutes
+//   الفصل (al-fasl = Chapter/Article) — used in the Penal Code and older dahirs
+// Captures Arabic ordinals, Arabic-Eastern numerals, or Western numerals.
+const ARTICLE_HEADING_AR = new RegExp(
+  `(?:^|[\\n\\r])\\s*(?:المادة|الفصل)\\s+(${AR_ORDINALS_PATTERN}|[\\u0660-\\u0669]+|[0-9]+(?:\\s*[-–—]\\s*[0-9]+)?(?:\\s+(?:مكرر|مكررة))?)(?:\\s*[:.\u060C\\-–—])?`,
+  'g',
+);
+
+// Arabic structural headings (chapters/titles/parts/sections):
+//   الباب (al-bab = Part/Title)
+//   القسم (al-qism = Section/Division)
+//   الفرع (al-far' = Sub-section/Branch)
+//   الكتاب (al-kitab = Book)
+const CHAPTER_HEADING_AR = /(?:^|\n)\s*((?:الباب|القسم|الفرع|الكتاب)\s+[^\n]{1,120})/g;
+
+const CHAPTER_HEADING_FR = /(?:^|\n)\s*(CHAPITRE\s+[A-Z0-9IVX\-]+[^\n]*|Chapitre\s+[A-Za-z0-9IVX\-]+[^\n]*|TITRE\s+[A-Z0-9IVX\-]+[^\n]*|Titre\s+[A-Za-z0-9IVX\-]+[^\n]*|SECTION\s+[A-Z0-9IVX\-]+[^\n]*|Section\s+[A-Za-z0-9IVX\-]+[^\n]*)/g;
+
+// Combined heading finders used by the parser.
+const ARTICLE_HEADING = new RegExp(
+  `${ARTICLE_HEADING_FR.source}|${ARTICLE_HEADING_AR.source}`,
+  'g',
+);
+const CHAPTER_HEADING = new RegExp(
+  `${CHAPTER_HEADING_FR.source}|${CHAPTER_HEADING_AR.source}`,
+  'g',
+);
 
 export const SOURCE_DOCUMENTS: SourceDocument[] = [
   {
@@ -517,15 +566,55 @@ function normalizeSourceText(text: string): string {
     .replace(/\r/g, '')
     .replace(/\f/g, '\n')
     .replace(/\u00a0/g, ' ')
+    // Strip Unicode bidi control characters that pdftotext injects around LTR/RTL runs.
+    // These interfere with regex matching but carry no semantic meaning in extracted text.
+    .replace(/[\u200E\u200F\u202A\u202B\u202C\u202D\u202E\u2066\u2067\u2068\u2069]/g, '')
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
 
+/** Convert Arabic-Eastern numerals (٠-٩) to Western digits (0-9). */
+function easternToWestern(input: string): string {
+  return input.replace(/[\u0660-\u0669]/g, (ch) => String(ch.charCodeAt(0) - 0x0660));
+}
+
+/** Map of Arabic ordinal words to their numeric equivalents. */
+const AR_ORDINAL_MAP: Record<string, string> = {
+  'الأول': '1', 'األول': '1', 'الأولى': '1', 'األولى': '1',
+  'الثاني': '2', 'الثانية': '2',
+  'الثالث': '3', 'الثالثة': '3',
+  'الرابع': '4', 'الرابعة': '4',
+  'الخامس': '5', 'الخامسة': '5',
+  'السادس': '6', 'السادسة': '6',
+  'السابع': '7', 'السابعة': '7',
+  'الثامن': '8', 'الثامنة': '8',
+  'التاسع': '9', 'التاسعة': '9',
+  'العاشر': '10', 'العاشرة': '10',
+  'الحادي عشر': '11', 'الحادية عشرة': '11',
+  'الثاني عشر': '12', 'الثانية عشرة': '12',
+  'الفريد': 'unique', 'الفريدة': 'unique',
+  'الوحيد': 'unique', 'الوحيدة': 'unique',
+  'التمهيدي': 'preliminary', 'التمهيدية': 'preliminary',
+};
+
 function normalizeSection(sectionRaw: string): string {
-  const cleaned = sectionRaw.replace(/\s+/g, ' ').trim();
+  // Strip Unicode bidi control characters before processing.
+  const stripped = sectionRaw.replace(/[\u200E\u200F\u202A\u202B\u202C\u202D\u202E]/g, '');
+  const cleaned = stripped.replace(/\s+/g, ' ').trim();
+
+  // French ordinals.
   if (/^(premier|1er)$/i.test(cleaned)) return '1';
-  return cleaned.replace(/\s+/g, '').replace(/[–—]/g, '-');
+
+  // Arabic ordinals.
+  const ordinalValue = AR_ORDINAL_MAP[cleaned];
+  if (ordinalValue) return ordinalValue;
+
+  // Convert any Arabic-Eastern numerals to Western.
+  const westernized = easternToWestern(cleaned);
+  // Handle Arabic "مكرر" / "مكررة" (bis equivalent).
+  const withBis = westernized.replace(/\s*مكرر[ةه]?\s*/g, 'bis');
+  return withBis.replace(/\s+/g, '').replace(/[–—]/g, '-');
 }
 
 function findStartIndex(text: string, doc: SourceDocument): number {
@@ -575,7 +664,10 @@ function findChapter(text: string, articleStart: number): string | undefined {
   const before = text.slice(windowStart, articleStart);
   const headings = [...before.matchAll(CHAPTER_HEADING)];
   if (headings.length === 0) return undefined;
-  return headings[headings.length - 1][1].trim();
+  // Combined regex has two capture groups: [1] = French heading, [2] = Arabic heading.
+  const lastMatch = headings[headings.length - 1];
+  const heading = lastMatch[1] ?? lastMatch[2];
+  return heading?.trim();
 }
 
 function cleanupArticleContent(content: string): string {
@@ -656,10 +748,12 @@ export function parseOfficialDocument(doc: SourceDocument, rawText: string): Par
     const current = articleMatches[i];
     const next = articleMatches[i + 1];
 
-    const sectionRaw = current[1];
+    // Combined regex has two capture groups: [1] = French section, [2] = Arabic section.
+    const sectionRaw = current[1] ?? current[2];
     if (!sectionRaw) continue;
 
     const section = normalizeSection(sectionRaw);
+    const isArabicSource = !current[1] && !!current[2];
     const articleStart = current.index ?? 0;
     const bodyStart = articleStart + current[0].length;
     const bodyEnd = next ? (next.index ?? sliced.length) : sliced.length;
@@ -673,7 +767,7 @@ export function parseOfficialDocument(doc: SourceDocument, rawText: string): Par
       provision_ref: provisionRef,
       chapter: findChapter(sliced, articleStart),
       section,
-      title: `Article ${section}`,
+      title: isArabicSource ? `المادة ${section}` : `Article ${section}`,
       content: body,
     });
 

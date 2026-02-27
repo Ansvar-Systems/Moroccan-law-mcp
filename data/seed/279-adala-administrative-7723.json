@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-7723",
+  "type": "statute",
+  "title": "مرسوم بتحديد تاريخ الرجوع الى الساعة القانونية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينسخ المرسوم رقم 2.78.252الصادر في 18من جمادي اآلخرة 1398\n( 26مايو )1978بتغيير الساعة القانونية."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 25من شعبان ( 1398فاتح غشت .)1978\nالوزير األول،\nاالمضاء :أحمد عصمان.\n\n - 1الجريدة الرسمية عدد 3431بتاريخ 26شعبان 2( 1398غشت ،)1978ص .2064\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

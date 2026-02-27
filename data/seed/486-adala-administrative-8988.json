@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8988",
+  "type": "statute",
+  "title": "مرسوم ملكي بإصدار سلسلة طوابع بريدية خاصة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار سلسلة خاصة لطابعين بريديين من فئة 0،25درهم ودرهم واحد بمناسبة\nتدشين فندق هيلتون -الرباط"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ مرسومنا الملكي هذا الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 14محرم 25( 1387أبريل .)1967\nاإلمضاء :الحسن بن محمد.\n\n -1الجريدة الرسمية عدد 2844بتاريخ 22محرم 3( 1387مايو ،)1967ص .876\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

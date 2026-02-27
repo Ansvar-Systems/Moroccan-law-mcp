@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-7410",
+  "type": "statute",
+  "title": "مرسوم رقم 2.84.215 بتغيير الساعة القانونية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 11من جمادى اآلخرة 15( 1404مارس .)1984\nاالمضاء :محمد كريم العمراني.\n\n - 1الجريدة الرسمية عدد 3725بتاريخ 17جمادى اآلخرة 21( 1404مارس ،)1984ص.326\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

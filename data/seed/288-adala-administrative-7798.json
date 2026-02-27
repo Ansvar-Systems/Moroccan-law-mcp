@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-7798",
+  "type": "statute",
+  "title": "مرسوم بتغيير الساعة القانونية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 27من جمادى األولى 25( 1399ابريل )1979\nالوزير األول،\nاالمضاء :المعطى بوعبيد.\n\n - 1الجريدة الرسمية عدد 3469بتاريخ 27جمادى األولى 25( 1399أبريل ،)1979ص.1203\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

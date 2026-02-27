@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8170",
+  "type": "statute",
+  "title": "مرسوم بإصدار طابع بریدي خاص",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار طابع بريدي ثان خاص من فئة 0،50درهم يحمل عنوان «المهرجان\nالدولي للفولكلور بمراكش»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 9شوال 27( 1391نونبر .)1971\nالوزير األول،\nاإلمضاء :محمد كريم العمراني.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون،\nاإلمضاء :الجنرال ادريس بن عمر العلمي.\n\n -1الجريدة الرسمية عدد 3084بتاريخ 20شوال 8( 1391دجنبر ،)1971ص .3096\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

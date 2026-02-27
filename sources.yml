@@ -54,6 +54,22 @@ sources:
       - "fr"
       - "ar"
 
+  - name: "Adala (Ministry of Justice legal database)"
+    authority: "Ministère de la Justice"
+    official_portal: "https://adala.justice.gov.ma"
+    retrieval_method: "Next.js __NEXT_DATA__ extraction + PDF_DOWNLOAD + PDFTOTEXT"
+    update_frequency: "periodic"
+    last_ingested: "2026-02-27"
+    license_or_terms:
+      type: "Official government publication terms"
+      url: "https://adala.justice.gov.ma"
+      summary: "Primary Moroccan legal corpus published by the Ministry of Justice. 3,858 PDFs across 36+ folders covering civil, commercial, criminal, family, administrative, electronic, labor, constitutional, and organic laws."
+    coverage:
+      scope: "Full Moroccan legal corpus: civil, commercial, criminal, family, administrative, electronic, labor, constitutional, organic laws"
+      limitations: "PDFs are Arabic-only; text extraction via pdftotext. Image-only PDFs are skipped."
+    languages:
+      - "ar"
+
 data_freshness:
   automated_checks: true
   check_frequency: "weekly"

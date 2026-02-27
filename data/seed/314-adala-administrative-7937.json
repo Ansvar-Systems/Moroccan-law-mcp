@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-7937",
+  "type": "statute",
+  "title": "مرسوم بإصدار طابع بریدي خاص",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار طابع بريدي خاص من فئة 1،00درهم يحمل عنوان «الذكرى الخامسة\nوالعشرون لالتحاد البريدي العربي»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والمواصالت السلكية والالسلكية تنفيذ هذا المرسوم الذي ينشر\nبالجريدة الرسمية.\nوحرر بالرباط في 11رمضان 27( 1397غشت .)1977\nالوزير األول،\nاإلمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والمواصالت السلكية والالسلكية،\nاإلمضاء :الجنرال إدريس بن عمر العلمي.\n\n -1الجريدة الرسمية عدد 3389بتاريخ 28شوال 12( 1397أكتوبر ،(1977ص .2896\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}
