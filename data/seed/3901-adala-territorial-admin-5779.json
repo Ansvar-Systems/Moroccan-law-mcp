@@ -1,0 +1,30 @@
+{
+  "id": "ma-adala-territorial-admin-5779",
+  "type": "statute",
+  "title": "مرسوم بتحديد عدد أعضاء مجالس العمالات والأقاليم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/905",
+  "description": "Discovered from Adala portal, folder: territorial-admin (مادة الجماعات الترابية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيحدد في الجدول الملحق بهذا المرسوم عدد أعضاء مجالس العماالت واألقاليم."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينسخ المرسوم رقم 2.97.235المؤرخ في 14من صفر 20( 1418يونيو )1997\nبتحديد عدد المقاعد بمجالس العماالت واألقاليم."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ة\nيسند إلى وزير الداخلية تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية.\nوحرر بالرباط في 13من رجب 10( 1424سبتمبر .)2003\nاإلمضاء :إدريس جطو.\nوقعه بالعطف:\nوزير الداخلية،\nاإلمضاء :المصطفى ساهل.\n\n -1الجريدة الرسمية عدد 5142بتاريخ 14رجب 11( 1424سبتمبر ،)2003ص .3201\n3\n\n4"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

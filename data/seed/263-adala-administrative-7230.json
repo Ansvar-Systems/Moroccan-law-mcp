@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-7230",
+  "type": "statute",
+  "title": "مرسوم بتفويض بعض السلط الى الامين العام للحكومة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى االمين العام للحكومة تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 9صفر 15( 1404نونبر .)1983\nاإلمضاء :المعطي بوعبيد.\nوقعه بالعطف:\nاالمين العام للحكومة.\nاالمضاء :عباس القيسي.\n\n - 1الجريدة الرسمية عدد 3707صادرة بتاريخ 10صفر 16 ( 1404نونبر ،)1983ص .1594\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

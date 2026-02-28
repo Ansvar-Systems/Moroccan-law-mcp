@@ -1,0 +1,30 @@
+{
+  "id": "ma-adala-press-8730",
+  "type": "statute",
+  "title": "قرار لوزيرة الاقتصاد والمالية رقم 3109.21 بتحديد لائحة الجرائد المخول لها نشر الإعلانات القانونية المنصوص عليها في المادة 30 من القانون رقم 44.12 المتعلق بدعوة الجمهور إلى الاكتتاب وبالمعلومات المطلوبة إلى الأشخاص المعنوية والهيئات التي تدعو الجمهور إلى الاكتتاب في أسهمها أو سنداتها",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/801",
+  "description": "Discovered from Adala portal, folder: press (مادة الصحافة).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nتطبيقا ألحكام المادة 30من القانون المشار إليه أعاله رقم ،44.12تحدد الئحة الجرائد\nالمخول لها نشر اإلعالنات القانونية على النحو التالي:\n -1العلم؛\n -2االتحاد االشتراكي؛\n -3رسالة األمة؛\n -4بيان اليوم؛\n -1الجريدة الرسمية عدد 7048بتاريخ 11جمادى األولى 16( 1443ديسمبر ،)2021ص .10280\n-1-\n\nAl Bayane -5؛\nLa Vie économique -6؛\nL'Economiste -7؛\nLe Matin -8؛\nLibération -9؛\nL'Opinion -10؛\nLa Nouvelle Tribune -11؛\nFinances News -12؛\nLe Reporter -13؛\nMaroc Hebdo -14؛\nLa vérité -15؛\nAujourd'hui le Maroc -16؛\nLes Inspirations éco -17؛\nChallenge Hebdo -18؛\nMedias 24 web -19؛\nFnh.ma web -20؛\nLa Quotidienne.ma web -21؛\nBoursenews.ma web -22؛\n.Telquel -23"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينسخ قرار وزير االقتصاد والمالية وإصالح اإلدارة رقم 4195.19الصادر في\n 4من جمادى األولى 31( 1441ديسمبر )2019بتحديد الئحة جرائد اإلعالنات القانونية\nالمنصوص عليها في المادة 30من القانون رقم 44.12المتعلق بدعوة الجمهور إلى االكتتاب\nوبالمعلومات المطلوبة إلى األشخاص المعنوية والهيئات التي تدعو الجمهور إلى االكتتاب في\nأسهمها أو سنداتها.\n\n-2-"
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ة\nينشر هذا القرار في الجريدة الرسمية.\nوحرر بالرباط في 27من ربيع األول 3( 1443نوفمبر .)2021\nاإلمضاء :نادية فتاح.\n\n-3-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

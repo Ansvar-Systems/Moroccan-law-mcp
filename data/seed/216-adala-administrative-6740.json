@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-6740",
+  "type": "statute",
+  "title": "ظهير شريف بتخويل الوزير الأول صلاحية تكليف أعضاء الحكومة القيام مقام زملائهم الذين يتغيبون أو يحول مانع بينهم وبين مزاولة مهام منصبهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nللوزير األول أن يكلف أعضاء الحكومة القيام مقام زمالئهم الذين يتغيبون أو يحول مانع\nبينهم وبين مزاولة مهام منصبهم."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر ظهيرنا الشريف هذا في الجريدة الرسمية.\nوحرر بالرباط في 23من ربيع اآلخر 21( 1413أكتوبر.)1992\nوقعه بالعطف:\nالوزير األول،\nاالمضاء :محمد كريم العمراني.\n\n - 1الجريدة الرسمية عدد 4175بتاريخ 8جمادى األولى 4( 1413نوفمبر ،)1992ص .1456\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

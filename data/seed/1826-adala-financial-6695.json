@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-financial-6695",
+  "type": "statute",
+  "title": "مرسوم بتفويض السلطة إلى وزير المالية فيما يتعلق باصدار الاقتراضات الداخلية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/829",
+  "description": "Discovered from Adala portal, folder: financial (المادة المالية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيفوض إلى وزير المالية سلطة تحديد شروط اصدار االقتراضات الداخلية لتغطية مجموع\nتكاليف الخزينة خالل سنة .1993"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيسند إلى وزير المالية تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية.\nوحرر بالرباط في 4رجب 29( 1413ديسمبر .)1992\nاالمضاء :محمد كريم العمراني.\nوقعه بالعطف:\nوزير المالية،\nاالمضاء :محمد برادة.\n\n - 1الجريدة الرسمية عدد 4183بتاريخ 5رجب 30( 1413ديسمبر ،)1992ص .1929\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

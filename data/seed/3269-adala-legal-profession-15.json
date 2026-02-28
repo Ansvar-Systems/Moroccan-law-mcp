@@ -1,0 +1,12 @@
+{
+  "id": "ma-adala-legal-profession-15",
+  "type": "statute",
+  "title": "قائمة المحامين المؤهلين لتحرير العقود برسم سنة 2021",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/907",
+  "description": "Discovered from Adala portal, folder: legal-profession (مهنة المحاماة).",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

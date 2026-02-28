@@ -1,0 +1,12 @@
+{
+  "id": "ma-adala-criminal-90",
+  "type": "statute",
+  "title": "القانون المتعلق بالمسطرة الجنائية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/21",
+  "description": "Discovered from Adala portal, folder: criminal (القانون الجنائي).",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "Source fetch failed: terminated"
+}

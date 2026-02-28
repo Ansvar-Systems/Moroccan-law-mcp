@@ -24,17 +24,69 @@ const OBFUSCATED_LAW_NUMBERS = new Set(['09-08', '53-05']);
 // --- Adala (Ministry of Justice) configuration ---
 const ADALA_BASE_URL = 'https://adala.justice.gov.ma';
 
-/** Priority folder IDs on the Adala portal with their legal domain labels. */
+/** All Moroccan domestic law folders on the Adala portal.
+ * Discovered 2026-02-28 via VPN-based folder enumeration.
+ * Excludes: comparative foreign law folders, year archives, royal speeches,
+ * guides/reports, and parent folders with 0 PDFs. */
 const ADALA_FOLDERS: Array<{ id: number; domain: string; domainAr: string }> = [
-  { id: 19,  domain: 'civil',          domainAr: 'القانون المدني' },
-  { id: 20,  domain: 'commercial',     domainAr: 'القانون التجاري' },
-  { id: 21,  domain: 'criminal',       domainAr: 'القانون الجنائي' },
-  { id: 22,  domain: 'family',         domainAr: 'قانون الأسرة' },
-  { id: 26,  domain: 'administrative', domainAr: 'القانون الإداري' },
-  { id: 37,  domain: 'electronic',     domainAr: 'القانون الإلكتروني' },
-  { id: 57,  domain: 'labor',          domainAr: 'قانون الشغل' },
-  { id: 568, domain: 'constitutional', domainAr: 'القانون الدستوري' },
-  { id: 896, domain: 'organic-laws',   domainAr: 'القوانين التنظيمية' },
+  // Core legal domains (original 9)
+  { id: 3,   domain: 'judicial-org',       domainAr: 'التنظيم القضائي' },           // 18 PDFs
+  { id: 10,  domain: 'ministry-org',       domainAr: 'التنظيم الهيكلي للوزارة' },    // 16 PDFs
+  { id: 14,  domain: 'finance-laws',       domainAr: 'قوانين المالية' },             // 49 PDFs
+  { id: 19,  domain: 'civil',              domainAr: 'المادة المدنية' },             // 19 PDFs
+  { id: 20,  domain: 'commercial',         domainAr: 'المادة التجارية' },            // 91 PDFs
+  { id: 21,  domain: 'criminal',           domainAr: 'المادة الجنائية' },            // 48 PDFs
+  { id: 22,  domain: 'family',             domainAr: 'المادة الأسرية' },             // 14 PDFs
+  { id: 24,  domain: 'rental',             domainAr: 'المادة الكرائية' },            // 7 PDFs
+  { id: 25,  domain: 'real-estate',        domainAr: 'المادة العقارية' },            // 92 PDFs
+  { id: 26,  domain: 'administrative',     domainAr: 'المادة الإدارية' },            // 480 PDFs
+  { id: 29,  domain: 'tax',               domainAr: 'المادة الجبائية' },            // 14 PDFs
+  { id: 31,  domain: 'industry-economy',   domainAr: 'مادة الصناعة والاقتصاد والاستثمار' }, // 316 PDFs
+  { id: 32,  domain: 'religious-affairs',   domainAr: 'مادة الشؤون الدينية والإسلامية' },   // 47 PDFs
+  { id: 33,  domain: 'security',           domainAr: 'المادة الأمنية' },             // 106 PDFs
+  { id: 34,  domain: 'education',          domainAr: 'مادة التربية والتعليم' },       // 262 PDFs
+  { id: 35,  domain: 'rights-freedoms',    domainAr: 'مادة الحقوق والحريات' },       // 25 PDFs
+  { id: 37,  domain: 'electronic',         domainAr: 'مادة المعاملات الالكترونية' },   // 24 PDFs
+  { id: 41,  domain: 'electoral',          domainAr: 'المادة الإنتخابية' },           // 76 PDFs
+  { id: 43,  domain: 'health-social',      domainAr: 'مادة المنظومة الصحية والحماية الاجتماعية' }, // 190 PDFs
+  { id: 45,  domain: 'health-emergency',   domainAr: 'حالة الطوارئ الصحية' },        // 34 PDFs
+  { id: 46,  domain: 'environmental',      domainAr: 'المادة البيئية' },             // 102 PDFs
+  { id: 47,  domain: 'maritime-fishing',   domainAr: 'مادة الصيد البحري' },          // 84 PDFs
+  { id: 57,  domain: 'labor',              domainAr: 'المادة الاجتماعية' },           // 88 PDFs
+  { id: 59,  domain: 'insurance-pension',  domainAr: 'مادة التأمين و التقاعد' },      // 79 PDFs
+  { id: 60,  domain: 'culture-tourism',    domainAr: 'مادة الثقافة والسياحة والتراث' }, // 102 PDFs
+  { id: 61,  domain: 'audiovisual',        domainAr: 'المادة السمعية البصرية' },      // 47 PDFs
+  { id: 568, domain: 'constitutional',     domainAr: 'دساتير المملكة' },             // 6 PDFs
+  { id: 588, domain: 'legislative-power',  domainAr: 'السلطة التشريعية' },           // 28 PDFs
+  { id: 590, domain: 'judicial-power',     domainAr: 'السلطة القضائية' },            // 35 PDFs
+  { id: 596, domain: 'executive-power',    domainAr: 'السلطة التنفيذية' },           // 19 PDFs
+  { id: 800, domain: 'social-institutions', domainAr: 'مؤسسات الأعمال الإجتماعية للقطاعات الحكومية' }, // 24 PDFs
+  { id: 801, domain: 'press',              domainAr: 'مادة الصحافة' },               // 27 PDFs
+  { id: 829, domain: 'financial',          domainAr: 'المادة المالية' },             // 577 PDFs
+  { id: 867, domain: 'food-safety',        domainAr: 'مادة السلامة الصحية والغدائية' }, // 63 PDFs
+  { id: 869, domain: 'agriculture',        domainAr: 'مادة الفلاحة' },               // 128 PDFs
+  { id: 871, domain: 'road-transport',     domainAr: 'النقل عبر الطرق' },            // 57 PDFs
+  { id: 872, domain: 'air-sea-transport',  domainAr: 'النقل الجوي و البحري' },       // 38 PDFs
+  { id: 896, domain: 'organic-laws',       domainAr: 'القوانين التنظيمية' },          // 2 PDFs
+  { id: 898, domain: 'energy',             domainAr: 'مادة الطاقة' },               // 50 PDFs
+  { id: 899, domain: 'govt-sector-org',    domainAr: 'مادة اختصاصات وتنظيم القطاعات الحكومية والمؤسساتية' }, // 127 PDFs
+  { id: 905, domain: 'territorial-admin',  domainAr: 'مادة الجماعات الترابية' },      // 92 PDFs
+  { id: 906, domain: 'artisanal',          domainAr: 'مادة الصناعة التقليدية' },      // 16 PDFs
+  // Legal professions
+  { id: 907, domain: 'legal-profession',   domainAr: 'مهنة المحاماة' },              // 7 PDFs
+  { id: 908, domain: 'notarial',           domainAr: 'مهنة التوثيق' },              // 7 PDFs
+  { id: 909, domain: 'adoul',              domainAr: 'مهنة خطة العدالة' },           // 7 PDFs
+  { id: 910, domain: 'judicial-officers',  domainAr: 'مهنة المفوضين القضائيين' },     // 5 PDFs
+  { id: 911, domain: 'judicial-experts',   domainAr: 'الخبراء القضائيون' },           // 5 PDFs
+  { id: 912, domain: 'court-translators',  domainAr: 'مهنة التراجمة المقبولين لدى المحاكم' }, // 4 PDFs
+  { id: 913, domain: 'copiers',            domainAr: 'مهنة النساخة' },               // 3 PDFs
+  // International treaties (Moroccan ratifications)
+  { id: 874, domain: 'hr-conventions',     domainAr: 'اتفاقيات حقوق الإنسان' },      // 22 PDFs
+  { id: 875, domain: 'geneva-conventions', domainAr: 'اتفاقيات جنيف' },              // 14 PDFs
+  { id: 879, domain: 'regional-treaties',  domainAr: 'اتفاقيات إقليمية' },            // 32 PDFs
+  { id: 880, domain: 'intl-treaties',      domainAr: 'اتفاقيات دولية' },             // 74 PDFs
+  // Banking & financial regulation
+  { id: 969, domain: 'bank-al-maghrib',    domainAr: 'بنك المغرب' },                // 13 PDFs
 ];
 
 /** Shape of a file entry inside Adala __NEXT_DATA__ pageProps.content.files[]. */

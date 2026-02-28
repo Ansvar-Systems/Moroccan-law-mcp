@@ -1,0 +1,30 @@
+{
+  "id": "ma-adala-executive-power-8196",
+  "type": "statute",
+  "title": "ظهير شريف بانتهاء مهام الحكومة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/596",
+  "description": "Discovered from Adala portal, folder: executive-power (السلطة التنفيذية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "تنتهي ابتداء من 4غشت 1971مهام الحكومة المؤلفة بموجب المرسوم الملكي رقم\n 555.67المشار إليه أعاله المؤرخ في 8شعبان 11( 1387نونبر.)1967"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يستمر أعضاء الحكومة المشار إليها في الفصل السابق في القيام بمهامهم إلى أن يتم تعيين\nالحكومة الجديدة."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ينشر ظهيرنا الشريف هذا بالجريدة الرسمية.\nوحرر بالرباط في 12جمادى الثانية 4( 1391غشت .)1971\n\n -1الجريدة الرسمية عدد 3068بتاريخ 26جمادی الثانية 18( 1391غشت ،)1971ص .1918\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

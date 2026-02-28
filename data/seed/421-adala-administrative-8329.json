@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8329",
+  "type": "statute",
+  "title": "مرسوم بإصدار طابع بریدي خاص",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار طابع بريدي خاص من فئة 0،60درهم يحمل عنوان «جامع السنة»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يعهد إلى وزير البريد والبرق والتليفون بتنفيذ مرسومنا هذا الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 5شعبان 7( 1390أكتوبر .)1970\nاإلمضاء :الحسن بن محمد.\n\n -1الجريدة الرسمية عدد 3028بتاريخ 11رمضان 11( 1390نونبر ،)1970ص .2827\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

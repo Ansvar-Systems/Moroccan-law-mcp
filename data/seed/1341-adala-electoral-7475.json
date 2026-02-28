@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-electoral-7475",
+  "type": "statute",
+  "title": "مرسوم يتعلق باختتام الدورة الاستثنائية لمجلس النواب",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/41",
+  "description": "Discovered from Adala portal, folder: electoral (المادة الإنتخابية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 17من شوال 28( 1403يوليوز .)1983\nاالمضاء :المعطي بوعبيد.\n\n - 1الجريدة الرسمية عدد 3691مكرر صادرة بتاريخ 19شوال 30 ( 1403يوليوز ،)1983ص .1142\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

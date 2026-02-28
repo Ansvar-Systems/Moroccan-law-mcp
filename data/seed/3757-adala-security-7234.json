@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-security-7234",
+  "type": "statute",
+  "title": "مرسوم بتحديد فوج المدعوين لأداء الخدمة العسكرية خلال سنة 1985 وعدد أفراد هذا الفوج وتاريخ دعوتهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/33",
+  "description": "Discovered from Adala portal, folder: security (المادة الأمنية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يتألف هذا الفوج من شبان تتراوح أعمارهم بين 18و 28سنة وال يقل مستوى التعليم\nالعام الحاصلين عليه عن مستوى شهادة الدروس االبتدائية."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ينشر هذا المرسوم في الجريدة الرسمية.\nوحرر بالرباط في 17من شوال 16( 1404يوليو )1984\nاالمضاء :محمد كريم العمراني\n\n - 1الجريدة الرسمية عدد 3744بتاريخ 3ذي القعدة (1404فاتح أغسطس ،)1984ص.790\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

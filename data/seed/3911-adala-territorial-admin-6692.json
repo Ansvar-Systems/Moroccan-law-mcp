@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-territorial-admin-6692",
+  "type": "statute",
+  "title": "مرسوم بتحديد عدد اعضاء مجالس العمالات والأقاليم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/905",
+  "description": "Discovered from Adala portal, folder: territorial-admin (مادة الجماعات الترابية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيحدد فيما يلي عدد المقاعد بمجالس العماالت واألقاليم:\n\n - 1الجريدة الرسمية عدد 4183بتاريخ 5رجب 30( 1413ديسمبر )1992ص .1928\n3\n\n4"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-financial-7722",
+  "type": "statute",
+  "title": "مرسوم بمنح ضمان الدولة للقرض البالغ قدره 19.975.000 دولار أمريكي الممنوح للشركة الوطنية للخطوط الملكية المغربية من لدن مؤسستى: (Private Export Fundind Corporation) (Export Import Bank Of The United States)",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/829",
+  "description": "Discovered from Adala portal, folder: financial (المادة المالية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند الى وزير المالية تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 20من شعبان 27( 1398يوليوز .)1978\nالوزير األول،\nاالمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير المالية،\nاالمضاء :عبد اللطيف الغيساسي.\n - 1الجريدة الرسمية عدد 3439بتاريخ 24شوال 27( 1398شتنبر ،)1978ص .2495\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

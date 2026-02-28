@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-7105",
+  "type": "statute",
+  "title": "مرسوم تفوض بموجبه إلى وزير المالية سلطة القيام بالاقتراضات الداخلية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nتفوض إلى وزير المالية سلطة تحديد شروط إصدار االقتراضات الداخلية لتغطية جميع\nتكاليف الخزينة خالل سنة .1989"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيسند إلى وزير المالية تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية.\nوحرر بالرباط في 18من جمادى األولى 28( 1409ديسمبر .)1988\nاالمضاء :الدكتور عز الدين العراقي.\nوقعه بالعطف:\nوزير المالية،\nاالمضاء :محمد برادة.\n\n - 1الجريدة الرسمية عدد 3974صادرة بتاريخ 18جمادى األولى 28( 1409ديسمبر ،)1988ص .1285\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-executive-power-7931",
+  "type": "statute",
+  "title": "ظهير شريف يتعلق بانتهاء مهام الحكومة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/596",
+  "description": "Discovered from Adala portal, folder: executive-power (السلطة التنفيذية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "تنتهي ابتداء من 20نونبر 1972مهام الحكومة المؤلفة بمقتضى الظهير الشريف رقم\n 1.72.109المشار اليه أعاله المؤرخ في 28صفر 13( 1392أبريل .)1972"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر ظهيرنا الشريف هذا بالجريدة الرسمية.\nوحرر بالرباط في 13شوال 20( 1392نونبر .)1972\n\n - 1الجريدة الرسمية عدد 3138بتاريخ 13ذو القعدة 20( 1392دجنبر ،)1972ص .3294\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

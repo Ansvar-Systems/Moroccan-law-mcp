@@ -320,7 +320,7 @@ function buildDatabase(): void {
   db.exec(SCHEMA);
 
   const insertDoc = db.prepare(`
-    INSERT INTO legal_documents (id, type, title, title_en, short_name, status, issued_date, in_force_date, url, description)
+    INSERT OR IGNORE INTO legal_documents (id, type, title, title_en, short_name, status, issued_date, in_force_date, url, description)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
 
@@ -368,12 +368,21 @@ function buildDatabase(): void {
   let totalEuDocuments = 0;
   let totalEuReferences = 0;
   const primaryImplementationByDocument = new Set<string>();
+  const seenIds = new Set<string>();
+  let skippedDuplicates = 0;
 
   const loadAll = db.transaction(() => {
     for (const file of seedFiles) {
       const filePath = path.join(SEED_DIR, file);
       const content = fs.readFileSync(filePath, 'utf-8');
       const seed = JSON.parse(content) as DocumentSeed;
+
+      // Skip duplicate IDs (same document appears in multiple Adala folders)
+      if (seenIds.has(seed.id)) {
+        skippedDuplicates++;
+        continue;
+      }
+      seenIds.add(seed.id);
 
       insertDoc.run(
         seed.id, seed.type ?? 'statute', seed.title, seed.title_en ?? null,
@@ -464,7 +473,8 @@ function buildDatabase(): void {
   const size = fs.statSync(DB_PATH).size;
   console.log(
     `\nBuild complete: ${totalDocs} documents, ${totalProvisions} provisions, ` +
-    `${totalDefs} definitions, ${totalEuDocuments} EU documents, ${totalEuReferences} EU references`
+    `${totalDefs} definitions, ${totalEuDocuments} EU documents, ${totalEuReferences} EU references` +
+    (skippedDuplicates > 0 ? `\n  ${skippedDuplicates} duplicate seeds skipped (cross-categorized in multiple Adala folders)` : '')
   );
   console.log(`Output: ${DB_PATH} (${(size / 1024 / 1024).toFixed(1)} MB)`);
 }

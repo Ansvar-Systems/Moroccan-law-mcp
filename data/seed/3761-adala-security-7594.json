@@ -1,0 +1,30 @@
+{
+  "id": "ma-adala-security-7594",
+  "type": "statute",
+  "title": "مرسوم بتحديد فوج المدعوين للخدمة العسكرية عن سنة 1980 وعدد افراد هذا الفوج وكذا تاريخ استدعائهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/33",
+  "description": "Discovered from Adala portal, folder: security (المادة الأمنية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يتألف هذا الفوج من شبان تتراوح اعمارهم بين 18و 28سنة ويتوفرون على مستوى\nتعليم عام يعادل على االقل شهادة الدروس االبتدائية."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يحدد تاريخ استدعاء هذا الفوج في فاتح يناير .1980"
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في فاتح صفر 21( 1400دجنبر.)1979\nالوزير األول،\nاالمضاء :المعطى بوعبيد.\n\n - 1الجريدة الرسمية عدد 3504بتاريخ 6صفر 26( 1400دجنبر ،)1979ص.3144\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

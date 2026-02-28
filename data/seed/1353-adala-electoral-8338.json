@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-electoral-8338",
+  "type": "statute",
+  "title": "ظهير شريف بتمديد مدة انتداب أعضاء المجالس الجماعية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/41",
+  "description": "Discovered from Adala portal, folder: electoral (المادة الإنتخابية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "تمدد إلى غاية 3أكتوبر 1969مدة انتداب أعضاء المجالس الجماعية المزاولين اآلن\nمهامهم."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير الداخلية تنفيذ ظهيرنا الشريف هذا الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 10جمادى األولى 25( 1389يوليوز .)1969\n\n - 1الجريدة الرسمية عدد 2961بتاريخ 14جمادى األولى 30( 1389يوليوز ،)1969ص .2062\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

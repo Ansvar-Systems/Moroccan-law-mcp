@@ -1,0 +1,30 @@
+{
+  "id": "ma-adala-security-7667",
+  "type": "statute",
+  "title": "مرسوم بتحديد أهمية تأليف فوج المدعوين للخدمة العسكرية عن سنة 1979 وكذا تاريخ استدعائهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/33",
+  "description": "Discovered from Adala portal, folder: security (المادة الأمنية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يتألف هذا الفوج من شبان تتراوح اعمارهم بين 18و 28سنة ويكون لهم مستوى تعليم\nعام يعادل على االقل شهادة الدروس االبتدائية."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يحدد تاريخ استدعاء هذا الفوج في فاتح يناير .1979"
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 28من ذي القعدة 31( 1398اکتوبر .)1978\nالوزير األول،\nاالمضاء :أحمد عصمان.\n\n - 1الجريدة الرسمية عدد 3446بتاريخ 14ذو الحجة 15( 1398نونبر ،)1978ص .2878\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

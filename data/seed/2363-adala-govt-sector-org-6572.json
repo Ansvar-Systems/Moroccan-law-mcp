@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-govt-sector-org-6572",
+  "type": "statute",
+  "title": "ظهير شريف بإقرار الحكومة في مزاولة المهام المنوطة بها",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/899",
+  "description": "Discovered from Adala portal, folder: govt-sector-org (مادة اختصاصات وتنظيم القطاعات الحكومية والمؤسساتية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nتقر الحكومة المعين أعضاؤها بالظهير الشريف المشار إليه أعاله رقم 1.98.38بتاريخ\n 17من ذي القعدة 16( 1418مارس )1998في مزاولة المهام المنوطة بها."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيعمل بظهيرنا الشريف هذا ابتداء من 9ربيع اآلخر 23( 1420يوليو .)1999\nوحرر بالرباط في 22من ربيع اآلخر 5( 1420أغسطس .)1999\n\n -1الجريدة الرسمية عدد 4714بتاريخ 22ربيع اآلخر 5( 1420أغسطس ،)1999ص .1985\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

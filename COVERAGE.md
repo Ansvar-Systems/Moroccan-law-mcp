@@ -1,7 +1,7 @@
 # Coverage Index -- Morocco Law MCP
 
 > Auto-generated from census data. Do not edit manually.
-> Generated: 2026-02-27
+> Generated: 2026-02-28
 
 ## Source
 

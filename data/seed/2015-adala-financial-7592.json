@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-financial-7592",
+  "type": "statute",
+  "title": "مرسوم يتعلق بتفويض السلطة فيما يتعلق بإصدار الاقتراضات الداخلية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/829",
+  "description": "Discovered from Adala portal, folder: financial (المادة المالية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "تفوض إلى وزير المالية سلطة تحديد كيفيات االقتراضات الداخلية المصدرة لتغطية\nمجموع تحمالت الخزينة خالل سنة .1981"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية ويعمل به ابتداء من 25من صفر 1401\n( 2يناير .)1981\nوحرر بالرباط في 23من صفر 31( 1401دجنبر )1980\nاالمضاء :المعطي بوعبيد.\nوقعه بالعطف:\nوزير المالية،\nاالمضاء :عبد الكامل الرغاي.\n\n - 1الجريدة الرسمية 3557بتاريخ 23صفر 31( 1401دجنبر ،)1980ص .1587\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

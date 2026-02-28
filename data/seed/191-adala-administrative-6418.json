@@ -1,0 +1,36 @@
+{
+  "id": "ma-adala-administrative-6418",
+  "type": "statute",
+  "title": "مرسوم بتحديد تأليف فوج المدعوين للخدمة العسكرية عن سنة 1999 وعدد أفراد هذا الفوج وكذا تاريخ استدعائهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيحدد عدد أفراد فوج المدعوين للخدمة العسكرية خالل سنة 1999بخمسة آالف\nوأربعمائة وعشرين (.)5.420"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيتألف هذا الفوج من شبان تتراوح أعمارهم بين 18و 28سنة ويتوفر لهم مستوى تعليم\nعام ال يقل عن مستوى شهادة الدروس االبتدائية."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ة\nيحدد تاريخ استدعاء هذا الفوج في فاتح فبراير .1999"
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ة\nينشر هذا المرسوم في الجريدة الرسمية.\nوحرر بالرباط في 28من محرم 25( 1419ماي .)1998\nاإلمضاء :عبد الرحمن يوسفي.\n\n - 1الجريدة الرسمية عدد 4592بتاريخ 9صفر 4( 1419يونيو ،)1998ص .1687\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-insurance-pension-7732",
+  "type": "statute",
+  "title": "مرسوم بتحديد الشروط التي يمكن بموجبها الاذن في العمل بعد بلوغ سن التقاعد للعسكريين غير الضباط بالقوات المسلحة الملكية الذين يمكنهم شغل بعض المناصب المتخصصة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/59",
+  "description": "Discovered from Adala portal, folder: insurance-pension (مادة التأمين و التقاعد).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يعمل بهذا المرسوم ابتداء من فاتح يناير .1972\nوحرر بالرباط في 23من رجب 19( 1399يونيه .)1979\nالوزير األول ووزيرالعدل،\nاالمضاء :المعطي بوعبيد.\nوقعه بالعطف:\nوزير الشؤون االدارية،\nاالمضاء :المنصوري بن على.\nوزير المالية،\nاالمضاء :عبد الكامل الرغاي.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

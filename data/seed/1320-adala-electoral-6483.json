@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-electoral-6483",
+  "type": "statute",
+  "title": "مرسوم يقضي بانتهاء مدة انتداب أعضاء مجالس العمالات والأقاليم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/41",
+  "description": "Discovered from Adala portal, folder: electoral (المادة الإنتخابية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nتنتهي ابتداء من يوم 14يوليو 1997مدة انتداب أعضاء مجالس العماالت واألقاليم\nالمزاولين مهامهم في التاريخ المذكور."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر هذا المرسوم في الجريدة الرسمية.\nوحرر بالرباط في 26من صفر 2( 1418يوليو.)1997\nاالمضاء :عبد اللطيف الفياللي.\nوقعه بالعطف:\nوزير الدولة في الداخلية،\nاالمضاء :إدريس البصري.\n\n - 1الجريدة الرسمية عدد 4497بتاريخ فاتح ربيع األول 7( 1418يوليو ،)1997ص .1811\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

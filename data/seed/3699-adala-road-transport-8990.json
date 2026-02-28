@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-road-transport-8990",
+  "type": "statute",
+  "title": "مرسوم ملكي يصادق بموجبه على كناش تحملات المكتب الوطني للسكك الحديدية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/871",
+  "description": "Discovered from Adala portal, folder: road-transport (النقل عبر الطرق).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يصادق على كناش تحمالت المكتب الوطني للسكك الحديدية المضاف إلى أصل هذا\nالمرسوم الملكي."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير األ شغال العمومية والمواصالت تنفيذ مرسومنا الملكي هذا الذي ينشر\nبالجريدة الرسمية.\nوحرر بالرباط في 14محرم 25( 1387أبريل .)1967\nاإلمضاء :الحسن بن محمد.\n\n -1الجريدة الرسمية عدد 2844بتاريخ 22محرم 3( 1387مايو ،)1967ص .876\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

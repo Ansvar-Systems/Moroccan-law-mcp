@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-insurance-pension-358",
+  "type": "statute",
+  "title": "القانون القاضي بتطبيق أحكام نظام المعاشات لفائدة أعضاء مجلس النواب على أعضاء مجلس المستشارين (نسخ)",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/59",
+  "description": "Discovered from Adala portal, folder: insurance-pension (مادة التأمين و التقاعد).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nعمال بأحكام الفصل السادس والثالثين من الدستور ،تطبق على أعضاء مجلس\nالمستشارين ،أحكام القانون رقم 24.92المتعلق بإحداث نظام المعاشات لفائدة أعضاء مجلس\nالنواب والصادر بتنفيذه الظهير الشريف رقم 1.92.136بتاريخ 8رجب 22( 1414ديسمبر\n.)1993"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nتطبق أحكام هذا القانون ابتداء من الوالية التشريعية التي ابتدأت في 25من شعبان\n 26( 1418ديسمبر .)1997\n\n-3-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

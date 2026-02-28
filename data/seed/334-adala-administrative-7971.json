@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-7971",
+  "type": "statute",
+  "title": "مرسوم بتغيير الساعة القانونية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "إن الساعة القانونية المحددة بالمرسوم رقم 455.67المشار إليه أعاله الصادر في 23صفر\n 2( 1387يونيه )1967بمثابة قانون تضاف إليها ستون دقيقة ابتداء من 3جمادى الثانية 1394\n( 24يونيه )1974أي بعد منتصف الليل من يوم 2جمادى الثانية 23( 1394يونيه .)1974"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا القرار بالجريدة الرسمية.\nوحرر بالرباط في 27جمادى األولى 18( 1394يونيه .)1974\nالوزير األول،\nاإلمضاء :أحمد عصمان.\n\n -1الجريدة الرسمية عدد 3216بتاريخ 28جمادى األولى 19( 1394يونيه ،)1974ص .1729\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

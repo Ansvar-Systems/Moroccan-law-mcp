@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-8864",
+  "type": "statute",
+  "title": "مرسوم ملكي بإصدار سلسلة طوابع بريدية خاصة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار سلسلة خاصة لطابعين بريديين من فئتي 0،40درهم ودرهم واحد بمناسبة\nسباق الخيل الدولي."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون ،تنفيذ مرسومنا الملكي هذا الذي ينشر بالجريدة\nالرسمية.\nوحرر بالرباط في 12شعبان 15( 1387نونبر .)1967\nعن جاللة الملك وبأمر منه،\nالوزير األول،\nاإلمضاء :الدكتور محمد بنهيمة.\n\n -1الجريدة الرسمية عدد 2873بتاريخ 19شعبان 22( 1387نونبر ،)1967ص .2551\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

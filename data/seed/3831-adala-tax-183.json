@@ -1,0 +1,12 @@
+{
+  "id": "ma-adala-tax-183",
+  "type": "statute",
+  "title": "القانون المتعلق بالممتلكات والموجودات المنشأة بالخارج من لدن المغاربة المقيمين بالخارج اللذين يقومون بتحويل إقامتهم الجبائية إلى المغرب",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/29",
+  "description": "Discovered from Adala portal, folder: tax (المادة الجبائية).",
+  "provisions": [],
+  "definitions": [],
+  "ingestion_status": "skipped",
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
+}

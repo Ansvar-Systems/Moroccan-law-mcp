@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-legislative-power-7066",
+  "type": "statute",
+  "title": "مرسوم بدعوة مجلس النواب لعقد دورة استثنائية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/588",
+  "description": "Discovered from Adala portal, folder: legislative-power (السلطة التشريعية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيعقد مجلس النواب دورة استثنائية في 20من رجب 27( 1409فبراير )1989لدراسة مشروع\nالقانون رقم 03.89القاضي بالموافقة على مبدأ تصديق معاهدة إنشاء اتحاد المغرب العربي."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 15من رجب 22( 1409فبراير .)1989\nاإلمضاء :الدكتور عز الدين العراقي.\n\n -1الجريدة الرسمية عدد 3982بتاريخ 15رجب 22( 1409فبراير ،)1989ص .238\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

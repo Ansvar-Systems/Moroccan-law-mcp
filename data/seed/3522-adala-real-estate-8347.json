@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-real-estate-8347",
+  "type": "statute",
+  "title": "مرسوم باحداث محافظة على الاملاك العقارية بالقنيطرة وتحديد دائرة نفوذها",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/25",
+  "description": "Discovered from Adala portal, folder: real-estate (المادة العقارية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "تمتد دائرة نفوذ هذه المحافظة الى اقليم القنيطرة."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يسند الى وزير الفالحة واالصالح الزراعى تنفيذ هذا المرسوم الذي ينشر بالجريدة\nالرسمية.\n\n - 1الجريدة الرسمية عدد 3250بتاريخ 30محرم 12( 1395يبراير ،)1975ص.522\nوحرر بالرباط في 21محرم 3( 1395يبراير .)1975\nالوزير األول،\nاالمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير الفالحة واالصالح الزراعي،\nاالمضاء :صالح المزيلي.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}
