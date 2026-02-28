@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-electoral-8455",
+  "type": "statute",
+  "title": "مرسوم بإحداث وتعداد الدوائر الخاصة بانتخاب النواب عن طريق الانتخاب العام المباشر",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/41",
+  "description": "Discovered from Adala portal, folder: electoral (المادة الإنتخابية).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "تحدث الدوائر المذكورة وتبين في الالئحة المضافة إلى هذا المرسوم."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يلغى المرسوم رقم 2.63.153الصادر في 24ذي القعدة 17( 1382أبريل )1963بإحداث\nوتعداد الدوائر الخاصة بانتخاب النواب.\nوحرر بالرباط في 27جمادی األولى 31( 1390يوليوز .)1970\n*\n* *\n\n -1الجريدة الرسمية عدد 3013مكرر بتاريخ 28جمادى األولى ( 1390فاتح غشت ،(1970ص .1954\n-2-\n\n-3-\n\n-4-\n\n-5-\n\n-6-\n\n-7-\n\n-8-\n\n-9-\n\n-10-\n\n-11-\n\n-12-\n\n-13-\n\n-14-\n\n-15-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

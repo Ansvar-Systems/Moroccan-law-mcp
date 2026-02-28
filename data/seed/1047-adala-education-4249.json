@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-education-4249",
+  "type": "statute",
+  "title": "مرسوم بسحب المرسوم بقانون بتغيير قانون إحداث الأكاديميات الجهوية للتربية والتكوين",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/34",
+  "description": "Discovered from Adala portal, folder: education (مادة التربية والتعليم).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيسحب المرسوم بقانون رقم 2.23.781الصادر في 19من ربيع األول 1445\n( 5أكتوبر )2023بتغيير القانون رقم 07.00بإحداث األكاديميات الجهوية للتربية والتكوين."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 13من رجب 25( 1445يناير .)2024\nاإلمضاء :عزيز أخنوش.\n\n -1الجريدة الرسمية عدد 7268مكرر الصادرة بتاريخ 14رجب 26( 1445يناير )2024؛ ص .559\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

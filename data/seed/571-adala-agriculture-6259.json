@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-agriculture-6259",
+  "type": "statute",
+  "title": "مرسوم بمنع استعمال المواد الزرنيخية والكحلية والنبرية لتغذية وتربية بعض الحيوانات",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/869",
+  "description": "Discovered from Adala portal, folder: agriculture (مادة الفلاحة).",
+  "provisions": [
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يسند تطبيق هذا المرسوم الى كل من وزير الفالحة ووزير الصحة العمومية والسالم.\nوحرر بالرباط فى 29صفر 22( 1383يوليوز .)1963\nعن رئيس الحكومة وبتفويض منه،\nالمدير العام للديوان الملكى،\nاالمضاء :أحمد رضا كديرة.\n\n4"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

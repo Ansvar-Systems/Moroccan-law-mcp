@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-commercial-5169",
+  "type": "statute",
+  "title": "مرسوم بتطبيق القانون القاضي بتحويل بريد المغرب إلى شركة مساهمة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/20",
+  "description": "Discovered from Adala portal, folder: commercial (المادة التجارية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يحدد كما هو ملحق بأصل هذا المرسوم القانون األساسي األولي لشركة المساهمة\n\"بريد المغرب\"."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير االقتصاد والمالية تنفيذ هذا المرسوم الذي ينشر بالجريدة الرسمية.\nوحرر بالرباط في 20من شوال 19( 1432سبتمبر .)2011\nاإلمضاء :عباس الفاسي.\nوقعه بالعطف:\nوزير االقتصاد والمالية،\nاإلمضاء :صالح الدين المزوار.\n\n -1الجريدة الرسمية عدد 5983بتاريخ 5ذو القعدة 3( 1432أكتوبر ،)2011ص .4872\n\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

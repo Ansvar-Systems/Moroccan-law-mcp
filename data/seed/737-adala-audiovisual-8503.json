@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-audiovisual-8503",
+  "type": "statute",
+  "title": "مرسوم بمنع جريدة « أخبار الدنيا »",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/61",
+  "description": "Discovered from Adala portal, folder: audiovisual (المادة السمعية البصرية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يمنع في مجموع تراب المملكة اصدار وترويج وبيع جريدة »أخبار الدنيا « ."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند تنفيذ هذا المرسوم الى وزير الداخلية.\nوحرر بالرباط في 21رجب 26( 1384نونبر.)1964\nالوزير األول،\nاالمضاء :أحمد أبا حنيني.\nوقع عليه بالعطف:\nوزير الداخلية،\nاالمضاء :محمد أوفقير.\n\n - 1الجريدة الرسمية عدد 2719بتاريخ 4شعبان 9( 1384دجنبر ،)1964ص.2534\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

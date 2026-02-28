@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-commercial-8944",
+  "type": "statute",
+  "title": "قرار لوزير العدل رقم 766.20 بتحديد تاريخ الشروع الفعلي في العمل بالسجل الوطني الإلكتروني للضمانات المنقولة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/20",
+  "description": "Discovered from Adala portal, folder: commercial (المادة التجارية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيشرع في العمل بالسجل الوطني اإللكتروني للضمانات المنقولة ابتداء من يوم االثنين\n 2مارس 2020في الساعة الحادية عشرة صباحا."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر هذا القرار بالجريدة الرسمية.\nوحرر بالرباط في فاتح جمادى اآلخرة 27( 1441يناير .)2020\nاإلمضاء :محمد بنعبد القادر.\n\n -1الجريدة الرسمية عدد 6859بتاريخ 29جمادى اآلخرة 24( 1441فبراير ،)2020ص .1038\n-1-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

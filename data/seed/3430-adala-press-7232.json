@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-press-7232",
+  "type": "statute",
+  "title": "مرسوم بالإذن في طبع جريدة «ليكيب» بالمغرب",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/801",
+  "description": "Discovered from Adala portal, folder: press (مادة الصحافة).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير االعالم تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية.\nوحرر بالرباط في 28من رمضان 28( 1404يونيو )1984\nاالمضاء :محمد كريم العمراني\nوقعه بالعطف:\nوزير االعالم،\nاالمضاء :عبد اللطيف الفياللي.\n\n - 1الجريدة الرسمية عدد 3740بتاريخ 5شوال 4( 1404يوليو، )1984ص.751\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

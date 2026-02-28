@@ -1,0 +1,30 @@
+{
+  "id": "ma-adala-audiovisual-7774",
+  "type": "statute",
+  "title": "مرسوم بالتفويض في السلطة إلى الوزير المكلف بالإعلام",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/61",
+  "description": "Discovered from Adala portal, folder: audiovisual (المادة السمعية البصرية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يفوض إلى الوزير المكلف باإلعالم في تحديد أثمان مقاعد قاعات السنيما واكتراء األفالم\nوكذا تعاريف اإلعالنات والنشرات القانونية والقضائية واإلدارية."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "تعرض القرارات المتخذة عمال بهذا التفويض على تأشيرة الوزير األول."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 9جمادى األولى 28( 1397أبريل .)1977\nالوزير األول،\nاإلمضاء :أحمد عصمان.\n\n -1الجريدة الرسمية عدد 3375بتاريخ 18رجب 6( 1397يوليوز ،)1977ص .1962\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

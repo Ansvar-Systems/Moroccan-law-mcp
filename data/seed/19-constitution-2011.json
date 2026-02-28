@@ -11,5 +11,5 @@
   "provisions": [],
   "definitions": [],
   "ingestion_status": "skipped",
-  "ingestion_notes": "Source fetch failed: fetch failed"
+  "ingestion_notes": "No extractable article headings found (likely image-only PDF or inaccessible source text)."
 }

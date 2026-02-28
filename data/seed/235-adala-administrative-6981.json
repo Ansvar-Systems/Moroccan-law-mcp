@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-6981",
+  "type": "statute",
+  "title": "ظهير شريف يتعلق بوضعية الأمين العام  المساعد للحكومة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيتقاضى األمين العام المساعد للحكومة األجرة والتعويضات والمنافع المقررة لنائب كاتب\nالدولة."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيعمل بظهيرنا الشريف هذا من 30شعبان 22( 1413فبراير .)1993\nوحرر بالرباط في 7ذي القعدة 29( 1413أبريل .)1993\nوقعه بالعطف:\nالوزير األول،\nاالمضاء :محمد كريم العمراني.\n\n - 1الجريدة الرسمية عدد 4201صادرة بتاريخ 13ذي القعدة 5( 1413ماي ،)1993ص .697\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

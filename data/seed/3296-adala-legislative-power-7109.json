@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-legislative-power-7109",
+  "type": "statute",
+  "title": "مرسوم بختم الدورة الاستثنائية لمجلس النواب",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/588",
+  "description": "Discovered from Adala portal, folder: legislative-power (السلطة التشريعية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nتختم يوم الجمعة 9جمادى اآلخرة 29( 1408يناير )1988الدورة االستثنائية التي\nعقدها مجلس النواب بموجب المرسوم المشار اليه أعاله رقم 2.87.915الصادر في\n 8جمادى االولى 30( 1408ديسمبر .)1987"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 9جمادى اآلخرة 29( 1408يناير )1988\nاالمضاء :الدكتور عز الدين العراقي.\n\n - 1الجريدة الرسمية عدد 3927صادرة بتاريخ 14جمادى اآلخرة 3( 1408فبراير ،)1988ص .114\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

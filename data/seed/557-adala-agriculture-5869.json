@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-agriculture-5869",
+  "type": "statute",
+  "title": "ظهير شريف بشأن العمليات العقارية التي تحققها دولة اجنبية او مؤسسة عمومية اجنبية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/869",
+  "description": "Discovered from Adala portal, folder: agriculture (مادة الفلاحة).",
+  "provisions": [
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "ان العمليات المنجزة خالفا لمقتضيات ظهيرنا الشريف هذا تبطل بصفة مطلقة وتكون\nعديمة المفعول ولو بين الفريقين والسالم\nوحرر بالرباط فى 4ذى القعدة 1378موافق 12مايو 1959\nوسجل برئاسة الوزارة بتاريخه\nاالمضاء :عبد هللا ابراهيم\n\n 1الجريدة الرسمية عدد 2439صادرة بتاريخ 17محرم 24( 1379يوليوز ،)1959ص .2211\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-industry-economy-6860",
+  "type": "statute",
+  "title": "مرسوم بالاذن للبنك المغربي للتجارة الخارجية في إحداث فرع له بمدريد",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/31",
+  "description": "Discovered from Adala portal, folder: industry-economy (مادة الصناعة والاقتصاد والاستثمار).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيؤذن للبنك المغربي للتجارة الخارجية في احداث فرع له بمدريد يسمى\" ،البنك المغربي\nللتجارة الخارجية – الدولي\".\n\n - 1الجريدة الرسمية عدد 4214صادرة بتاريخ 14صفر 4( 1414أغسطس ،)1993ص .1378\n2"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيسند إلى وزير المالية تنفيذ هذا المرسوم الذي بنشر في الجريدة الرسمية.\nوحرر بالرباط في 2صفر 23( 1414يوليو. (1993\nاالمضاء :محمد كريم العمراني.\nوقعه بالعطف:\nوزير المالية،\nاالمضاء :محمد برادة.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

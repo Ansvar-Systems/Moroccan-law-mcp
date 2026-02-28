@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-electoral-8016",
+  "type": "statute",
+  "title": "مرسوم بتحديد دوائر المجالس العلمية الاقليمية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/41",
+  "description": "Discovered from Adala portal, folder: electoral (المادة الإنتخابية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "تحدد دوائر نفوذ المجالس العلمية اإلقليمية وفقا للجدول الملحق بهذا المرسوم."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 7ربيع األول 23( 1403دجنبر )1982\nاإلمضاء :المعطى بوعبيد.\nوقعه بالعطف:\nوزير األوقاف والشؤون اإلسالمية،\nاإلمضاء :الهاشمي الفياللي.\n\n - 1الجريدة الرسمية عدد 3665صادرة بتاريخ IIربيع اآلخر 26( 1403يناير ،)1983ص .115\nدوائر نفوذ المجالس العلمية االقليمية\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

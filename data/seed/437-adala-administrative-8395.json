@@ -1,0 +1,18 @@
+{
+  "id": "ma-adala-administrative-8395",
+  "type": "statute",
+  "title": "مرسوم باصدار سلسلة طوابع بريدية خاصة مع أداء اضافى",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يسند الى وزير البريد والبرق والتليفون تنفيذ هذا المرسوم الذى ينشر بالجريدة الرسمية.\nوحرر بالرباط فى 24جمادى االولى 26( 1393يونيه .)1973\nالوزير االول،\nاالمضاء :أحمد عصمان.\nوقعه بالعطف:\nوزير البريد والبرق والتليفون،\nاالمضاء :الجنرال ادريس بن عمر العلمى.\n\n - 1الجريدة الرسمية عدد 3167بتاريخ 10جمادى الثانية 11( 1393يوليوز ،)1973ص .2272\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

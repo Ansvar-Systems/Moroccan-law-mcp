@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-commercial-6890",
+  "type": "statute",
+  "title": "مرسوم بالاذن لشركة ادارة الاراضي الفلاحية (SO.GÉ.T.A) بالمساهمة في رأس مال شركة لانتاج بذور الخضروات",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/20",
+  "description": "Discovered from Adala portal, folder: commercial (المادة التجارية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nتساهم شركة ادارة األراضي الفالحية ( )SO.GÉ.T.Aبحصص مع مؤسسة\n Arab authority for agricultural investissementفي رأس مال شركة مساهمة\nيجري » ) and development « (A.A.A.I.Dعليها القانون المغربي الخاص ويكون\nالغرض انتاج بذور الخضروات."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيسند تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية إلى وزير الفالحة واالصالح\nالزراعي ووزير المالية كل واحد منهما فيما يخصه.\nوحرر بالرباط في 13من شعبان 18( 1412فبراير )1992\nوقعه بالعطف:\nوزير الفالحة واالصالح الزراعي.\nاالمضاء عثمان الدمناتي.\nوزير المالية،\nاإلمضاء محمد برادة.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

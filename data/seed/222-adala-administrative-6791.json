@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-6791",
+  "type": "statute",
+  "title": "مرسوم يتعلق بتغيير اسم \"يفرن\"",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيحل اسم \"افرن\" محل اسم \"يفرن\" في جميع النصوص الجاري بها العمل."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيسند إلى وزير الداخلية واالعالم تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية.\nوحرر بالرباط في 6ربيع األول 25( 1414أغسطس. (1993\nاالمضاء :محمد كريم العمراني.\nوقعه بالعطف:\nوزير الداخلية واالعالم،\nاالمضاء :ادريس البصري.\n\n - 1الجريدة الرسمية عدد 4218صادرة بتاريخ 13ربيع األول ( 1414فاتح سبتمبر ،)1993ص .1539\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

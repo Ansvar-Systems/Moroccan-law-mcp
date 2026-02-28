@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-industry-economy-8504",
+  "type": "statute",
+  "title": "مرسوم تمنح بموجبه ملابس الخدمة لبعض موظفى المكتب المغربي للمراقبة والتصدير",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/31",
+  "description": "Discovered from Adala portal, folder: industry-economy (مادة الصناعة والاقتصاد والاستثمار).",
+  "provisions": [
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يحدد في تسعين شخصا عدد العملة المناولين المياومين الذين قد يستفيدون من مقتضيات\nهذا المرسوم."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يعمل بهذا المرسوم ابتداء من فاتح يناير .1962\nوحرر بالرباط في 10ربيع الثاني 19( 1384غشت .)1964\nاالمضاء :أحمد أبا حنيني.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

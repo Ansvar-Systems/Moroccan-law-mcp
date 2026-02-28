@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-9095",
+  "type": "statute",
+  "title": "مرسوم ملكي بإصدار سلسلة طوابع بريدية خاصة",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (المادة الإدارية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يؤذن في إصدار سلسلة خاصة ألربعة طوابع بريدية من فئة 0،25درهم و 0،40درهم\nو 1،00درهم و 3،00دراهم تحمل عبارة «وسائل النقل»."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يسند إلى وزير البريد والبرق والتليفون تنفيذ مرسومنا الملكي هذا الذي ينشر بالجريدة\nالرسمية.\nوحرر بالرباط في 13شوال 24( 1386يناير .)1967\nاإلمضاء :الحسن بن محمد\n\n -1الجريدة الرسمية عدد 2831بتاريخ 21شوال ( 1386فاتح يبراير ،)1967ص .184\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

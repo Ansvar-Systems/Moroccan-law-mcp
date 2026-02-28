@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-legislative-power-7591",
+  "type": "statute",
+  "title": "مرسوم يتعلق بختم الدورة الاستثنائية لمجلس النواب",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/588",
+  "description": "Discovered from Adala portal, folder: legislative-power (السلطة التشريعية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "تختم يوم االثنين 23من ربيع اآلخر 7( 1403يبراير )1983الدورة االستثنائية التي\nعقدها مجلس النواب بمقتضى المرسوم المشار إليه أعاله رقم 2.83.36الصادر في\n 9ربيع اآلخر 24( 1403يناير .)1983"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 23من ربيع اآلخر 7( 1403يناير .)1983\nاإلمضاء :المعطي بوعبيد.\n\n - 1الجريدة الرسمية عدد 3668صادرة بتاريخ 2جمادى األولى 12( 1403يبراير ،)1983ص .256\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

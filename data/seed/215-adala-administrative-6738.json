@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-administrative-6738",
+  "type": "statute",
+  "title": "مرسوم بالاذن للشركة الوطنية، الخطوط الملكية المغربية RAM - باحداث وليدة لها تسمى «NATIONAL MARKETING COMPANY AMADEUS MAROC»",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/26",
+  "description": "Discovered from Adala portal, folder: administrative (القانون الإداري).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ى\nيؤذن للشركة الوطنية »الخطوط الملكية المغربية« R. A. Mبالمساهمة ضمن حدود\n %95مع مؤسسة» « Armadeirs Global Travel Distributionفي رأس مال شركة\nمساهمة يجري عليها القانون المغربي الخاص ويكون الغرض منها توزيع منتجات –\n» - « Amadeusلدى وكاالت األسفار المغربية."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nيسند تنفيذ هذا المرسوم الذي ينشر في الجريدة الرسمية الى وزير النقل ووزير المالية\nكل واحد منهما فيما يخصه.\nوحرر بالرباط في 15من ربيع اآلخر 13( 1413أكتوبر.)1992\nاالمضاء :محمد كريم العمراني.\nوقعه بالعطف:\nوزير النقل،\nاالمضاء :الراشدي الغزواني\nوزير المالية،\nاالمضاء :محمد برادة.\n\n3"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

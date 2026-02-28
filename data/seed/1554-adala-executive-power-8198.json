@@ -1,0 +1,36 @@
+{
+  "id": "ma-adala-executive-power-8198",
+  "type": "statute",
+  "title": "ظهير شريف بشأن التفويض العام في السلطة التنظيمية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/596",
+  "description": "Discovered from Adala portal, folder: executive-power (السلطة التنفيذية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "ي سند إلى السيد محمد كريم العمراني ،الوزير األول ،التفويض العام في السلطة التنظيمية\nالمستقلة ،حسبما هو مخول لجنابنا الشريف بموجب الفصل 29من الدستور."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "إن المراسيم المتخذة بناء على هذا التفويض يجب أن تدرس في المجلس الوزاري قبل التوقيع\nعليها."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يبقى العمل جاريا بالظهير الشريف رقم 1.71.95الصادر في 2ربيع األول 28( 1391\nأبريل )1971بالتفويض في السلطة."
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ينشر ظهيرنا الشريف هذا بالجريدة الرسمية.\nوحرر بالرباط في 25جمادى الثانية 17( 1391غشت .)1971\n\n-3-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

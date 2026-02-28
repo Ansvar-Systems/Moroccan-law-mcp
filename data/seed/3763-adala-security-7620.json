@@ -1,0 +1,36 @@
+{
+  "id": "ma-adala-security-7620",
+  "type": "statute",
+  "title": "مرسوم بتحديد أهمية تأليف فوج المدعوين للخدمة العسكرية عن سنة 1981 وكذا تاريخ استدعائهم",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/33",
+  "description": "Discovered from Adala portal, folder: security (المادة الأمنية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "إن فوج المدعوين للخدمة العسكرية عن سنة 1981يحدد في خمسة آالف وأربعمائة\nوعشرين (.)5.420"
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "يتألف هذا الفوج من شبان تتراوح أعمارهم بين 18و 28سنة ويكون لهم مستوى تعليم\nعام يعادل على األقل شهادة الدروس االبتدائية."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "المادة 3",
+      "content": "يحدد تاريخ استدعاء الفوج المذكور في 24من صفر ( 1401فاتح يناير .)1981"
+    },
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "المادة 4",
+      "content": "ينشر هذا المرسوم بالجريدة الرسمية.\nوحرر بالرباط في 28من صفر 5( 1401يناير .)1981\nاإلمضاء :المعطي بوعبيد.\n\n -1الجريدة الرسمية عدد 3558بتاريخ 30صفر 7( 1401يناير ،)1981ص .8\n2"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ma-adala-legislative-power-6971",
+  "type": "statute",
+  "title": "مرسوم بدعوة مجلس النواب إلى عقد دورة استثنائية",
+  "status": "in_force",
+  "url": "https://adala.justice.gov.ma/resources/588",
+  "description": "Discovered from Adala portal, folder: legislative-power (السلطة التشريعية).",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "المادة 1",
+      "content": "يعقد مجلس النواب في 6رجب 22( 1411يناير )1991دورة استثنائية يشتمل جدول\nأعمالها على الموضوع التالي:\nالمغرب وحرب الخليج."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "المادة 2",
+      "content": "ة\nينشر هذا المرسوم في الجريدة الرسمية.\nوحرر بالرباط في 5رجب 21( 1411يناير .)1991\nاإلمضاء :الدكتور عز الدين العراقي.\n\n -1الجريدة الرسمية عدد 4081مكرر بتاريخ 5رجب 21( 1411يناير ،)1991ص.95\n-2-"
+    }
+  ],
+  "definitions": [],
+  "ingestion_status": "ingested"
+}
